@@ -39,7 +39,7 @@
         <Shield_Armor_Type> Shield_Default </Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>3400</Autoresolve_Health>
-		<Shield_Refresh_Rate>5000</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>99000</Energy_Capacity>
 		<Energy_Refresh_Rate>10000</Energy_Refresh_Rate>
 
@@ -165,7 +165,7 @@
 		<Variant_Of_Existing_Type>Secutor_Template</Variant_Of_Existing_Type>
 		<Tech_Level>4</Tech_Level>
 		<Affiliation>Empire</Affiliation>
-		<Shield_Points>50000</Shield_Points>
+		<Shield_Points>3000</Shield_Points>
 		<Tactical_Health>30000</Tactical_Health>
 		<Build_Cost_Credits>20000</Build_Cost_Credits>
 		<Icon_Name>I_BUTTON_UNIT_EMPIRE_SECUTOR.tga</Icon_Name>
