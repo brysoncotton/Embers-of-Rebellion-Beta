@@ -1,7 +1,7 @@
 name: Sync Beta to Dev
 on:
   issues:
-    types: [opened] # Removed 'labeled' to prevent double-firing
+    types: [opened, labeled]
 
 jobs:
   sync:
@@ -15,15 +15,31 @@ jobs:
           # This grabs just the names of the labels as a JSON array
           LABELS: ${{ toJson(github.event.issue.labels.*.name) }}
         run: |
-          # Use jq to safely escape the title and body for the JSON payload
+          # 1. Build the JSON
           JSON_PAYLOAD=$(jq -n \
             --arg title "$ISSUE_TITLE" \
             --arg body "$ISSUE_BODY" \
             --argjson labels "$LABELS" \
             '{title: $title, body: $body, labels: $labels}')
 
-          curl -X POST \
-            -H "Authorization: token $SYNC_TOKEN" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/brysoncotton/Embers-of-Rebellion-Developer/issues \
-            -d "$JSON_PAYLOAD"
+          # 2. Check if an issue with this title already exists in Dev Repo
+          # We search for the exact title to avoid duplicates
+          EXISTING_ISSUE=$(curl -s -H "Authorization: token $SYNC_TOKEN" \
+            "https://api.github.com/repos/brysoncotton/Embers-of-Rebellion-Developer/issues?state=all" | \
+            jq -r ".[] | select(.title == \"$ISSUE_TITLE\") | .number" | head -n 1)
+
+          if [ -z "$EXISTING_ISSUE" ]; then
+            # 3. If it doesn't exist, CREATE it
+            curl -X POST \
+              -H "Authorization: token $SYNC_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/brysoncotton/Embers-of-Rebellion-Developer/issues \
+              -d "$JSON_PAYLOAD"
+          else
+            # 4. If it DOES exist, UPDATE the existing one instead of creating a new one
+            curl -X PATCH \
+              -H "Authorization: token $SYNC_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/brysoncotton/Embers-of-Rebellion-Developer/issues/$EXISTING_ISSUE \
+              -d "$JSON_PAYLOAD"
+          fi
