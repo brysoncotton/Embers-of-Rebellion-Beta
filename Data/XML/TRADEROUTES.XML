@@ -1,0 +1,904 @@
+<?xml version="1.0"?>
+
+<TradeRoutes>
+
+<!-- TEMPLATE
+
+        <TradeRoute Name="">
+                <Point_A></Point_A>
+                <Point_B></Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+-->
+
+        <TradeRoute Name="Coruscant_Corulag">
+                <Point_A>Coruscant</Point_A>
+                <Point_B>Corulag</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Corulag_Mygeeto">
+                <Point_A>Corulag</Point_A>
+                <Point_B>Mygeeto</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Corulag_Carida">
+                <Point_A>Corulag</Point_A>
+                <Point_B>Carida</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Corulag_Alderaan">
+                <Point_A>Corulag</Point_A>
+                <Point_B>Alderaan</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Kuat_Alderaan">
+                <Point_A>Kuat</Point_A>
+                <Point_B>Alderaan</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Kuat_Rendili">
+                <Point_A>Kuat</Point_A>
+                <Point_B>Rendili</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Corellia_Rendili">
+                <Point_A>Rendili</Point_A>
+                <Point_B>Corellia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Hosnian-Prime_Corellia">
+                <Point_A>Corellia</Point_A>
+                <Point_B>Hosnian_Prime</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Bestine_Fondor">
+                <Point_A>Fondor</Point_A>
+                <Point_B>Bestine</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Abregado_Rae_Fondor">
+                <Point_A>Fondor</Point_A>
+                <Point_B>Abregado_Rae</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Abregado_Rae_Jakku">
+                <Point_A>Jakku</Point_A>
+                <Point_B>Abregado_Rae</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Coruscant_Jedha">
+                <Point_A>Coruscant</Point_A>
+                <Point_B>Jedha</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Coruscant_Fresia">
+                <Point_A>Coruscant</Point_A>
+                <Point_B>Fresia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Jedha_Fresia">
+                <Point_A>Jedha</Point_A>
+                <Point_B>Fresia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Abregado-Rae_Fresia">
+                <Point_A>Abregado_Rae</Point_A>
+                <Point_B>Fresia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Bestine_Hosnian-Prime">
+                <Point_A>Bestine</Point_A>
+                <Point_B>Hosnian_Prime</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Thyferra_Fondor">
+                <Point_A>Fondor</Point_A>
+                <Point_B>Thyferra</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Thyferra_Bestine">
+                <Point_A>Bestine</Point_A>
+                <Point_B>Thyferra</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Thyferra_Takodana">
+                <Point_A>Takodana</Point_A>
+                <Point_B>Thyferra</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Jakku_Takodana">
+                <Point_A>Jakku</Point_A>
+                <Point_B>Takodana</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Jakku_Fresia">
+                <Point_A>Jakku</Point_A>
+                <Point_B>Fresia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Thyferra_Bespin">
+                <Point_A>Bespin</Point_A>
+                <Point_B>Thyferra</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Hoth_Bespin">
+                <Point_A>Bespin</Point_A>
+                <Point_B>Hoth</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Hoth_PolisMassa">
+                <Point_A>PolisMassa</Point_A>
+                <Point_B>Hoth</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mustafar_PolisMassa">
+                <Point_A>PolisMassa</Point_A>
+                <Point_B>Mustafar</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mustafar_Nur">
+                <Point_A>Nur</Point_A>
+                <Point_B>Mustafar</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mustafar_Eriadu">
+                <Point_A>Eriadu</Point_A>
+                <Point_B>Mustafar</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Utapau_Eriadu">
+                <Point_A>Eriadu</Point_A>
+                <Point_B>Utapau</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Sullust_Eriadu">
+                <Point_A>Eriadu</Point_A>
+                <Point_B>Sullust</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Sullust_Crait">
+                <Point_A>Crait</Point_A>
+                <Point_B>Sullust</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Sullust_Malasatre">
+                <Point_A>Malastare</Point_A>
+                <Point_B>Sullust</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Naboo_Crait">
+                <Point_A>Crait</Point_A>
+                <Point_B>Naboo</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="D'Qar_Crait">
+                <Point_A>D'Qar</Point_A>
+                <Point_B>Naboo</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Vergesso_Naboo">
+                <Point_A>VergessoAsteroids</Point_A>
+                <Point_B>Naboo</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Vergesso_D'Qar">
+                <Point_A>VergessoAsteroids</Point_A>
+                <Point_B>D'Qar</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="AlzocIII_D'Qar">
+                <Point_A>AlzocIII</Point_A>
+                <Point_B>D'Qar</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="AlzocIII_Vergesso">
+                <Point_A>AlzocIII</Point_A>
+                <Point_B>VergessoAsteroids</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Malastare_Mandalore">
+                <Point_A>Malastare</Point_A>
+                <Point_B>Mandalore</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Naboo_Mandalore">
+                <Point_A>Naboo</Point_A>
+                <Point_B>Mandalore</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Ryloth_Alzoc">
+                <Point_A>Ryloth</Point_A>
+                <Point_B>AlzocIII</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Ryloth_Geonosis">
+                <Point_A>Ryloth</Point_A>
+                <Point_B>Geonosis</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Geonosis_Tatooine">
+                <Point_A>Geonosis</Point_A>
+                <Point_B>Tatooine</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Geonosis_Vergesso">
+                <Point_A>Geonosis</Point_A>
+                <Point_B>VergessoAsteroids</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Hypori_Tatooine">
+                <Point_A>Hypori</Point_A>
+                <Point_B>Tatooine</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Hypori_Rothana">
+                <Point_A>Hypori</Point_A>
+                <Point_B>Rothana</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Scarif_Rothana">
+                <Point_A>Scarif</Point_A>
+                <Point_B>Rothana</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Scarif_Hypori">
+                <Point_A>Scarif</Point_A>
+                <Point_B>Hypori</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Manaan_Bothawui">
+                <Point_A>Manaan</Point_A>
+                <Point_B>Bothawui</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Bothawui_Kamino">
+                <Point_A>Bothawui</Point_A>
+                <Point_B>Kamino</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Scarif_Kamino">
+                <Point_A>Scarif</Point_A>
+                <Point_B>Kamino</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Bothawui_Tatooine">
+                <Point_A>Bothawui</Point_A>
+                <Point_B>Tatooine</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Kamino_Shola">
+                <Point_A>Shola</Point_A>
+                <Point_B>Kamino</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Rothana_Shola">
+                <Point_A>Shola</Point_A>
+                <Point_B>Rothana</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Rothana_Scarif">
+                <Point_A>Scarif</Point_A>
+                <Point_B>Rothana</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Shola_Honoghr">
+                <Point_A>Shola</Point_A>
+                <Point_B>Honoghr</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Kessel_Honoghr">
+                <Point_A>Kessel</Point_A>
+                <Point_B>Honoghr</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Kessel_Saleucami">
+                <Point_A>Kessel</Point_A>
+                <Point_B>Saleucami</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Kashyyyk_Saleucami">
+                <Point_A>Kashyyyk</Point_A>
+                <Point_B>Saleucami</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Kashyyyk_Onderon">
+                <Point_A>Kashyyyk</Point_A>
+                <Point_B>Onderon</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Carida_Onderon">
+                <Point_A>Carida</Point_A>
+                <Point_B>Onderon</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Manaan_Onderon">
+                <Point_A>Manaan</Point_A>
+                <Point_B>Onderon</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Carida_Myrkr">
+                <Point_A>Carida</Point_A>
+                <Point_B>Myrkr</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Taris_Myrkr">
+                <Point_A>Taris</Point_A>
+                <Point_B>Myrkr</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Wayland_Myrkr">
+                <Point_A>Wayland</Point_A>
+                <Point_B>Myrkr</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Taris_Dathomir">
+                <Point_A>Taris</Point_A>
+                <Point_B>Dathomir</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Dathomir_Yavin">
+                <Point_A>Yavin</Point_A>
+                <Point_B>Dathomir</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Wayland_Anaxes">
+                <Point_A>Wayland</Point_A>
+                <Point_B>Anaxes</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Korriban_Yavin">
+                <Point_A>Yavin</Point_A>
+                <Point_B>Korriban</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="RhenVar_Anaxes">
+                <Point_A>Rhen_Var</Point_A>
+                <Point_B>Anaxes</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+        
+        <TradeRoute Name="RhenVar_Felucia">
+                <Point_A>Rhen_Var</Point_A>
+                <Point_B>Felucia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Korriban_Felucia">
+                <Point_A>Korriban</Point_A>
+                <Point_B>Felucia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Korriban_Bonadan">
+                <Point_A>Korriban</Point_A>
+                <Point_B>Bonadan</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Felucia_Bonadan">
+                <Point_A>Felucia</Point_A>
+                <Point_B>Bonadan</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Anaxes_Jabiim">
+                <Point_A>Anaxes</Point_A>
+                <Point_B>Jabiim</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Anaxes_Saleucami">
+                <Point_A>Anaxes</Point_A>
+                <Point_B>Saleucami</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Jabiim_Saleucami">
+                <Point_A>Jabiim</Point_A>
+                <Point_B>Saleucami</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Jabiim_MonCalimari">
+                <Point_A>Jabiim</Point_A>
+                <Point_B>MonCalimari</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Bonadan_MonCalimari">
+                <Point_A>Bonadan</Point_A>
+                <Point_B>MonCalimari</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Honoghr_MonCalimari">
+                <Point_A>Honoghr</Point_A>
+                <Point_B>MonCalimari</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="NalHutta_Shola">
+                <Point_A>NalHutta</Point_A>
+                <Point_B>Shola</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="NalHutta_Kashyyyk">
+                <Point_A>NalHutta</Point_A>
+                <Point_B>Kashyyyk</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="NalHutta_Bothawui">
+                <Point_A>NalHutta</Point_A>
+                <Point_B>Bothawui</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mandalore_Bothawui">
+                <Point_A>Mandalore</Point_A>
+                <Point_B>Bothawui</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mandalore_CatoNeimoidia">
+                <Point_A>Mandalore</Point_A>
+                <Point_B>Cato_Neimoidia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Manaan_CatoNeimoidia">
+                <Point_A>Manaan</Point_A>
+                <Point_B>Cato_Neimoidia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Atzerri_CatoNeimoidia">
+                <Point_A>Atzerri</Point_A>
+                <Point_B>Cato_Neimoidia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Atzerri_Malastare">
+                <Point_A>Atzerri</Point_A>
+                <Point_B>Malastare</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mygeeto_Dathomir">
+                <Point_A>Mygeeto</Point_A>
+                <Point_B>Dathomir</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mygeeto_Dantooine">
+                <Point_A>Mygeeto</Point_A>
+                <Point_B>Dantooine</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mygeeto_Muunilinst">
+                <Point_A>Mygeeto</Point_A>
+                <Point_B>Muunilinst</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Muunilinst_Dantooine">
+                <Point_A>Muunilinst</Point_A>
+                <Point_B>Dantooine</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Muunilinst_AetenII">
+                <Point_A>Muunilinst</Point_A>
+                <Point_B>AetenII</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mygeeto_AetenII">
+                <Point_A>Mygeeto</Point_A>
+                <Point_B>AetenII</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Thyferra_Sullust">
+                <Point_A>Thyferra</Point_A>
+                <Point_B>Sullust</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Endor_Bespin">
+                <Point_A>Endor</Point_A>
+                <Point_B>Bespin</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Mustafar_Utapau">
+                <Point_A>Mustafar</Point_A>
+                <Point_B>Utapau</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="AlzocIII_Utapau">
+                <Point_A>AlzocIII</Point_A>
+                <Point_B>Utapau</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Anaxes_Onderon">
+                <Point_A>Anaxes</Point_A>
+                <Point_B>Onderon</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="D'Qar_Crait">
+                <Point_A>D'Qar</Point_A>
+                <Point_B>Crait</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="AetenII_Ilum">
+                <Point_A>AetenII</Point_A>
+                <Point_B>Ilum</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Manaan_Kuat">
+                <Point_A>Manaan</Point_A>
+                <Point_B>Kuat</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Eriadu_Mustafar">
+                <Point_A>Eriadu</Point_A>
+                <Point_B>Mustafar</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Bestine_Sullust">
+                <Point_A>Bestine</Point_A>
+                <Point_B>Sullust</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Eriadu_Sullust">
+                <Point_A>Eriadu</Point_A>
+                <Point_B>Sullust</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Eriadu_Mustafar">
+                <Point_A>Eriadu</Point_A>
+                <Point_B>Mustafar</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Zeffo_Dantooine">
+                <Point_A>Zeffo</Point_A>
+                <Point_B>Dantooine</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Zeffo_Dathomir">
+                <Point_A>Zeffo</Point_A>
+                <Point_B>Dathomir</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Corellia_CatoNeimoidia">
+                <Point_A>Corellia</Point_A>
+                <Point_B>Cato_Neimoidia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Pantora_Utapau">
+                <Point_A>Pantora</Point_A>
+                <Point_B>Utapau</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Pantora_AlzocIII">
+                <Point_A>Pantora</Point_A>
+                <Point_B>AlzocIII</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Pantora_OrtoPlutonia">
+                <Point_A>Pantora</Point_A>
+                <Point_B>Orto_Plutonia</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+</TradeRoutes>

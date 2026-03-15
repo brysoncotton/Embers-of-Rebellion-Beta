@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+
+<!-- 
+000000000000000000000 0000000       000000000000000000000000000   00000000000000000 00000000000000000     00000000000000
+000000000000000000000 00000000     00000000000000000000000000000  00000000000000000 0000000000000000000  000000000000000
+000000000000000000000 0000000000  0000000000000000000000000000000 00000000000000000 0000000000000000000  000000000000000
+    0000000           0000000000 000000000000000000     00000000  0000000           00000000     000000  000000000      
+    00000000000000    00000000000000000000000000000000000000000   0000000000000     0000000000000000000   0000000000    
+    00000000000000    000000000000000000000000000000000000000000  0000000000000     00000000000000000      00000000000  
+    0000000           00000000000000000000000000000     000000000 0000000           000000000000000           00000000  
+    00000000000000000000000000000000000000000000000      00000000000000000000000000000000000000000000000000000000000000 
+    0000000000000000000000000  0000 00000000000000000000000000000 00000000000000000000000000  0000000000000000000000000 
+    0000000000000000000000000  000  000000000000000000000000000   00000000000000000000000000    0000000000000000000000     
+
+     000000000000     0000000000000000
+  000000000000000000  0000000000000000
+ 00000000000000000000 0000000000000000
+00000000     00000000 0000000         
+0000000       000000000000000000000   
+0000000       000000000000000000000   
+00000000      0000000 0000000         
+000000000000000000000 0000000         
+  000000000000000000  0000000         
+    0000000000000     0000000         
+
+0000000000000000    00000000000000000 000000000000000000   00000000000000000 0000000          0000000          0000000     000000000000     00000000    0000000
+000000000000000000  00000000000000000 00000000000000000000 00000000000000000 0000000          0000000          0000000  000000000000000000  0000000000  0000000
+0000000000000000000 00000000000000000 00000000000000000000 00000000000000000 0000000          0000000          0000000 00000000000000000000 00000000000 0000000
+00000000     000000 0000000           0000000     00000000 0000000           0000000          0000000          000000000000000      000000000000000000000000000
+0000000000000000000 00000000000000    000000000000000000   00000000000000    0000000          0000000          000000000000000       00000000000000000000000000
+00000000000000000   00000000000000    0000000000000000000  00000000000000    0000000          0000000          00000000000000        00000000000000000000000000
+000000000000000     0000000           0000000      000000000000000           0000000          0000000          000000000000000      000000000000000000000000000
+000000000000000000000000000000000000000000000     00000000000000000000000000000000000000000000000000000000000000000000 00000000000000000000 0000000000000000000
+00000000  000000000000000000000000000000000000000000000000 00000000000000000000000000000000000000000000000000000000000  000000000000000000  00000000  000000000
+00000000    000000000000000000000000000000000000000000000  00000000000000000000000000000000000000000000000000000000000    00000000000000    00000000   00000000
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ P R I V A T E   C O D E   D O   N O T   D I S T R I B U T E   O R   C O P Y   W I T H O U T   P E R M I S S I O N
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        File Path: C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\Embers-of-Rebellion\Data\XML\UNITS_SPACE_REBEL_MC80.xml.xml
+
+    	Author: Bryson Cotton
+
+        DateTime: 3/20/25 1:41:00 PM
+
+        Revision: #1
+		
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<Unit>
+	<SpaceUnit Name="Venator_Class_Star_Destroyer">
+		<Text_ID>TEXT_UNIT_VENATOR_CLASS_STAR_DESTROYER</Text_ID>
+		<Space_Model_Name>Ev_Venator.ALO</Space_Model_Name>
+		<Mass>0.999</Mass>
+		<Scale_Factor>1.6</Scale_Factor>
+		
+		<Damage>30</Damage>
+		<Autoresolve_Health>3400</Autoresolve_Health>
+		<Shield_Points>2000</Shield_Points>
+		<Tactical_Health>3400</Tactical_Health>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Max_Speed>2.2</Max_Speed>
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>2.0</Hyperspace_Speed>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .1 </OverrideDeceleration>
+		<Layer_Z_Adjust> -90 </Layer_Z_Adjust>
+
+		<Armor_Type> Armor_Nebulon_B </Armor_Type>
+
+		<Max_Thrust>1.6</Max_Thrust>
+		<Select_Box_Scale>400</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Ranged_Target_Z_Adjust>35.0</Ranged_Target_Z_Adjust>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Affiliation>Empire</Affiliation>
+		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
+		<Ship_Class>frigate</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>10</Squadron_Capacity>
+		<Transport_Capacity>8</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<AI_Combat_Power>1800</AI_Combat_Power>
+		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
+		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, ION_STUN_EFFECT, NEBULA, DAMAGE_TRACKING, SPAWN_SQUADRON</SpaceBehavior>
+<!-- Added Spawn Squadron to Space Behavior -->
+		<Space_FOW_reveal_Range>160000</Space_FOW_reveal_Range>
+		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
+		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+
+		<!-- FIGHTER COMPLEMENT -->
+		<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+	
+		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
+
+		<HardPoints>
+			VENATOR_HANGER,
+			VENATOR_SHIELDS,
+			VENATOR_ENGINES,
+			VENATOR_TORP_00,
+			VENATOR_TORP_01,
+			VENATOR_TB_00,
+			VENATOR_TB_01,
+			VENATOR_TB_02,
+			VENATOR_TB_03,
+			VENATOR_TB_04,
+			VENATOR_TB_05,
+			VENATOR_TB_06,
+			VENATOR_TB_07,
+			VENATOR_IC_00,
+			VENATOR_IC_01,
+
+		</HardPoints>
+
+		<CategoryMask> Frigate | AntiCorvette </CategoryMask>
+		<Icon_Name>I_BUTTON_VENATOR.tga</Icon_Name>
+
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		
+		<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Ambient_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+
+		<SFXEvent_Select>Unit_Select_Jedi_Cruiser</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Jedi_Cruiser</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi_Cruiser</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Jedi_Cruiser</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Jedi_Cruiser</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Jedi_Cruiser</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Jedi_Cruiser</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Jedi_Cruiser </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Jedi_Cruiser </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		
+		<SFXEvent_Engine_Idle_Loop> Unit_Acclamator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>I_RADAR_VENATOR.tga</Radar_Icon_Name>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+
+		<Death_Clone>Damage_Normal, Venator_Death_Clone</Death_Clone>
+
+		<Defend_Mode_Weapon_Delay_Multiplier>3.0</Defend_Mode_Weapon_Delay_Multiplier>
+		<Defend_Mode_Shield_Regen_Multiplier>5.0</Defend_Mode_Shield_Regen_Multiplier>
+		<Defend_Mode_Energy_Regen_Multiplier>5.0</Defend_Mode_Energy_Regen_Multiplier>
+		<Defend_Mode_Speed_Multiplier>0.5</Defend_Mode_Speed_Multiplier>
+
+		<Encyclopedia_Text> TEXT_TOOLTIP_VENETOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+		<Score_Cost_Credits> 12000 </Score_Cost_Credits>
+
+		<Cheap_Bribe_Cost>1500</Cheap_Bribe_Cost>
+		<Tactical_Bribe_Cost>3200</Tactical_Bribe_Cost>
+
+		
+
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Population_Value>8</Population_Value>
+		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
+	</SpaceUnit>
+
+	<SpaceUnit Name="Venator_Death_Clone">
+		<Text_ID>TEXT_UNIT_JEDI_CRUISER</Text_ID>
+		<Space_Model_Name></Space_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
+		<Scale_Factor>.5</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</SpaceUnit>
+	
+</Unit>

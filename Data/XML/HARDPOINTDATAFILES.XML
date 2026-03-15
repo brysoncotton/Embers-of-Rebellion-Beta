@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+
+<Hard_Point_Files>
+	<File>HardPoints.xml</File>
+	<File>CIN_HardPoints.xml</File>
+	<File>HardPoints_Underworld.xml</File>
+
+<!--MOD HARDPOINT FILES-->
+	<File>HARDPOINTS_MC75.xml</File>
+	<File>HARDPOINTS_STAR DESTROYER_I.XML</File>
+	<File>HARDPOINTS_VICTORY_II.XML</File>
+	<File>HARDPOINTS_RAIDER_CLASS.xml</File>
+	<File>HardPoints_Arquitens_Command_Crusier.xml</File>
+	<File>HARDPOINTS_MC80_INDEPENDANCE.xml</File>
+	<File>HARDPOINTS_VICTORY_I.xml</File>
+	<File>HARDPOINTS_INTERDICTOR_VINDICATOR.xml</File>
+	<File>HARDPOINTS_SECUTOR.XML</File>
+	<File>HARDPOINTS_STARFIGHTERS.XML</File>
+	<File>HARDPOINTS_VENATOR.XML</File>
+	<File>HARDPOINTS_DREADNOUGHT.XML</File>
+	<File>HARDPOINTS_CR90.xml</File>
+	<File>HARDPOINTS_HAMMERHEAD_CORVETTE.xml</File>
+	<File>HARDPOINTS_DEFENDER_CLASS.xml</File>
+	<File>HARDPOINTS_NEBULON_B.xml</File>
+	<File>HARDPOINTS_STARHAWK.xml</File>
+	<File>HARDPOINTS_QUASAR_CLASS.xml</File>
+	<File>HARDPOINTS_MC_80_LIBERTY.XML</File>
+	<File>HARDPOINTS_GALLOFREE_GR75.xml</File>
+	<File>HARDPOINTS_EMPIRE_CAPITAL_SHIPYARD.xml</File>
+	<File>HARDPOINTS_PELTA.xml</File>
+	<File>HardPoints_Gozanti.xml</File>
+	<File>HARDPOINTS_DP20.xml</File>
+	<File>HARDPOINTS_ACCLAMATOR.xml</File>
+</Hard_Point_Files>

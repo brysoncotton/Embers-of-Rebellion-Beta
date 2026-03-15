@@ -1,0 +1,30 @@
+How to add the Embers of Rebellion beta to your Empire at War mod directory
+
+Step 1: Locate your Game Directory
+Open Steam.
+Right-click Star Wars: Empire at War: Gold Pack in your Library.
+Select Manage > Browse local files.
+Open the folder named corruption (this is where the expansion files live).
+
+Step 2: Install the Mod
+Inside the corruption folder, look for a folder named Mods. If it doesn't exist, create it.
+Open your Mods folder.
+Move your renamed mod folder (Embers-of-Rebellion-Beta) into this directory.
+Check the Path: Open your mod folder. You should see a Data folder immediately. If you see another folder with the same name first, move the inner contents up one level. The path must be:
+.../corruption/Mods/Embers-of-Rebellion-Beta/Data
+
+Step 3: Create the Steam Shortcut
+In the bottom-left of your Steam client, click Add a Game > Add a Non-Steam Game.
+Click Browse and navigate back to your corruption folder.
+Select StarWarsG.exe and click Add Selected Programs.
+Find the new StarWarsG entry in your Steam Library, right-click it, and select Properties.
+
+Step 4: Configure Launch Arguments
+Rename the Shortcut: In the top text box, change "StarWarsG" to Embers of Rebellion-Beta.
+Target the Mod: In the Launch Options field at the bottom, paste the following:
+MODPATH=Mods\Embers-of-Rebellion-Beta
+
+Step 5: Add Icons and Banners
+We have provided a series of icons and banners for you to use in the steam home page so you don't have to have multiple games with the same icon or banner. (Google, "Add Steam banner", "Add Steam icon to non steam game, or "Add game cover to non steam game" for additional help)
+
+Close the window. You can now launch this specific mod directly from your Library without affecting the base game.

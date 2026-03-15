@@ -1,0 +1,195 @@
+<?xml version="1.0" ?>
+
+<Game_Object_Files>
+
+	<File>TransportUnits.xml</File>
+
+	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
+	<File>GroundBases.xml</File>
+	<File>GroundStructures.xml</File>
+	<File>GroundTurrets.xml</File>
+	<File>GroundInfantry.xml</File>
+	<File>GroundVehicles.xml</File>
+	<File>GroundCompaniesRebel.xml</File>
+	<File>GroundCompaniesEmpire.xml</File>
+	<File>GroundIndigenous.xml</File>
+	<File>GroundCompaniesIndigenous.xml</File>
+	<File>GroundBuildablesRebel.xml</File>
+	<File>GroundBuildablesEmpire.xml</File>
+	<File>GroundBuildablesPirate.xml</File>
+	<File>GroundBuildablesSkirmish.xml</File>
+
+	<File>SpaceProps.xml</File>
+	
+	<File>SpacePrimarySkydomes.xml</File>
+	<File>SpaceSecondarySkydomes.xml</File>
+	<File>SpaceBuildablesSkirmish.xml</File>
+	
+	<File>NamedHeroUnits.xml</File>
+	<File>GenericHeroUnits.xml</File>
+	<File>HeroCompanies.xml</File>
+
+	<File>LandPrimarySkydomes.xml</File>
+	<File>LandSecondarySkydomes.xml</File>
+
+	<File>LandBombingRunUnits.xml</File>
+
+	<File>SpecialStructures.xml</File>
+	<File>StarBases.xml</File>
+
+	<File>Planets.xml</File>
+
+	<File>Projectiles.xml</File>
+
+	<File>SpecialEffects.xml</File>
+	<File>Particles.xml</File>
+	<File>Markers.xml</File>
+	<File>UniqueUnits.xml</File>
+	<File>Containers.xml</File>
+	<File>ScriptMarkers.xml</File>
+
+	<File>MiscObjects.xml</File>
+	<File>UpgradeObjects.xml</File>
+	<File>SecondaryStructures.xml</File>
+
+	<File>Props_Temperate.xml</File>
+	<File>Props_Swamp.xml</File>
+	<File>Props_Volcanic.xml</File>
+	<File>Props_Forest.xml</File>
+	<File>Props_Snow.xml</File>
+	<File>Props_Desert.xml</File>
+	<File>Props_Urban.xml</File>
+	<File>Props_Generic.xml</File>
+	<File>Props_Story.xml</File>	
+
+	<File>CIN_SpaceUnitsCapital.xml</File>
+	<File>CIN_SpaceUnitsFighters.xml</File>
+	<File>CIN_SpaceUnitsCorvettes.xml</File>
+	<File>CIN_SpaceUnitsFrigates.xml</File>
+	<File>CIN_GroundInfantry.xml</File>
+	<File>CIN_GroundVehicles.xml</File>
+	<File>CIN_SpaceProps.xml</File>
+	<File>CIN_TransportUnits.xml</File>
+	<File>CIN_Projectiles.xml</File>
+	<File>CIN_GroundProps.xml</File>
+	<File>CIN_GroundTurrets.xml</File>
+
+	<File>MOV_Cinematics.xml</File>
+
+	<!-- Expansion Units: Neutral -->
+
+	<File>Units_Space_Neutral_Eclipse.xml</File>
+	<File>Hutt_Faction_Units.xml</File>
+	<File>GroundBuildablesHutts.xml</File>
+
+
+	<!-- Expansion General Files -->
+	
+	<File>SpaceProps_Underworld.xml</File>
+	<File>Underworld_TransportUnits.xml</File>
+	<File>Minor_Heroes_Expansion.xml</File>
+	<File>Props_Felucia.xml</File>
+	<File>GroundBuildablesUnderworld.xml</File>
+	<File>GroundStructures_Underworld.xml</File>
+	<File>Mobile_Defense_Units.XML</File>
+	<File>Multiplayer_Structure_Markers.XML</File>
+	<File>UpgradeObjects_Underworld.XML</File>
+	<File>Corruption_Special_Units.XML</File>
+
+
+	<!--GENERIC MOD FILES-->
+	<File>MOD_GROUND_STRUCTURES.xml</File>
+	
+	<!--ORDER THE UNIT XML FILES IN THE ORDER THAT THEY SHOULD APPEAR IN THE BUILD BAR GUI
+	
+		FIGHTERS
+		CORVETTES
+		LIGHT FRIGATES
+		HEAVY FRIGATES
+		CRUSIERS
+		CAPITALS 
+		SUPER CAPITALS
+		SUPERS
+
+	IF THERE ARE TWO UNITS THAT TIE, PLACE THEM ACCORDING TO FIRE POWER (SMALLEST ABOVE, USE JUDGEMENT) AND THEN OLDER MODELS ABOVE NEWER MODELS (VICTORY I ABOVE VICTORY II)
+	-->
+
+	<!-- EMPIRE MOD SPACEUNITS HERE-->
+
+	<File>UNITS_SPACE_EMPIRE_TIE_SCOUT.xml</File>
+	<File>UNITS_SPACE_EMPIRE_TIE_FIGHTER.xml</File>
+	<File>UNITS_SPACE_REBEL_DARTH_TIE_ADVANCED.xml</File>
+	<File>UNITS_SPACE_EMPIRE_TIE_BOMBER.xml</File>
+	<File>Units_Space_Empire_TIE_Defender.xml</File>
+	<File>Units_Space_Empire_TIE_Interceptor.xml</File>
+	<File>Units_Space_Empire_TIE_Phantom.xml</File>
+	<File>UNITS_SPACE_EMPIRE_GOZANTI.xml</File>
+	<File>UNITS_SPACE_EMPIRE_RAIDER_CORVETTE.xml</File>
+	<File>UNITS_SPACE_EMPIRE_QUASAR_CARRIER.xml</File>
+	<File>UNITS_SPACE_EMPIRE_VINDICATOR.xml</File>
+	<File>UNITS_SPACE_EMPIRE_INTERDICTOR.xml</File>
+	<File>UNITS_SPACE_EMPIRE_DREADNOUGHT.xml</File>
+	<!--<File>UNITS_SPACE_EMPIRE_ARQUITENS.xml</File>--> <!--Commented out for stability-->
+	<File>UNITS_SPACE_EMPIRE_ACCLAMATOR.xml</File>
+	<File>UNITS_SPACE_EMPIRE_VICTORY_STAR_DESTROYER.xml</File>
+	<File>UNITS_SPACE_EMPIRE_VICTORY_II_STAR_DESTROYER.XML</File>
+	<File>UNITS_SPACE_EMPIRE_VENATOR.xml</File>
+	<File>UNITS_SPACE_EMPIRE_ISD_I.xml</File>
+	<File>UNITS_SPACE_EMPIRE_ISD_II.xml</File>
+	<File>UNITS_SPACE_EMPIRE_SECUTOR.XML</File>
+	<File>Units_Space_Empire_Executor.xml</File>
+	<File>UNITS_SPACE_EMPIRE_DEATH_STAR.xml</File>
+	
+
+	<!-- EMPIRE MOD HERO UNITS-->
+	<File>UNITS_HERO_EMPIRE_TARKIN.xml</File>
+	<File>UNITS_HERO_EMPIRE_OZZEL.xml</File>
+	<File>UNITS_HERO_EMPIRE_SLOANE.xml</File>
+	<File>Units_Hero_Empire_Thrawn.xml</File>
+
+	<!--<File>Units_Land_Empire_DarkTroopers.xml</File>-->
+	<!--<File>Units_Land_Empire_Lancet.xml</File>-->
+	<!--<File>Units_Land_Empire_Noghri.xml</File>-->
+	<File>Units_Land_Empire_Juggernaut.xml</File>
+
+	<!--REBEL MOD SPACE UNITS-->
+	<File>UNITS_SPACE_REBEL_X_WING.xml</File>
+	<File>UNITS_SPACE_REBEL_Z95_HEADHUNTER.xml</File>
+	<File>UNITS_SPACE_REBEL_A_WING.xml</File>
+	<File>UNITS_SPACE_REBEL_Y_WING.xml</File>
+	<File>Units_Space_Rebel_B_Wing.xml</File>	
+	<File>UNITS_SPACE_REBEL_GALLOFREE_GR75.XML</File>
+	<File>UNITS_SPACE_REBEL_PELTA.xml</File>
+	<File>UNITS_SPACE_REBEL_CR90.xml</File>
+	<File>UNITS_SPACE_REBEL_TANTIVE_IV.xml</File>
+	<File>UNITS_SPACE_REBEL_DP20_CORVETTE.xml</File>
+	<File>UNITS_SPACE_REBEL_HAMMERHEAD.XML</File>
+	<File>UNITS_SPACE_REBEL_QUASAR_CARRIER.xml</File>
+	<File>UNITS_SPACE_REBEL_MARAUDER_FRIGATE.xml</File>
+	<File>Units_Space_Rebel_MC30_Frigate.xml</File>
+	<File>UNITS_SPACE_REBEL_NEBULON_B_FRIGATE.xml</File>
+	<File>UNITS_SPACE_REBEL_ASSAULT_FRIGATE.xml</File>
+	<File>UNITS_SPACE_REBEL_MC75.xml</File>
+	<File>UNITS_SPACE_REBEL_MC80_INDEPENDANCE.xml</File>
+	<File>UNITS_SPACE_REBEL_MC80_LIBERTY.xml</File>
+	<File>UNITS_SPACE_REBEL_DEFENDER.xml</File>
+	<File>UNITS_SPACE_REBEL_STARHAWK.XML</File>
+
+	<!-- REBEL MOD HERO UNITS-->
+	<File>UNITS_HERO_REBEL_RADDUS.XML</File>
+	<File>UNITS_HERO_REBEL_MERRICK.xml</File>
+	<File>UNITS_HERO_REBEL_DODONNA.xml</File>
+	<File>UNITS_SPACE_REBEL_RED_SQUADRON.xml</File>
+	<File>Units_Hero_Rebel_Rogue_Squadron.xml</File>
+
+	<File>Units_Hero_Rebel_Yoda.xml</File>
+	<File>Units_Hero_Rebel_LukeSkywalker.xml</File>
+
+	<!-- UNITS THAT BELONG TO MULTIPLE FACTIONS or OTHER FACTIONS-->
+	<File>UNITS_SPACE_PIRATE_FRIGATE.xml</File>
+
+	<File>UNITS_SPACE_PIRATE_IPV1.xml</File>
+	<File>UNITS_SPACE_INDEPENDANT_MERCHANT_FREIGHTER.xml</File>
+	<File>UNITS_SPACE_PIRATE_FIGHTER.xml</File>
+
+</Game_Object_Files>

@@ -1,0 +1,200 @@
+<?xml version="1.0" ?>
+
+<!--****************************************************************-->
+<!--******** CAMPAIGN: EMBERS OF REBELLION (EMPIRE VERSION) ********-->
+<!--****************************************************************-->
+
+<Story>
+
+	<Event Name="Opening_Crawl">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>mod_opening_crawl</Reward_Param1>
+	</Event>
+
+	<Event Name="Opening_Crawl_End">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+	</Event>
+	
+		
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
+		<Story_Chapter>13</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
+
+<!-- Empire Hero Release -->
+
+<!--ERA 1 EVENTS: FLEET MODERNIZATION (EMPIRE) COMPLETED (5 BBY – 2 BBY)-->
+
+	<Event Name="Empire_AI_Unlock_Research_Facility">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Tarkin">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Grand_Moff_Tarkin</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Palpatine">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+<!--ERA 2 EVENTS: TIE DEFENDER PROJECT COMPLETED (2 BBY - 0 BBY)-->
+
+	<Event Name="Empire_Enters_Era_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Thrawn">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Chimaera_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Era_02</Prereq>
+	</Event>
+
+<!--ERA 3 EVENTS: SUPER_WEAPONS COMPLETED (0 ABY - 3 ABY)-->
+
+	<Event Name="Empire_Enters_Era_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Ozzel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Admiral_Ozzel</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Era_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Piett"> <!--FOR TESTING PURPOSES-->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Piet_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Spawn_Piett_On_Ozzel_Death</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Piett_On_Ozzel_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Admiral_Ozzel</Event_Param1>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+	</Event>
+
+	<Event Name="Spawn_Veers">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Veers_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Era_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Boba_Fett">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Era_03</Prereq>
+	</Event>
+
+<!--ERA 4 EVENTS: OPERATION CINDER COMPLETED (3 ABY - 6 ABY)-->
+
+	<Event Name="Empire_Enters_Era_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Sloane">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Admiral_Rae_Sloane</Reward_Param1>
+        <Reward_Param2>Coruscant</Reward_Param2>
+		<Prereq>Empire_Enters_Era_04</Prereq>
+	</Event>
+
+<!--ERA 5 EVENTS: SECRET PROJECTS COMPLETED (6+ ABY)-->
+
+	<Event Name="Empire_Enters_Era_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+	
+	
+<!--ON EVENT OF HERO DEATH REMOVE THEM FROM PLAY-->
+
+	<Event Name="Tarkin_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Grand_Moff_Tarkin</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Grand_Moff_Tarkin</Reward_Param1>
+	</Event>
+
+	<Event Name="Palpatine_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
+	</Event>
+
+	<Event Name="Thrawn_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Admonitor_Star_Destroyer</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+	</Event>
+
+	<Event Name="Ozzel_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Admiral_Ozzel</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Admiral_Ozzel</Reward_Param1>
+	</Event>
+
+	<Event Name="Piett_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Accuser_Star_Destroyer</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+	</Event>
+
+	<Event Name="Veers_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>General_Veers_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>General_Veers_Team</Reward_Param1>
+	</Event>
+
+	<Event Name="Boba_Fett_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Boba_Fett_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
+	</Event>
+
+	<Event Name="Sloane_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Admiral_Rae_Sloane</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Admiral_Rae_Sloane</Reward_Param1>
+	</Event>
+	
+
+</Story>

@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<GroundStructures>
+
+	<GroundStructure Name="E_Prison_Facility">
+		<GUI_Row> 0 </GUI_Row>
+		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
+		<Text_ID>TEXT_STRUCTURE_PRISON_FACILITY</Text_ID>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
+		<Land_Model_Name>NB_Prison.ALO</Land_Model_Name>
+		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+		<SFXEvent_Ambient_Loop />
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+		<Death_Explosions>Huge_Explosion_Land</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<Ranged_Target_Z_Adjust>5.0</Ranged_Target_Z_Adjust>
+		<Behavior>DUMMY_GROUND_STRUCTURE,SELECTABLE</Behavior>
+		<LandBehavior>SPACE_OBSTACLE, LAND_OBSTACLE,REVEAL,SELECTABLE,DAMAGE_TRACKING,UNIT_AI,EARTHQUAKE_TARGET</LandBehavior>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		<Land_FOW_Reveal_Range>300.0</Land_FOW_Reveal_Range>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
+		<Icon_Name>i_button_nb_prison.tga</Icon_Name>
+
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>25</Build_Time_Seconds>
+		<Build_Max_Instances_Per_Planet> 2 </Build_Max_Instances_Per_Planet>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+
+		<Armor_Type> Armor_Structure </Armor_Type>
+		<Reveal_During_Setup_Phase> true </Reveal_During_Setup_Phase>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+		<Size_Value>50</Size_Value>
+		<Base_Position>Out_Base</Base_Position>
+		<Tech_Level>1</Tech_Level>
+		<Destruction_Survivors> Rebel_Prisoner_Team, 1.0 </Destruction_Survivors>
+		
+		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
+		
+		<Select_Box_Scale>100</Select_Box_Scale>
+		
+		<Mass>1.0</Mass>
+		<Scale_Factor>1.5</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>500</Tactical_Health>
+		<Autoresolve_Health>500</Autoresolve_Health>
+
+		<Land_Damage_Thresholds>1, 0.66, 0.33, 0</Land_Damage_Thresholds>
+		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
+		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
+
+		<Affiliation>Empire</Affiliation>
+		<Base_Level_Available>1</Base_Level_Available>
+		<Victory_Relevant>no</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+		<CategoryMask>Structure</CategoryMask>
+
+		<GUI_Bracket_Width>40</GUI_Bracket_Width>
+		<GUI_Bracket_Height>0</GUI_Bracket_Height>
+
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+		
+		<!-- The ground structures have this data which looks like it's space only because the
+		snowspeeders are using space style pathfinding which needs this information so that we won't
+		path speeders through structures -->
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Layer> Corvette </Space_Layer>
+		<Has_Land_Evaluator>True</Has_Land_Evaluator>
+
+		<SFXEvent_Build_Started>EHD_Build_Structure</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Building_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>EHD_Construction_Complete</SFXEvent_Build_Complete>
+		<Death_SFXEvent_Start_Die>Unit_Generic_Building_Death_SFX</Death_SFXEvent_Start_Die>
+		<SFXEvent_Unit_Under_Attack> EHD_Prison_Under_Attack </SFXEvent_Unit_Under_Attack>
+		<SFXEvent_Unit_Lost> EHD_Prison_Destroyed </SFXEvent_Unit_Lost>
+
+
+		<Score_Cost_Credits> 2000 </Score_Cost_Credits>
+
+		<Abilities SubObjectList="Yes">
+			<Reduce_Production_Time_Ability Name="Reduce_Production_Time_Space">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Time_Reduction_Percentage>0.15</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+
+			<Reduce_Production_Time_Ability Name="Reduce_Production_Time_Ground">
+				<Applicable_Unit_Categories>Infantry | Vehicle | AirGunship | AirSpeeder</Applicable_Unit_Categories>
+				<Time_Reduction_Percentage>0.5</Time_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+				<Galaxy_Wide> No </Galaxy_Wide>
+			</Reduce_Production_Time_Ability>
+
+			<Reduce_Production_Price_Ability Name="Reduce_Production_Price_All">
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Price_Reduction_Percentage>0.01</Price_Reduction_Percentage>
+				<Stacking_Category>9</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+
+		</Abilities>
+	</GroundStructure>
+
+</GroundStructures>

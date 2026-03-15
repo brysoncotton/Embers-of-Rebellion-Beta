@@ -1,0 +1,554 @@
+<?xml version="1.0"?>
+
+
+<HardPoints>
+	<HardPoint Name="VENATOR_HANGER">
+        <Type> HARD_POINT_FIGHTER_BAY </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+
+        <Model_To_Attach />
+        <Attachment_Bone>SPAWN_00</Attachment_Bone>
+        <Collision_Mesh>SPAWN_00</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles>HANGER_EMITDAMAGE</Damage_Particles>
+        <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+        <Health>450.0</Health> <!-- From 250 -->
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_SHEILDS">
+        <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable> 
+        <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+        <Health>450.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach />
+        <Attachment_Bone>HP_S</Attachment_Bone>
+        <Collision_Mesh>HP_S</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles>SHIELD_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_ENGINES">
+        <Type> HARD_POINT_ENGINE </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+        <Health>450.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach />
+        <Attachment_Bone>HP_E </Attachment_Bone>
+        <Collision_Mesh>HP_E</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles>ENGINES_EMITDAMAGE</Damage_Particles>
+        <Engine_Particles />
+    </HardPoint>
+    
+    <HardPoint Name="VENATOR_TORP_00">
+        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+        <Health>400.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+
+        <Attachment_Bone>HP_06</Attachment_Bone>
+        <Collision_Mesh>HP_06</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles>TORPEDO00_EMITDAMAGE</Damage_Particles>
+
+        <Fire_Bone_A>HP_06</Fire_Bone_A>
+        <Fire_Bone_B>HP_06</Fire_Bone_B>
+        <Fire_Cone_Width>160.0</Fire_Cone_Width>
+        <Fire_Cone_Height>120.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1800.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Proton_Torpedo</Fire_SFXEvent>
+
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>	
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TORP_01">
+        <Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+        <Health>400.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+
+        <Attachment_Bone>HP_03</Attachment_Bone>
+        <Collision_Mesh>HP_03</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles>TORPEDO00_EMITDAMAGE</Damage_Particles>
+
+        <Fire_Bone_A>HP_03</Fire_Bone_A>
+        <Fire_Bone_B>HP_03</Fire_Bone_B>
+        <Fire_Cone_Width>160.0</Fire_Cone_Width>
+        <Fire_Cone_Height>120.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>8.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1800.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Proton_Torpedo</Fire_SFXEvent>
+
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>	
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TB_00">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>500.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Venator_Turret_01.ALO</Model_To_Attach>
+        <Attachment_Bone>T_00</Attachment_Bone>
+        <Collision_Mesh>T_00</Collision_Mesh>
+        <Damage_Decal>T_00_DAMAGE</Damage_Decal>
+        <Damage_Particles>T_00_DAMAGE</Damage_Particles>
+
+        <Projectile_Damage>20.0</Projectile_Damage>
+        <Fire_Bone_A>T_00</Fire_Bone_A>
+        <Fire_Bone_B>T_00</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width> <!-- From 30-->
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> <!-- From 45-->
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds> <!-- From 1.0 -->
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds> <!-- From 2.0 -->
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds> <!-- From 0.2 -->
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <!-- <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TB_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>500.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Venator_Turret_02.ALO</Model_To_Attach>
+        <Attachment_Bone>T_01</Attachment_Bone>
+        <Collision_Mesh>T_01</Collision_Mesh>
+        <Damage_Decal>T_01_DAMAGE</Damage_Decal>
+        <Damage_Particles>T_01_DAMAGE</Damage_Particles>
+
+        <Projectile_Damage>20.0</Projectile_Damage>
+        <Fire_Bone_A>T_01</Fire_Bone_A>
+        <Fire_Bone_B>T_01</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width> <!-- From 30-->
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> <!-- From 45-->
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds> <!-- From 1.0 -->
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds> <!-- From 2.0 -->
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds> <!-- From 0.2 -->
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <!-- <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TB_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>500.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Venator_Turret_03.ALO</Model_To_Attach>
+        <Attachment_Bone>T_02</Attachment_Bone>
+        <Collision_Mesh>T_02</Collision_Mesh>
+        <Damage_Decal>T_02_DAMAGE</Damage_Decal>
+        <Damage_Particles>T_02_DAMAGE</Damage_Particles>
+
+        <Projectile_Damage>20.0</Projectile_Damage>
+        <Fire_Bone_A>T_02</Fire_Bone_A>
+        <Fire_Bone_B>T_02</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width> <!-- From 30-->
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> <!-- From 45-->
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds> <!-- From 1.0 -->
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds> <!-- From 2.0 -->
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds> <!-- From 0.2 -->
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <!-- <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TB_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>500.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Venator_Turret_04.ALO</Model_To_Attach>
+        <Attachment_Bone>T_03</Attachment_Bone>
+        <Collision_Mesh>T_03</Collision_Mesh>
+        <Damage_Decal>T_03_DAMAGE</Damage_Decal>
+        <Damage_Particles>T_03_DAMAGE</Damage_Particles>
+
+        <Projectile_Damage>20.0</Projectile_Damage>
+        <Fire_Bone_A>T03_FP00</Fire_Bone_A>
+        <Fire_Bone_B>T03_FP01</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width> <!-- From 30-->
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> <!-- From 45-->
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds> <!-- From 1.0 -->
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds> <!-- From 2.0 -->
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds> <!-- From 0.2 -->
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <!-- <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TB_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>500.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Venator_Turret_05.ALO</Model_To_Attach>
+        <Attachment_Bone>T_04</Attachment_Bone>
+        <Collision_Mesh>T_04</Collision_Mesh>
+        <Damage_Decal>T_04_DAMAGE</Damage_Decal>
+        <Damage_Particles>T_04_DAMAGE</Damage_Particles>
+
+        <Projectile_Damage>20.0</Projectile_Damage>
+        <Fire_Bone_A>T_04</Fire_Bone_A>
+        <Fire_Bone_B>T_04</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width> <!-- From 30-->
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> <!-- From 45-->
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds> <!-- From 1.0 -->
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds> <!-- From 2.0 -->
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds> <!-- From 0.2 -->
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <!-- <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TB_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>500.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Venator_Turret_06.ALO</Model_To_Attach>
+        <Attachment_Bone>T_05</Attachment_Bone>
+        <Collision_Mesh>T_05</Collision_Mesh>
+        <Damage_Decal>T_05_DAMAGE</Damage_Decal>
+        <Damage_Particles>T_05_DAMAGE</Damage_Particles>
+
+        <Projectile_Damage>20.0</Projectile_Damage>
+        <Fire_Bone_A>T_05</Fire_Bone_A>
+        <Fire_Bone_B>T_05</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width> <!-- From 30-->
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> <!-- From 45-->
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds> <!-- From 1.0 -->
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds> <!-- From 2.0 -->
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds> <!-- From 0.2 -->
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <!-- <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TB_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>500.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Venator_Turret_07.ALO</Model_To_Attach>
+        <Attachment_Bone>T_06</Attachment_Bone>
+        <Collision_Mesh>T_06</Collision_Mesh>
+        <Damage_Decal>T_06_DAMAGE</Damage_Decal>
+        <Damage_Particles>T_06_DAMAGE</Damage_Particles>
+
+        <Projectile_Damage>20.0</Projectile_Damage>
+        <Fire_Bone_A>T06_FP00</Fire_Bone_A>
+        <Fire_Bone_B>T06_FP01</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width> <!-- From 30-->
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> <!-- From 45-->
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds> <!-- From 1.0 -->
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds> <!-- From 2.0 -->
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds> <!-- From 0.2 -->
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <!-- <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_TB_07">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Health>500.0</Health>
+
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Venator_Turret_08.ALO</Model_To_Attach>
+        <Attachment_Bone>T_07</Attachment_Bone>
+        <Collision_Mesh>T_07</Collision_Mesh>
+        <Damage_Decal>T_07_DAMAGE</Damage_Decal>
+        <Damage_Particles>T_07_DAMAGE</Damage_Particles>
+
+        <Projectile_Damage>20.0</Projectile_Damage>
+        <Fire_Bone_A>T_07</Fire_Bone_A>
+        <Fire_Bone_B>T_07</Fire_Bone_B>
+        <Randomize_Between_Fire_Bones> No </Randomize_Between_Fire_Bones>
+        <Fire_Cone_Width>60</Fire_Cone_Width> <!-- From 30-->
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> <!-- From 45-->
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds> <!-- From 1.0 -->
+        <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds> <!-- From 2.0 -->
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds> <!-- From 0.2 -->
+        <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <!-- <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions> -->
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_IC_00">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Health>400.0</Health>  <!-- Was 250 -->
+        <Repair_Cost_Per_Frame>1.0</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>2.0</Repair_Amount_Per_Frame>  
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Damage_Type> Damage_Star_Destroyer </Damage_Type>
+        <Attachment_Bone>HP_01</Attachment_Bone>
+        <Collision_Mesh>HP_01</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles />
+
+        <Fire_Bone_A>HP_01</Fire_Bone_A>
+        <Fire_Bone_B>HP_01</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1200.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_ion_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+    </HardPoint>
+
+    <HardPoint Name="VENATOR_IC_01">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Is_Targetable>yes</Is_Targetable>
+        <Is_Destroyable>yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Health>400.0</Health>  <!-- Was 250 -->
+        <Repair_Cost_Per_Frame>1.0</Repair_Cost_Per_Frame>
+        <Repair_Amount_Per_Frame>2.0</Repair_Amount_Per_Frame>  
+
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Venator_Death</Death_Explosion_SFXEvent>
+
+        <Damage_Type> Damage_Star_Destroyer </Damage_Type>
+        <Attachment_Bone>HP_02</Attachment_Bone>
+        <Collision_Mesh>HP_02</Collision_Mesh>
+        <Damage_Decal />
+        <Damage_Particles />
+
+        <Fire_Bone_A>HP_02</Fire_Bone_A>
+        <Fire_Bone_B>HP_02</Fire_Bone_B>
+        <Fire_Cone_Width>180.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1200.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_ion_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 60.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 20.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 5.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+
+        <Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+
+    </HardPoint>
+
+    
+	
+</HardPoints>

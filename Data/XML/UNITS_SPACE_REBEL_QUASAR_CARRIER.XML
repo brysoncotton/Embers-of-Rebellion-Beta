@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+
+
+<REBEL_QUASAR_CARRIER_DATA>
+
+	<SpaceUnit Name="Rebel_Quasar_Class_Carrier">
+		<Variant_Of_Existing_Type>Empire_Quasar_Class_Carrier_No_Fighters</Variant_Of_Existing_Type>
+		<Affiliation>Rebel</Affiliation>
+		<Tech_Level>2</Tech_Level>
+		<Space_Model_Name>RV_Quasar.ALO</Space_Model_Name>
+
+		<HardPoints>
+			Quasar_Fighter_Bay_01,
+			Quasar_Fighter_Bay_02,
+			Quasar_Fighter_Bay_03,
+			Quasar_Fighter_Bay_04,
+			Quasar_Engines,
+			Quasar_Shield_Generator,
+			Rebel_Quasar_Laser_01,
+			Rebel_Quasar_Laser_02,
+			Rebel_Quasar_Laser_03,
+			Rebel_Quasar_Laser_04,
+			Rebel_Quasar_Laser_05,
+			Rebel_Quasar_Laser_06
+		</HardPoints>
+
+		<!-- Set to spawn all units once and then not continue - no reserves -->
+		<Starting_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<!--Currently no reserves -->
+		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
+		<Death_Clone>Damage_Normal, Rebel_Quasar_Death_Clone</Death_Clone>
+	</SpaceUnit>
+
+<!--DEATH CLONES-->
+
+	<SpaceUnit Name="Rebel_Quasar_Death_Clone">
+		<Variant_Of_Existing_Type>Empire_Quasar_Death_Clone</Variant_Of_Existing_Type>
+		<Space_Model_Name>RV_Quasar_d_DIE_00.ala</Space_Model_Name>
+		<Affiliation>Rebel</Affiliation>
+	</SpaceUnit>
+
+</REBEL_QUASAR_CARRIER_DATA>

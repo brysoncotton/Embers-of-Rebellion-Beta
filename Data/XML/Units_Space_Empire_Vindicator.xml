@@ -1,0 +1,161 @@
+<?xml version="1.0" ?>
+
+<VINDICATOR_IMMOBILIZER_DATA>
+
+
+    <SpaceUnit Name="Vindicator_Heavy_Crusier">
+		<Text_ID>TEXT_UNIT_VINDICATOR</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VINDICATOR </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
+		<GUI_Row> 0 </GUI_Row>
+		<Space_Model_Name>Empire_Vindicator.alo</Space_Model_Name>
+		<Select_Box_Scale>350</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
+		<Mass>0.9995</Mass>
+		<Scale_Factor>1</Scale_Factor>
+		<Population_Value>4</Population_Value>
+
+        <Ranking_In_Category>6</Ranking_In_Category>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+		<Max_Speed>2</Max_Speed>
+		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-175.0</Layer_Z_Adjust>		
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>8</Bank_Turn_Angle>
+		<OverrideAcceleration> .03 </OverrideAcceleration>
+		<OverrideDeceleration> .03 </OverrideDeceleration>
+		
+		<Max_Thrust>1.5</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0.1</Maintenance_Cost>
+
+		<Armor_Type> Armor_Victory_Class </Armor_Type>
+        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Damage>40</Damage>
+		<Autoresolve_Health>10</Autoresolve_Health>
+		<Shield_Points>1600</Shield_Points>
+		<Tactical_Health>10</Tactical_Health>  <!-- was 2600 -->
+		<Shield_Refresh_Rate>80</Shield_Refresh_Rate>
+		<Energy_Capacity>3000</Energy_Capacity>
+		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
+
+		<Affiliation>Empire</Affiliation>
+		<Tech_Level>2</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>3</Required_Star_Base_Level>
+		<Required_Special_Structures />
+		<Required_Planets />
+		<Ship_Class>frigate</Ship_Class>
+		<Formation_Priority>3</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+		<Political_Control>0</Political_Control>
+		<Squadron_Capacity>15</Squadron_Capacity>
+		<Transport_Capacity>12</Transport_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+		<Build_Cost_Credits>4500</Build_Cost_Credits>
+		<Piracy_Value_Credits>50</Piracy_Value_Credits>
+		<AI_Combat_Power>3800</AI_Combat_Power>
+		<Build_Time_Seconds>90</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
+		<Size_Value>8</Size_Value>
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA, SPAWN_SQUADRON </SpaceBehavior>
+		
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Reserve_Spawned_Units_Tech_0>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
+		<Space_FOW_reveal_Range>10000</Space_FOW_reveal_Range>
+		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
+		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
+
+		<Death_Clone> Damage_Normal </Death_Clone>
+
+		<HardPoints>
+			Vindicator_LC_00, 
+			Vindicator_LC_01, 
+			Vindicator_IC_00, 
+			Vindicator_IC_01, 
+			Vindicator_TL_00, 
+			Vindicator_TL_01,
+			Vindicator_Shield_Generator,
+			Vindicator_Hanger
+		</HardPoints>
+
+		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
+		<Icon_Name>I_BUTTON_VINDICATOR.tga</Icon_Name>
+		<GUI_Model_Name>Empire_Vindicator.alo</GUI_Model_Name>
+		<GUI_Distance>1100</GUI_Distance>
+		<GUI_Offset>0 0 0</GUI_Offset>
+		<GUI_Velocity>45</GUI_Velocity>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Victory_Destroyer</SFXEvent_Build_Complete>
+		<SFXEvent_Ambient_Loop>Unit_Victory_Destroyer_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Select>Unit_Select_Victory_Destroyer</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Victory_Destroyer</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Victory_Destroyer</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Victory_Destroyer</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Victory_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Victory_Destroyer</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Victory_Destroyer</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Victory_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Victory_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
+		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
+		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Victory_Destroyer </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Victory_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Victory_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Victory_Destroyer_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
+		
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>	 
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
+		<Score_Cost_Credits> 2250</Score_Cost_Credits>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</SpaceUnit>
+</VINDICATOR_IMMOBILIZER_DATA>

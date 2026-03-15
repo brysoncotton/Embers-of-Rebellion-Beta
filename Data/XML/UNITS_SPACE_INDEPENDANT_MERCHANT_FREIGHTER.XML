@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Merchant_Freighter_Files>
+
+	<SpaceUnit Name="Merchant_Freighter">
+		<Text_ID>TEXT_UNIT_MERCHANT</Text_ID>
+		
+		
+		<Space_Model_Name>NV_Shadowclaw.alo</Space_Model_Name>
+		<Icon_Name>I_button_shadowclaw.tga</Icon_Name>
+		<Mass>0.995</Mass>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Select_Box_Scale>40</Select_Box_Scale>
+		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
+		<Size_Value>8</Size_Value>
+		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
+
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+
+		<Max_Speed>2.75</Max_Speed>
+		<Max_Rate_Of_Turn>1.20</Max_Rate_Of_Turn>
+		<MovementClass> Space </MovementClass>
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
+		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>15</Bank_Turn_Angle>
+		<OverrideAcceleration> .065 </OverrideAcceleration>
+		<OverrideDeceleration> .065 </OverrideDeceleration>
+
+		<Armor_Type> Armor_Hero_Transport </Armor_Type>
+        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+		<Max_Thrust>0.5</Max_Thrust>
+		<Hyperspace>Yes</Hyperspace>
+		<Hyperspace_Speed>1.5</Hyperspace_Speed>
+		<Maintenance_Cost>0</Maintenance_Cost>
+		<Min_Speed>2.0</Min_Speed>
+		<Max_Lift>0.0</Max_Lift>
+
+		<Affiliation>Rebel</Affiliation>
+		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<Death_Clone>Damage_Normal, Merchant_Freighter_Death_Clone</Death_Clone>
+
+		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
+
+		<Shield_Points>100</Shield_Points>
+		<Tactical_Health>300</Tactical_Health>
+		<Shield_Refresh_Rate>3</Shield_Refresh_Rate>
+		<Energy_Capacity>500</Energy_Capacity>
+		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
+
+		<Formation_Priority>2</Formation_Priority>
+		<Is_Escort>yes</Is_Escort>
+		<Is_Bomber>no</Is_Bomber>
+
+		<Squadron_Capacity>0</Squadron_Capacity>
+		<Number_per_Squadron>1</Number_per_Squadron>
+
+		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
+		<SpaceBehavior> SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
+
+		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
+
+		<Damage>8</Damage>
+		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
+		<Fires_Forward>no</Fires_Forward>
+
+		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
+		<Projectile_Fire_Recharge_Seconds>2</Projectile_Fire_Recharge_Seconds>
+
+		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+
+		<Space_FOW_reveal_Range>700.0</Space_FOW_reveal_Range>
+		<Targeting_Max_Attack_Distance>500.0</Targeting_Max_Attack_Distance>
+
+		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
+		<Idle_Chase_Range>0.0</Idle_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
+
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Death_SFXEvent_Start_Die>Unit_X_Wing_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<SFXEvent_Ambient_Loop>Unit_Corvette_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
+		<SFXEvent_Select>Unit_Select_Corvette</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Corvette</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Corvette</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Corvette</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Corvette</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Corvette</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Corvette</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Corvette </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Corvette </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Corvette </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Corvette </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Corvette </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Corvette </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Corvette </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Corvette </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Engine_Idle_Loop> Unit_Gunboat_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+		<SFXEvent_Engine_Moving_Loop> Unit_Gunboat_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Gunboat_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+		
+		
+
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+
+		<CategoryMask> Corvette </CategoryMask>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+		<Min_Speed_Fraction_For_Turn>0.7</Min_Speed_Fraction_For_Turn>
+		<Custom_Footprint_Radius> 15.0 </Custom_Footprint_Radius>
+		<MovementClass> Space </MovementClass>
+		<FormationOrder>1</FormationOrder>
+		<Out_Of_Combat_Defense_Adjustment>-1.0</Out_Of_Combat_Defense_Adjustment>
+		<Minimum_Follow_Distance>50.0</Minimum_Follow_Distance>
+		<AI_Combat_Power>100</AI_Combat_Power>
+		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
+		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_MERCHANT_FREIGHTER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TRANSPORT</Encyclopedia_Unit_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Score_Cost_Credits> 30</Score_Cost_Credits>
+	</SpaceUnit>
+
+	<SpaceUnit Name="Merchant_Freighter_Death_Clone">
+		<Text_ID>TEXT_UNIT_MERCHANT</Text_ID>
+		<Space_Model_Name>NV_Shadowclaw_D.ALO</Space_Model_Name>
+		<xxxSpace_Model_Name>NV_Shadowclaw.ALO</xxxSpace_Model_Name>
+		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
+		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
+		<Scale_Factor>0.5</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		<Max_Speed>0.25</Max_Speed>
+		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Max_Thrust>0.05</Max_Thrust>
+		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
+		<Bank_Turn_Angle>5</Bank_Turn_Angle>
+		<Affiliation>Empire</Affiliation>
+		<Ship_Class>corvette</Ship_Class>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+	</SpaceUnit>
+	
+</Merchant_Freighter_Files>

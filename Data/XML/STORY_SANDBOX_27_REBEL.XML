@@ -1,0 +1,242 @@
+<?xml version="1.0" ?>
+
+<!--***************************************************************-->
+<!--******** CAMPAIGN: EMBERS OF REBELLION (REBEL VERSION) ********-->
+<!--***************************************************************-->
+
+<Story>
+
+	<Event Name="Opening_Crawl">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>START_MOVIE</Reward_Type>
+		<Reward_Param1>mod_opening_crawl</Reward_Param1>
+	</Event>
+
+	<Event Name="Opening_Crawl_End">
+		<Event_Type>STORY_MOVIE_DONE</Event_Type>
+	</Event>
+
+	<Event Name="Set_New_Max_Tech_Level">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SET_MAX_TECH_LEVEL</Reward_Type>
+		<Reward_Param1>Rebel</Reward_Param1>
+		<Reward_Param2>5</Reward_Param2>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
+
+	<Event Name="Universal_Story_Start">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
+		<Story_Chapter>8</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
+
+
+<!--ERA 1 EVENTS: Mon-Cal Retrofit (5 BBY – 2 BBY)--> 
+
+	<Event Name="Spawn_Jan_Dodonna">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Jan_Dodonna</Reward_Param1>
+        <Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Raddus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>SPAWN_HERO</Reward_Type>
+        <Reward_Param1>Admiral_Raddus</Reward_Param1>
+        <Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Antilles"> <!--Raymus Antilles-->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!-- Spawn Starting Heroes -->
+
+<!--ERA 2 EVENTS: OPERATION HANDOFF COMPLETED (2 BBY - 0 BBY)-->
+
+<Event Name="Rebels_Enter_Era_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Mon_Mothma">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_02</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Droids">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Droids_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_02</Prereq>
+	</Event>
+
+<!--ERA 3 EVENTS: PROJECT SHANTIPOLE COMPLETED (0 ABY - 3 ABY)-->
+
+	<Event Name="Rebels_Enter_Era_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+        <Reward_Type>UNIQUE_UNIT</Reward_Type>
+        <Reward_Param1>Home_One</Reward_Param1>
+        <Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Obi_Wan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Han_Solo">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Luke_Jedi">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Rogue_Squadron">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
+	</Event>
+
+<!--ERA 4 EVENTS: PROJECT STARHAWK COMPLETED (3 ABY - 6 ABY)-->
+
+	<Event Name="Rebels_Enter_Era_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Spawn_Yoda">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Yoda_Team</Reward_Param1>
+		<Reward_Param2>Bothawui</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_04</Prereq>
+	</Event>
+	
+
+<!--ERA 5 EVENTS: FLEET MODERNIZATION (REBEL) COMPLETED (6+ ABY)-->
+
+	<Event Name="Rebels_Enter_Era_05">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>5</Event_Param1>
+	</Event>
+
+<!--********************************************-->
+<!--ON EVENT OF HERO DEATH REMOVE THEM FROM PLAY-->
+<!--********************************************-->
+
+	<Event Name="Dodonna_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Jan_Dodonna</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Jan_Dodonna</Reward_Param1>
+	</Event>
+
+	<Event Name="Raddus_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Admiral_Raddus</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Admiral_Raddus</Reward_Param1>
+	</Event>
+
+	<Event Name="Antilles_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Sundered_Heart</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+	</Event>
+
+	<Event Name="Mon_Mothma_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Mon_Mothma_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
+	</Event>
+
+	<Event Name="Droids_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Droids_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Droids_Team</Reward_Param1>
+	</Event>
+
+	<Event Name="Ackbar_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Home_One</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Home_One</Reward_Param1>
+	</Event>
+
+	<Event Name="Obi_Wan_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Obi_Wan_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
+	</Event>
+
+	<Event Name="Han_Solo_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Han_Solo_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Han_Solo_Team</Reward_Param1>
+	</Event>
+
+	<Event Name="Luke_Jedi_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Luke_Skywalker_Jedi_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+	</Event>
+
+	<Event Name="Rogue_Squadron_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Rogue_Squadron_Space</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
+	</Event>
+
+	<Event Name="Yoda_Death">
+		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Param1>Yoda_Team</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Yoda_Team</Reward_Param1>
+	</Event>
+
+
+
+
+</Story>

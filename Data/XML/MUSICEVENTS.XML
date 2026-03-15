@@ -1,0 +1,651 @@
+<?xml version="1.0"?>
+
+<MusicEvents>
+
+	<MusicEvent Name="Main_Menu_Music_Event">
+		<Files>Your_Father_Would_Be_Proud_Emotional_Trim.mp3</Files>
+        <Volume_Percent>100</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+
+	<MusicEvent Name="Test_Music_Event">
+		<Files>Test_Loop_Song_2.MP3</Files>
+        <Volume_Percent>95</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+
+
+<!--<MusicEvent Name="Cinematic_Empire_Intro_Music_Event">
+		<Files> CIN_ROTJ_Approaching_The_Death_Star.mp3 </Files>
+        <Volume_Percent>70</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>       -->
+
+
+
+
+<!-- START INTRO CINEMATIC THEMES -->
+
+	<MusicEvent Name="Cinematic_Empire_Intro_Music_Event_2">	  
+		<Files> Empire_Intro_3_Mix.mp3 </Files>
+        <Volume_Percent>70</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Cinematic_Rebel_Intro_Music_Event_1">	  
+		<Files> REBEL_Intro_1_Mix.mp3 </Files>
+        <Volume_Percent>70</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+<!-- END INTRO CINEMATIC THEMES -->
+
+
+
+	
+<!-- START GALACTIC THEMES -->
+
+	<MusicEvent Name="Galactic_Map_Rebel_Music_Event">
+		<Files>
+            Guardians_of_the_Whills_Suite.mp3,
+            Andor_Theme.mp3,
+            Jedi_Theme_Epic.mp3,
+            Your_Father_Would_Be_Proud.mp3
+            Wobani_Labor_Camp.mp3,
+            Rebellions_Are_Built_On_Hope.mp3,
+            Jyn_Erso_Hope_Suite.mp3,
+            Fallen_Order_Theme_Epic.mp3,
+            Encounters_on_the_Battlefront.mp3,
+            Ahsoka_Tano_Samuel_Kim.mp3,
+            The_Rebellion_Suite.mp3,
+        </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Galactic_Map_Empire_Music_Event">
+		<Files>
+            Thrawns_Theme_Epic.mp3,
+            Imperial_March.mp3,
+			Krennics_Aspirations.mp3,
+            The_Imperial_Suite.mp3,
+            ESB_The_Imperial_Probe.mp3,
+            ROTJ_Approaching_The_Death_Star.mp3,
+            ROTJ_Emperors_Throne_Room.mp3,
+            ANH_Imperial_Attack_2.mp3,
+            ANH_The_Tractor_Beam.mp3,
+            Palpatines_Theme_Epic.mp3,
+            A_Jedis_Fury.mp3,
+            Imperial_March_Epic.mp3
+        </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop> Yes </Loop>
+    </MusicEvent>
+
+
+<!-- END GALACTIC THEMES -->
+
+    <MusicEvent Name="Tactical_Battle_Loading_Loop_Event_Rebel">
+		<Files> Scrambling_the_Rebel_fleet.mp3 </Files>
+		<Volume_Percent> 100 </Volume_Percent>
+		<Fade_In_Seconds> 0.0 </Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds> 2.0 </Fade_Out_Previous_Seconds>
+		<Loop> Yes </Loop>
+		<MSS_Internal_Loop> Yes </MSS_Internal_Loop> <!-- Required for long load where MSS handles the loop -->
+	</MusicEvent>
+
+	<MusicEvent Name="Tactical_Battle_Loading_Loop_Event_Empire">
+		<Files> mimban_battle.mp3 </Files>
+		<Volume_Percent> 100 </Volume_Percent>
+		<Fade_In_Seconds> 0.0 </Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds> 2.0 </Fade_Out_Previous_Seconds>
+		<Loop> Yes </Loop>
+		<MSS_Internal_Loop> Yes </MSS_Internal_Loop> <!-- Required for long load where MSS handles the loop -->
+	</MusicEvent>
+
+
+
+	<MusicEvent Name="Galactic_Death_Star_Complete_Music_Event">
+		<Files> Complete_Death_Star.mp3 </Files>
+        <Volume_Percent>60</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+
+
+
+<!-- START CANTINA / HUTT PALACE THEMES -->
+
+	<MusicEvent Name="Structure_Cantina_Music_Event">
+		 <Files>Cantina_1.MP3, Cantina_2.MP3</Files>
+		 <Volume_Percent>70</Volume_Percent>
+		 <Fade_In_Seconds>0.0</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>No</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Structure_Hutt_Palace_Music_Event">
+		 <Files>Hutt_Palace_Jedi_Rocks.MP3, Hutt_Palace_Lapti_Nek.MP3</Files>
+		 <Volume_Percent>70</Volume_Percent>
+		 <Fade_In_Seconds>0.0</Fade_In_Seconds>
+		 <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		 <Loop>No</Loop>
+	</MusicEvent>
+
+<!-- END CANTINA / HUTT PALACE THEMES -->
+
+
+
+
+
+
+	<!-- ======================================= -->
+	<!-- REBEL LAND MAPS MUSIC EVENTS - AMBIENT  -->
+	<!-- ======================================= -->
+
+	<MusicEvent Name="Desert_Land_Rebel_Ambient_Music_Event">
+        <Files>
+            R_The_Dune_Sea_of_Tatooine.MP3,
+            E_Attack_of_the_Sandpeople.MP3
+        </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Ice_Land_Rebel_Ambient_Music_Event">
+        <Files>
+            R_The_Ice_Planet_Hoth.MP3,
+            E_Wampas_Lair.MP3
+        </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Swamp_Land_Rebel_Ambient_Music_Event">
+        <Files> R_Jar_Jar_Leads_Group.MP3, E_Binary_Sunset_Alternate.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Volcanic_Land_Rebel_Ambient_Music_Event">
+        <Files> R_Dianoga.MP3, E_The_Trash_Compactor.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Temperate_Land_Rebel_Ambient_Music_Event">
+        <Files> R_Forest_Ambush.MP3,  E_Wookiee_Prisoner.MP3, R_Queen_Amidala_Warns_Federation.MP3, E_The_Droid_Invasion.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Urban_Land_Rebel_Ambient_Music_Event">
+        <Files> R_Anakin_and_Group_To_Coruscant.MP3, E_The_Senate.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+<!-- END REBEL LAND AMBIENT THEMES -->
+
+
+
+
+	<!-- ======================================= -->
+	<!-- EMPIRE LAND MAPS MUSIC EVENTS - AMBIENT -->
+	<!-- ======================================= -->
+
+	<MusicEvent Name="Desert_Land_Empire_Ambient_Music_Event">
+        <Files> E_Attack_of_the_Sandpeople.MP3, R_The_Dune_Sea_of_Tatooine.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Ice_Land_Empire_Ambient_Music_Event">
+        <Files> E_Wampas_Lair.MP3, R_The_Ice_Planet_Hoth.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Swamp_Land_Empire_Ambient_Music_Event">
+        <Files> E_Binary_Sunset_Alternate.MP3, R_Jar_Jar_Leads_Group.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Volcanic_Land_Empire_Ambient_Music_Event">
+        <Files> E_The_Trash_Compactor.MP3, R_Dianoga.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Temperate_Land_Empire_Ambient_Music_Event">
+        <Files> E_Wookiee_Prisoner.MP3, R_Forest_Ambush.MP3, E_The_Droid_Invasion.MP3, R_Queen_Amidala_Warns_Federation.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Urban_Land_Empire_Ambient_Music_Event">
+        <Files> E_The_Senate.MP3, R_Anakin_and_Group_To_Coruscant.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>2.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+<!-- END EMPIRE LAND AMBIENT THEMES -->
+
+
+
+
+	<!-- ====================================== -->
+	<!-- REBEL LAND MAPS MUSIC EVENTS - BATTLE  -->
+	<!-- ===================================== -->
+
+	<MusicEvent Name="Desert_Land_Rebel_Battle_Music_Event">
+        <Files> UND_Underhanded.MP3, R_Sail_Barge_Assault.MP3, E_Den_Of_The_Rancor.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Ice_Land_Rebel_Battle_Music_Event">
+        <Files> R_The_Battle_of_Hoth.MP3, E_The_Battle_of_Hoth_2.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Swamp_Land_Rebel_Battle_Music_Event">
+        <Files> UND_The_Unveiling.MP3, R_Anakin_Defeats_Sebulba.MP3, E_Battle_In_The_Swamps.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Volcanic_Land_Rebel_Battle_Music_Event">
+        <Files> R_Sail_Barge_Assault_Alternate.MP3, E_Volcanic_Assault.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Temperate_Land_Rebel_Battle_Music_Event">
+        <Files> UND_Unexpected_Forces.MP3, R_The_Battle_Rages_On.MP3, E_The_Gungans_Retreat.MP3, R_Scout_Walker_Scramble_2.MP3, E_Scout_Walker_Scramble_1.MP3, E_Volcanic_Assault.MP3, E_Battle_In_The_Swamps.MP3</Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Urban_Land_Rebel_Battle_Music_Event">
+        <Files> R_The_Chase_Through_Coruscant_1.MP3, E_The_Chase_Through_Coruscant_2.MP3, Advance_on_the_City.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+<!-- END REBEL LAND BATTLE THEMES -->
+
+
+
+
+
+	<!-- ======================================= -->
+	<!-- EMPIRE LAND MAPS MUSIC EVENTS - BATTLE  -->
+	<!-- ======================================= -->
+
+	<MusicEvent Name="Desert_Land_Empire_Battle_Music_Event">
+        <Files> UND_Underhanded.MP3, E_Den_Of_The_Rancor.MP3, R_Sail_Barge_Assault.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+	
+	<MusicEvent Name="Ice_Land_Empire_Battle_Music_Event">
+        <Files> E_The_Battle_of_Hoth_2.MP3, R_The_Battle_of_Hoth.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>0.5</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Swamp_Land_Empire_Battle_Music_Event">
+        <Files> UND_The_Unveiling.MP3, E_Battle_In_The_Swamps.MP3, R_Anakin_Defeats_Sebulba.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Volcanic_Land_Empire_Battle_Music_Event">
+        <Files> E_Volcanic_Assault.MP3, R_Sail_Barge_Assault_Alternate.MP3 </Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Temperate_Land_Empire_Battle_Music_Event">
+        <Files> UND_Unexpected_Forces.MP3, E_The_Gungans_Retreat.MP3, R_The_Battle_Rages_On.MP3, R_Scout_Walker_Scramble_2.MP3, E_Scout_Walker_Scramble_1.MP3, E_Volcanic_Assault.MP3, E_Battle_In_The_Swamps.MP3</Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+	<MusicEvent Name="Urban_Land_Empire_Battle_Music_Event">
+        <Files> E_The_Chase_Through_Coruscant_2.MP3, R_The_Chase_Through_Coruscant_1.MP3, Advance_on_the_City.MP3</Files>
+        <Volume_Percent>80</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+<!-- END EMPIRE LAND BATTLE THEMES -->
+
+
+
+
+
+
+<!-- START SPACE MAP THEMES -->
+
+
+	<MusicEvent Name="Space_Map_Rebel_Ambient_Music_Event">
+		<Files>
+            Cal_Kestis_Theme_Epic.mp3,
+            Rogue_One.mp3,
+			Flying_with_chewie.mp3,
+			Andor_Theme_v2.mp3,
+			Squadrons_Trailer_Trim.mp3,
+            Siege.mp3,
+            Andor_Onward.mp3,
+            Space_Battles_Tension_Loop.mp3,
+            Tension_Loop_A.mp3,
+            Tension_Loop_B.mp3,
+            A_New_Saber.mp3,
+            Above_the_Clouds_Ambient.mp3,
+            Cal_Kestis_(Epic_Version).mp3,
+        </Files>
+		<Volume_Percent>80</Volume_Percent>
+		<Fade_In_Seconds>2.0</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_Empire_Ambient_Music_Event">
+		<Files>
+            Imperial_Ceremony.mp3,
+			Squadrons_Trailer_Trim.mp3,
+			Imperial_March.mp3,
+            Imperial_Attack_1.mp3,
+            Beginning_The_Approach.mp3,
+            Vaders_Presence.mp3,
+            Death_Star_Stormtroopers.mp3,
+            Order66_Epic.mp3,
+            Moff_Gideon_Theme_Epic.mp3,
+            The_Master_Switch_Trim.mp3,
+            Imperial_Suite_x_Imperial_March-Krutikov_Music.mp3,
+            Space_Battles_Tension_Loop.mp3,
+        </Files>
+		<Volume_Percent>80</Volume_Percent>
+		<Fade_In_Seconds>2.0</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_Rebel_Battle_Music_Event">
+		<Files>
+            
+            Squardons_Main_Theme.mp3,
+			Kessel_Run_Trim.mp3,
+            Siege.mp3,
+			Jedha_City_Ambush.mp3,
+			Corellia_Chase.mp3,
+			The_Asteroid_Field_Trim.mp3,
+            Fondor_Phase_3.mp3,
+            Flight.mp3,
+            Fondor_Phase_3.mp3,
+            Fondor_Phase_2.mp3,
+            Fondor_Phase_1.mp3,
+            Combat_Loop_C.mp3,
+            Combat_Loop_B.mp3,
+            Combat_Loop_A.mp3,
+            Sullust_Battle_(Squad_Wars).mp3,
+        </Files>
+		<Volume_Percent>80</Volume_Percent>
+		<Fade_In_Seconds>0.5</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_Empire_Battle_Music_Event">
+		<Files>
+            Tie_Fighter_Attack.MP3,
+            Imperial_Cruiser_Pursuit.MP3,
+            The_Asteroid_Field.MP3,
+            Space_Pursuit.MP3,
+            Rebellion_Advantage.MP3,
+            Attacking_the_Blockade.MP3,
+            Imperial_Suite_x_Imperial_March_Epic.mp3,
+            Anakins_Dark_Deeds.mp3,
+            Fondor_Phase_3.mp3,
+            Fondor_Phase_2.mp3,
+            Fondor_Phase_1.mp3,
+            Combat_Loop_C.mp3,
+            Combat_Loop_B.mp3,
+            Combat_Loop_A.mp3,
+            Sullust_Battle_(Squad_Wars).mp3,
+        </Files>
+		<Volume_Percent>80</Volume_Percent>
+		<Fade_In_Seconds>0.5</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+	</MusicEvent>
+
+	<MusicEvent Name="Space_Map_Rebel_Battle_Death_Star_Music_Event">
+		<Files>DS_The_Battle_of_Yavin.MP3, DS_Into_The_Trap.MP3</Files>
+		<Volume_Percent>80</Volume_Percent>
+		<Fade_In_Seconds>0.5</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+  </MusicEvent>
+
+	<MusicEvent Name="Space_Map_Empire_Battle_Death_Star_Music_Event">
+		<Files>DS_The_Battle_of_Yavin.MP3, DS_Into_The_Trap.MP3</Files>
+		<Volume_Percent>80</Volume_Percent>
+		<Fade_In_Seconds>0.5</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+  </MusicEvent>
+
+
+
+	<MusicEvent Name="Space_Map_Activate_Death_Star_Music_Event">
+		<Files>Destruction_Of_Alderaan.MP3</Files>
+		<Volume_Percent>80</Volume_Percent>
+		<Fade_In_Seconds>0.25</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>0.25</Fade_Out_Previous_Seconds>
+		<Loop> No </Loop>
+  </MusicEvent>
+
+<!-- END SPACE THEMES -->
+
+
+
+
+<!-- START WIN / LOSE THEMES -->
+
+    <MusicEvent Name="Rebel_Win_Tactical_Event">
+        <Files>Rebel_Victory.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Rebel_Win_Strategic_Event">
+        <Files>Rebel_Victory.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Rebel_Lose_Tactical_Event">
+        <Files>Rebel_Lose_1.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Rebel_Lose_Strategic_Event">
+        <Files>Rebel_Lose_1.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+
+
+
+
+
+
+
+
+    <MusicEvent Name="Empire_Win_Tactical_Event">
+        <Files>Imperial_March_Edit.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Empire_Win_Strategic_Event">
+        <Files>Imperial_March_Edit.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>Yes</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Empire_Lose_Tactical_Event">
+        <Files>Empire_Lose_1.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Empire_Lose_Strategic_Event">
+        <Files>Empire_Lose_1.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+ 
+
+
+
+    <MusicEvent Name="Lose_To_Empire_Event">
+        <Files>Rebel_Lose_1.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Lose_To_Rebel_Event">
+        <Files>Empire_Lose_1.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+    <MusicEvent Name="Lose_To_Underworld_Event">
+        <Files>Lose_To_Zann_1.MP3</Files>
+        <Volume_Percent>75</Volume_Percent>
+        <Fade_In_Seconds>0.0</Fade_In_Seconds>
+        <Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+        <Loop>No</Loop>
+    </MusicEvent>
+
+
+
+
+<!-- END WIN / LOSE THEMES -->
+
+
+
+
+
+	 <MusicEvent Name="Game_Credits_Music_Event">
+		 <Files>Credits_2a.MP3, Empire_At_War.MP3, Credits_Ep3.MP3 </Files>
+		  <Volume_Percent> 100 </Volume_Percent>
+		  <Fade_In_Seconds> 0.0 </Fade_In_Seconds>
+		  <Fade_Out_Previous_Seconds> 0.0 </Fade_Out_Previous_Seconds>
+		  <Loop> Yes </Loop>
+	 </MusicEvent>
+
+	<!-- Music event that plays along with the marketing splash screen for E3 -->
+	<MusicEvent Name="Splash_E3_Music_Event">
+		<Files>UND_Zann_Consortium_Theme.MP3</Files>
+		<Volume_Percent>80</Volume_Percent>
+		<Fade_In_Seconds>0.0</Fade_In_Seconds>
+		<Fade_Out_Previous_Seconds>2.0</Fade_Out_Previous_Seconds>
+		<Loop>Yes</Loop>
+	</MusicEvent>
+
+</MusicEvents>

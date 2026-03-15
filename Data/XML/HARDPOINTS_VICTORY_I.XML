@@ -1,0 +1,621 @@
+<?xml version="1.0"?>
+
+<!-- 
+000000000000000000000 0000000       000000000000000000000000000   00000000000000000 00000000000000000     00000000000000
+000000000000000000000 00000000     00000000000000000000000000000  00000000000000000 0000000000000000000  000000000000000
+000000000000000000000 0000000000  0000000000000000000000000000000 00000000000000000 0000000000000000000  000000000000000
+    0000000           0000000000 000000000000000000     00000000  0000000           00000000     000000  000000000      
+    00000000000000    00000000000000000000000000000000000000000   0000000000000     0000000000000000000   0000000000    
+    00000000000000    000000000000000000000000000000000000000000  0000000000000     00000000000000000      00000000000  
+    0000000           00000000000000000000000000000     000000000 0000000           000000000000000           00000000  
+    00000000000000000000000000000000000000000000000      00000000000000000000000000000000000000000000000000000000000000 
+    0000000000000000000000000  0000 00000000000000000000000000000 00000000000000000000000000  0000000000000000000000000 
+    0000000000000000000000000  000  000000000000000000000000000   00000000000000000000000000    0000000000000000000000     
+
+     000000000000     0000000000000000
+  000000000000000000  0000000000000000
+ 00000000000000000000 0000000000000000
+00000000     00000000 0000000         
+0000000       000000000000000000000   
+0000000       000000000000000000000   
+00000000      0000000 0000000         
+000000000000000000000 0000000         
+  000000000000000000  0000000         
+    0000000000000     0000000         
+
+0000000000000000    00000000000000000 000000000000000000   00000000000000000 0000000          0000000          0000000     000000000000     00000000    0000000
+000000000000000000  00000000000000000 00000000000000000000 00000000000000000 0000000          0000000          0000000  000000000000000000  0000000000  0000000
+0000000000000000000 00000000000000000 00000000000000000000 00000000000000000 0000000          0000000          0000000 00000000000000000000 00000000000 0000000
+00000000     000000 0000000           0000000     00000000 0000000           0000000          0000000          000000000000000      000000000000000000000000000
+0000000000000000000 00000000000000    000000000000000000   00000000000000    0000000          0000000          000000000000000       00000000000000000000000000
+00000000000000000   00000000000000    0000000000000000000  00000000000000    0000000          0000000          00000000000000        00000000000000000000000000
+000000000000000     0000000           0000000      000000000000000           0000000          0000000          000000000000000      000000000000000000000000000
+000000000000000000000000000000000000000000000     00000000000000000000000000000000000000000000000000000000000000000000 00000000000000000000 0000000000000000000
+00000000  000000000000000000000000000000000000000000000000 00000000000000000000000000000000000000000000000000000000000  000000000000000000  00000000  000000000
+00000000    000000000000000000000000000000000000000000000  00000000000000000000000000000000000000000000000000000000000    00000000000000    00000000   00000000
+
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+ P R I V A T E   C O D E   D O   N O T   D I S T R I B U T E   O R   C O P Y   W I T H O U T   P E R M I S S I O N
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        File Path: C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\Embers-of-Rebellion\Data\XML\HARDPOINTS_VICTORY_I.XML
+
+    	Author: Embers of Rebellion Development Team
+
+        DateTime:  2025-03-19 21:26:00
+
+        Revision: #1
+		
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+-->
+
+<HardPoints>
+
+	<HardPoint Name="HP_VICTORY_I_MIS01">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>250.0</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>MUZZLEA_01</Attachment_Bone>
+        <Collision_Mesh>MUZZLEA_01</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret>  </Is_Turret>
+        <Turret_Rest_Angle>  </Turret_Rest_Angle>
+        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
+        <Fire_Bone_C>MUZZLEA_02</Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="HP_VICTORY_I_MIS02">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>250.0</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>MUZZLEA_07</Attachment_Bone>
+        <Collision_Mesh>MUZZLEA_07</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret>  </Is_Turret>
+        <Turret_Rest_Angle>  </Turret_Rest_Angle>
+        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEA_06</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEA_07</Fire_Bone_B>
+        <Fire_Bone_C>MUZZLEA_08</Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="HP_VICTORY_I_MIS03">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>250.0</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>MUZZLEA_13</Attachment_Bone>
+        <Collision_Mesh>MUZZLEA_13</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret>  </Is_Turret>
+        <Turret_Rest_Angle>  </Turret_Rest_Angle>
+        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEA_12</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEA_13</Fire_Bone_B>
+        <Fire_Bone_C>MUZZLEA_14</Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="HP_VICTORY_I_MIS04">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>250.0</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>MUZZLEA_04</Attachment_Bone>
+        <Collision_Mesh>MUZZLEA_04</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret>  </Is_Turret>
+        <Turret_Rest_Angle>  </Turret_Rest_Angle>
+        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEA_03</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEA_04</Fire_Bone_B>
+        <Fire_Bone_C>MUZZLEA_05</Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="HP_VICTORY_I_MIS05">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>250.0</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>MUZZLEA_10</Attachment_Bone>
+        <Collision_Mesh>MUZZLEA_10</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret>  </Is_Turret>
+        <Turret_Rest_Angle>  </Turret_Rest_Angle>
+        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEA_09</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEA_10</Fire_Bone_B>
+        <Fire_Bone_C>MUZZLEA_11</Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="HP_VICTORY_I_MIS06">
+        <Type> HARD_POINT_WEAPON_MISSILE </Type>
+        <Tooltip_Text>TEXT_WEAPON_CONCUSSIONMISSILE</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>250.0</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Missile_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>MUZZLEA_16</Attachment_Bone>
+        <Collision_Mesh>MUZZLEA_16</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret>  </Is_Turret>
+        <Turret_Rest_Angle>  </Turret_Rest_Angle>
+        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEA_15</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEA_16</Fire_Bone_B>
+        <Fire_Bone_C>MUZZLEA_17</Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>9</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Missile_Fire</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="Victory_I_IC_01">
+		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+		<Health>1000.0</Health>
+		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
+		<Attachment_Bone>IC_01</Attachment_Bone>
+		<Collision_Mesh>IC_01</Collision_Mesh>
+		<Damage_Decal>IC_01_FIRE</Damage_Decal>
+		<Damage_Particles>IC_01_FIRE</Damage_Particles>
+		<Fire_Bone_A>IC_01</Fire_Bone_A>
+		<Fire_Bone_B>IC_01</Fire_Bone_B>
+		<Fire_Cone_Width>170.0</Fire_Cone_Width>
+		<Fire_Cone_Height>170.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+		<Fire_Min_Recharge_Seconds>5.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>7.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>3</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.5</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>2000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_ion_Fire</Fire_SFXEvent>
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+	</HardPoint>
+	
+	<HardPoint Name="HP_VICTORY_I_TB_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>TL_01</Attachment_Bone>
+        <Collision_Mesh>TL_01</Collision_Mesh>
+        <Damage_Decal>TL_01_FIRE</Damage_Decal>
+        <Damage_Particles>TL_01_FIRE</Damage_Particles>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>TL_01</Fire_Bone_A>
+        <Fire_Bone_B>TL_01</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>130</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_VICTORY_I_TB_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>TL_02</Attachment_Bone>
+        <Collision_Mesh>TL_02</Collision_Mesh>
+        <Damage_Decal>TL_02_FIRE</Damage_Decal>
+        <Damage_Particles>TL_02_FIRE</Damage_Particles>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>TL_02</Fire_Bone_A>
+        <Fire_Bone_B>TL_02</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>130</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        Proj_Ship_Turbolaser_Canno<Fire_Pulse_Count>5</Fire_Pulse_Count>n_Green_Dual
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="HP_VICTORY_I_TB_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>ML_01</Attachment_Bone>
+        <Collision_Mesh>ML_01</Collision_Mesh>
+        <Damage_Decal>ML_01_FIRE</Damage_Decal>
+        <Damage_Particles>ML_01_FIRE</Damage_Particles>
+    
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>ML_01</Fire_Bone_A>
+        <Fire_Bone_B>ML_01</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>130</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        Proj_Ship_Turbolaser_Canno<Fire_Pulse_Count>5</Fire_Pulse_Count>n_Green_Dual
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_VICTORY_I_TB_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>ML_02</Attachment_Bone>
+        <Collision_Mesh>ML_02</Collision_Mesh>
+        <Damage_Decal>ML_02_FIRE</Damage_Decal>
+        <Damage_Particles>ML_02_FIRE</Damage_Particles>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>ML_02</Fire_Bone_A>
+        <Fire_Bone_B>ML_02</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Cone_Height>130</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        Proj_Ship_Turbolaser_Canno<Fire_Pulse_Count>5</Fire_Pulse_Count>n_Green_Dual
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="Victory_I_Engines">
+		<Type> HARD_POINT_ENGINE </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+		<Health>490.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+		<Model_To_Attach></Model_To_Attach>
+		<Attachment_Bone>ENGINE_GLOW</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+		<Collision_Mesh>ENGINE_GLOW</Collision_Mesh>
+		<Damage_Decal>HP_ENGINE_EMITDAMAGE</Damage_Decal>
+		<Damage_Particles>HP_ENGINE_EMITDAMAGE</Damage_Particles>
+		<Engine_Particles></Engine_Particles>
+	</HardPoint>
+
+	<HardPoint Name="Victory_I_Shields">
+		<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+		<Health>375.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+		<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+		<Model_To_Attach></Model_To_Attach>
+		<Attachment_Bone>SHIELD_GENERATOR</Attachment_Bone>
+		<Collision_Mesh>SHIELD_GENERATOR</Collision_Mesh>
+		<Damage_Decal>SHIELD_GENERATOR_FIRE</Damage_Decal>
+		<Damage_Particles>SHIELD_GENERATOR_FIRE</Damage_Particles>
+	</HardPoint>
+
+	<HardPoint Name="Victory_I_Hanger">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Attachment_Bone>ROOT</Attachment_Bone>             
+		<Collision_Mesh>ROOT</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+		<Health>200.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Damage_Decal>HP_SPAWN_EMITDAMAGE</Damage_Decal>
+		<Damage_Particles>HP_SPAWN_EMITDAMAGE</Damage_Particles>
+	</HardPoint> 
+
+</HardPoints>

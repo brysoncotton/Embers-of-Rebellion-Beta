@@ -1,0 +1,1280 @@
+<?xml version="1.0"?>
+
+
+<HardPoints>
+	<HardPoint Name="HP_LIBERTY_TB_00">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_00</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_00</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_100_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_00_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_00</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_00</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_01</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_01</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_101_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_01_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_01</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_01</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_02</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_02</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_102_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_02_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_02</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_02</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_03</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_03</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_103_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_03_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_03</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_03</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_04</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_04</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_104_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_04_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_04</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_04</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_05</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_05</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_105_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_05_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_05</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_05</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_06</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_06</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_106_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_06_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_06</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_06</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_07">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_07</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_07</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_107_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_07_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_07</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_07</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_08">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_08</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_08</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_108_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_08_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_08</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_08</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_09">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_09</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_09</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_109_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_09_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_09</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_09</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_10">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_10</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_10</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_10_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_10_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_10</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_10</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_11">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_1</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_1</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_11_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_1_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_1</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_1</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_12">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_12</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_12</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_12_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_12_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_12</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_12</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_13">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_13</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_13</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_13_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_13_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_13</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_13</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_14">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_14</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_14</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_14_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_14_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_14</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_14</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_15">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_15</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_15</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_15_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_15_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_15</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_15</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_16">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_16</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_16</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_16_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_16_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_16</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_16</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_17">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_17</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_17</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_17_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_17_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_17</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_17</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_18">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_18</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_18</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_18_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_18_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_18</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_18</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_19">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_19</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_19</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_19_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_19_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_19</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_19</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_TB_20">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_TRIPLET_20</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_TRIPLET_20</Collision_Mesh>
+        <Damage_Decal>HP_MC80_WL_TRIPLET_20_DMG</Damage_Decal>
+        <Damage_Particles>HP_MC80_WL_TRIPLET_20_DMG</Damage_Particles>
+
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>HP_MC80_WL_TRIPLET_20</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_TRIPLET_20</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>3</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_00">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_00</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_00</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_00</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_00</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_03">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_03</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_03</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_03</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_03</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_05">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_05</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_05</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_05</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_05</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_07">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_07</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_07</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_07</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_07</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_09">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_09</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_09</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_09</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_09</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_1">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_1</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_1</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_1</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_1</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_13">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_13</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_13</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_13</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_13</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_15">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_15</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_15</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_15</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_15</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_IC_16">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_MC80_WL_SINGLET_16</Attachment_Bone>
+        <Collision_Mesh>HP_MC80_WL_SINGLET_16</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+
+
+        <Fire_Bone_A>HP_MC80_WL_SINGLET_16</Fire_Bone_A>
+        <Fire_Bone_B>HP_MC80_WL_SINGLET_16</Fire_Bone_B>
+        <Fire_Bone_C></Fire_Bone_C>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_Shield_Generator">
+		<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+        <Health>200.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+        <Attachment_Bone>SHIELD</Attachment_Bone>
+        <Collision_Mesh>SHIELD</Collision_Mesh>
+    </HardPoint>
+
+    <HardPoint Name="HP_LIBERTY_Fighter_Bay_01">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>   
+		<Attachment_Bone>SPAWN_00</Attachment_Bone>
+		<Collision_Mesh>SPAWN_00</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+        <Health>200.0</Health>
+	</HardPoint>
+</HardPoints>

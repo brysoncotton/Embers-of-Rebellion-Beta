@@ -1,0 +1,3336 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HardPoints>
+
+
+<!-- Hard points for Home One -->
+
+    <HardPoint Name="HP_HomeOne_Shield_Generator">
+		<Type> HARD_POINT_SHIELD_GENERATOR </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+        <Health>200.0</Health>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+
+		<Death_Breakoff_Prop> Hardpoint_Breakoff_HomeOne_Shield_Gen </Death_Breakoff_Prop>
+
+        <Model_To_Attach>RV_HomeOne_HP_SHG.alo</Model_To_Attach>
+        <Attachment_Bone>HP_SHG_Bone</Attachment_Bone>
+        <Collision_Mesh>HP_SHG_COLL</Collision_Mesh>
+        <Damage_Decal>HP_SHG_BLAST</Damage_Decal>
+        <Damage_Particles>HP_SHG_EMITDAMAGE</Damage_Particles>
+    </HardPoint>
+
+    <HardPoint Name="HP_HomeOne_Engines">
+		<Type> HARD_POINT_ENGINE </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+        <Health>200.0</Health>
+
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_E_Bone </Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+        <Collision_Mesh>HP_E_COLL</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
+        <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
+    </HardPoint>
+
+    <!-- The Turbolaser hardpoints that we want to be able to target-->
+    <HardPoint Name="HP_MC_80_TB_01">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_01.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_01</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_01</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_01</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_01</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_03">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_03.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_03</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_03</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_03</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_03</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_05">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_05.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_05</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_05</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_05</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_05</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_07">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_07.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_07</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_07</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_07</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_07</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_09">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_09.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_09</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_09</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_09</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_09</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_11">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_11.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_11</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_11</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_11</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_11</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_13">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_13.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_13</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_13</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_13</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_13</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_15">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_15.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_15</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_15</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_15</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_15</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_17">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_17.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_17</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_17</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_17</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_17</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_19">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_19.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_19</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_19</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_19</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_19</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_21">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_21.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_21</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_21</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_21</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_21</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_23">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_23.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_23</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_23</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_23</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_23</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_25">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_25.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_25</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_25</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_25</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_25</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_27">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_27.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_27</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_27</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_27</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_27</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_29">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_29.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_29</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_29</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_29</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_29</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_31">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_31.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_31</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_31</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_31</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_31</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_33">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_33.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_33</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_33</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_33</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_33</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_35">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_35.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_35</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_35</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_35</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_35</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_37">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_37.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_37</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_37</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_37</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_37</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_39">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_39.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_39</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_39</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_39</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_39</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_41">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_41.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_41</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_41</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_41</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_41</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_43">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_43.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_43</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_43</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_43</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_43</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_45">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_45.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_45</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_45</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_45</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_45</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_47">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_47.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_47</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_47</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_47</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_47</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_49">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_49.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_49</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_49</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_49</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_49</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_51">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_51.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_51</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_51</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_51</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_51</Fire_Bone_B>
+        <Fire_Cone_Width>270</Fire_Cone_Width>
+        <Fire_Cone_Height>180</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2010</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_01">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_01</Attachment_Bone>
+        <Collision_Mesh>IC_01</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_01</Fire_Bone_A>
+        <Fire_Bone_B>IC_01</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_02">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_02</Attachment_Bone>
+        <Collision_Mesh>IC_02</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_02</Fire_Bone_A>
+        <Fire_Bone_B>IC_02</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_03">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_03</Attachment_Bone>
+        <Collision_Mesh>IC_03</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_03</Fire_Bone_A>
+        <Fire_Bone_B>IC_03</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_04">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_04</Attachment_Bone>
+        <Collision_Mesh>IC_04</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_04</Fire_Bone_A>
+        <Fire_Bone_B>IC_04</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_05">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_05</Attachment_Bone>
+        <Collision_Mesh>IC_05</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_05</Fire_Bone_A>
+        <Fire_Bone_B>IC_05</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_06">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_06</Attachment_Bone>
+        <Collision_Mesh>IC_06</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_06</Fire_Bone_A>
+        <Fire_Bone_B>IC_06</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_07">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_07</Attachment_Bone>
+        <Collision_Mesh>IC_07</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_07</Fire_Bone_A>
+        <Fire_Bone_B>IC_07</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_08">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_08</Attachment_Bone>
+        <Collision_Mesh>IC_08</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_08</Fire_Bone_A>
+        <Fire_Bone_B>IC_08</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_09">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_09</Attachment_Bone>
+        <Collision_Mesh>IC_09</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_09</Fire_Bone_A>
+        <Fire_Bone_B>IC_09</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_10">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_10</Attachment_Bone>
+        <Collision_Mesh>IC_10</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_10</Fire_Bone_A>
+        <Fire_Bone_B>IC_10</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_11">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_11</Attachment_Bone>
+        <Collision_Mesh>IC_11</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_11</Fire_Bone_A>
+        <Fire_Bone_B>IC_11</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_IC_12">
+        <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+        <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Health>200</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>IC_12</Attachment_Bone>
+        <Collision_Mesh>IC_12</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles>IC_00_FIRE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 165 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 130 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name>  </Turret_Bone_Name>
+        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type>  </Damage_Type>
+
+        <Fire_Bone_A>IC_12</Fire_Bone_A>
+        <Fire_Bone_B>IC_12</Fire_Bone_B>
+        <Fire_Cone_Width>165</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>14</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.6</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2000</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Ion_Fire_Heavy</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 50.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+	<HardPoint Name="HP_Mon_Calamari_Home_One_Fighter_Bay_01">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>   
+		<Attachment_Bone>Hanger_Bay_01</Attachment_Bone>
+		<Collision_Mesh>Hanger_Bay_01</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+            <Health>200.0</Health>
+	</HardPoint>
+ 
+	<HardPoint Name="HP_Mon_Calamari_Home_One_Fighter_Bay_02">
+		<Type> HARD_POINT_FIGHTER_BAY </Type>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Fighter_Bay_Flyout_Distance>400.0</Fighter_Bay_Flyout_Distance>   
+		<Attachment_Bone>Hanger_Bay_02</Attachment_Bone>
+		<Collision_Mesh>Hanger_Bay_02</Collision_Mesh>
+		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+        <Health>200.0</Health>
+	</HardPoint>
+
+    <!-- DUMMY HARDPOINTS THAT ARE JUST FOR LOOKS-->
+
+    <HardPoint Name="HP_MC_80_TB_02">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>202</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_02.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_02</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_02</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_02</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_02</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_04">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>204</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_04.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_04</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_04</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_04</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_04</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_06">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>206</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_06.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_06</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_06</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_06</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_06</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_08">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>208</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_08.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_08</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_08</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_08</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_08</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_10">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>210</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_10.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_10</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_10</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_10</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_10</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_12">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>212</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_12.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_12</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_12</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_12</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_12</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_14">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>214</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_14.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_14</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_14</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_14</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_14</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_16">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>216</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_16.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_16</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_16</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_16</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_16</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_18">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>218</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_18.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_18</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_18</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_18</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_18</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_20">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>220</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_20.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_20</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_20</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_20</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_20</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_22">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>222</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_22.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_22</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_22</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_22</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_22</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_24">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>224</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_24.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_24</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_24</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_24</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_24</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_26">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>226</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_26.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_26</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_26</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_26</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_26</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_28">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>228</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_28.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_28</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_28</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_28</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_28</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_30">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>230</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_30.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_30</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_30</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_30</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_30</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_32">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>232</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_32.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_32</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_32</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_32</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_32</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_34">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>234</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_34.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_34</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_34</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_34</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_34</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_36">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>236</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_36.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_36</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_36</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_36</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_36</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_38">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>238</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_38.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_38</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_38</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_38</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_38</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_40">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>240</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_40.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_40</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_40</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_40</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_40</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_42">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>242</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_42.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_42</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_42</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_42</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_42</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_44">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>244</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_44.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_44</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_44</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_44</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_44</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_46">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>246</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_46.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_46</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_46</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_46</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_46</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_48">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>248</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_48.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_48</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_48</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_48</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_48</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_50">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>250</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_50.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_50</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_50</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_50</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_50</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+
+    <HardPoint Name="HP_MC_80_TB_52">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+        <Health>252</Health>
+        <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+        <Model_To_Attach>Rebel_Mon_Calamari_Cruiser_Home_One_Dual_Turbolaser_Turret_52.ALO</Model_To_Attach>
+        <Attachment_Bone>Turbolaser_Turret_Attach_52</Attachment_Bone>
+        <Collision_Mesh>Turbolaser_Turret_Attach_52</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 1 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 180</Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 180 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> Turret </Turret_Bone_Name>
+        <Barrel_Bone_Name> Barrel </Barrel_Bone_Name>
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
+        <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
+
+        <Fire_Bone_A>Turbolaser_Turret_Attach_52</Fire_Bone_A>
+        <Fire_Bone_B>Turbolaser_Turret_Attach_52</Fire_Bone_B>
+        <Fire_Cone_Width>80</Fire_Cone_Width>
+        <Fire_Cone_Height>80</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>-1</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>-2</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>9999999</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
+
+        <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 7 </Fire_Inaccuracy_Distance>
+        <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+    
+</HardPoints>

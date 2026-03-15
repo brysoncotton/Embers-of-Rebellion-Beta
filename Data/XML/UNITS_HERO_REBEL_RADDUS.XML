@@ -1,0 +1,108 @@
+<?xml version="1.0"?>
+<Admiral_Raddus_Files>
+	<UniqueUnit Name="Admiral_Raddus">
+		<Text_ID>TEXT_UNIT_RADDUS</Text_ID>
+		<Tech_Level>99</Tech_Level>
+		<Encyclopedia_Text> TEXT_TOOLTIP_RADDUS </Encyclopedia_Text>
+		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Icon_Name>I_BUTTON_RADDUS.tga</Icon_Name>
+		<Spawn_Planet>MonCalimari</Spawn_Planet>
+		<Variant_Of_Existing_Type> MC75_Cruiser </Variant_Of_Existing_Type>
+
+	<!-- Non-Hero unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+
+			
+				<Type>POWER_TO_WEAPONS</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.5f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-3f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
+				<Recharge_Seconds>60</Recharge_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Barrage_Victory_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+			</Unit_Ability>
+			
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>DEFEND</Type>
+				<Expiration_Seconds>20</Expiration_Seconds>
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,			0.8f</Mod_Multiplier>
+				<Recharge_Seconds>20</Recharge_Seconds>
+				<Expiration_Seconds>15</Expiration_Seconds>
+		
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Defend_Ackbar</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+			
+		</Unit_Abilities_Data>
+
+		<!-- Hero abilities moved to ship; Ackbar "movable" unit removed -->
+		<Abilities SubObjectList="Yes">
+		
+			<Combat_Bonus_Ability Name="Akbar_Combat_Bonus">
+				<Activation_Style>Space_Automatic</Activation_Style>
+				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
+				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<Health_Bonus_Percentage>0.25</Health_Bonus_Percentage>
+				<Damage_Bonus_Percentage>0.0</Damage_Bonus_Percentage>
+				<Energy_Pool_Bonus_Percentage>0.0</Energy_Pool_Bonus_Percentage>
+				<Shield_Bonus_Percentage>0.0</Shield_Bonus_Percentage>
+				<Defense_Bonus_Percentage>0.0</Defense_Bonus_Percentage>
+				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Combat_Bonus_Ability>
+			<Reduce_Production_Price_Ability Name="Akbar_Reduce_Production_Price">
+				<Unit_Strength_Category />
+				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+				<!-- Price reduced by 25% -->
+				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<Stacking_Category>0</Stacking_Category>
+			</Reduce_Production_Price_Ability>
+			<!--<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
+				<Activation_Style>Combat_Automatic</Activation_Style>
+			</Cancel_Special_Ability>-->
+		</Abilities>
+		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
+		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
+      <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
+		
+		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
+		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
+		<Has_Space_Evaluator>True</Has_Space_Evaluator>
+		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+	</UniqueUnit>
+	
+	<SpaceUnit Name="MC75_Cruiser_Death_Clone">
+		<Text_ID> TEXT_NONE </Text_ID>
+		<Space_Model_Name>Profundity_D.ALO</Space_Model_Name>
+		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
+		<Scale_Factor> 0.5 </Scale_Factor>
+		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
+		<Max_Speed> 0.25 </Max_Speed>
+		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
+		<Max_Thrust> 0.05 </Max_Thrust>
+		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
+		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
+		<Affiliation> Rebel </Affiliation>
+		<Ship_Class> capital_ship </Ship_Class>
+		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+	</SpaceUnit>
+
+</Admiral_Raddus_Files>

@@ -1,0 +1,237 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+    <HardPoint Name="HP_Gozanti_Turret_01">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>NO</Is_Targetable>
+        <Is_Destroyable>NO</Is_Destroyable>
+        <Health>1000.0</Health>
+		   
+        <Attachment_Bone>bone01</Attachment_Bone>
+        <Collision_Mesh>bone01</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+		<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+			
+		<Damage_Type> Damage_Corellian_Corvette </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEa_01</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEa_02</Fire_Bone_B>
+        <Fire_Cone_Width>30.0</Fire_Cone_Width>
+        <Fire_Cone_Height>30.0</Fire_Cone_Height>
+		
+		
+            
+        <Fire_Projectile_Type>Proj_Ship_Light_Dual_Laser_Green</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3.5</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>7</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>           
+        <Fire_Range_Distance>2600.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+				
+		<Fire_Category_Restrictions></Fire_Category_Restrictions>
+
+
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+	
+	<HardPoint Name="HP_Gozanti_Turret_02">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>NO</Is_Targetable>
+        <Is_Destroyable>NO</Is_Destroyable>
+        <Health>1000.0</Health>
+		   
+	
+        <Attachment_Bone>bone02</Attachment_Bone>
+        <Collision_Mesh>bone02</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+		<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+			
+		<Damage_Type> Damage_Corellian_Corvette </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEa_01</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEa_02</Fire_Bone_B>
+        <Fire_Cone_Width>30.0</Fire_Cone_Width>
+        <Fire_Cone_Height>30.0</Fire_Cone_Height>
+		
+		
+        <Fire_Projectile_Type>Proj_Ship_Light_Dual_Laser_Green</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2600.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tank_T4B_Fire</Fire_SFXEvent>
+				
+		<Fire_Category_Restrictions></Fire_Category_Restrictions>
+
+
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+	
+	<HardPoint Name="HP_Gozanti_Turret_03">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>NO</Is_Targetable>
+        <Is_Destroyable>NO</Is_Destroyable>
+        <Health>1000.0</Health>
+		   
+        <Attachment_Bone>bone05</Attachment_Bone>
+        <Collision_Mesh>bone05</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
+		<Death_Breakoff_Prop>  </Death_Breakoff_Prop>
+			
+		<Damage_Type> Damage_Corellian_Corvette </Damage_Type>
+
+        <Fire_Bone_A>MUZZLEa_01</Fire_Bone_A>
+        <Fire_Bone_B>MUZZLEa_02</Fire_Bone_B>
+        <Fire_Cone_Width>30.0</Fire_Cone_Width>
+        <Fire_Cone_Height>30.0</Fire_Cone_Height>
+		
+
+        <Fire_Projectile_Type>Proj_Ship_Light_Dual_Laser_Green</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>1.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>2.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>2600.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Tank_T4B_Fire</Fire_SFXEvent>
+				
+		<Fire_Category_Restrictions></Fire_Category_Restrictions>
+
+
+		<Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Frigate, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 10.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 10.0 </Fire_Inaccuracy_Distance>
+		<Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
+        <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+	
+	<HardPoint Name="HP_Gozanti_Missile">
+		<Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>NO</Is_Targetable>
+        <Is_Destroyable>NO</Is_Destroyable>
+        <Health>1000.0</Health>
+
+        <Damage_Type> Damage_Corellian_Corvette </Damage_Type>
+        <Fire_Bone_A>Muzzlea_01</Fire_Bone_A>
+        <Fire_Bone_B>Muzzlea_01</Fire_Bone_B>
+        <Fire_Cone_Width>90.0</Fire_Cone_Width>
+        <Fire_Cone_Height>90.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Concussion_Missile</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>4.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>5.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>2</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>3000.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Plex_Soldier_Fire</Fire_SFXEvent>
+
+		<Fire_Inaccuracy_Distance> Fighter, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Bomber, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Corvette, 5.0 </Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Frigate, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Capital, 5.0</Fire_Inaccuracy_Distance>
+		<Fire_Inaccuracy_Distance> Super, 5.0</Fire_Inaccuracy_Distance>
+			
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+    </HardPoint>
+	
+		<HardPoint Name="HP_Gozanti_Fighter_Bay">
+            <Type> HARD_POINT_FIGHTER_BAY </Type>
+            <Is_Targetable>no</Is_Targetable>
+            <Is_Destroyable>no</Is_Destroyable>
+            <Attachment_Bone>hangar</Attachment_Bone>
+            <Collision_Mesh>hangar</Collision_Mesh>
+            <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+            <Health>100.0</Health>
+            <Fighter_Bay_Flyout_Distance>300.0</Fighter_Bay_Flyout_Distance> 
+	</HardPoint>
+
+
+	<HardPoint Name="HP_Gozanti_Anti_Starfighter_Laser_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>FP_01</Fire_Bone_A>
+            <Fire_Bone_B>FP_01</Fire_Bone_B>
+            <Fire_Cone_Width>30.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Fighter_Laser_Green</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+			<Fire_Inaccuracy_Distance> Fighter, 4.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions></Fire_Category_Restrictions>
+
+    </HardPoint>
+	
+	<HardPoint Name="HP_Gozanti_Anti_Starfighter_Laser_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>No</Is_Targetable>
+            <Is_Destroyable>No</Is_Destroyable>
+
+            <Fire_Bone_A>FP_02</Fire_Bone_A>
+            <Fire_Bone_B>FP_02</Fire_Bone_B>
+            <Fire_Cone_Width>30.0</Fire_Cone_Width>
+            <Fire_Cone_Height>30.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Fighter_Laser_Green</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>2.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>3.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>2</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.05</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Empire_Ship_Laser_Fire</Fire_SFXEvent>
+
+
+			<Damage_Type> Damage_Fighter </Damage_Type>
+			<Fire_Inaccuracy_Distance> Fighter, 4.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Corvette, 10.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Frigate, 20.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Capital, 30.0 </Fire_Inaccuracy_Distance>
+            <Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+			<Fire_Category_Restrictions></Fire_Category_Restrictions>
+
+    </HardPoint>
+
+
+</HardPoints>

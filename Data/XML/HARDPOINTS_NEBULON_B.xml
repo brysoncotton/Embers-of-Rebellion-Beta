@@ -1,0 +1,318 @@
+<?xml version="1.0"?>
+<HardPoints>
+
+<!-- Hard points for the Nebulon-B Frigate -->
+
+    <HardPoint Name="HP_Nebulon_ION_D_01">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+            <Health>400.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>FP_F-L_01</Attachment_Bone>
+            <Collision_Mesh>FP_F-L_01</Collision_Mesh>
+            <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
+            <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
+
+            <Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_F-L_01</Fire_Bone_A>
+            <Fire_Bone_B>FP_F-L_01</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1100.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint>
+
+	<HardPoint Name="HP_Nebulon_ION_D_02">
+			<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
+            <Health>400.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>FP_F-R_01</Attachment_Bone>
+            <Collision_Mesh>FP_F-R_01</Collision_Mesh>
+            <Damage_Decal>HP_F-R_BLAST</Damage_Decal>
+            <Damage_Particles>HP_F-R_EMITDAMAGE</Damage_Particles>
+
+			<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_F-R_01</Fire_Bone_A>
+            <Fire_Bone_B>FP_F-R_01</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Ion_Cannon_Cyan_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1100.0</Fire_Range_Distance>
+			<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint>
+
+	<!--<HardPoint Name="HP_Rv_Nebulon_Weapon_FC">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Health>400.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>SPOT01.TARGET</Attachment_Bone>
+            <Collision_Mesh>SPOT01.TARGET</Collision_Mesh>
+            <Damage_Decal>HP_F-R_BLAST</Damage_Decal>
+            <Damage_Particles>HP_F-R_EMITDAMAGE</Damage_Particles>
+
+			<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>SPOT01.TARGET</Fire_Bone_A>
+            <Fire_Bone_B>SPOT01.TARGET</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1100.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint> -->
+
+	
+   <HardPoint Name="HP_Nebulon_TBL_D_01">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Health>400.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>FP_F-L_00</Attachment_Bone>
+            <Collision_Mesh>FP_F-L_00</Collision_Mesh>
+            <Damage_Decal>HP_F-L_BLAST</Damage_Decal>
+            <Damage_Particles>HP_F-L_EMITDAMAGE</Damage_Particles>
+
+            <Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_F-L_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_F-L_00</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1100.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint>
+
+    <HardPoint Name="HP_Nebulon_TBL_D_02">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
+            <Health>400.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>FP_F-R_00</Attachment_Bone>
+            <Collision_Mesh>FP_F-R_00</Collision_Mesh>
+            <Damage_Decal>HP_F-R_BLAST</Damage_Decal>
+            <Damage_Particles>HP_F-R_EMITDAMAGE</Damage_Particles>
+
+			<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_F-R_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_F-R_00</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>5</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1100.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 50.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 30.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint>
+
+    <HardPoint Name="HP_Nebulon_TBL_D_03">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>400.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>FP_B-L_00</Attachment_Bone>
+            <Collision_Mesh>FP_B-L_00</Collision_Mesh>
+            <Damage_Decal>HP_B-L_BLAST</Damage_Decal>
+            <Damage_Particles>HP_B-L_EMITDAMAGE</Damage_Particles>
+
+			<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_B-L_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_B-L_00</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1150.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint>
+
+    <HardPoint Name="HP_Nebulon_TBL_D_04">
+			<Type> HARD_POINT_WEAPON_LASER </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
+            <Health>400.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>FP_B-R_00</Attachment_Bone>
+            <Collision_Mesh>FP_B-R_00</Collision_Mesh>
+            <Damage_Decal>HP_B-R_BLAST</Damage_Decal>
+            <Damage_Particles>HP_B-R_EMITDAMAGE</Damage_Particles>
+
+			<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+
+			<Damage_Type> Damage_Nebulon_B </Damage_Type>
+            <Fire_Bone_A>FP_B-R_00</Fire_Bone_A>
+            <Fire_Bone_B>FP_B-R_00</Fire_Bone_B>
+            <Fire_Cone_Width>175.0</Fire_Cone_Width>
+            <Fire_Cone_Height>160.0</Fire_Cone_Height>
+            <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Red_Dual</Fire_Projectile_Type>
+            <Fire_Min_Recharge_Seconds>3.0</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>4.0</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>7</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>1150.0</Fire_Range_Distance>
+				<Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+
+			<Fire_Inaccuracy_Distance> Fighter, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Bomber, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Corvette, 1.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Frigate, 12.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Capital, 70.0 </Fire_Inaccuracy_Distance>
+			<Fire_Inaccuracy_Distance> Super, 15.0 </Fire_Inaccuracy_Distance>
+			
+    </HardPoint>
+
+    <HardPoint Name="HP_Nebulon_Engines_00">
+			<Type> HARD_POINT_ENGINE </Type>
+            <Is_Targetable>Yes</Is_Targetable>
+            <Is_Destroyable>Yes</Is_Destroyable>
+            <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
+            <Health>400.0</Health>
+
+			<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+			<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
+
+            <Model_To_Attach></Model_To_Attach>
+            <Attachment_Bone>HP_E_BONE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+            <Collision_Mesh>HP_E_COLL</Collision_Mesh>
+            <Damage_Decal />
+            <Damage_Particles>HP_E_EMITDAMAGE</Damage_Particles>
+            <Engine_Particles>HP_E_MAINENGINES</Engine_Particles>
+    </HardPoint>
+	
+</HardPoints>
