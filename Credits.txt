@@ -1,0 +1,99 @@
+CREDITS:
+
+Embers of Rebellion Development Team:
+
+	Bryson Cotton
+	Eric Upton-Rowley
+	Landon Flake
+
+Others:
+
+MC-75
+	Model - Warb Null
+	Textures - Warb Null
+
+Secutor Class
+	Design - FractalSponge [ Website - https://fractalsponge.net/ ]
+	Model - Spylakewalker
+	Textures - Spylakewalker
+
+Quaser Class Carrier
+	Model - Arvis Taljik
+	Texture - Arvis Taljik
+	Rigging - Sly442
+
+TIE Fighter and Variants
+	Model - Jeroenimo
+	Texture - Jeroenimo
+
+Gozanti Corvette
+	Model/Texture - Warhammer_81
+	Rig - PauloCanide
+
+Raider Class
+	Model - Warb Null
+	Textures - Warb Null
+
+Hammerhead Corvette
+	Model - WarbNull
+	Skin -  WarbNull
+	XML - WarbNull
+	Icon - WarbNull
+
+Defender Class Crusier
+	Model / Textures - PauloCanindé
+
+Dreadnought Class Crusier
+	Model / Textures - PauloCanindé
+
+Laser Projectile Particles
+	Model - Jeroenimo
+	Particles / Texture - Megabalta
+
+ISD I/II
+	Model - Jeroenimo
+	Particles / Texture: Megabalta
+
+Vindicator/Interdictor
+	Model - Jeroenimo
+	Particles / Texture - Megabalta
+
+Arquitens
+	Model / Texture - Warhammer_81 and PauloCanindé
+
+Raider Class
+	Model  - Warb Null
+	Testures - Warb Null
+
+Imperial Dockyard
+	Model and Textures - SpyLakeWalker
+
+CR90
+	Model - Yuuzhan Vong at War Team
+	Texture - Yuuzhan Vong at War Team
+
+DP20
+	Model - Yuuzhan Vong at War Team
+	Texture - Yuuzhan Vong at War Team
+
+B-wing
+	Model - Yuuzhan Vong at War Team
+	Texture - Yuuzhan Vong at War Team
+
+Planet textures: Steiner
+Cloud textures: Megabalta
+PBR Planet Shader: Gaukler
+Anisotropic filtered MeshAdditive Shader: Gaukler
+Meshes: Jeroenimo
+
+A massive thank you to the Battlefront Commander Development Team for allowing the use of the following models and their textures
+Victory II,
+Victory I,
+Venator,
+X-Wing,
+Y-Wing,
+A-Wing
+MC80 Independence,
+Nebulon-B,
+Acclamator
+
