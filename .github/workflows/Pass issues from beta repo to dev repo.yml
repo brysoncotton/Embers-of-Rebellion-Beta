@@ -1,0 +1,16 @@
+name: Sync Issues to Another Repo
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Create issue in destination repo
+        run: |
+          curl -X POST \
+            -H "Authorization: token ${{ secrets.SYNC_TOKEN }}" \
+            -H "Accept: application/vnd.github.v3+json" \
+            https://api.github.com/repos/brysoncotton/Embers-of-Rebellion-Developer/issues \
+            -d "{\"title\":\"${{ github.event.issue.title }}\",\"body\":\"Originally reported by ${{ github.event.issue.user.login }}:\n\n${{ github.event.issue.body }}\"}"
