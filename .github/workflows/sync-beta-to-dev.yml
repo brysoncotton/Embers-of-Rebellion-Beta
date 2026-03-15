@@ -1,7 +1,7 @@
 name: Sync Beta to Dev
 on:
   issues:
-    types: [opened, labeled]
+    types: [opened]
 
 jobs:
   sync:
