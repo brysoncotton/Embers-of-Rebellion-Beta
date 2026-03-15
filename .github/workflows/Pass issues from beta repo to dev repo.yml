@@ -1,19 +1,21 @@
-name: Sync Issues with Labels
-on:
-  issues:
-    types: [opened, labeled]
-
-jobs:
-  sync:
-    runs-on: ubuntu-latest
-    steps:
-      - name: Create issue with labels
+- name: Create issue with labels
+        env:
+          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
         run: |
-          # Extract labels into a JSON array format
+          # 1. Capture the data into variables to avoid quoting issues
+          TITLE="${{ github.event.issue.title }}"
+          BODY="Originally reported by ${{ github.event.issue.user.login }}:\n\n${{ github.event.issue.body }}"
+          
+          # 2. Extract labels and format them as a JSON array
           LABELS=$(echo '${{ toJson(github.event.issue.labels) }}' | jq -c '[.[].name]')
 
+          # 3. Send the request using a clean JSON construction
           curl -X POST \
-            -H "Authorization: token ${{ secrets.SYNC_TOKEN }}" \
+            -H "Authorization: token $SYNC_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/brysoncotton/Embers-of-Rebellion-Beta/issues \
-            -d "{\"title\":\"${{ github.event.issue.title }}\",\"body\":\"Originally reported by ${{ github.event.issue.user.login }}:\n\n${{ github.event.issue.body }}\",\"labels\":$LABELS}"
+            https://api.github.com/repos/brysoncotton/Embers-of-Rebellion-Developer/issues \
+            --data-binary "$(jq -n \
+              --arg title "$TITLE" \
+              --arg body "$BODY" \
+              --argjson labels "$LABELS" \
+              '{title: $title, body: $body, labels: $labels}')"
