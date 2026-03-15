@@ -1,21 +1,18 @@
 - name: Create issue with labels
         env:
-          SYNC_TOKEN: ${{ secrets.SYNC_TOKEN }}
+          ISSUE_TITLE: ${{ github.event.issue.title }}
+          ISSUE_BODY: ${{ github.event.issue.user.login }} reported: ${{ github.event.issue.body }}
+          # Extract labels into a JSON array format
+          LABELS: ${{ toJson(github.event.issue.labels.*.name) }}
         run: |
-          # 1. Capture the data into variables to avoid quoting issues
-          TITLE="${{ github.event.issue.title }}"
-          BODY="Originally reported by ${{ github.event.issue.user.login }}:\n\n${{ github.event.issue.body }}"
-          
-          # 2. Extract labels and format them as a JSON array
-          LABELS=$(echo '${{ toJson(github.event.issue.labels) }}' | jq -c '[.[].name]')
-
-          # 3. Send the request using a clean JSON construction
           curl -X POST \
-            -H "Authorization: token $SYNC_TOKEN" \
+            -H "Authorization: token ${{ secrets.SYNC_TOKEN }}" \
             -H "Accept: application/vnd.github.v3+json" \
             https://api.github.com/repos/brysoncotton/Embers-of-Rebellion-Developer/issues \
-            --data-binary "$(jq -n \
-              --arg title "$TITLE" \
-              --arg body "$BODY" \
-              --argjson labels "$LABELS" \
-              '{title: $title, body: $body, labels: $labels}')"
+            --data-binary @- <<EOF
+          {
+            "title": $(echo "$ISSUE_TITLE" | jq -R .),
+            "body": $(echo "$ISSUE_BODY" | jq -R .),
+            "labels": $LABELS
+          }
+          EOF
