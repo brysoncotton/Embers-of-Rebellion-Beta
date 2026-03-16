@@ -113,14 +113,25 @@
 		<Bombing_Run_Blob_Size> 100.0 </Bombing_Run_Blob_Size>
 
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Rebel </Bombardment_Shadow_Blob_Material_Name>
-		<Bombardment_Blob_Size> 250.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> Calamari_Cruiser, Nebulon_B_Frigate, Alliance_Assault_Frigate, Home_One </Bombardment_Required_Orbital_Ships>
-		<Bombardment_Projectile> Proj_Rebel_Bombardment_Ion_Cannon </Bombardment_Projectile>
-		<Bombardment_Number_Of_Salvos> 2 </Bombardment_Number_Of_Salvos>
-		<Bombardment_Shots_Per_Salvo> 8 </Bombardment_Shots_Per_Salvo>
-		<Bombardment_Shot_Delay> 0.2 </Bombardment_Shot_Delay>
-		<Bombardment_Salvo_Delay> 1.3 </Bombardment_Salvo_Delay>
-		<Bombardment_Initial_Delay> 1.0 </Bombardment_Initial_Delay>
+		<Bombardment_Blob_Size> 100.0 </Bombardment_Blob_Size>
+		<Bombardment_Required_Orbital_Ships>
+			Calamari_Cruiser,
+			Nebulon_B_Frigate,
+			Alliance_Assault_Frigate,
+			Defender_Class_Cruiser,
+			MC30_Frigate,
+			MC_80_INDEPENDANCE,
+			StarHawk,
+			Home_One,
+			Jan_Dodonna,
+			Admiral_Raddus
+		</Bombardment_Required_Orbital_Ships>
+		<Bombardment_Projectile> Proj_Rebel_Bombardment </Bombardment_Projectile>
+		<Bombardment_Number_Of_Salvos> 3 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 1 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 1.5 </Bombardment_Salvo_Delay>
+		<Bombardment_Initial_Delay> 5.0 </Bombardment_Initial_Delay>
 
 		<Land_Mode_Selection_Blob_Material_Name>Selection_Rebel_Land</Land_Mode_Selection_Blob_Material_Name>
 		<Space_Mode_Selection_Blob_Material_Name>Selection_Rebel_Space</Space_Mode_Selection_Blob_Material_Name>
@@ -611,10 +622,10 @@
 		<SFXEvent_Bombing_Run_Begin_Crosstalk> Unit_Bomb_Land_Y_Wing_1 </SFXEvent_Bombing_Run_Begin_Crosstalk>
 
 		<!-- Bombiard becoming available cues -->
-		<SFXEvent_Bombard_Available> RHD_Bombard_Available </SFXEvent_Bombard_Available>
+		<SFXEvent_Bombard_Available> Rebel_Bombard_Available </SFXEvent_Bombard_Available>
 		<SFXEvent_Bombard_Ally_Available> RHD_Bombard_Ally_Available </SFXEvent_Bombard_Ally_Available>
 		<SFXEvent_Bombard_Enemy_Available>RHD_Bombard_Enemy_Available </SFXEvent_Bombard_Enemy_Available>
-		<SFXEvent_Bombard_Cancelled> RHD_Bombard_Canceled </SFXEvent_Bombard_Cancelled>
+		<SFXEvent_Bombard_Cancelled> Rebel_Bombard_Canceled </SFXEvent_Bombard_Cancelled>
 
 		<!-- Starbase upgrading cues -->
 		<SFXEvent_Starbase_Upgraded> RHD_Space_Station_Upgraded </SFXEvent_Starbase_Upgraded>
@@ -902,14 +913,29 @@
 
 		<!-- BOMBARDMENT DATA -->
 		<Bombardment_Shadow_Blob_Material_Name> Bombardment_Empire </Bombardment_Shadow_Blob_Material_Name>
-		<Bombardment_Blob_Size> 200.0 </Bombardment_Blob_Size>
-		<Bombardment_Required_Orbital_Ships> Star_Destroyer, Acclamator_Assault_Ship, , Executor_Super_Star_Destroyer, Accuser_Star_Destroyer, Admonitor_Star_Destroyer </Bombardment_Required_Orbital_Ships>
+		<Bombardment_Blob_Size> 150.0 </Bombardment_Blob_Size>
+		<Bombardment_Required_Orbital_Ships>
+			ISD_I,
+			ISD_II,
+			Victory_I_Destroyer,
+			Victory_II_Destroyer,
+			Acclamator_Assault_Ship,
+			Venator_Class_Star_Destroyer,
+			Secutor_II,
+			Dreadnought_Cruiser,
+			Executor_Super_Star_Destroyer,
+			Darth_Team_Executor,
+			Arquitens_Cruiser,
+			Grand_Moff_Tarkin,
+			Admiral_Rae_Sloane,
+			Chimaera_Star_Destroyer,
+		</Bombardment_Required_Orbital_Ships>
 		<Bombardment_Projectile> Proj_Empire_Bombardment_Turbolaser </Bombardment_Projectile>
-		<Bombardment_Number_Of_Salvos> 3 </Bombardment_Number_Of_Salvos>
-		<Bombardment_Shots_Per_Salvo> 4 </Bombardment_Shots_Per_Salvo>
-		<Bombardment_Shot_Delay> 0.3 </Bombardment_Shot_Delay>
-		<Bombardment_Salvo_Delay> 1.2 </Bombardment_Salvo_Delay>
-        <Bombardment_Initial_Delay> 3.0 </Bombardment_Initial_Delay>
+		<Bombardment_Number_Of_Salvos> 1 </Bombardment_Number_Of_Salvos>
+		<Bombardment_Shots_Per_Salvo> 3 </Bombardment_Shots_Per_Salvo>
+		<Bombardment_Shot_Delay> 0.75 </Bombardment_Shot_Delay>
+		<Bombardment_Salvo_Delay> 1.0 </Bombardment_Salvo_Delay>
+        <Bombardment_Initial_Delay> 4.0 </Bombardment_Initial_Delay>
 
 		<Land_Mode_Selection_Blob_Material_Name>Selection_Empire_Land</Land_Mode_Selection_Blob_Material_Name>
 		<Space_Mode_Selection_Blob_Material_Name>Selection_Empire_Space</Space_Mode_Selection_Blob_Material_Name>
@@ -1388,10 +1414,10 @@
 		<SFXEvent_Bombing_Run_Begin_Crosstalk> Unit_Bomb_Land_Tie_Bomber_1 </SFXEvent_Bombing_Run_Begin_Crosstalk>
 
 		<!-- Bombiard becoming available cues -->
-		<SFXEvent_Bombard_Available> EHD_Bombard_Available </SFXEvent_Bombard_Available>
+		<SFXEvent_Bombard_Available> Empire_Bombard_Available </SFXEvent_Bombard_Available>
 		<SFXEvent_Bombard_Ally_Available> EHD_Bombard_Ally_Available </SFXEvent_Bombard_Ally_Available>
 		<SFXEvent_Bombard_Enemy_Available> EHD_Bombard_Enemy_Available</SFXEvent_Bombard_Enemy_Available>
-		<SFXEvent_Bombard_Cancelled> EHD_Bombard_Canceled </SFXEvent_Bombard_Cancelled>
+		<SFXEvent_Bombard_Cancelled> Empire_Bombard_Canceled </SFXEvent_Bombard_Cancelled>
 
 		<!-- Starbase upgrading cues -->
 		<SFXEvent_Starbase_Upgraded> EHD_Space_Station_Upgraded </SFXEvent_Starbase_Upgraded>

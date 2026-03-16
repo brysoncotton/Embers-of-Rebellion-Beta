@@ -1,8 +1,6 @@
 <?xml version="1.0" ?>
 
 <Starhawk_Data>
-	<!--Starhawk Code-->
-	
 	<SpaceUnit Name="StarHawk">
 		<Text_ID>TEXT_UNIT_STARHAWK</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
@@ -248,7 +246,7 @@
 
 		</Abilities>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_STARHAWK</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_STARHAWK TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>

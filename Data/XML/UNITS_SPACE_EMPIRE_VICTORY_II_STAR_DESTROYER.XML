@@ -242,7 +242,7 @@
 		</Unit_Abilities_Data>
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_VICTORY_II</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VICTORY_II TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 

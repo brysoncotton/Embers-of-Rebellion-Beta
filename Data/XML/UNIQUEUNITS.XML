@@ -402,7 +402,7 @@
 	<!-- Home One is used by Admiral Ackbar (Rebel Major Hero) during space battles - released during story arc -->
 	<UniqueUnit Name="Home_One">
 		<Text_ID>TEXT_UNIT_HOME_ONE</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_HOME_ONE_01 </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_HOME_ONE_01 TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>i_button_admiral_akbar.tga</Icon_Name>

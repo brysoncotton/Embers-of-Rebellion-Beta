@@ -195,7 +195,7 @@
 		<Defend_Mode_Energy_Regen_Multiplier>5.0</Defend_Mode_Energy_Regen_Multiplier>
 		<Defend_Mode_Speed_Multiplier>0.5</Defend_Mode_Speed_Multiplier>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_VENETOR </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_VENETOR TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 12000 </Score_Cost_Credits>
 

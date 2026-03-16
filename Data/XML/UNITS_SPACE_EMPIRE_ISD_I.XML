@@ -273,7 +273,7 @@
 
 	   </Abilities>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER TEXT_TOOLTIP_REQUIRED_PLANETS_CAPITAL_SHIPS</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 

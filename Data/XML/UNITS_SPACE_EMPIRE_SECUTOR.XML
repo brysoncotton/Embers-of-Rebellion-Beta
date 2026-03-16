@@ -172,6 +172,7 @@
 		
 		<Encyclopedia_Text> 
 			TEXT_TOOLTIP_SECUTOR
+			TEXT_TOOLTIP_BOMBARDMENT
 		</Encyclopedia_Text>
 
 		<HardPoints>

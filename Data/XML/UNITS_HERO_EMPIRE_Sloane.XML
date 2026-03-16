@@ -55,7 +55,7 @@
 		<Text_ID>TEXT_UNIT_SLOANE</Text_ID>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>I_BUTTON_SLOANE.tga</Icon_Name>
-		<Encyclopedia_Text> TEXT_TOOLTIP_SLOANE</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_SLOANE TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>Empire_Imperator_Star_Destroyer_MK_II.ALO</Space_Model_Name>

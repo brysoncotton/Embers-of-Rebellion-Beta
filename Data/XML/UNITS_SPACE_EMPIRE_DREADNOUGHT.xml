@@ -162,7 +162,7 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_DREADNOUGHT </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_DREADNOUGHT TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 

@@ -53,7 +53,7 @@
 
 	<HeroUnit Name="Grand_Moff_Tarkin">
 		<Text_ID>TEXT_UNIT_MOFF_TARKIN</Text_ID>
-		<Encyclopedia_Text> TEXT_TOOLTIP_GRAND_MOFF_TARKIN </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_GRAND_MOFF_TARKIN TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>Empire_Imperator_Star_Destroyer_MK_I.ALO</Space_Model_Name>

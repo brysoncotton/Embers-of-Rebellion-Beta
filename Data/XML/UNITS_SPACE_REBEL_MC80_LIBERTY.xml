@@ -201,7 +201,7 @@
 			
 		</Unit_Abilities_Data>
        
-		<Encyclopedia_Text> TEXT_TOOLTIP_MC_80_LIBERTY</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MC_80_LIBERTY TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 42500 </Score_Cost_Credits>
 

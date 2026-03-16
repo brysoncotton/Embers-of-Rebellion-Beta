@@ -3,7 +3,7 @@
 	<UniqueUnit Name="Admiral_Raddus">
 		<Text_ID>TEXT_UNIT_RADDUS</Text_ID>
 		<Tech_Level>99</Tech_Level>
-		<Encyclopedia_Text> TEXT_TOOLTIP_RADDUS </Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_RADDUS TEXT_TOOLTIP_BOMBARDMENT </Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FLEET_COMMANDER </Encyclopedia_Unit_Class>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Icon_Name>I_BUTTON_RADDUS.tga</Icon_Name>

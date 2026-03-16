@@ -172,7 +172,7 @@
 	<AIUsesFogOfWarSpace> False </AIUsesFogOfWarSpace>
 	<AIUsesFogOfWarLand> False </AIUsesFogOfWarLand>
 	<SetupPhaseEnabled> False </SetupPhaseEnabled>
-	<ShowUnitAIPlanAttachment> False </ShowUnitAIPlanAttachment>
+	<ShowUnitAIPlanAttachment> True </ShowUnitAIPlanAttachment>
 	<AITechLevelProductionTimeWeight> 1.0 </AITechLevelProductionTimeWeight>
 
 	<!-- Default is NO. Set to YES to always engage in tactical battles and skip auto-resolve battles (even instant overrrun ones). -->
@@ -4015,15 +4015,15 @@
     <Lava_Ground_Color_Tint>255, 0, 0</Lava_Ground_Color_Tint>
     <Infantry_Ground_Color_Tint>0, 255, 255</Infantry_Ground_Color_Tint>
 
-	<Max_Bombing_Run_Interval_Seconds>120.0</Max_Bombing_Run_Interval_Seconds>
+	<Max_Bombing_Run_Interval_Seconds>200.0</Max_Bombing_Run_Interval_Seconds>
 	<Min_Bombing_Run_Interval_Seconds>120.0</Min_Bombing_Run_Interval_Seconds>
 	<Bombing_Run_Reduction_Per_Squadron_Percent>0</Bombing_Run_Reduction_Per_Squadron_Percent>
 	<Space_Guard_Range>750.0</Space_Guard_Range>
 	<Land_Guard_Range>150.0</Land_Guard_Range>
 
-	<Max_Bombard_Interval_Seconds>260.0</Max_Bombard_Interval_Seconds>
-	<Min_Bombard_Interval_Seconds>260.0</Min_Bombard_Interval_Seconds>
-	<Bombardment_Offset>0 0 600</Bombardment_Offset>
+	<Max_Bombard_Interval_Seconds>5.0</Max_Bombard_Interval_Seconds>
+	<Min_Bombard_Interval_Seconds>5.0</Min_Bombard_Interval_Seconds>
+	<Bombardment_Offset>0 100 600</Bombardment_Offset>
 	<Bombardment_Distribution> 0, 3, 1, 2, 3, 2, 0, 1, 2, 1, 3, 0, 1, 2, 0, 3, 0, 2, 1, 3, 3, 2, 1, 0 </Bombardment_Distribution>
 
 	<Override_Death_Persistence_Duration>30.0</Override_Death_Persistence_Duration>

@@ -8,7 +8,7 @@
 		<Text_ID>TEXT_UNIT_MC30_FRIGATE</Text_ID>
 		
 		
-		<Encyclopedia_Text> TEXT_TOOLTIP_MC30_FRIGATE</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_MC30_FRIGATE TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FRIGATE </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_mc30c.tga</Icon_Name>
 		

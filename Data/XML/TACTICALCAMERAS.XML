@@ -101,8 +101,8 @@
 		<Fov_Smooth_Time>0.1</Fov_Smooth_Time>
 		<Fov_Per_Mouse_Unit>0.0</Fov_Per_Mouse_Unit>
 
-		<Distance_Default>1000.0</Distance_Default>
-		<Distance_Max>1900.0</Distance_Max>
+		<Distance_Default>1500.0</Distance_Default>
+		<Distance_Max>7000.0</Distance_Max>
 		<Distance_Min>200.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>500.0</Distance_Per_Mouse_Unit>

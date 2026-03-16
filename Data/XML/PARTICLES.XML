@@ -1306,6 +1306,18 @@
 		<Is_Decoration>No</Is_Decoration>
 		<Allow_Particle_Model_Culling>yes</Allow_Particle_Model_Culling>
 		<Behavior>PARTICLE, EXPLOSION</Behavior>
+		<Particle_Lifetime_Frames>60</Particle_Lifetime_Frames>
+		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
+		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MASSIVE</Explosion_Scorch_Mark>
+	</Particle>
+
+	<Particle Name="p_orbital_impact_rebel">
+		<Land_Model_Name>p_orbital_impact_rebel.alo</Land_Model_Name>
+		<Space_Model_Name>p_orbital_impact_rebel.alo</Space_Model_Name>
+		<Scale_Factor>.5</Scale_Factor>
+		<Is_Decoration>No</Is_Decoration>
+		<Allow_Particle_Model_Culling>yes</Allow_Particle_Model_Culling>
+		<Behavior>PARTICLE, EXPLOSION</Behavior>
 		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MASSIVE</Explosion_Scorch_Mark>
