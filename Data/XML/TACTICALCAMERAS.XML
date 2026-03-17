@@ -102,7 +102,7 @@
 		<Fov_Per_Mouse_Unit>0.0</Fov_Per_Mouse_Unit>
 
 		<Distance_Default>1500.0</Distance_Default>
-		<Distance_Max>7000.0</Distance_Max>
+		<Distance_Max>6000.0</Distance_Max>
 		<Distance_Min>200.0</Distance_Min>
 		<Distance_Smooth_Time>0.1</Distance_Smooth_Time>
 		<Distance_Per_Mouse_Unit>500.0</Distance_Per_Mouse_Unit>
@@ -123,8 +123,8 @@
 		<Near_Clip>10.0</Near_Clip>
 		<Far_Clip>7000.0</Far_Clip>
 
-        <Object_Fade_Begin>6000.0f</Object_Fade_Begin>
-        <Object_Fade_End>7000.0f</Object_Fade_End>
+        <Object_Fade_Begin>249000</Object_Fade_Begin>
+		<Object_Fade_End>250000</Object_Fade_End>
         
         <Side_Bounds_Buffer>-300.0f</Side_Bounds_Buffer>
         <Top_Bounds_Buffer>-300.0f</Top_Bounds_Buffer>

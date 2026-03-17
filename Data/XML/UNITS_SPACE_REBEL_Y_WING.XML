@@ -128,10 +128,10 @@
  		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<Unit_Ability>
+			<!--<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Y_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
+			</Unit_Ability>-->
 		</Unit_Abilities_Data>
 
 		<Strafe_Distance>500.0</Strafe_Distance>
@@ -321,9 +321,9 @@
 			
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<Unit_Ability>
+			<!--<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
-			</Unit_Ability>
+			</Unit_Ability>-->
 		</Unit_Abilities_Data>
 		
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
@@ -422,13 +422,13 @@
 		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<Unit_Ability>
+			<!--<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
 				<Recharge_Seconds>20.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
 				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
 				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
+			</Unit_Ability>-->
 		</Unit_Abilities_Data>
 		
 		<Abilities SubObjectList="Yes">

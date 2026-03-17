@@ -416,7 +416,7 @@
 
         <Fire_Bone_A>TL_01</Fire_Bone_A>
         <Fire_Bone_B>TL_01</Fire_Bone_B>
-        <Fire_Bone_C></Fire_Bone_C>
+        
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>130</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
@@ -459,13 +459,13 @@
 
         <Fire_Bone_A>TL_02</Fire_Bone_A>
         <Fire_Bone_B>TL_02</Fire_Bone_B>
-        <Fire_Bone_C></Fire_Bone_C>
+        
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>130</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
-        Proj_Ship_Turbolaser_Canno<Fire_Pulse_Count>5</Fire_Pulse_Count>n_Green_Dual
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2010</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
@@ -502,13 +502,13 @@
 
         <Fire_Bone_A>ML_01</Fire_Bone_A>
         <Fire_Bone_B>ML_01</Fire_Bone_B>
-        <Fire_Bone_C></Fire_Bone_C>
+        
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>130</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
-        Proj_Ship_Turbolaser_Canno<Fire_Pulse_Count>5</Fire_Pulse_Count>n_Green_Dual
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2010</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>
@@ -545,13 +545,13 @@
 
         <Fire_Bone_A>ML_02</Fire_Bone_A>
         <Fire_Bone_B>ML_02</Fire_Bone_B>
-        <Fire_Bone_C></Fire_Bone_C>
+        
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>130</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>7</Fire_Max_Recharge_Seconds>
-        Proj_Ship_Turbolaser_Canno<Fire_Pulse_Count>5</Fire_Pulse_Count>n_Green_Dual
+        <Fire_Pulse_Count>5</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>2010</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire_Rebel</Fire_SFXEvent>

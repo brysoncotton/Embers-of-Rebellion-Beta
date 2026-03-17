@@ -51,29 +51,29 @@
 
 <HardPoints>
 	<HardPoint Name="Victory_II_Torpedo">
-			<Type> HARD_POINT_WEAPON_TORPEDO </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-            <Health>260.0</Health>
+		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+        <Health>260.0</Health>
 
-			<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-			<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
+		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
 
-            <Attachment_Bone>HP_TORP01</Attachment_Bone>
-            <Collision_Mesh>HP_TORP01</Collision_Mesh>
+        <Attachment_Bone>HP_TORP01</Attachment_Bone>
+        <Collision_Mesh>HP_TORP01</Collision_Mesh>
 
-            <Fire_Bone_A>HP_TORP01</Fire_Bone_A>
-            <Fire_Bone_B>HP_TORP01</Fire_Bone_B>
-            <Fire_Cone_Width>130.0</Fire_Cone_Width>
-            <Fire_Cone_Height>130.0</Fire_Cone_Height> 
-            <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo_Light</Fire_Projectile_Type> <!-- Split off so it doesn't 5x cap ships -->
-            <Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
-            <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
-            <Fire_Pulse_Count>4</Fire_Pulse_Count>
-            <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-            <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-			<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
+        <Fire_Bone_A>HP_TORP01</Fire_Bone_A>
+        <Fire_Bone_B>HP_TORP01</Fire_Bone_B>
+        <Fire_Cone_Width>130.0</Fire_Cone_Width>
+        <Fire_Cone_Height>130.0</Fire_Cone_Height> 
+        <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo_Light</Fire_Projectile_Type> <!-- Split off so it doesn't 5x cap ships -->
+        <Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
             
 			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
     </HardPoint>
@@ -88,8 +88,8 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS01_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS01_FP00</Collision_Mesh>
-		<Damage_Decal>HP_IC_BR_blast</Damage_Decal>
-		<Damage_Particles>HP_IC_BR_EmitDamage</Damage_Particles>
+		<Damage_Decal></Damage_Decal>
+		<Damage_Particles></Damage_Particles>
 		<Fire_Bone_A>HP_MIS01_FP00</Fire_Bone_A>
 		<Fire_Bone_B>HP_MIS01_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -120,8 +120,8 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS02_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS02_FP00</Collision_Mesh>
-		<Damage_Decal>HP_MIS02_EMITDAMAGE</Damage_Decal>
-		<Damage_Particles>HP_MIS02_EMITDAMAGE</Damage_Particles>
+		<Damage_Decal>HP_IC_BR_EmitDamage</Damage_Decal>
+		<Damage_Particles>HP_IC_BR_EmitDamage</Damage_Particles>
 		<Fire_Bone_A>HP_MIS02_FP00</Fire_Bone_A>
 		<Fire_Bone_B>HP_MIS02_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -152,8 +152,8 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS03_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS03_FP00</Collision_Mesh>
-		<Damage_Decal>HP_IC_BR_blast</Damage_Decal>
-		<Damage_Particles>HP_IC_BR_EmitDamage</Damage_Particles>
+		<Damage_Decal></Damage_Decal>
+		<Damage_Particles></Damage_Particles>
 		<Fire_Bone_A>HP_MIS03_FP00</Fire_Bone_A>
 		<Fire_Bone_B>HP_MIS03_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -184,8 +184,8 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS04_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS04_FP00</Collision_Mesh>
-		<Damage_Decal>HP_IC_BR_blast</Damage_Decal>
-		<Damage_Particles>HP_IC_BR_EmitDamage</Damage_Particles>
+		<Damage_Decal></Damage_Decal>
+		<Damage_Particles></Damage_Particles>
 		<Fire_Bone_A>HP_MIS04_FP00</Fire_Bone_A>
 		<Fire_Bone_B>HP_MIS04_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -248,8 +248,8 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS06_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS06_FP00</Collision_Mesh>
-		<Damage_Decal>HP_IC_BR_blast</Damage_Decal>
-		<Damage_Particles>HP_IC_BR_EmitDamage</Damage_Particles>
+		<Damage_Decal></Damage_Decal>
+		<Damage_Particles></Damage_Particles>
 		<Fire_Bone_A>HP_MIS06_FP00</Fire_Bone_A>
 		<Fire_Bone_B>HP_MIS06_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -312,8 +312,8 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS08_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS08_FP00</Collision_Mesh>
-		<Damage_Decal>HP_IC_BR_blast</Damage_Decal>
-		<Damage_Particles>HP_IC_BR_EmitDamage</Damage_Particles>
+		<Damage_Decal></Damage_Decal>
+		<Damage_Particles></Damage_Particles>
 		<Fire_Bone_A>HP_MIS08_FP00</Fire_Bone_A>
 		<Fire_Bone_B>HP_MIS08_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -781,9 +781,8 @@
 		<Attachment_Bone>HP_LC03</Attachment_Bone>
 		<Collision_Mesh>HP_LC03</Collision_Mesh>
 		<Health>420.0</Health>
-
-		<Damage_Decal>HP_LC03_EMITDAMAGE</Damage_Decal>
-		<Damage_Particles>HP_LC03_EMITDAMAGE</Damage_Particles>
+		<Damage_Decal></Damage_Decal>
+		<Damage_Particles></Damage_Particles>
 
 		<Fire_Bone_A>HP_LC03</Fire_Bone_A>
 		<Fire_Bone_B>HP_LC03</Fire_Bone_B>

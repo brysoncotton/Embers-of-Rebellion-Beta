@@ -1,5 +1,5 @@
 <?xml version="1.0"?>
-<Victory_II_Star_Destoryer_Files>
+<Victory_II_Star_Destroyer_Files>
 
 	<!-- 
 000000000000000000000 0000000       000000000000000000000000000   00000000000000000 00000000000000000     00000000000000
@@ -39,13 +39,13 @@
  P R I V A T E   C O D E   D O   N O T   D I S T R I B U T E   O R   C O P Y   W I T H O U T   P E R M I S S I O N
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
-        File Path: C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\Embers-of-Rebellion\Data\XML\UNITS_SPACE_EMPIRE_VICTORY_II_STAR_DESTROYER.XML
+		File Path: C:\Program Files (x86)\Steam\steamapps\common\Star Wars Empire at War\corruption\Mods\Embers-of-Rebellion\Data\XML\UNITS_SPACE_EMPIRE_VICTORY_II_STAR_DESTROYER.XML
 
-    	Author: Embers of Rebellion Development Team
+		Author: Embers of Rebellion Development Team
 
-        DateTime:  2025-01-22 19:20:10
+		DateTime:  2025-01-22 19:20:10
 
-        Revision: #1
+		Revision: #1
 		
 //////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 -->
@@ -154,7 +154,7 @@
 			Victory_II_TL_D_08,
 			Victory_II_Engines,
 			Victory_II_Shields,
-			Victory_II_Hanger,
+			Victory_II_Hanger
 		</HardPoints>
 
 		<CategoryMask> Frigate | AntiCorvette</CategoryMask>
@@ -275,4 +275,4 @@
 
 	</SpaceUnit>
 	
-</Victory_II_Star_Destoryer_Files>
+</Victory_II_Star_Destroyer_Files>
