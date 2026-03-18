@@ -67,7 +67,7 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
 		<Max_Speed>1.5</Max_Speed>
-		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Layer_Z_Adjust>-290.0</Layer_Z_Adjust>

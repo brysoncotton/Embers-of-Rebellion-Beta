@@ -129,6 +129,15 @@
         <Damage_Decal>T_00_DAMAGE</Damage_Decal>
         <Damage_Particles>T_00_DAMAGE</Damage_Particles>
 
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
+
         <Projectile_Damage>20.0</Projectile_Damage>
         <Fire_Bone_A>T_00</Fire_Bone_A>
         <Fire_Bone_B>T_00</Fire_Bone_B>
@@ -172,6 +181,15 @@
         <Collision_Mesh>T_01</Collision_Mesh>
         <Damage_Decal>T_01_DAMAGE</Damage_Decal>
         <Damage_Particles>T_01_DAMAGE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 
         <Projectile_Damage>20.0</Projectile_Damage>
         <Fire_Bone_A>T_01</Fire_Bone_A>
@@ -217,6 +235,15 @@
         <Damage_Decal>T_02_DAMAGE</Damage_Decal>
         <Damage_Particles>T_02_DAMAGE</Damage_Particles>
 
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
+
         <Projectile_Damage>20.0</Projectile_Damage>
         <Fire_Bone_A>T_02</Fire_Bone_A>
         <Fire_Bone_B>T_02</Fire_Bone_B>
@@ -260,6 +287,15 @@
         <Collision_Mesh>T_03</Collision_Mesh>
         <Damage_Decal>T_03_DAMAGE</Damage_Decal>
         <Damage_Particles>T_03_DAMAGE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 
         <Projectile_Damage>20.0</Projectile_Damage>
         <Fire_Bone_A>T03_FP00</Fire_Bone_A>
@@ -305,6 +341,15 @@
         <Damage_Decal>T_04_DAMAGE</Damage_Decal>
         <Damage_Particles>T_04_DAMAGE</Damage_Particles>
 
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
+
         <Projectile_Damage>20.0</Projectile_Damage>
         <Fire_Bone_A>T_04</Fire_Bone_A>
         <Fire_Bone_B>T_04</Fire_Bone_B>
@@ -348,6 +393,15 @@
         <Collision_Mesh>T_05</Collision_Mesh>
         <Damage_Decal>T_05_DAMAGE</Damage_Decal>
         <Damage_Particles>T_05_DAMAGE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 
         <Projectile_Damage>20.0</Projectile_Damage>
         <Fire_Bone_A>T_05</Fire_Bone_A>
@@ -393,6 +447,15 @@
         <Damage_Decal>T_06_DAMAGE</Damage_Decal>
         <Damage_Particles>T_06_DAMAGE</Damage_Particles>
 
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
+
         <Projectile_Damage>20.0</Projectile_Damage>
         <Fire_Bone_A>T06_FP00</Fire_Bone_A>
         <Fire_Bone_B>T06_FP01</Fire_Bone_B>
@@ -436,6 +499,15 @@
         <Collision_Mesh>T_07</Collision_Mesh>
         <Damage_Decal>T_07_DAMAGE</Damage_Decal>
         <Damage_Particles>T_07_DAMAGE</Damage_Particles>
+
+        <Is_Turret> Yes </Is_Turret>
+        <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
+        <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
+        <Turret_Rotate_Speed> 5.0 </Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees> 100.0 </Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees> 90.0 </Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name> TURRET </Turret_Bone_Name>
+        <Barrel_Bone_Name> BARREL </Barrel_Bone_Name>
 
         <Projectile_Damage>20.0</Projectile_Damage>
         <Fire_Bone_A>T_07</Fire_Bone_A>
