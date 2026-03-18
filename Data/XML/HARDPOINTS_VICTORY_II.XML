@@ -838,12 +838,12 @@
 		<Type> HARD_POINT_FIGHTER_BAY </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
-		<Attachment_Bone>HP_SPAWN</Attachment_Bone>             
+		<Attachment_Bone>HP_SPAWN</Attachment_Bone>
 		<Collision_Mesh>HP_SPAWN</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>200.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 		<Damage_Decal>HP_SPAWN_EMITDAMAGE</Damage_Decal>
 		<Damage_Particles>HP_SPAWN_EMITDAMAGE</Damage_Particles>
 	</HardPoint> 
