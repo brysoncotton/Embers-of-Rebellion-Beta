@@ -1680,7 +1680,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Galactic_Position>53.0, -339.0, 10.0</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>3</Max_Space_Base>
+    <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -4517,7 +4517,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
    <Force_Strength>0.0</Force_Strength>
    <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_SWAMP_01.ted</Space_Tactical_Map>
-   <Land_Tactical_Map> _Land_Planet_Malastare_02.ted </Land_Tactical_Map>
+   <Land_Tactical_Map> _Land_Planet_Atzerri_02.ted </Land_Tactical_Map>
 
    <Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
    <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>

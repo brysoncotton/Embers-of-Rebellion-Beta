@@ -67,6 +67,7 @@ Raider Class
 
 Imperial Dockyard
 	Model and Textures - SpyLakeWalker
+	Level 4 variant - Embers of Rebellion Dev Team
 
 CR90
 	Model - Yuuzhan Vong at War Team
