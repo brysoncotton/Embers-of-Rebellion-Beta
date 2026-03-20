@@ -92,7 +92,7 @@
 	</Event>
 
 	<Event Name="Spawn_Piett_On_Ozzel_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Admiral_Ozzel</Event_Param1>
         <Reward_Type>UNIQUE_UNIT</Reward_Type>
         <Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
@@ -141,56 +141,56 @@
 <!--ON EVENT OF HERO DEATH REMOVE THEM FROM PLAY-->
 
 	<Event Name="Tarkin_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Grand_Moff_Tarkin</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Grand_Moff_Tarkin</Reward_Param1>
 	</Event>
 
 	<Event Name="Palpatine_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
 	</Event>
 
 	<Event Name="Thrawn_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
-		<Event_Param1>Admonitor_Star_Destroyer</Event_Param1>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Chimaera_Star_Destroyer</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Admonitor_Star_Destroyer</Reward_Param1>
+		<Reward_Param1>Chimaera_Star_Destroyer</Reward_Param1>
 	</Event>
 
 	<Event Name="Ozzel_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Admiral_Ozzel</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Admiral_Ozzel</Reward_Param1>
 	</Event>
 
 	<Event Name="Piett_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Accuser_Star_Destroyer</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
 	</Event>
 
 	<Event Name="Veers_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>General_Veers_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>General_Veers_Team</Reward_Param1>
 	</Event>
 
 	<Event Name="Boba_Fett_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Boba_Fett_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
 	</Event>
 
 	<Event Name="Sloane_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Admiral_Rae_Sloane</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Admiral_Rae_Sloane</Reward_Param1>

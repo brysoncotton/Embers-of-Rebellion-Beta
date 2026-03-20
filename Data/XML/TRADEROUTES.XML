@@ -269,8 +269,8 @@
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
         </TradeRoute>
 
-        <TradeRoute Name="D'Qar_Crait">
-                <Point_A>D'Qar</Point_A>
+        <TradeRoute Name="DQar_Naboo">
+                <Point_A>DQar</Point_A>
                 <Point_B>Naboo</Point_B>
                 <HS_Speed_Factor>4</HS_Speed_Factor>
                 <Political_Control_Gain>0</Political_Control_Gain>
@@ -285,17 +285,17 @@
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
         </TradeRoute>
 
-        <TradeRoute Name="Vergesso_D'Qar">
+        <TradeRoute Name="Vergesso_DQar">
                 <Point_A>VergessoAsteroids</Point_A>
-                <Point_B>D'Qar</Point_B>
+                <Point_B>DQar</Point_B>
                 <HS_Speed_Factor>4</HS_Speed_Factor>
                 <Political_Control_Gain>0</Political_Control_Gain>
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
         </TradeRoute>
 
-        <TradeRoute Name="AlzocIII_D'Qar">
+        <TradeRoute Name="AlzocIII_DQar">
                 <Point_A>AlzocIII</Point_A>
-                <Point_B>D'Qar</Point_B>
+                <Point_B>DQar</Point_B>
                 <HS_Speed_Factor>4</HS_Speed_Factor>
                 <Political_Control_Gain>0</Political_Control_Gain>
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
@@ -797,8 +797,8 @@
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
         </TradeRoute>
 
-        <TradeRoute Name="D'Qar_Crait">
-                <Point_A>D'Qar</Point_A>
+        <TradeRoute Name="DQar_Crait">
+                <Point_A>DQar</Point_A>
                 <Point_B>Crait</Point_B>
                 <HS_Speed_Factor>4</HS_Speed_Factor>
                 <Political_Control_Gain>0</Political_Control_Gain>
@@ -816,14 +816,6 @@
         <TradeRoute Name="Manaan_Kuat">
                 <Point_A>Manaan</Point_A>
                 <Point_B>Kuat</Point_B>
-                <HS_Speed_Factor>4</HS_Speed_Factor>
-                <Political_Control_Gain>0</Political_Control_Gain>
-                <Credit_Gain_Factor>0</Credit_Gain_Factor>
-        </TradeRoute>
-
-        <TradeRoute Name="Eriadu_Mustafar">
-                <Point_A>Eriadu</Point_A>
-                <Point_B>Mustafar</Point_B>
                 <HS_Speed_Factor>4</HS_Speed_Factor>
                 <Political_Control_Gain>0</Political_Control_Gain>
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>

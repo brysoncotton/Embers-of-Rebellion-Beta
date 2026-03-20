@@ -1,4 +1,4 @@
-<?xml version="1.0">
+<?xml version="1.0"?>
 <AITemplates>
 
 <Basic_Empire_Default>
@@ -58,17 +58,17 @@
 
 </Basic_Empire_Default>
 
-<!--  	MAJOR ITEM PURCHASE TEMPLATES
- Sometimes we want to purchase major items during a fleeting window of opportunity.  These purchases
- require a template to ensure spending on occurs as fast as possible (no pause).  The template switch alone
+<!--MAJOR ITEM PURCHASE TEMPLATES 
+Sometimes we want to purchase major items during a fleeting window of opportunity.  These purchases
+require a template to ensure spending on occurs as fast as possible (no pause).  The template switch alone
 causes the entire budget to be redistributed, with a heavy emphasis on the expensive item budget category.
 A perception will determine the fraction of the current gross budget (cash on hand plus income stream) required to
 build the item without interruption.  A desirability equation will decide if the item is wanted and if this fraction
 is acceptable.  The same fraction percaption will be used in determining the expensive item budget and (1 - fraction) *
-the normal working budget for other categories.  This will effectively cut their budget and cancel goals which can't
-be maintained while we're making the major purchase.  If we have sufficient cash or income streams, unrelated goals won't
-be cancelled.
--->
+the normal working budget for other categories.  This will effectively cut their budget and cancel goals which cant
+be maintained while were making the major purchase.  If we have sufficient cash or income streams, unrelated goals wont
+be cancelled.-->
+
 <Tech_Upgrade>
 
 	<Priority>4</Priority>
@@ -100,8 +100,5 @@ be cancelled.
 
 </Tech_Upgrade>
 
-
-
-
-
 </AITemplates>
+

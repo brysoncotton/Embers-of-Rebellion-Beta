@@ -87,22 +87,5 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 	</UniqueUnit>
-	
-	<SpaceUnit Name="MC75_Cruiser_Death_Clone">
-		<Text_ID> TEXT_NONE </Text_ID>
-		<Space_Model_Name>Profundity_D.ALO</Space_Model_Name>
-		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
-		<Scale_Factor> 0.5 </Scale_Factor>
-		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
-		<Max_Speed> 0.25 </Max_Speed>
-		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
-		<Max_Thrust> 0.05 </Max_Thrust>
-		<Max_Rate_Of_Roll> 0.02 </Max_Rate_Of_Roll>
-		<Bank_Turn_Angle> 5 </Bank_Turn_Angle>
-		<Affiliation> Rebel </Affiliation>
-		<Ship_Class> capital_ship </Ship_Class>
-		<Glory_Cinematics> CAM_Calamari_Cruiser_Die.tec </Glory_Cinematics>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceUnit>
 
 </Admiral_Raddus_Files>

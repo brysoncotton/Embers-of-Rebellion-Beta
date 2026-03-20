@@ -564,7 +564,7 @@
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Silri, Luke_Skywalker_Jedi, Urai_Fen, Obi_Wan_Kenobi, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper_No_Bike, Stormtrooper, Underworld_Disruptor_Merc, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur, IG-88, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Applicable_Unit_Types>
+				<Applicable_Unit_Types> Luke_Skywalker_Jedi,  Obi_Wan_Kenobi, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper_No_Bike, Stormtrooper,  Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur,  Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 
@@ -578,7 +578,7 @@
 				<Damage_Absorb_Amount>1</Damage_Absorb_Amount>
 				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Cuddles_The_Rancor, Luke_Skywalker_Jedi, Yoda, TIE_Crawler, Destroyer_Droid, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper_No_Bike, Stormtrooper, Underworld_Disruptor_Merc, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur, IG-88, Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Luke_Skywalker_Jedi, Yoda, TIE_Crawler, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper_No_Bike, Stormtrooper,  Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur,  Dark_Trooper_PhaseII, Dark_Trooper_PhaseIII</Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
 				<Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>
@@ -680,9 +680,7 @@
 				<Excluded_Unit_Types>
 					Destroyer_Droid,
 					Dark_Trooper_PhaseI,
-					Dark_Trooper_PhaseII,
-					Dark_Trooper_PhaseIII,
-					IG-88, Droid_R2D2,
+					 Droid_R2D2,
 					Droid_C3P0,
 					Underworld_Mobile_Defense_Unit,
 					Empire_Mobile_Defense_Unit,
@@ -1633,7 +1631,7 @@
                 <Confuse_Effect> Confuse_Particle_Effect </Confuse_Effect>
    				<!-- We only consider the following unit types "valid targets": -->
    				<Applicable_Unit_Categories>Infantry</Applicable_Unit_Categories>
-   				<Applicable_Unit_Types>Rancor, Cuddles_The_Rancor, Night_Sister, MZ8_Pulse_Cannon_Tank, MZ8_Pulse_Cannon_Tank_Captured, MAL_Rocket_Vehicle, MAL_Captured, MPTL, MPTL_Captured, T2B_Tank, T2B_Tank_Captured, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Bossk, AT_ST_Walker, AT_ST_Walker_Captured, AT_AA_Walker, AT_AA_Walker_Captured, TIE_Crawler, TIE_Crawler_Captured, M1_Repulsor_Tank, M1_Repulsor_Tank_Captured</Applicable_Unit_Types>
+   				<Applicable_Unit_Types>Rancor, Night_Sister, MZ8_Pulse_Cannon_Tank, MZ8_Pulse_Cannon_Tank_Captured, MAL_Rocket_Vehicle, MAL_Captured, MPTL, MPTL_Captured, T2B_Tank, T2B_Tank_Captured, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Bossk, AT_ST_Walker, AT_ST_Walker_Captured, AT_AA_Walker, AT_AA_Walker_Captured, TIE_Crawler, TIE_Crawler_Captured, M1_Repulsor_Tank, M1_Repulsor_Tank_Captured</Applicable_Unit_Types>
    				<SFXEvent_Activate>Unit_Ability_Confuse</SFXEvent_Activate>
    				<Owner_Particle_Effect>Jedi_Mind_Trick_Effect</Owner_Particle_Effect>
    				<!--<Owner_Particle_Effect>Confuse_Ability_Particles</Owner_Particle_Effect>-->
@@ -1656,7 +1654,7 @@
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types: -->
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Silri, Luke_Skywalker_Jedi, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper, Underworld_Disruptor_Merc, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur, Dark_Trooper_PhaseII </Applicable_Unit_Types>
+				<Applicable_Unit_Types> Luke_Skywalker_Jedi, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper,  Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur, Dark_Trooper_PhaseII </Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 
@@ -2210,7 +2208,7 @@
 				<Turn_To_Face_Unblockable_Shots>No</Turn_To_Face_Unblockable_Shots>
 				<!-- We can block/redirect shots from the following units types (but no missiles or grenades): -->
 				<Applicable_Unit_Categories>Vehicle | Structure</Applicable_Unit_Categories>
-				<Applicable_Unit_Types>Cuddles_The_Rancor, Yoda, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper, Underworld_Disruptor_Merc, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur, IG-88, Dark_Trooper_PhaseII</Applicable_Unit_Types>
+				<Applicable_Unit_Types>Yoda, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper,  Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur,  Dark_Trooper_PhaseII</Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Redirect_Blaster_Ability>
 
@@ -2224,7 +2222,7 @@
 				<Damage_Absorb_Amount>1</Damage_Absorb_Amount>
 				<!-- We can absorb shots from the following units types (but no missiles or grenades): -->
 				<Applicable_Unit_Categories />
-				<Applicable_Unit_Types>Cuddles_The_Rancor, Silri, Luke_Skywalker_Jedi, Obi_Wan_Kenobi, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper, Underworld_Disruptor_Merc, Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur</Applicable_Unit_Types>
+				<Applicable_Unit_Types> Luke_Skywalker_Jedi, Obi_Wan_Kenobi, Mandalorian_Indigenous, Mustafarian_Indigenous, Noghri_Indigenous, Sullustan_Civilian, Hutt_Civilian, Twilek_Female, Sand_Person_Sniper_A, Bothan_Civilian, Wookie_Warrior, Mon_Calamari_Civilian, Desert_Civilian_A, Swamp_Civilian_A, Urban_Civilian_A, Snow_Civilian_A, Pirate_Soldier, Rebel_Trooper, Rebel_Pilot, Rebel_Infiltrator, Scout_Trooper, Scout_Trooper_No_Bike, Stormtrooper,  Boba_Fett, Mara_Jade, Kyle_Katarn, Han_Solo, Chewbacca, Underworld_Saboteur</Applicable_Unit_Types>
 				<SFXEvent_Activate>Unit_Force_Absorb</SFXEvent_Activate>
 				<Owner_Light_Effect_Type>Color_Flash</Owner_Light_Effect_Type>
 				<Owner_Light_Effect_Color>2.0, 0.4, 0.4</Owner_Light_Effect_Color>

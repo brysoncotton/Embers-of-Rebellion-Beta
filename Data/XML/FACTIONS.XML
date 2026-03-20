@@ -232,20 +232,15 @@
 		<!-- Specific vs. Factions -->
 		<Music_Event_Tactical_Win_Vs_Faction> Empire,     Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 		<Music_Event_Tactical_Win_Vs_Faction> Pirates,    Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
-		<Music_Event_Tactical_Win_Vs_Faction> Underworld, Rebel_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
+		
 
 		<Music_Event_Tactical_Lose_Vs_Faction> Empire,     Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Pirates,     Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event</Music_Event_Tactical_Lose_Vs_Faction>
 		<Music_Event_Tactical_Lose_Vs_Faction> Rebel,        Lose_To_Rebel_Event</Music_Event_Tactical_Lose_Vs_Faction>
 
 		<Music_Event_Strategic_Win_Vs_Faction> Empire,     Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 		<Music_Event_Strategic_Win_Vs_Faction> Pirates,    Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
-		<Music_Event_Strategic_Win_Vs_Faction> Underworld, Rebel_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 
 		<Music_Event_Strategic_Lose_Vs_Faction> Empire,     Lose_To_Empire_Event</Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction>
 		<Music_Event_Strategic_Lose_Vs_Faction> Rebel,       Lose_To_Rebel_Event</Music_Event_Strategic_Lose_Vs_Faction>
 
 
@@ -343,19 +338,14 @@
 		<SFXEvent_Unit_Type_Spotted>Darth_Vader,							Unit_Announce_Vader_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>General_Veers,						Unit_Announce_Veers_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
 
-        <SFXEvent_Unit_Type_Spotted>Tyber_Zann,		                    Unit_Announce_Tyber_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>The_Peacebringer,		            Unit_Announce_Tyber_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
-
-        <SFXEvent_Unit_Type_Spotted>IG-88,                              Unit_Announce_IG88_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Urai_Fen,		                    Unit_Announce_Urai_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Silri,		                        Unit_Announce_Silri_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
+        
         <SFXEvent_Unit_Type_Spotted>Grand_Admiral_Thrawn,		        Unit_Announce_Thrawn_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Executor_Super_Star_Destroyer,		Unit_Announce_Executor_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Yoda,		                        Unit_Announce_Yoda_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Luke_Skywalker_Jedi,		        Unit_Announce_Luke_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Gargantuan_Battle_Platform,		    Unit_Announce_Gargantuan_Rebel_Soldier</SFXEvent_Unit_Type_Spotted>
+        
 
-		<SFXEvent_Unit_Type_Spotted>Interdictor_Cruiser,				Unit_Interdictor_Assault_Frigate</SFXEvent_Unit_Type_Spotted>
+		<SFXEvent_Unit_Type_Spotted>Interdictor_Crusier,				Unit_Interdictor_Assault_Frigate</SFXEvent_Unit_Type_Spotted>
 
 		<SFXEvent_Enemy_Spotted> Unit_See_Enemy_Rebel_Soldier </SFXEvent_Enemy_Spotted>
 		
@@ -406,18 +396,6 @@
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>LURE, GUI_Toggle_Lure_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>LURE, GUI_Toggle_Lure_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
 
-		<!-- ABILITY_ROCKET_ATTACK -->	
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>ROCKET_ATTACK, GUI_Toggle_Rocket_Attack_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>ROCKET_ATTACK, GUI_Toggle_Rocket_Attack_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>  
-		
-		<!-- HARASS -->	
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>HARASS, GUI_Toggle_Harass_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>HARASS, GUI_Toggle_Harass_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
-		
-		<!-- Scout -->	
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>AVOID_DANGER, GUI_Toggle_Scout_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>AVOID_DANGER, GUI_Toggle_Scout_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
-		
 		<!-- Deploy -->	
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>DEPLOY, GUI_Toggle_Deploy_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>DEPLOY, GUI_Toggle_Deploy_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
@@ -464,21 +442,9 @@
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>SPREAD_OUT, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>SPREAD_OUT, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
 
-		<!-- ABILITY_LURE -->	
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>ABILITY_LURE, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>ABILITY_LURE, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-
 		<!-- ABILITY_ROCKET_ATTACK -->	
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>ABILITY_ROCKET_ATTACK, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>ABILITY_ROCKET_ATTACK, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-		
-		<!-- HARASS -->	
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>HARASS, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>HARASS, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-		
-		<!-- Scout -->	
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>AVOID_DANGER, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>AVOID_DANGER, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
 		
 		<!-- Deploy -->	
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>DEPLOY, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
@@ -568,7 +534,6 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Abandoned_Sensor, RHD_Capture_Sensor </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Abandoned_Turbolaser_Tower, RHD_Lost_Turbo </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Abandoned_Turbolaser_Tower, RHD_Capture_Turbo </SFXEvent_Tactical_Gain_Friendly_Control>
-		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Mercenary_Outfitter, RHD_Lost_Mercenaries </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Mercenary_Outfitter, RHD_Capture_Mercenaries </SFXEvent_Tactical_Gain_Friendly_Control>
 <!--
 		<SFXEvent_Tactical_Lose_Friendly_Control>Garrison_Bunker_Capturable, RHD_Lost_Bunker </SFXEvent_Tactical_Lose_Friendly_Control>
@@ -762,7 +727,7 @@
 
 
 		<Allies />
-		<Enemies>Empire, Pirates, Hostile, Sarlacc, Underworld, Hutts</Enemies>
+		<Enemies>Empire, Pirates, Hostile, Sarlacc, Hutts</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -781,7 +746,6 @@
 			Home_One,
 			Obi_Wan_Team,
 			Rogue_Squadron_Space,
-			Garm_Bel_Iblis_Team,
 			Luke_Skywalker_Jedi_Team,
 			Yoda_Team
 		</Multiplayer_Campaign_Heroes>
@@ -925,7 +889,7 @@
 			Dreadnought_Cruiser,
 			Executor_Super_Star_Destroyer,
 			Darth_Team_Executor,
-			Arquitens_Cruiser,
+			Arquitens_Crusier,
 			Grand_Moff_Tarkin,
 			Admiral_Rae_Sloane,
 			Chimaera_Star_Destroyer,
@@ -1037,20 +1001,15 @@
 		<!-- Specific vs. Factions -->
 		<Music_Event_Tactical_Win_Vs_Faction> Rebel,      Empire_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 		<Music_Event_Tactical_Win_Vs_Faction> Pirates,    Empire_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
-		<Music_Event_Tactical_Win_Vs_Faction> Underworld, Empire_Win_Tactical_Event </Music_Event_Tactical_Win_Vs_Faction>
 
 		<Music_Event_Tactical_Lose_Vs_Faction> Rebel,      Lose_To_Rebel_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
-		<Music_Event_Tactical_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event </Music_Event_Tactical_Lose_Vs_Faction>
+		
 		<Music_Event_Tactical_Lose_Vs_Faction> Empire,    Lose_To_Empire_Event </Music_Event_Tactical_Lose_Vs_Faction>
-
 		<Music_Event_Strategic_Win_Vs_Faction> Rebel,      Empire_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
 		<Music_Event_Strategic_Win_Vs_Faction> Pirates,    Empire_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
-		<Music_Event_Strategic_Win_Vs_Faction> Underworld, Empire_Win_Strategic_Event </Music_Event_Strategic_Win_Vs_Faction>
+		
 
 		<Music_Event_Strategic_Lose_Vs_Faction> Rebel,      Lose_To_Rebel_Event </Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Pirates,    Lose_To_Underworld_Event</Music_Event_Strategic_Lose_Vs_Faction>
-		<Music_Event_Strategic_Lose_Vs_Faction> Underworld, Lose_To_Underworld_Event </Music_Event_Strategic_Lose_Vs_Faction>
 		<Music_Event_Strategic_Lose_Vs_Faction> Empire,    Lose_To_Empire_Event </Music_Event_Strategic_Lose_Vs_Faction>
 
 
@@ -1148,17 +1107,12 @@
 		<SFXEvent_Unit_Type_Spotted>Darth_Vader,							Unit_Announce_Vader_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
 		<SFXEvent_Unit_Type_Spotted>General_Veers,						Unit_Announce_Veers_Storm_Trooper</SFXEvent_Unit_Type_Spotted>
 
-        <SFXEvent_Unit_Type_Spotted>Tyber_Zann,		                    Unit_Announce_Tyber_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>The_Peacebringer,		            Unit_Announce_Tyber_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
-
-        <SFXEvent_Unit_Type_Spotted>IG-88,                              Unit_Announce_IG88_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Urai_Fen,		                    Unit_Announce_Urai_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Silri,		                        Unit_Announce_Silri_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
+        
         <SFXEvent_Unit_Type_Spotted>Grand_Admiral_Thrawn,		        Unit_Announce_Thrawn_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Executor_Super_Star_Destroyer,		Unit_Announce_Executor_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Yoda,		                        Unit_Announce_Yoda_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
         <SFXEvent_Unit_Type_Spotted>Luke_Skywalker_Jedi,		        Unit_Announce_Luke_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
-        <SFXEvent_Unit_Type_Spotted>Gargantuan_Battle_Platform,		    Unit_Announce_Gargantuan_Empire_Soldier</SFXEvent_Unit_Type_Spotted>
+        
 
         <SFXEvent_Enemy_Spotted> Unit_See_Enemy_Storm_Trooper </SFXEvent_Enemy_Spotted>
 
@@ -1215,14 +1169,6 @@
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>ROCKET_ATTACK, GUI_Toggle_Rocket_Attack_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>ROCKET_ATTACK, GUI_Toggle_Rocket_Attack_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>  
 		
-		<!-- HARASS -->	
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>HARASS, GUI_Toggle_Harass_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>HARASS, GUI_Toggle_Harass_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
-		
-		<!-- Scout -->	
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>AVOID_DANGER, GUI_Toggle_Scout_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>AVOID_DANGER, GUI_Toggle_Scout_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
-		
 		<!-- Deploy -->	
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_On>DEPLOY, GUI_Toggle_Deploy_On</SFXEvent_GUI_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>DEPLOY, GUI_Toggle_Deploy_Off</SFXEvent_GUI_Toggle_Non_Hero_Ability_Off>
@@ -1253,22 +1199,6 @@
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>SPREAD_OUT, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>SPREAD_OUT, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
 
-		<!-- ABILITY_LURE -->	
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>ABILITY_LURE, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>ABILITY_LURE, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-
-		<!-- ABILITY_ROCKET_ATTACK -->	
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>ABILITY_ROCKET_ATTACK, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>ABILITY_ROCKET_ATTACK, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-				
-		<!-- HARASS -->	
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>HARASS, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>HARASS, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-		
-		<!-- Scout -->	
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>AVOID_DANGER, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
-		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>AVOID_DANGER, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
-		
 		<!-- Deploy -->	
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>DEPLOY, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_On>
 		<SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>DEPLOY, </SFXEvent_GUI_Enemy_Toggle_Non_Hero_Ability_Off>
@@ -1357,7 +1287,6 @@
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Abandoned_Sensor, EHD_Capture_Sensor </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Abandoned_Turbolaser_Tower, EHD_Lost_Turbo </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Abandoned_Turbolaser_Tower, EHD_Capture_Turbo </SFXEvent_Tactical_Gain_Friendly_Control>
-		<SFXEvent_Tactical_Lose_Friendly_Control> Secondary_Mercenary_Outfitter, EHD_Lost_Mercenaries </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control> Secondary_Mercenary_Outfitter, EHD_Capture_Mercenaries </SFXEvent_Tactical_Gain_Friendly_Control>
 
 <!--
@@ -1541,7 +1470,7 @@
 		<!-- End Droid Advisor Speech/Text -->
 
 		<Allies />
-		<Enemies>Rebel, Pirates, Hostile, Target, Sarlacc, Underworld, Hutts</Enemies>
+		<Enemies>Rebel, Pirates, Hostile, Sarlacc, Hutts</Enemies>
 		
 		<Can_Control_Planets>true</Can_Control_Planets>
 
@@ -1619,7 +1548,7 @@
 		<Scatters_From_Crushers> true </Scatters_From_Crushers>
 
 		<Allies />
-		<Enemies>Empire, Rebel, Hostile, Sarlacc, Underworld, Hutts</Enemies>
+		<Enemies>Empire, Rebel, Hostile, Sarlacc, Hutts</Enemies>
 		<Easily_Bribed> Yes </Easily_Bribed>
 
 		<Can_Control_Planets>true</Can_Control_Planets>
@@ -1701,7 +1630,7 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Allies>Neutral</Allies>
-		<Enemies>Empire, Rebel, Pirates, Sarlacc, Underworld</Enemies>
+		<Enemies>Empire, Rebel, Pirates, Sarlacc</Enemies>
 
 	</Faction>
 
@@ -1739,7 +1668,7 @@
 		<Selection_Blob_RGBA>0,255,0,255</Selection_Blob_RGBA>
 
 		<Allies />
-		<Enemies>Empire, Rebel, Pirates, Hostile, Underworld, Hutts</Enemies>
+		<Enemies>Empire, Rebel, Pirates, Hostile, Hutts</Enemies>
 
 	</Faction>
 

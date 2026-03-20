@@ -238,15 +238,15 @@
    <!-- Random story generation -->
    <Random_Story_Triggers>STORY_ENTER STORY_LAND_ON STORY_CONQUER STORY_CONSTRUCT STORY_CONSTRUCT_LEVEL STORY_DESTROY STORY_DESTROY_BASE STORY_DEPLOY STORY_MOVE STORY_ACCUMULATE STORY_DEFEAT_HERO STORY_WIN_BATTLES</Random_Story_Triggers>
    <Random_Story_Max_Triggers>3</Random_Story_Max_Triggers>
-   <Random_Story_Rebel_Construction>Corellian_Corvette</Random_Story_Rebel_Construction>
+   <Random_Story_Rebel_Construction>CR90</Random_Story_Rebel_Construction>
    <Random_Story_Empire_Construction></Random_Story_Empire_Construction>
    <Random_Story_Rebel_Destroy></Random_Story_Rebel_Destroy>
-   <Random_Story_Empire_Destroy>Corellian_Corvette</Random_Story_Empire_Destroy>
+   <Random_Story_Empire_Destroy>CR90</Random_Story_Empire_Destroy>
    <Random_Story_Rewards>BUILDABLE_UNIT UNIQUE_UNIT CREDITS</Random_Story_Rewards>
    <Random_Story_Reward_Rebel_Buildable>Calamari_Cruiser</Random_Story_Reward_Rebel_Buildable>
-   <Random_Story_Reward_Empire_Buildable>Star_Destroyer</Random_Story_Reward_Empire_Buildable>
+   <Random_Story_Reward_Empire_Buildable>ISD_I</Random_Story_Reward_Empire_Buildable>
    <Random_Story_Reward_Rebel_Unit>Calamari_Cruiser</Random_Story_Reward_Rebel_Unit>
-   <Random_Story_Reward_Empire_Unit>Star_Destroyer</Random_Story_Reward_Empire_Unit>
+   <Random_Story_Reward_Empire_Unit>ISD_I</Random_Story_Reward_Empire_Unit>
 
 
 	<!-- Tactical camera overrides -->
@@ -551,10 +551,8 @@
 
 	<Good_Side_Name>REBEL</Good_Side_Name>
 	<Evil_Side_Name>EMPIRE</Evil_Side_Name>
-	<Corrupt_Side_Name>UNDERWORLD</Corrupt_Side_Name>
 	<Good_Side_Leader_Name>Mon_Mothma</Good_Side_Leader_Name>
 	<Evil_Side_Leader_Name>Emperor_Palpatine</Evil_Side_Leader_Name>
-	<Corrupt_Side_Leader_Name>Tyber_Zann Tyber_Zann_Team The_Peacebringer Tyber_Zann_Team_No_Peacebringer</Corrupt_Side_Leader_Name>
 
 	<Ships_Per_Stack>5</Ships_Per_Stack>
 
@@ -3712,16 +3710,16 @@
 	they arrive at a planet. Most of those special actions are tied to special abilities (Raid is the only
 	action that is not). This is the list of special abilities that will cause the corresponding special
 	action slot to be displayed on the zoomed out galactic GUI when dragging a fleet. -->
-	<Activated_Slice_Ability_Names> Tani_Slicer,R2D2_Slicer</Activated_Slice_Ability_Names>
-    <Activated_Black_Market_Ability_Names> Tyber_Zann_Black_Market, Urai_Fen_Black_Market, Silri_Black_Market</Activated_Black_Market_Ability_Names>
-	<Activated_Sabotage_Ability_Names> Mara_Jade_Sabotage, Kyle_Katarn_Sabotage, Saboteur_Galactic_Sabotage </Activated_Sabotage_Ability_Names>
-	<Activated_Neutralize_Hero_Ability_Names> Boba_Fett_Neutralize_Hero, Bounty_Hunter_Neutralize_Hero, Mara_Jade_Hero_Assasin, Bossk_Neutralize_Hero, IG88_Neutralize_Hero </Activated_Neutralize_Hero_Ability_Names>
+	<Activated_Slice_Ability_Names> R2D2_Slicer</Activated_Slice_Ability_Names>
+    <Activated_Black_Market_Ability_Names> </Activated_Black_Market_Ability_Names>
+	<Activated_Sabotage_Ability_Names>Saboteur_Galactic_Sabotage </Activated_Sabotage_Ability_Names>
+	<Activated_Neutralize_Hero_Ability_Names> Boba_Fett_Neutralize_Hero, Bounty_Hunter_Neutralize_Hero, Mara_Jade_Hero_Assasin</Activated_Neutralize_Hero_Ability_Names>
 	<Activated_Siphon_Credits_Ability_Names> Han_Solo_Siphon_Credits, Smuggler_Siphon_Credits </Activated_Siphon_Credits_Ability_Names>
 	<Activated_System_Spy_Ability_Names> Probe_Droid_System_Spy </Activated_System_Spy_Ability_Names>
 	<Activated_Destroy_Planet_Ability_Names> Death_Star_Planet_Destruction </Activated_Destroy_Planet_Ability_Names>
-	<Activated_Corrupt_Planet_Ability_Names> Corruptor_Corrupt_Planet_1, Saboteur_Corruption </Activated_Corrupt_Planet_Ability_Names>
+	<Activated_Corrupt_Planet_Ability_Names> Saboteur_Corruption </Activated_Corrupt_Planet_Ability_Names>
 	<Activated_Remove_Corruption_Ability_Names> Mothma_Remove_Corruption, Emperor_Remove_Corruption, ObiWan_Remove_Corruption, Vader_Remove_Corruption, Thrawn_Remove_Corruption, Luke_Remove_Corruption, Yoda_Remove_Corruption </Activated_Remove_Corruption_Ability_Names>
-	<Activated_Hack_Super_Weapon_Ability_Names> IG88_Hack_Death_Star </Activated_Hack_Super_Weapon_Ability_Names>
+	<Activated_Hack_Super_Weapon_Ability_Names> </Activated_Hack_Super_Weapon_Ability_Names>
 
 	<Use_Reinforcement_Points>True</Use_Reinforcement_Points>
 
@@ -3824,16 +3822,8 @@
 		Rebel_Tank_Buster_Squad,
 		Rebel_Infiltrator_Team,
 		Rebel_Light_Tank_Brigade,
-		Rebel_Heavy_Tank_Brigade,
-		Rebel_Artillery_Brigade,
 		Rebel_Speeder_Wing,
-		Underworld_Merc_Squad,
-		Underworld_Disruptor_Merc_Squad,
-		Underworld_Ewok_Handler_Company,
-		Destroyer_Droid_Company,
-		MAL_Rocket_Vehicle_Company,
-		Night_Sister_Company,
-		MZ8_Pulse_Cannon_Tank_Company
+		
 	</Preferred_Pathfinder_Types>
 
 	<!-- Game credits -->
@@ -3863,17 +3853,15 @@
 
 	<!-- Files for custom ship names -->
    <ShipNameTextFiles>
-		MC80_Liberty, 						Data\Calamari_Cruiser.txt,
+		Calamari_Cruiser, 					Data\Calamari_Cruiser.txt, <!--MC80 Liberty-->
 		CR90, 								Data\Corellian_Corvette.txt,
 		DP_20_Corvette, 					Data\Corellian_Gunboat.txt,
-		Broadside_Class_Cruiser, 			Data\Broadside_Class_Cruiser.txt,
 		Marauder_Missile_Cruiser, 			Data\Marauder_Missile_Cruiser.txt,
 		Nebulon_B_Frigate, 					Data\Nebulon_B_Frigate.txt,
 		Alliance_Assault_Frigate, 			Data\Alliance_Assault_Frigate.txt,
-		Victory_I_Destroyer, 				Data\.txt,
+		Victory_I_Destroyer, 				Data\victory_destroyer.txt,
 		Acclamator_Assault_Ship, 			Data\Acclamator_Assault_Ship.txt,
-		Interdictor_Cruiser, 				Data\Interdictor_Cruiser.txt,
-        ,          	Data\.txt,
+		Interdictor_Crusier, 				Data\Interdictor_Crusier.txt,
 		
 
 		<!--MOD FILES-->
@@ -3891,9 +3879,9 @@
 
 		Pelta_Frigate,						Data\Pelta_Frigate.txt,
 		Hammerhead_Corvette,				Data\Hammerhead_Corvette.txt,
-		Quasar_Carrier_Rebel,				Data\Quasar_Carrier_Rebel.txt,
+		Rebel_Quasar_Class_Carrier,			Data\Quasar_Carrier_Rebel.txt,
 		MC75_Cruiser,						Data\MC75_Cruiser.txt,
-		MC_80_INDEPENDANCE,					Data\MC_80_INDEPENDANCE.txt,
+		MC_80_INDEPENDANCE,					Data\MC80_Independance.txt,
 		Defender_Class_Cruiser,				Data\Defender_Class_Cruiser.txt,
 	</ShipNameTextFiles>
 
@@ -4151,7 +4139,6 @@
 
    <Corruption_Planet_Icon>
 		i_button_corruption_Assassination_g.tga
-		i_button_corruption_Piracy_g.tga
 		i_button_corruption_Kidnapping_g.tga
 		i_button_corruption_Racketeering_g.tga
 		i_button_corruption_Drug_g.tga

@@ -88,7 +88,7 @@
 			Hosnian_Prime,
 			PolisMassa,
 			Crait,
-			D'Qar,
+			DQar,
 			Zeffo,
 			Pantora,
 			Orto_Plutonia
@@ -127,14 +127,13 @@
 			Sullust_Crait,
 			Sullust_Malasatre,
 			Naboo_Crait,
-			D'Qar_Crait,
+			DQar_Naboo
 			Vergesso_Naboo,
-			Vergesso_D'Qar,
-			AlzocIII_D'Qar,
+			Vergesso_DQar,
+			AlzocIII_DQar,
 			Ryloth_Alzoc,
 			Malastare_Mandalore,
 			Naboo_Mandalore,
-			Ryloth_Vergesso,
 			Ryloth_Geonosis,
 			Geonosis_Tatooine,
 			Geonosis_Vergesso,
@@ -192,15 +191,13 @@
 			Mustafar_Utapau,
 			AlzocIII_Utapau,
 			Mygeeto_AetenII,
-			Kashyyyk_Kessel,
-			Kashyyyk_Kuat,
 			Manaan_Kuat, 
 			AetenII_Ilum,
 			Bestine_Sullust,
 			Eriadu_Sullust,
 			Corulag_Carida,
 			Anaxes_Onderon,
-			D'Qar_Crait,
+			DQar_Crait,
 			Zeffo_Dathomir,
 			Zeffo_Dantooine,
 			Corellia_CatoNeimoidia,
@@ -211,7 +208,6 @@
 
         <Home_Location> Rebel, Hoth </Home_Location>
         <Home_Location> Empire, Coruscant </Home_Location>
-        <Home_Location> Underworld, Wayland </Home_Location>
 
         <Starting_Active_Player> Rebel </Starting_Active_Player>
 
@@ -220,7 +216,6 @@
         <Underworld_Story_Name>Story_Plots_Underworld_AI_Heroes.xml</Underworld_Story_Name>
         
         <AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
-		<AI_Player_Control> Underworld, AI_Player_Underworld </AI_Player_Control>
 		<AI_Player_Control> Pirates, None </AI_Player_Control>
 				
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
@@ -397,20 +392,20 @@
 		<Starting_Forces> Rebel, Crait, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Crait, Rebel_Light_Tank_Brigade </Starting_Forces>
 
-	<!-- D'Qar Space Forces -->
-		<Starting_Forces> Rebel, D'Qar, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, A_Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, A_Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Y-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Rebel_X-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Rebel_X-Wing_Squadron </Starting_Forces>
-	<!-- D'Qar Land Forces -->
-		<Starting_Forces> Rebel, D'Qar, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Rebel_Light_Tank_Brigade </Starting_Forces>
+	<!-- DQar Space Forces -->
+		<Starting_Forces> Rebel, DQar, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, A_Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, A_Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Rebel_X-Wing_Squadron </Starting_Forces>
+	<!-- DQar Land Forces -->
+		<Starting_Forces> Rebel, DQar, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 	<!-- Dantooine Space Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -476,7 +471,6 @@
 		
         <!-- Thyferra Space Forces -->
 		<Starting_Forces> Empire, Thyferra, Empire_Star_Base_2 </Starting_Forces>
-		<Starting_Forces> Empire, Thyferra, Broadside_Class_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Raider_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Acclamator_Assault_Ship </Starting_Forces>		
         <!-- Thyferra Land Forces -->
@@ -520,7 +514,7 @@
 		<Starting_Forces> Empire, Coruscant, Venator_Class_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Dreadnought_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Vindicator_Heavy_Crusier </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Victory_Destroyer</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_I_Destroyer</Starting_Forces>
         <!-- Coruscant Land Forces -->
 		<Starting_Forces> Empire, Coruscant, E_Ground_Base_Shield </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Anti_Infantry_Brigade </Starting_Forces>
@@ -644,7 +638,7 @@
 		<Starting_Forces> Empire, Rendili, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 
 	<!-- Kuat Space Forces -->
-	 	<Starting_Forces> Empire, Kuat, Empire_Star_Base_4 </Starting_Forces>
+	 	<Starting_Forces> Empire, Kuat, Empire_Star_Base_5 </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, ISD_I </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Victory_I_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Victory_II_Destroyer </Starting_Forces>
@@ -963,7 +957,7 @@
 			Hosnian_Prime,
 			PolisMassa,
 			Crait,
-			D'Qar,
+			DQar,
 			Zeffo,
 			Pantora,
 			Orto_Plutonia
@@ -1002,14 +996,13 @@
 			Sullust_Crait,
 			Sullust_Malasatre,
 			Naboo_Crait,
-			D'Qar_Crait,
+			DQar_Naboo,
 			Vergesso_Naboo,
-			Vergesso_D'Qar,
-			AlzocIII_D'Qar,
+			Vergesso_DQar,
+			AlzocIII_DQar,
 			Ryloth_Alzoc,
 			Malastare_Mandalore,
 			Naboo_Mandalore,
-			Ryloth_Vergesso,
 			Ryloth_Geonosis,
 			Geonosis_Tatooine,
 			Geonosis_Vergesso,
@@ -1067,15 +1060,13 @@
 			Mustafar_Utapau,
 			AlzocIII_Utapau,
 			Mygeeto_AetenII,
-			Kashyyyk_Kessel,
-			Kashyyyk_Kuat,
 			Manaan_Kuat, 
 			AetenII_Ilum,
 			Bestine_Sullust,
 			Eriadu_Sullust,
 			Corulag_Carida,
 			Anaxes_Onderon,
-			D'Qar_Crait,
+			DQar_Crait,
 			Zeffo_Dathomir,
 			Zeffo_Dantooine,
 			Pantora_Utapau,
@@ -1090,16 +1081,16 @@
 
 		<Rebel_Story_Name>Story_Plots_Rebel_AI_Heroes_EXP.xml</Rebel_Story_Name>
         <Empire_Story_Name>Story_Plots_Sandbox_27_Empire.xml</Empire_Story_Name>
-        <Underworld_Story_Name>Story_Plots_Underworld_AI_Heroes.xml</Underworld_Story_Name>
+        
         
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
-		<AI_Player_Control> Underworld, AI_Player_Underworld </AI_Player_Control>
+		
 		<AI_Player_Control> Pirates, None </AI_Player_Control>
 		
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Pirates, DefaultGalacticHints </Markup_Filename>
 		<Markup_Filename>Rebel, DefaultGalacticHints </Markup_Filename>
-		<Markup_Filename>Underworld, DefaultGalacticHints </Markup_Filename>
+		
 
 		<Supports_Custom_Settings>True</Supports_Custom_Settings>
 		<Show_Completed_Tab>True</Show_Completed_Tab>
@@ -1269,20 +1260,20 @@
 		<Starting_Forces> Rebel, Crait, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Crait, Rebel_Light_Tank_Brigade </Starting_Forces>
 
-	<!-- D'Qar Space Forces -->
-		<Starting_Forces> Rebel, D'Qar, Rebel_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Nebulon_B_Frigate </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, A_Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, A_Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Y-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Rebel_X-Wing_Squadron </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Rebel_X-Wing_Squadron </Starting_Forces>
-	<!-- D'Qar Land Forces -->
-		<Starting_Forces> Rebel, D'Qar, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, R_Ground_Barracks </Starting_Forces>
-		<Starting_Forces> Rebel, D'Qar, Rebel_Light_Tank_Brigade </Starting_Forces>
+	<!-- DQar Space Forces -->
+		<Starting_Forces> Rebel, DQar, Rebel_Star_Base_1 </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Nebulon_B_Frigate </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, A_Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, A_Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Y-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Rebel_X-Wing_Squadron </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Rebel_X-Wing_Squadron </Starting_Forces>
+	<!-- DQar Land Forces -->
+		<Starting_Forces> Rebel, DQar, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Rebel_Infantry_Squad </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, R_Ground_Barracks </Starting_Forces>
+		<Starting_Forces> Rebel, DQar, Rebel_Light_Tank_Brigade </Starting_Forces>
 
 	<!-- Dantooine Space Forces -->
 		<Starting_Forces> Rebel, Dantooine, Rebel_X-Wing_Squadron </Starting_Forces>
@@ -1392,7 +1383,7 @@
 		<Starting_Forces> Empire, Coruscant, Venator_Class_Star_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Dreadnought_Cruiser </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Vindicator_Heavy_Crusier </Starting_Forces>
-		<Starting_Forces> Empire, Coruscant, Victory_Destroyer</Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, Victory_I_Destroyer</Starting_Forces>
         <!-- Coruscant Land Forces -->
 		<Starting_Forces> Empire, Coruscant, E_Ground_Base_Shield </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Anti_Infantry_Brigade </Starting_Forces>
@@ -1516,7 +1507,7 @@
 		<Starting_Forces> Empire, Rendili, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 
 	<!-- Kuat Space Forces -->
-	 	<Starting_Forces> Empire, Kuat, Empire_Star_Base_4 </Starting_Forces>
+	 	<Starting_Forces> Empire, Kuat, Empire_Star_Base_5 </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, ISD_I </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Victory_I_Destroyer </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Victory_II_Destroyer </Starting_Forces>

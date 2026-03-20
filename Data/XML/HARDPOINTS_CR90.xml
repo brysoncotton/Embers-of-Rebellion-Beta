@@ -30,6 +30,7 @@
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
              <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
              <Is_Turret> Yes </Is_Turret>
              <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
              <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -87,6 +88,7 @@
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
              <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
              <Is_Turret> Yes </Is_Turret>
              <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
              <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -144,6 +146,7 @@
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
              <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
              <Is_Turret> Yes </Is_Turret>
              <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
              <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>
@@ -201,6 +204,7 @@
              <Fire_Cone_Width>40.0</Fire_Cone_Width>
              <Fire_Cone_Height>40.0</Fire_Cone_Height>
              <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
+             <Allow_Opportunity_Fire_When_Idle>True</Allow_Opportunity_Fire_When_Idle>
              <Is_Turret> Yes </Is_Turret>
              <Turret_Rest_Angle> 0.0, 0.0, 0.0 </Turret_Rest_Angle>
              <Turret_Rotation_Offset> 0.0, 0.0, 0.0 </Turret_Rotation_Offset>

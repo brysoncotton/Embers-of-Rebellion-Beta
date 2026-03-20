@@ -283,7 +283,7 @@
         <Fire_Inaccuracy_Distance> Fighter, 30.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 30.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 10.0 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette,HP_ACCLAMATOR_TBL_04 15.0 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 15.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 7 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 5 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>

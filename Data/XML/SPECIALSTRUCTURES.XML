@@ -3634,7 +3634,6 @@
 				Imperial_Armor_Group,
 				Imperial_Artillery_Corp,
 				Imperial_Heavy_Assault_Company,
-				Lancet_Air_Wing,
 				HAV_Juggernaut_Company,
 				EL_Heavy_Reflective_Armor_L1_Upgrade,
 				EL_Heavy_Reflective_Armor_L2_Upgrade,
@@ -3804,11 +3803,11 @@
 		<Property_Flags>InBase</Property_Flags>
 
       <AI_Combat_Power>600</AI_Combat_Power>
-		<Starting_Spawned_Units_Tech_0>MPTL, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>MPTL, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>PLACEHOLDER, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>PLACEHOLDER, -1</Reserve_Spawned_Units_Tech_0>
 		
-		<Starting_Spawned_Units_Tech_0>MPTL_Spotter, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>MPTL_Spotter, -1</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>PLACEHOLDER, 2</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>PLACEHOLDER, -1</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>25</Spawned_Squadron_Delay_Seconds>		
 		<Spawned_Squadron_Location_Bones>SPAWN_00</Spawned_Squadron_Location_Bones>
@@ -3828,9 +3827,9 @@
 		
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
-				Rebel_Heavy_Tank_Brigade,  
-				Rebel_Artillery_Brigade,
-				Gallofree_HTT_Company,
+				PLACEHOLDER,  
+				PLACEHOLDER,
+				PLACEHOLDER,
 				RL_Heavy_Armor_L1_Upgrade,
 				RL_Heavy_Armor_L2_Upgrade,
 				RL_Improved_Treads_L1_Upgrade,
@@ -3842,9 +3841,8 @@
 		<!--<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				RL_T4B_Research_Upgrade,
-				Rebel_Heavy_Tank_Brigade,  
-				RL_MPTL_Research_Upgrade,
-				Rebel_Artillery_Brigade, 
+				PLACEHOLDER,  
+				PLACEHOLDER, 
 				RL_Heavy_Armor_L1_Upgrade,
 				RL_Heavy_Armor_L2_Upgrade,
 				RL_Improved_Treads_L1_Upgrade,

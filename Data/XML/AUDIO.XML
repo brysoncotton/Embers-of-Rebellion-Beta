@@ -47,7 +47,7 @@
 	<Music_Space_Battle_To_Ambient_Peace_Seconds> 15.0 </Music_Space_Battle_To_Ambient_Peace_Seconds>
 
 	<!-- Battle load screen music -->
-	<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event_Rebel, Tactical_Battle_Loading_Loop_Event_Empire </Music_Event_Battle_Load_Screen> 
+	<Music_Event_Battle_Load_Screen> Tactical_Battle_Loading_Loop_Event_Rebel Tactical_Battle_Loading_Loop_Event_Empire </Music_Event_Battle_Load_Screen> 
 
 	<!-- Battle end summary screen music -->
 	<Music_Event_Battle_End_Summary_Screen_Win> </Music_Event_Battle_End_Summary_Screen_Win>

@@ -66,19 +66,6 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
-
-        <Death_Breakoff_Prop></Death_Breakoff_Prop>
-
-        <Damage_Type>  </Damage_Type>
-
         <Fire_Bone_A>MUZZLEA_00</Fire_Bone_A>
         <Fire_Bone_B>MUZZLEA_01</Fire_Bone_B>
         <Fire_Bone_C>MUZZLEA_02</Fire_Bone_C>
@@ -95,10 +82,11 @@
         <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
         <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
         <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
@@ -118,19 +106,6 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
-
-        <Death_Breakoff_Prop></Death_Breakoff_Prop>
-
-        <Damage_Type>  </Damage_Type>
-
         <Fire_Bone_A>MUZZLEA_06</Fire_Bone_A>
         <Fire_Bone_B>MUZZLEA_07</Fire_Bone_B>
         <Fire_Bone_C>MUZZLEA_08</Fire_Bone_C>
@@ -147,10 +122,11 @@
         <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
         <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
         <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
@@ -170,19 +146,6 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
-
-        <Death_Breakoff_Prop></Death_Breakoff_Prop>
-
-        <Damage_Type>  </Damage_Type>
-
         <Fire_Bone_A>MUZZLEA_12</Fire_Bone_A>
         <Fire_Bone_B>MUZZLEA_13</Fire_Bone_B>
         <Fire_Bone_C>MUZZLEA_14</Fire_Bone_C>
@@ -199,10 +162,11 @@
         <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
         <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
         <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
@@ -222,19 +186,6 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
-
-        <Death_Breakoff_Prop></Death_Breakoff_Prop>
-
-        <Damage_Type>  </Damage_Type>
-
         <Fire_Bone_A>MUZZLEA_03</Fire_Bone_A>
         <Fire_Bone_B>MUZZLEA_04</Fire_Bone_B>
         <Fire_Bone_C>MUZZLEA_05</Fire_Bone_C>
@@ -251,10 +202,11 @@
         <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
         <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
         <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
@@ -274,19 +226,6 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
-
-        <Death_Breakoff_Prop></Death_Breakoff_Prop>
-
-        <Damage_Type>  </Damage_Type>
-
         <Fire_Bone_A>MUZZLEA_09</Fire_Bone_A>
         <Fire_Bone_B>MUZZLEA_10</Fire_Bone_B>
         <Fire_Bone_C>MUZZLEA_11</Fire_Bone_C>
@@ -303,10 +242,11 @@
         <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
         <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
         <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
@@ -326,19 +266,6 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
-
-        <Death_Breakoff_Prop></Death_Breakoff_Prop>
-
-        <Damage_Type>  </Damage_Type>
-
         <Fire_Bone_A>MUZZLEA_15</Fire_Bone_A>
         <Fire_Bone_B>MUZZLEA_16</Fire_Bone_B>
         <Fire_Bone_C>MUZZLEA_17</Fire_Bone_C>
@@ -355,10 +282,11 @@
         <Fire_Inaccuracy_Distance> Fighter, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 30 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Corvette, 15 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Corvette, 10 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Frigate, 10 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Capital, 7 </Fire_Inaccuracy_Distance>
-        <Fire_Inaccuracy_Distance> Super, 5 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Capital, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Inaccuracy_Distance> Super, 10 </Fire_Inaccuracy_Distance>
+        <Fire_Category_Restrictions> Fighter, Bomber </Fire_Category_Restrictions>
         <Allow_Opportunity_Fire_When_Idle></Allow_Opportunity_Fire_When_Idle>
         <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
@@ -415,9 +343,7 @@
         <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
 
         <Fire_Bone_A>TL_01</Fire_Bone_A>
-        <Fire_Bone_B>TL_01</Fire_Bone_B>
-        
-        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Bone_B>TL_01</Fire_Bone_B>        <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>130</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
@@ -458,9 +384,7 @@
         <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
 
         <Fire_Bone_A>TL_02</Fire_Bone_A>
-        <Fire_Bone_B>TL_02</Fire_Bone_B>
-        
-        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Bone_B>TL_02</Fire_Bone_B>        <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>130</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
@@ -501,9 +425,7 @@
         <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
 
         <Fire_Bone_A>ML_01</Fire_Bone_A>
-        <Fire_Bone_B>ML_01</Fire_Bone_B>
-        
-        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Bone_B>ML_01</Fire_Bone_B>        <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>130</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
@@ -544,9 +466,7 @@
         <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
 
         <Fire_Bone_A>ML_02</Fire_Bone_A>
-        <Fire_Bone_B>ML_02</Fire_Bone_B>
-        
-        <Fire_Cone_Width>180</Fire_Cone_Width>
+        <Fire_Bone_B>ML_02</Fire_Bone_B>        <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>130</Fire_Cone_Height>
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Dual</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>

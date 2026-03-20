@@ -37,7 +37,7 @@
 		<Min_Speed>2.0</Min_Speed>
 		<Max_Lift>0.0</Max_Lift>
 
-		<Death_Clone>Damage_Normal, Gallofree_Transport_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal, Combat_Gallofree_Death_Clone</Death_Clone>
 		<Space_FOW_reveal_Range>160000</Space_FOW_reveal_Range>
 		<Targeting_Max_Attack_Distance>2000.0</Targeting_Max_Attack_Distance>
 
@@ -182,7 +182,7 @@
 
 	</SpaceUnit>
 
-	<SpaceUnit Name="Gallofree_Transport_Death_Clone">
+	<SpaceUnit Name="Combat_Gallofree_Death_Clone">
 		<Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
 		<Space_Model_Name>RV_Transport_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>

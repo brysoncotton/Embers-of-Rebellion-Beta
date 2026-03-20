@@ -193,7 +193,7 @@
 
 	<SpaceUnit Name="Nebulon_B_Frigate_Death_Clone">
 		<Text_ID></Text_ID>
-		<Space_Model_Name>EmpireRv_nebulonb_Victory_Star_Destroyer_Deathclone.ALO</Space_Model_Name>
+		<Space_Model_Name>Rv_nebulonb_die_00.ALO</Space_Model_Name>
 		<xxxSpace_Model_Name>Rv_nebulonb.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die></Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>

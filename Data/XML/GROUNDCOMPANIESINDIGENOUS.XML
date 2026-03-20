@@ -274,7 +274,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
 		<Autoresolve_Health>60</Autoresolve_Health>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Planets>Ryloth</Required_Planets>
 		<Build_Cost_Credits>0</Build_Cost_Credits>
@@ -302,7 +302,7 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>60</Damage>
 		<Autoresolve_Health>60</Autoresolve_Health>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Planets />
 		<Build_Cost_Credits>0</Build_Cost_Credits>
@@ -438,7 +438,7 @@
 	<GroundCompany Name="Desert_Civilian_Team_Underworld">
 		<Variant_Of_Existing_Type>Desert_Civilian_Team_Rebel</Variant_Of_Existing_Type>
 		<Company_Units>Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate, Desert_Civ_Pirate</Company_Units>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 	</GroundCompany>
 
 	<GroundCompany Name="Swamp_Civilian_Team_Rebel">
@@ -479,7 +479,7 @@
 	<GroundCompany Name="Swamp_Civilian_Team_Underworld">
 		<Variant_Of_Existing_Type>Swamp_Civilian_Team_Rebel</Variant_Of_Existing_Type>
 		<Company_Units>Swamp_Civ_A_Pirate, Swamp_Civ_A_Pirate, Swamp_Civ_B_Pirate, Swamp_Civ_C_Pirate, Swamp_Civ_C_Pirate</Company_Units>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 	</GroundCompany>
 
 	<GroundCompany Name="Urban_Civilian_Team_Rebel">
@@ -520,7 +520,7 @@
 	<GroundCompany Name="Urban_Civilian_Team_Underworld">
 		<Variant_Of_Existing_Type>Urban_Civilian_Team_Rebel</Variant_Of_Existing_Type>
 		<Company_Units>Urban_Civ_A_Pirate, Urban_Civ_A_Pirate, Urban_Civ_B_Pirate, Urban_Civ_C_Pirate, Urban_Civ_C_Pirate</Company_Units>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 	</GroundCompany>
 
 	<GroundCompany Name="Snow_Civilian_Team_Rebel">
@@ -561,7 +561,7 @@
 	<GroundCompany Name="Snow_Civilian_Team_Underworld">
 		<Variant_Of_Existing_Type>Snow_Civilian_Team_Rebel</Variant_Of_Existing_Type>
 		<Company_Units>Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate, Snow_Civ_A_Pirate</Company_Units>
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 	</GroundCompany>
 
 
@@ -792,7 +792,7 @@
 	<GroundCompany Name="Underworld_Skiff_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Skiff_Team</Variant_Of_Existing_Type>
 		
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		
 		<Company_Units>Pirate_Skiff_U, Pirate_Skiff_U, Pirate_Skiff_U</Company_Units>
 		
@@ -914,7 +914,7 @@
 		<GroundCompany Name="Underworld_Swamp_Speeder_Team"> <!--Multiplayer Only-->
 		<Variant_Of_Existing_Type>Pirate_Swamp_Speeder_Team</Variant_Of_Existing_Type>
 		
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		<Company_Transport_Unit>Underworld_Vehicle_Transport</Company_Transport_Unit>
 		<Company_Units>Swamp_Speeder_U, Swamp_Speeder_U, Swamp_Speeder_U</Company_Units>
 		<SFXEvent_Tactical_Build_Started> UHD_Reinforcements_En_Route </SFXEvent_Tactical_Build_Started>		
@@ -966,7 +966,7 @@
 		<Tactical_Build_Cost_Multiplayer>250</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>6</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
-		<Affiliation>Underworld</Affiliation>
+		<Affiliation>Pirates</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Population_Value>1</Population_Value>

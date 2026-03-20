@@ -213,16 +213,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>12</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Bossk </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_AetenII_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_AetenII_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>AETENII_PIR_LOAD_COR02_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event>AETENII_PIR_VICTORY_COR02_03</Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Bossk_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>AETENII_PIR_LOSS_COR02_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Bossk_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_AETENII_STORY_PIRACY</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Underworld_TIE_Defender_Squadron</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
@@ -346,7 +346,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Tyber_Zann, Tyber_Zann_Passenger, Tyber_Zann_Prologue </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_AlzocIII_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -426,22 +426,22 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Bossk </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Anaxes_Intimidation.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Anaxes_Intimidation.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>ANAXES_INT_LOAD_COR04_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> ANAXES_INT_VICTORY_COR04_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Bossk_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>ANAXES_INT_LOSS_COR04_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Bossk_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ANAXES_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Destroyer_Droid </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> ANAXES_RKT_VICTORY_COR04_05 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -517,7 +517,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type> Underworld_Merc </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 3 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> ATZERRI_RKT_VICTORY_COR05_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -596,7 +596,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Tyber_Zann, Tyber_Zann_Passenger, Tyber_Zann_Prologue </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Bespin_Piracy.ted </Corruption_1_Tactical_Map_Name>
@@ -675,16 +675,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> IG-88 </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Bestine_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Bestine_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>BESTINE_KID_LOAD_COR07_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> BESTINE_KID_VICTORY_COR07_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> IG-88_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>BESTINE_KID_LOSS_COR07_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>IG-88_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_BESTINE_STORY_KIDNAP</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Credit_Bonus>10000</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Black_Market </Corruption_2_Type>
@@ -752,7 +752,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 900 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type> Underworld_Merc </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> BONADAN_RKT_VICTORY_COR08_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -855,7 +855,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Tyber_Zann, Tyber_Zann_Passenger, Tyber_Zann_Prologue </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Bothawui_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -868,7 +868,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_BOTHAWUI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Destroyer_Droid </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -943,16 +943,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Silri </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Byss_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Byss_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>BYSS_KID_LOAD_COR10_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> BYSS_KID_VICTORY_COR10_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Silri_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>BYSS_KID_LOSS_COR10_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Silri_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_BYSS_STORY_KIDNAP</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Credit_Bonus>9500</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Black_Market </Corruption_2_Type>
@@ -1031,16 +1031,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Bossk </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Carida_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Carida_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>CARIDA_KID_LOAD_COR11_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> CARIDA_KID_VICTORY_COR11_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Bossk_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>CARIDA_KID_LOSS_COR11_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Bossk_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_CARIDA_STORY_KIDNAP</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Credit_Bonus>8000</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
@@ -1201,16 +1201,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> IG-88 </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Corulag_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Corulag_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>CORULAG_PIR_LOAD_COR13_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> CORULAG_PIR_VICTORY_COR13_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> IG-88_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>CORULAG_PIR_LOSS_COR13_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>IG-88_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_CORULAG_STORY_PIRACY</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Acclamator_Underworld</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
@@ -1419,7 +1419,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_DATHOMIR_STORY_BRIBERY</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Destroyer_Droid </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
@@ -1493,7 +1493,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1200 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Dantooine_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -1514,7 +1514,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
 
-  <Planet Name="D'Qar">
+  <Planet Name="DQar">
     <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_DQAR</Text_ID>
     <Galactic_Model_Name>W_planet_naboo_low.alo</Galactic_Model_Name>
@@ -1568,22 +1568,22 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Silri </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Naboo_Intimidation.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Naboo_Intimidation.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>DQAR_INT_LOAD_COR39_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> DQAR_INT_VICTORY_COR39_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Silri_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>DQAR_INT_LOSS_COR39_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Silri_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_DQAR_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Destroyer_Droid </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> DQAR_BND_VICTORY_COR39_05 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -1713,7 +1713,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 600 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type> MAL_Rocket_Vehicle </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> ERIADU_RKT_VICTORY_COR19_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -1786,7 +1786,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 1200 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type> Underworld_Merc </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> FELUCIA_RKT_VICTORY_COR20_02 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -1867,21 +1867,21 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Bossk </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Fondor_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Fondor_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>FONDOR_PIR_LOAD_COR21_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> FONDOR_PIR_VICTORY_COR21_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Bossk_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>FONDOR_PIR_LOSS_COR21_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Bossk_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_FONDOR_STORY_PIRACY</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Underworld_A_Wing_Squadron</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 3 </Corruption_2_Required_Mission_Count>
@@ -2018,7 +2018,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Corrupt_Militia </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Destroyer_Droid </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Required_Mission_Type> Corruption_Bribery </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
@@ -2027,7 +2027,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_GEONOSIS_STORY_CORUPTMILITIA</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -2094,7 +2094,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Honoghr_Intimidate.ted </Corruption_1_Tactical_Map_Name>
@@ -2107,7 +2107,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_HONOGHR_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 300 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> MAL_Rocket_Vehicle </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
@@ -2183,21 +2183,21 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Bossk </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_HOSNIAN_PRIME_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_HOSNIAN_PRIME_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>HOSNIAN_PRIME_PIR_LOAD_COR21_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> HOSNIAN_PRIME_PIR_VICTORY_COR21_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Bossk_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>HOSNIAN_PRIME_PIR_LOSS_COR21_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Bossk_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_HOSNIAN_PRIME_STORY_PIRACY</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Underworld_A_Wing_Squadron</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 3 </Corruption_2_Required_Mission_Count>
@@ -2263,7 +2263,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type> Underworld_Merc </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> HOTH_RKT_VICTORY_COR24_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -2457,7 +2457,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_JABIIM_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 600 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -2519,7 +2519,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Corrupt_Militia </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 600 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Crusader_Gunship </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Required_Mission_Type> Corruption_Bribery </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
@@ -2601,7 +2601,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 3 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> KASHYYYK_BND_VICTORY_COR29_02 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -2662,21 +2662,21 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> IG-88 </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Kessel_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Kessel_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>KESSEL_PIR_LOAD_COR30_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> KESSEL_PIR_VICTORY_COR30_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> IG-88_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>KESSEL_PIR_LOSS_COR30_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>IG-88_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing> TEXT_CORRUPTION_KESSEL_STORY_PIRACY </Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Marauder_Underworld</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 550 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Crusader_Gunship </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -2814,16 +2814,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Bossk </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Kuat_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Kuat_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>KUAT_KID_LOAD_COR32_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> KUAT_KID_VICTORY_COR32_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Bossk_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>KUAT_KID_LOSS_COR32_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Bossk_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing> TEXT_CORRUPTION_KUAT_STORY_KIDNAP </Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Credit_Bonus>10000</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Black_Market </Corruption_2_Type>
@@ -2954,7 +2954,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Tyber_Zann, Tyber_Zann_Passenger, Tyber_Zann_Prologue </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Mandalore_Piracy.ted </Corruption_1_Tactical_Map_Name>
@@ -2968,7 +2968,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Success_Unlock_Unit_Type>Tartan_Underworld</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Skipray_Blastboat </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Kidnapping </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
@@ -3043,16 +3043,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> IG-88 </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_MonCalamari_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name>Story_Plots_Underworld_MonCalamari_Piracy.xml</Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>MONCALAMARI_PIR_LOAD_COR35_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> MONCALAMARI_PIR_VICTORY_COR35_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> IG-88_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>MONCALAMARI_PIR_LOSS_COR35_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>IG-88_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MONCALAMARI_STORY_PIRACY</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Nebulon_B_Underworld</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
@@ -3196,16 +3196,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> IG-88 </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Muunilinst_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Muunilinst_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>MUUNILINST_KID_LOAD_COR37_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> MUUNILINST_KID_VICTORY_COR37_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> IG-88_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>MUUNILINST_KID_LOSS_COR37_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>IG-88_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MUUNILINST_STORY_KIDNAP</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Credit_Bonus>8500</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
@@ -3276,7 +3276,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type> Destroyer_Droid </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> MYRKR_RKT_VICTORY_COR38_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -3338,22 +3338,22 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Silri </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Naboo_Intimidation.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Naboo_Intimidation.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>NABOO_INT_LOAD_COR39_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> NABOO_INT_VICTORY_COR39_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Silri_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>NABOO_INT_LOSS_COR39_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Silri_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_NABOO_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Destroyer_Droid </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> NABOO_BND_VICTORY_COR39_05 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -3416,7 +3416,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Potential_Indigenous_Power>Hutt_Civilian, 360</Potential_Indigenous_Power>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_NalHutta_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
@@ -3632,7 +3632,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
    
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Urai_Fen </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -3647,7 +3647,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -3780,7 +3780,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SULLUST_STORY_BRIBERY</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Destroyer_Droid </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -3846,20 +3846,20 @@ A tactical battle will be launched if the corruption choice has valid entries fo
    
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 900 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Silri </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Taris_Intimidation.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Taris_Intimidation.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>TARIS_INT_LOAD_COR46_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> TARIS_INT_VICTORY_COR46_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Silri_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>TARIS_INT_LOSS_COR46_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Silri_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_TARIS_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> Underworld_Merc </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 4 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Kidnapping </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -3926,7 +3926,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Skipray_Blastboat </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Required_Mission_Type> Corruption_Kidnapping </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
@@ -4010,7 +4010,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Success_Credit_Bonus>7500</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 500 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> MAL_Rocket_Vehicle </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
@@ -4075,16 +4075,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Silri </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Utapau_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Utapau_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>UTAPAU_KID_LOAD_COR49_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> UTAPAU_KID_VICTORY_COR49_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Silri_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>UTAPAU_KID_LOSS_COR49_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Silri_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_UTAPAU_STORY_KIDNAP</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Credit_Bonus>9000</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
@@ -4289,7 +4289,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_YAVIN_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 200 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type> MAL_Rocket_Vehicle </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Kidnapping </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -4361,7 +4361,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost> 
     <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type> 
     <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count> 
-    <Corruption_1_Required_Unit_Type>Underworld_Merc</Corruption_1_Required_Unit_Type> 
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type> 
     <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count> 
     <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event> 
     <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name> 
@@ -4687,16 +4687,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> IG-88 </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_MonCalamari_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name>Story_Plots_Underworld_MonCalamari_Piracy.xml</Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>MONCALAMARI_PIR_LOAD_COR35_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> MONCALAMARI_PIR_VICTORY_COR35_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> IG-88_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>MONCALAMARI_PIR_LOSS_COR35_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>IG-88_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MONCALAMARI_STORY_PIRACY</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Nebulon_B_Underworld</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
@@ -4846,7 +4846,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost> 
   <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type> 
   <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count> 
-  <Corruption_1_Required_Unit_Type>Underworld_Merc</Corruption_1_Required_Unit_Type> 
+  <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type> 
   <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count> 
   <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event> 
   <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name> 
@@ -5010,7 +5010,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost> 
     <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type> 
     <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count> 
-    <Corruption_1_Required_Unit_Type>Underworld_Merc</Corruption_1_Required_Unit_Type> 
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type> 
     <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count> 
     <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event> 
     <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name> 
@@ -5128,16 +5128,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Silri </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_ZEFFO_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_ZEFFO_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>ZEFFO_KID_LOAD_COR10_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> ZEFFO_KID_VICTORY_COR10_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Silri_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>ZEFFO_KID_LOSS_COR10_04</Corruption_1_Failure_Speech_Event>
-    <Corruption_1_Failure_Bink_Hologram_Name>Silri_Loop</Corruption_1_Failure_Bink_Hologram_Name>
+    <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ZEFFO_STORY_KIDNAP</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Credit_Bonus>9500</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Black_Market </Corruption_2_Type>
@@ -5205,7 +5205,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Tyber_Zann, Tyber_Zann_Passenger, Tyber_Zann_Prologue </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_PANTORA_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -5283,7 +5283,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> Tyber_Zann, Tyber_Zann_Passenger, Tyber_Zann_Prologue </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_ORTO_PLUTONIA_Intimidation.ted </Corruption_1_Tactical_Map_Name>

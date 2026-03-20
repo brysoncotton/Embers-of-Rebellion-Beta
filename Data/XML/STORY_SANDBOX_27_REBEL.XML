@@ -160,77 +160,77 @@
 <!--********************************************-->
 
 	<Event Name="Dodonna_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Jan_Dodonna</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Jan_Dodonna</Reward_Param1>
 	</Event>
 
 	<Event Name="Raddus_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Admiral_Raddus</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Admiral_Raddus</Reward_Param1>
 	</Event>
 
 	<Event Name="Antilles_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Sundered_Heart</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Sundered_Heart</Reward_Param1>
 	</Event>
 
 	<Event Name="Mon_Mothma_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Mon_Mothma_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
 	</Event>
 
 	<Event Name="Droids_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Droids_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Droids_Team</Reward_Param1>
 	</Event>
 
 	<Event Name="Ackbar_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Home_One</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Home_One</Reward_Param1>
 	</Event>
 
 	<Event Name="Obi_Wan_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Obi_Wan_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
 	</Event>
 
 	<Event Name="Han_Solo_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Han_Solo_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Han_Solo_Team</Reward_Param1>
 	</Event>
 
 	<Event Name="Luke_Jedi_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Luke_Skywalker_Jedi_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
 	</Event>
 
 	<Event Name="Rogue_Squadron_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Rogue_Squadron_Space</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
 	</Event>
 
 	<Event Name="Yoda_Death">
-		<Event_Type>STORY_DEFEAT_HERO</Event_Type>
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Yoda_Team</Event_Param1>
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Yoda_Team</Reward_Param1>

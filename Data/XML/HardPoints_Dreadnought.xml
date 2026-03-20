@@ -97,7 +97,7 @@
             <Is_Destroyable>YES</Is_Destroyable>
           <Health>1500.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_DTL_01.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>DTL_01</Attachment_Bone>
             		<Collision_Mesh>DTL_01</Collision_Mesh>
@@ -138,7 +138,7 @@
             <Is_Destroyable>YES</Is_Destroyable>
           <Health>1500.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_DTL_02.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>DTL_02</Attachment_Bone>
             		<Collision_Mesh>DTL_02</Collision_Mesh>
@@ -178,7 +178,7 @@
             <Is_Destroyable>YES</Is_Destroyable>
           <Health>1500.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_DTL_03.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>DTL_03</Attachment_Bone>
             		<Collision_Mesh>DTL_03</Collision_Mesh>
@@ -217,7 +217,7 @@
             <Is_Destroyable>YES</Is_Destroyable>
           <Health>1500.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_DTL_04.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>DTL_04</Attachment_Bone>
             		<Collision_Mesh>DTL_04</Collision_Mesh>
@@ -256,7 +256,7 @@
             <Is_Destroyable>No</Is_Destroyable>
           <Health>1500.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_DTL_05.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>DTL_05</Attachment_Bone>
             		<Collision_Mesh>DTL_05</Collision_Mesh>
@@ -295,7 +295,7 @@
             <Is_Destroyable>No</Is_Destroyable>
           <Health>1500.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_DTL_06.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>DTL_06</Attachment_Bone>
             		<Collision_Mesh>DTL_06</Collision_Mesh>
@@ -334,7 +334,7 @@
             <Is_Destroyable>No</Is_Destroyable>
           <Health>1500.0</Health>
 		  
-		  <Model_To_Attach>Imperial_Support_Vessel_DTL_07.ALO</Model_To_Attach>
+		  <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>DTL_07</Attachment_Bone>
             		<Collision_Mesh>DTL_07</Collision_Mesh>
@@ -373,7 +373,7 @@
             <Is_Destroyable>YES</Is_Destroyable>
           <Health>1000.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_TL_01.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>TL_01</Attachment_Bone>
             		<Collision_Mesh>TL_01</Collision_Mesh>
@@ -412,7 +412,7 @@
             <Is_Destroyable>No</Is_Destroyable>
           <Health>1000.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_TL_02.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>TL_02</Attachment_Bone>
             		<Collision_Mesh>TL_02</Collision_Mesh>
@@ -451,7 +451,7 @@
             <Is_Destroyable>No</Is_Destroyable>
           <Health>1000.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_TL_03.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>TL_03</Attachment_Bone>
             		<Collision_Mesh>TL_03</Collision_Mesh>
@@ -490,7 +490,7 @@
             <Is_Destroyable>YES</Is_Destroyable>
           <Health>1000.0</Health>
 		   
- <Model_To_Attach>Imperial_Support_Vessel_TL_04.ALO</Model_To_Attach>
+ <Model_To_Attach></Model_To_Attach>
 		   
             		<Attachment_Bone>TL_04</Attachment_Bone>
             		<Collision_Mesh>TL_04</Collision_Mesh>

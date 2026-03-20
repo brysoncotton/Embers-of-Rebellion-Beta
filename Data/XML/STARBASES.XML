@@ -203,8 +203,8 @@
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>CR90, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>CR90, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -359,8 +359,8 @@
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 3</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 1</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>CR90, 1</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>CR90, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Spawned_Squadron_Delay_Seconds>10</Spawned_Squadron_Delay_Seconds>
 
@@ -520,8 +520,8 @@
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 4</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 2</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>CR90, 2</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>CR90, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>Nebulon_B_Frigate, 1</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Nebulon_B_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
@@ -694,8 +694,8 @@
 		<Starting_Spawned_Units_Tech_0>Y-Wing_Squadron, 6</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
-		<Starting_Spawned_Units_Tech_0>Corellian_Corvette, 2</Starting_Spawned_Units_Tech_0>	
-		<Reserve_Spawned_Units_Tech_0>Corellian_Corvette, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
+		<Starting_Spawned_Units_Tech_0>CR90, 2</Starting_Spawned_Units_Tech_0>	
+		<Reserve_Spawned_Units_Tech_0>CR90, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
 
 		<Starting_Spawned_Units_Tech_0>Nebulon_B_Frigate, 2</Starting_Spawned_Units_Tech_0>	
 		<Reserve_Spawned_Units_Tech_0>Nebulon_B_Frigate, -1</Reserve_Spawned_Units_Tech_0> <!-- -1 == no limit -->
@@ -1110,7 +1110,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>Nb_ImperialDockyard.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_EB_STATION_LEVEL3.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>Nb_ImperialDockyard_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -1246,7 +1246,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>Imperial_Shipyard_lvl4.ALO</Space_Model_Name>
-		<Galactic_Model_Name>I_EB_STATION_LEVEL4.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>Imperial_Shipyard_lvl4_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1500</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -1404,7 +1404,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>No</Is_Dummy>
 		<Space_Model_Name>Nb_ImperialShipyard.ALO</Space_Model_Name>
-		<Galactic_Model_Name>Nb_ImperialShipyard.ALO</Galactic_Model_Name>
+		<Galactic_Model_Name>Nb_ImperialShipyard_GUI.ALO</Galactic_Model_Name>
 		<Select_Box_Scale>1800</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Affiliation>Empire</Affiliation>
@@ -1880,7 +1880,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Rebel_X-Wing_Squadron, 
-				Corellian_Corvette,
+				CR90,
 				Y-Wing_Squadron, 
 				Nebulon_B_Frigate,
 				A_Wing_Squadron,
@@ -1954,7 +1954,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Rebel_X-Wing_Squadron, 
-				Corellian_Corvette,
+				CR90,
 				Y-Wing_Squadron, 
 				Nebulon_B_Frigate,
 				A_Wing_Squadron,
@@ -2036,7 +2036,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Rebel_X-Wing_Squadron, 
-				Corellian_Corvette,
+				CR90,
 				Y-Wing_Squadron, 
 				Nebulon_B_Frigate,
 				A_Wing_Squadron,
@@ -2141,7 +2141,7 @@
 		<Tactical_Buildable_Objects_Multiplayer> 
 			Rebel,
 				Rebel_X-Wing_Squadron, 
-				Corellian_Corvette,
+				CR90,
 				Y-Wing_Squadron, 
 				Nebulon_B_Frigate,
 				A_Wing_Squadron,
