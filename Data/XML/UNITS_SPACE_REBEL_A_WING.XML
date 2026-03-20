@@ -12,7 +12,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 		<Encyclopedia_Text>TEXT_TOOLTIP_A_WING</Encyclopedia_Text>
 		<Space_Model_Name>Rv_awing.ALO</Space_Model_Name>
-		<Scale_Factor>0.7</Scale_Factor>
+		<Scale_Factor>0.2</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
 
@@ -27,7 +27,7 @@
 		<Max_Rate_Of_Roll>5.0</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>50</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>300.0</Begin_Turn_Towards_Distance>
-		<Fires_Forward>no</Fires_Forward>
+		<Fires_Forward>Yes</Fires_Forward>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>
 		<Hyperspace>Yes</Hyperspace>
@@ -148,11 +148,7 @@
 					VWing_Squadron_E, 
 					Rebel_X-Wing_Squadron, 
 					A_Wing_Squadron,
-					Z-95_Headhunter_Rebel,
-					Skipray_Squadron,
-					Skipray_Blastboat,
-					StarViper_Squadron,
-					Starviper_Fighter,
+					Z-95_Headhunter_Rebel
 				</Target_Types>
 
 				<Recharge_Seconds>45</Recharge_Seconds>
@@ -204,7 +200,7 @@
 		<Build_Time_Seconds>25</Build_Time_Seconds>
 		<Build_Tab_Space_Units>No</Build_Tab_Space_Units>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
-		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
+		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
 		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>3</Required_Timeline>
@@ -233,7 +229,7 @@
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
-		<SpaceBehavior>ABILITY_COUNTDOWN</SpaceBehavior>
+		<SpaceBehavior>ABILITY_COUNTDOWN, REVEAL9</SpaceBehavior>
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

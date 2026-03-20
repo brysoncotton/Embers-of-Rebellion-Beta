@@ -921,7 +921,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types>R_Ground_Base_Shield, Ground_Infiltrator_Facility, Ground_Ion_Cannon, Rebel_Ground_Mining_Facility, Rebel_Orbital_Long_Range_Scanner, R_Galactic_Turbolaser_Tower_Defenses</Planet_Slice_Affinity_Types>
+    <Planet_Slice_Affinity_Types>R_Ground_Base_Shield, Ground_Infiltrator_Facility, Ground_Ion_Cannon, Rebel_Ground_Mining_Facility, R_Galactic_Turbolaser_Tower_Defenses</Planet_Slice_Affinity_Types>
     <Planet_Black_Market_Modifier>2000</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_TAKODANA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_TAKODANA_INFO_WL</Describe_Wildlife>
@@ -1689,7 +1689,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Space_Tactical_Map>_Space_Planet_Eriadu_01.ted</Space_Tactical_Map>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types>R_Orbital_Jamming_Station, Rebel_Orbital_Long_Range_Scanner</Planet_Slice_Affinity_Types>
+    <Planet_Slice_Affinity_Types>R_Orbital_Jamming_Station,</Planet_Slice_Affinity_Types>
     <Planet_Black_Market_Modifier>200</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_ERIADU_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_ERIADU_INFO_WL</Describe_Wildlife>
@@ -3751,7 +3751,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Capture_Bonus_Reward> 1700 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>5</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types>R_Orbital_Jamming_Station, Corellian_Gunboat, Rebel_Orbital_Long_Range_Scanner</Planet_Slice_Affinity_Types>
+    <Planet_Slice_Affinity_Types>R_Orbital_Jamming_Station, Corellian_Gunboat</Planet_Slice_Affinity_Types>
     <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_SULLUST_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_SULLUST_INFO_WL</Describe_Wildlife>
@@ -3824,7 +3824,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Capture_Bonus_Reward> 2400 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types>A_Wing_Squadron, R_Orbital_Jamming_Station, Corellian_Gunboat, Calamari_Cruiser, Nebulon_B_Frigate, Rebel_Orbital_Long_Range_Scanner, Y-Wing_Squadron</Planet_Slice_Affinity_Types>
+    <Planet_Slice_Affinity_Types>A_Wing_Squadron, R_Orbital_Jamming_Station, Corellian_Gunboat, Calamari_Cruiser, Nebulon_B_Frigate, Y-Wing_Squadron</Planet_Slice_Affinity_Types>
     <Planet_Black_Market_Modifier>-100</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_TARIS_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_TARIS_INFO_WL</Describe_Wildlife>
@@ -5106,7 +5106,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types>R_Ground_Base_Shield, Ground_Infiltrator_Facility, Ground_Ion_Cannon, Rebel_Ground_Mining_Facility, Rebel_Orbital_Long_Range_Scanner, R_Galactic_Turbolaser_Tower_Defenses</Planet_Slice_Affinity_Types>
+    <Planet_Slice_Affinity_Types>R_Ground_Base_Shield, Ground_Infiltrator_Facility, Ground_Ion_Cannon, Rebel_Ground_Mining_Facility, R_Galactic_Turbolaser_Tower_Defenses</Planet_Slice_Affinity_Types>
     <Planet_Black_Market_Modifier>2000</Planet_Black_Market_Modifier>
     <Describe_Population>TEXT_PLANET_ZEFFO_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_ZEFFO_INFO_WL</Describe_Wildlife>

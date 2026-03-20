@@ -576,7 +576,7 @@
 		</Abilities>
 	</SpecialStructure>
 	
-	<SpecialStructure Name="Empire_Orbital_Long_Range_Scanner">
+	<!--<SpecialStructure Name="Empire_Orbital_Long_Range_Scanner">
 		<Text_ID>TEXT_ORBITAL_LONG_RANGE_SCANNER</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -629,7 +629,6 @@
 		<Radar_Icon_Size>0.1  0.1</Radar_Icon_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
-		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
 		<Abilities SubObjectList="Yes">
@@ -663,8 +662,7 @@
 		<Space_Layer> StaticObject </Space_Layer>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-
-	</SpecialStructure>
+	</SpecialStructure> -->
 
 
 	<SpecialStructure Name="Orbital_Sensor_Pod_00">
@@ -741,7 +739,7 @@
 
 
 
-	<SpecialStructure Name="Rebel_Orbital_Long_Range_Scanner">
+	<!--<SpecialStructure Name="Rebel_Orbital_Long_Range_Scanner">
 		<Text_ID>TEXT_ORBITAL_LONG_RANGE_SCANNER</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -799,7 +797,7 @@
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Armor_Type> Armor_Satellite </Armor_Type>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
-		<!-- This Galactic_Influence_Range controls how far the OLRS's Fleet Reveal ability extends -->
+		
 		<Galactic_Influence_Range>0.0</Galactic_Influence_Range>
 		<Hyperspace_Fleet_Reveal_Range>0.0</Hyperspace_Fleet_Reveal_Range>
 		<Abilities SubObjectList="Yes">
@@ -834,7 +832,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
-	</SpecialStructure>
+	</SpecialStructure>-->
 	
 	<SpecialStructure Name="Ground_Cantina_E">
 		<Select_Box_Scale>250</Select_Box_Scale>

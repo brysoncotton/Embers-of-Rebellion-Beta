@@ -203,7 +203,9 @@
 			Corellia_CatoNeimoidia,
 			Pantora_Utapau,
 			Pantora_AlzocIII,
-			Pantora_OrtoPlutonia
+			Pantora_OrtoPlutonia,
+			Endor_Jakku,
+			Jedha_Ilum
 		</Trade_Routes>
 
         <Home_Location> Rebel, Hoth </Home_Location>
@@ -1071,7 +1073,9 @@
 			Zeffo_Dantooine,
 			Pantora_Utapau,
 			Pantora_AlzocIII,
-			Pantora_OrtoPlutonia
+			Pantora_OrtoPlutonia,
+			Endor_Jakku,
+			Jedha_Ilum
 		</Trade_Routes>
 
         <Home_Location> Rebel, Hoth </Home_Location>

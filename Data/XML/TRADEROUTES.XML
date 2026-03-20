@@ -893,4 +893,20 @@
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
         </TradeRoute>
 
+        <TradeRoute Name="Endor_Jakku">
+                <Point_A>Endor</Point_A>
+                <Point_B>Jakku</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
+        <TradeRoute Name="Jedha_Ilum">
+                <Point_A>Jedha</Point_A>
+                <Point_B>Ilum</Point_B>
+                <HS_Speed_Factor>4</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0</Credit_Gain_Factor>
+        </TradeRoute>
+
 </TradeRoutes>

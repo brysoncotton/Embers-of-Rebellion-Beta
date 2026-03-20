@@ -33,8 +33,48 @@
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
 
+	<!--LOCK ALL ERA ADVANCERS-->
+	<Event Name="Lock_Era1_to Era2_Advance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Operation_Handoff</Reward_Param1>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
 
-<!--ERA 1 EVENTS: Mon-Cal Retrofit (5 BBY – 2 BBY)--> 
+	<Event Name="Lock_Era2_to Era3_Advance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Project_Shantipole</Reward_Param1>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
+
+	<Event Name="Lock_Era3_to Era4_Advance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Project_Starhawk</Reward_Param1>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
+
+	<Event Name="Lock_Era4_to Era5_Advance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Modernization</Reward_Param1>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
+
+<!--ERA 1 EVENTS: Mon-Cal Retrofit (5 BBY – 2 BBY)-->
+
+	<Event Name="Permit_Advance_Era_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>900</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Operation_Handoff</Reward_Param1> 
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
 
 	<Event Name="Spawn_Jan_Dodonna">
 		<Event_Type>STORY_TRIGGER</Event_Type>
@@ -69,6 +109,14 @@
 		<Event_Param1>2</Event_Param1>
 	</Event>
 
+	<Event Name="Permit_Advance_Era_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>900</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Project_Shantipole</Reward_Param1> 
+		<Prereq>Rebels_Enter_Era_02</Prereq>
+	</Event>
+
 	<Event Name="Spawn_Mon_Mothma">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
@@ -90,6 +138,14 @@
 	<Event Name="Rebels_Enter_Era_03">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>3</Event_Param1>
+	</Event>
+
+	<Event Name="Permit_Advance_Era_4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>900</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Project_Starhawk</Reward_Param1> 
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Ackbar">
@@ -137,6 +193,14 @@
 	<Event Name="Rebels_Enter_Era_04">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>4</Event_Param1>
+	</Event>
+
+	<Event Name="Permit_Advance_Era_5">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>900</Event_Param1>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Modernization</Reward_Param1> 
+		<Prereq>Rebels_Enter_Era_04</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Yoda">

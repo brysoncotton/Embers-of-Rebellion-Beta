@@ -4991,13 +4991,6 @@
 		<Prereq>Saboteur_Opens_Sabotage_Menu</Prereq>
 	</Event>
 
-
-	<Event Name="Underworld_Sabotage_Tutorial_Task_Completed">
-		<Event_Type>STORY_GALACTIC_SABOTAGE</Event_Type>
-		<Event_Param1>Empire_Orbital_Long_Range_Scanner</Event_Param1>
-		<Prereq>Saboteur_Gets_To_Dathomir Saboteur_Opens_Sabotage_Menu</Prereq>
-	</Event>
-
 			<Event Name="Remove_Sabo_Tut_Text_01">
 				<Event_Type>STORY_TRIGGER</Event_Type>
 				<Reward_Type>SCREEN_TEXT</Reward_Type>

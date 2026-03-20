@@ -97,8 +97,8 @@
 		<Required_Planets></Required_Planets>
 		<Autoresolve_Health>2500</Autoresolve_Health>
 		<Tactical_Health>8500</Tactical_Health>
-		<Shield_Points>1000</Shield_Points>
-		<Shield_Refresh_Rate>20</Shield_Refresh_Rate>
+		<Shield_Points>2500</Shield_Points>
+		<Shield_Refresh_Rate>40</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
 		<Ship_Class>capital</Ship_Class>

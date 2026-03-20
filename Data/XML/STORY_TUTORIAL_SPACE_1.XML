@@ -380,15 +380,6 @@
       <Reward_Param2>-1</Reward_Param2>
       <Prereq>Tutorial_1_Space_91</Prereq>
    </Event>
-   
-			<Event Name="Tutorial_1_Space_93b">
-				<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-				<Event_Param1>EMPIRE_ORBITAL_LONG_RANGE_SCANNER</Event_Param1>
-				<Reward_Type>SCREEN_TEXT</Reward_Type>
-				<Reward_Param1>TEXT_TUTORIAL_CHAP_01_11</Reward_Param1>
-				<Reward_Param4>REMOVE</Reward_Param4>
-				<Prereq>Tutorial_1_Space_93a</Prereq>
-			</Event>
 
 
    <Event Name="Tutorial_1_Space_94">
