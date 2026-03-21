@@ -42,110 +42,104 @@
 require("PGStateMachine")
 
 function Definitions()
+    -- Common Settings
+    ServiceRate = 1
 
-	ServiceRate = 1
+    -- Define States for MC30 Logic
+    Define_State("State_Init", State_Init)
+    Define_State("State_AI_Autofire", State_AI_Autofire)
+    Define_State("State_Human_No_Autofire", State_Human_No_Autofire)
+    Define_State("State_Human_Autofire", State_Human_Autofire)
 
-	Define_State("State_Init", State_Init);
-	Define_State("State_AI_Autofire", State_AI_Autofire)
-	Define_State("State_Human_No_Autofire", State_Human_No_Autofire)
-	Define_State("State_Human_Autofire", State_Human_Autofire)
-	
-	unit_trigger_number = 3
-	threat_trigger_number = 1000
-	cluster_bomb_range = 500
-	ability_name = "CLUSTER_BOMB"
+    -- MC30 Specific Variables
+    unit_trigger_number = 3
+    threat_trigger_number = 1000
+    cluster_bomb_range = 500
+    ability_name = "CLUSTER_BOMB"
+
+    -- Layerz Logic Initialization
+    layer_manager = require("eaw-layerz/layermanager")
 end
 
 function State_Init(message)
-	if message == OnEnter then
+    if message == OnEnter then
+        -- Universal check: prevent behavior outside of Space mode
+        if Get_Game_Mode() ~= "Space" then
+            ScriptExit()
+        end
 
-		-- prevent this from doing anything in galactic mode
-		if Get_Game_Mode() ~= "Space" then
-			ScriptExit()
-		end
+        -- Execute Layerz logic
+        layer_manager:update_unit_layer(Object)
 
-		nearby_unit_count = 0
-		nearby_unit_threat = 0
-		recent_enemy_units = {}
+        -- Initialize MC30 variables
+        nearby_unit_count = 0
+        nearby_unit_threat = 0
+        recent_enemy_units = {}
 
-		Register_Prox(Object, Unit_Prox, cluster_bomb_range)
-		
-		if Object.Get_Owner().Is_Human() then
-			Set_Next_State("State_Human_No_Autofire")
-		else
-			Set_Next_State("State_AI_Autofire")
-		end
-	end
+        -- Register Proximity for Cluster Bombs
+        Register_Prox(Object, Unit_Prox, cluster_bomb_range)
+        
+        -- Determine initial state based on owner
+        if Object.Get_Owner().Is_Human() then
+            Set_Next_State("State_Human_No_Autofire")
+        else
+            Set_Next_State("State_AI_Autofire")
+        end
+    end
 end
 
+-- MC30 State Functions (Unchanged from original)
+
 function State_AI_Autofire(message)
-	if message == OnUpdate then
-		if nearby_unit_threat >= threat_trigger_number then
-			Try_Ability(Object, ability_name)
-		end	
-		
-		-- reset tracked units each service.
-		nearby_unit_count = 0
-		nearby_unit_threat = 0
-		recent_enemy_units = {}
-	end		
+    if message == OnUpdate then
+        if nearby_unit_threat >= threat_trigger_number then
+            Try_Ability(Object, ability_name)
+        end    
+        nearby_unit_count = 0
+        nearby_unit_threat = 0
+        recent_enemy_units = {}
+    end        
 end
 
 function State_Human_No_Autofire(message)
-	if message == OnUpdate then
-		if Object.Is_Ability_Autofire(ability_name) then
-			Set_Next_State("State_Human_Autofire")
-		end
-		
-		-- reset tracked units each service.
-		nearby_unit_count = 0
-		nearby_unit_threat = 0
-		recent_enemy_units = {}
-		
-	end
+    if message == OnUpdate then
+        if Object.Is_Ability_Autofire(ability_name) then
+            Set_Next_State("State_Human_Autofire")
+        end
+        nearby_unit_count = 0
+        nearby_unit_threat = 0
+        recent_enemy_units = {}
+    end
 end
 
 function State_Human_Autofire(message)
-	if message == OnUpdate then
-	
-		if Object.Is_Ability_Autofire(ability_name) then
-			if nearby_unit_count > 2 then
-				Object.Activate_Ability(ability_name, true)
-			end
-		else
-			Set_Next_State("State_Human_No_Autofire")
-		end
-		
-		-- reset tracked units each service.
-		nearby_unit_count = 0
-		nearby_unit_threat = 0
-		recent_enemy_units = {}
-			
-	end				
+    if message == OnUpdate then
+        if Object.Is_Ability_Autofire(ability_name) then
+            if nearby_unit_count > 2 then
+                Object.Activate_Ability(ability_name, true)
+            end
+        else
+            Set_Next_State("State_Human_No_Autofire")
+        end
+        nearby_unit_count = 0
+        nearby_unit_threat = 0
+        recent_enemy_units = {}
+    end                
 end
 
-
--- If an enemy enters the prox, han may want to chase them down for stun
 function Unit_Prox(self_obj, trigger_obj)
-	
-	if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
-		return
-	end
-	
-	--Promote to parent object (fighter squadron) for unit counting purposes
-	if trigger_obj.Get_Parent_Object() then
-		trigger_obj = trigger_obj.Get_Parent_Object()
-	end
-	
-	--Ignore targets that are too close to be hit by the cluster bombs
-	if self_obj.Get_Distance(trigger_obj) < 150.0 then
-		return
-	end
-
-	-- If we haven't seen this unit recently, track him
-	if recent_enemy_units[trigger_obj] == nil then
-		nearby_unit_count = nearby_unit_count + 1
-		recent_enemy_units[trigger_obj] = trigger_obj
-		nearby_unit_threat = nearby_unit_threat + trigger_obj.Get_Type().Get_Combat_Rating()
-	end
+    if not trigger_obj.Get_Owner().Is_Enemy(Object.Get_Owner()) then
+        return
+    end
+    if trigger_obj.Get_Parent_Object() then
+        trigger_obj = trigger_obj.Get_Parent_Object()
+    end
+    if self_obj.Get_Distance(trigger_obj) < 150.0 then
+        return
+    end
+    if recent_enemy_units[trigger_obj] == nil then
+        nearby_unit_count = nearby_unit_count + 1
+        recent_enemy_units[trigger_obj] = trigger_obj
+        nearby_unit_threat = nearby_unit_threat + trigger_obj.Get_Type().Get_Combat_Rating()
+    end
 end

@@ -62,7 +62,7 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<GUI_Row> 0 </GUI_Row>
 
-		<Required_Star_Base_Level>4</Required_Star_Base_Level>
+		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -77,10 +77,12 @@
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Build_Cost_Credits>20000</Build_Cost_Credits>
+		<Build_Cost_Credits>2</Build_Cost_Credits>
+		<Build_Time_Seconds>2</Build_Time_Seconds>
+		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
+		
 		<Max_Speed>2</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<Max_Thrust>0.2</Max_Thrust>
@@ -236,7 +238,7 @@
 		<Tactical_Build_Time_Seconds>38</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
-		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>-1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_For_All_Allies>-1</Build_Limit_Lifetime_For_All_Allies>  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 
@@ -247,7 +249,7 @@
 				<Type>DEFEND</Type>
 				<Expiration_Seconds>20</Expiration_Seconds>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	2.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
 				<Mod_Multiplier>ENERGY_REGEN_INTERVAL_MULTIPLIER,	0.10f</Mod_Multiplier> <!-- make it faster to recharge -->
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	5.0f</Mod_Multiplier>
@@ -274,7 +276,7 @@
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</HeroUnit>
 </HeroUnits>

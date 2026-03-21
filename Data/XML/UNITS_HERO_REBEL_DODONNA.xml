@@ -71,7 +71,7 @@
 		<Build_Cost_Credits>5000</Build_Cost_Credits>
 
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
+		
 		<Max_Speed>1.5</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<Max_Thrust>0.2</Max_Thrust>
@@ -300,6 +300,6 @@
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</HeroUnit>
 </HeroUnits>

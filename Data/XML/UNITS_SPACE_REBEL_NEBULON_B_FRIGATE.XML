@@ -21,7 +21,7 @@
 		<Max_Speed>2.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
+		
 		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
@@ -187,7 +187,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>3</Population_Value>
-		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
 

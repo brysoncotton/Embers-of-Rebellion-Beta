@@ -17,7 +17,7 @@
 		<Max_Speed>2.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
+		
 		<Layer_Z_Adjust>-110.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
@@ -184,6 +184,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Empire_Quasar_Class_Carrier">
@@ -197,7 +198,7 @@
 		<!--Reserves -->
 		<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Reserve_Spawned_Units_Tech_0> 
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Reserve_Spawned_Units_Tech_0>
-
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 
 <!--DEATH CLONES-->

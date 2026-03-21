@@ -421,7 +421,7 @@
 		<Build_Cost_Credits>5000</Build_Cost_Credits>
 
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
+		
 		<Max_Speed>1.5</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<Max_Thrust>0.2</Max_Thrust>
@@ -661,7 +661,7 @@
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</UniqueUnit>
 	
 	<UniqueUnit Name="Home_One_Death_Clone">
@@ -1482,7 +1482,7 @@
 		<Max_Speed>4.90</Max_Speed>
 		<Max_Rate_Of_Turn>2.4</Max_Rate_Of_Turn>   <!-- increased to compensate for faster speed -->
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
@@ -1685,7 +1685,7 @@
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
+		
 		<Max_Speed>2.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
@@ -2617,7 +2617,7 @@
 		<Scale_Factor>0.7</Scale_Factor>
 
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		
 		<Max_Speed>5.3</Max_Speed>
 		<Max_Rate_Of_Turn>1.0</Max_Rate_Of_Turn>
 		<Max_Rate_Of_Roll>0.8</Max_Rate_Of_Roll>

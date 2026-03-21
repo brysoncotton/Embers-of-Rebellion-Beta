@@ -65,7 +65,7 @@
 		<Death_Explosions>Small_Explosion_Space</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 
-		<Lua_Script>simple_wing_animation_state_machine</Lua_Script>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 		
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Space_FOW_reveal_Range>160000</Space_FOW_reveal_Range>

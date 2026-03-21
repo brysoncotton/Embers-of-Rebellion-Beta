@@ -18,7 +18,7 @@
         <Ranking_In_Category>6</Ranking_In_Category>
 		<Dense_FOW_Reveal_Range_Multiplier>1</Dense_FOW_Reveal_Range_Multiplier>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> SuperCapital </Space_Layer>
+		
 		<Layer_Z_Adjust>-300</Layer_Z_Adjust>	
 		
 		<Max_Speed>3.0</Max_Speed>
@@ -221,6 +221,7 @@
 			<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 
 </SecutorDeathDorito>

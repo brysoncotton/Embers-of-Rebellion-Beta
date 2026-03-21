@@ -791,7 +791,7 @@
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
+		
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>

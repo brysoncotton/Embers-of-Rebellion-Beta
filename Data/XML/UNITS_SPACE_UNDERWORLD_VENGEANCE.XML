@@ -30,7 +30,7 @@
 		<Max_Speed>2.5</Max_Speed>
 		<Max_Rate_Of_Turn>2.0</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Frigate </Space_Layer>
+		
 		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.4</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>

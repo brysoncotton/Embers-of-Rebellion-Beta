@@ -110,7 +110,7 @@
 				
 			</Lucky_Shot_Attack_Ability>
 		</Abilities>
-			
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Squadron>
 
 </Red_Squadron_files>

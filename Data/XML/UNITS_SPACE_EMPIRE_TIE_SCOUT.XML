@@ -205,7 +205,7 @@
 			<!-- Primary ability -->
 			
 		</Unit_Abilities_Data>
-		
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Squadron>
 	
 	

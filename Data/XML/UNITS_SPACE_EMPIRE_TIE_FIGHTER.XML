@@ -233,6 +233,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Squadron>
 
 	<Squadron Name="TIE_Fighter_Flight">
@@ -242,12 +243,14 @@
 		<Squadron_Units>TIE_Fighter, TIE_Fighter</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Squadron>
 
 	<Squadron Name="TIE_Fighter_Squadron_E3">
 		<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
 		<Squadron_Units>TIE_Fighter_E3, TIE_Fighter_E3, TIE_Fighter_E3,TIE_Fighter_E3</Squadron_Units>
 		<Squadron_Units>TIE_Fighter_E3, TIE_Fighter_E3, TIE_Fighter_E3</Squadron_Units>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Squadron>
 
 </TIE_fighter_files>

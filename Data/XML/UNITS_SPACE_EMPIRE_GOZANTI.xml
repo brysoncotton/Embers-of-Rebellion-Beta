@@ -160,7 +160,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<!-- Layer-Z Script -->
-		<Lua_Script></Lua_Script>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 		
 	</SpaceUnit>
 

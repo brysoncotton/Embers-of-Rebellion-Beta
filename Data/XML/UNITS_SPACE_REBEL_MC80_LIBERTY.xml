@@ -18,7 +18,7 @@
 		<Max_Speed>2</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
+		
 		<Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
@@ -214,7 +214,7 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>4</Population_Value>
-		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Calamari_Cruiser_Death_Clone">

@@ -79,7 +79,7 @@
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Capital </Space_Layer>
+		
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
@@ -382,6 +382,7 @@
 		<!-- <Max_Speed>1.0</Max_Speed> -->
 
 		<Death_Clone>Damage_Normal, Star_Destroyer_II_Death_Clone</Death_Clone>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 
 

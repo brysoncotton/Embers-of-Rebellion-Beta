@@ -16,7 +16,7 @@
 		<Max_Speed>3.0</Max_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
@@ -168,7 +168,7 @@
 		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
@@ -311,7 +311,7 @@
 		<Max_Speed>2.0</Max_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
@@ -433,7 +433,7 @@
 		<Obstacle_X_Offset>-70.0</Obstacle_X_Offset>
       	<Obstacle_Y_Offset>-30.0</Obstacle_Y_Offset>
       	<UnitCollisionClass>Landing Transport</UnitCollisionClass>	
-      	<Space_Layer> Land </Space_Layer>	
+      		
       	<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</TransportUnit>
 
@@ -453,7 +453,7 @@
 		<Max_Speed>4.0</Max_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		
 		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
@@ -644,7 +644,7 @@
 		<Min_Speed>0</Min_Speed>
 		<Max_Rate_Of_Turn>.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>

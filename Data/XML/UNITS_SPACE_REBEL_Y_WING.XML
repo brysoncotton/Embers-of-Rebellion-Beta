@@ -339,6 +339,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Squadron>
 	
 	
@@ -419,27 +420,7 @@
 		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-		<!-- Unit abilities description -->
-		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<!--<Unit_Ability>
-				<Type>ION_CANNON_SHOT</Type>
-				<Recharge_Seconds>20.0</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>
-				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>-->
-		</Unit_Abilities_Data>
-		
-		<Abilities SubObjectList="Yes">
-			<Ion_Cannon_Shot_Attack_Ability Name="Y_Wing_Container_Ion_Cannon_Shot">
-				<Activation_Style> User_Input </Activation_Style>
-				<!-- We only consider the following unit types "valid targets": -->
-				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-			</Ion_Cannon_Shot_Attack_Ability>
-		</Abilities>
-		
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Container>
 
 </Y_wing_files>

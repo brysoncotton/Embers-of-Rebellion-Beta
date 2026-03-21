@@ -257,6 +257,7 @@
 		<Score_Cost_Credits> 370</Score_Cost_Credits>
 
 		<Create_Team_Type>TIE_Bomber_Squadron_Container</Create_Team_Type>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Squadron>
 
 

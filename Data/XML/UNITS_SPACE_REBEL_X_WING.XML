@@ -252,6 +252,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Squadron>
 
 	<Container Name="X_Wing_Squadron_Container">
@@ -293,7 +294,7 @@
 			</Unit_Ability>
 
 		</Unit_Abilities_Data>
-		
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</Container>
 
 </x_wing_files>

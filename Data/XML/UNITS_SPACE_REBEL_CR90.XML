@@ -17,7 +17,7 @@
 		<Max_Speed>3.1</Max_Speed> <!-- Was 3.25 -->
 		<Max_Rate_Of_Turn>1.25</Max_Rate_Of_Turn> <!-- was 1.50 -->
 		<MovementClass> Space </MovementClass>
-		<Space_Layer> Corvette </Space_Layer>
+		
 		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
@@ -171,6 +171,7 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>2</Population_Value>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
+		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 	
 </CR90_Corvette_Files>
