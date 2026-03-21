@@ -62,7 +62,7 @@
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 		<GUI_Row> 0 </GUI_Row>
 
-		<Required_Star_Base_Level>2</Required_Star_Base_Level>
+		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
@@ -77,11 +77,11 @@
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Build_Cost_Credits>12500</Build_Cost_Credits>
+		<Build_Cost_Credits>20000</Build_Cost_Credits>
 
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		<Max_Speed>1.5</Max_Speed>
+		<Max_Speed>2</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<Max_Thrust>0.2</Max_Thrust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>

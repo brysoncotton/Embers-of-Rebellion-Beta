@@ -57,7 +57,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<GUI_Row> 1 </GUI_Row>
 		<Space_Model_Name>Empire_Imperator_Star_Destroyer_MK_I.ALO</Space_Model_Name>
-
+		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Ranking_In_Category>5</Ranking_In_Category>
 	
 	    <GUI_Bracket_Height>500</GUI_Bracket_Height>

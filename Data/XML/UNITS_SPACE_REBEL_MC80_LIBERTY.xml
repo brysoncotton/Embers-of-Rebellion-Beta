@@ -15,7 +15,7 @@
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		<Ranking_In_Category>5</Ranking_In_Category>
-		<Max_Speed>1.5</Max_Speed>
+		<Max_Speed>2</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
@@ -35,10 +35,10 @@
 		<Death_Clone>Damage_Normal, Calamari_Cruiser_Death_Clone</Death_Clone>
 
 		<Affiliation>Rebel</Affiliation>
-		<Build_Initially_Locked>Yes</Build_Initially_Locked>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>Yes</Build_Can_Be_Unlocked_By_Slicer>
 		<Slice_Cost_Credits>2000</Slice_Cost_Credits>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>

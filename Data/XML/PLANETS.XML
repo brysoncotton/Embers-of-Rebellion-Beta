@@ -246,7 +246,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
     <GUI_Model_Name>W_planet_alderaan_low.alo</GUI_Model_Name>
     <Mass>1.0</Mass>
-    <Scale_Factor>.772</Scale_Factor>
+    <Scale_Factor>1.25</Scale_Factor>
     <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
     <Show_Name>Yes</Show_Name>
     <Name_Adjust>-12, -12, 0.1</Name_Adjust>
@@ -370,7 +370,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Anaxes">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index></Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ANAXES_ASTEROID_BELT</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -389,7 +389,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
     <Planet_Is_Destroyable_By_TSW> No </Planet_Is_Destroyable_By_TSW>
-    <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
+    
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
     <Galactic_Position>302.0, 208.0, 10.0</Galactic_Position>
@@ -400,7 +400,8 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Force_Strength>0.0</Force_Strength>
     <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
     <Land_Tactical_Map> </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Anaxes_01.ted</Space_Tactical_Map>
+    <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
+    <Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
@@ -1406,7 +1407,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_base_stealth_ground.tga</Planet_Ability_Icon>
+    
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
     
@@ -1487,7 +1488,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_base_stealth_ground.tga</Planet_Ability_Icon>
+    
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>18</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
@@ -2256,7 +2257,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_base_stealth_ground.tga</Planet_Ability_Icon>
+    
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Wampa, 2000</Potential_Indigenous_Power>
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
@@ -2584,7 +2585,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_base_stealth_ground.tga</Planet_Ability_Icon>
+    
     <Native_Icon_Name></Native_Icon_Name>
     <Potential_Indigenous_Power>Wookie_Warrior, 800</Potential_Indigenous_Power>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
