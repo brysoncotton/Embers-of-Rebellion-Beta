@@ -70,7 +70,7 @@
 		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		
-		<Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
+		
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 
@@ -267,7 +267,7 @@
 		<Space_Model_Name>Profundity_D.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die> Unit_Calamari_Death_SFX </Death_SFXEvent_Start_Die>
 		<Scale_Factor> 0.5 </Scale_Factor>
-		<Layer_Z_Adjust> -290.0 </Layer_Z_Adjust>
+		
 		<Max_Speed> 0.25 </Max_Speed>
 		<Max_Rate_Of_Turn> 0.4 </Max_Rate_Of_Turn>
 		<Max_Thrust> 0.05 </Max_Thrust>

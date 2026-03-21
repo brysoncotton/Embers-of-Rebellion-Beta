@@ -20,7 +20,7 @@
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		
-		<Layer_Z_Adjust>-150.0</Layer_Z_Adjust>
+		
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
 

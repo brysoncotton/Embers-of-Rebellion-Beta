@@ -74,7 +74,6 @@
 		<Hyperspace_Speed>2.0</Hyperspace_Speed>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
-		<Layer_Z_Adjust> -90 </Layer_Z_Adjust>
 
 		<Armor_Type> Armor_Nebulon_B </Armor_Type>
 
@@ -221,7 +220,6 @@
 		<Space_Model_Name></Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Scale_Factor>.5</Scale_Factor>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
 		<Max_Thrust>0.05</Max_Thrust>

@@ -93,7 +93,7 @@
 		<Space_Full_Stop_Command>yes</Space_Full_Stop_Command>
 		<OverrideAcceleration> .1 </OverrideAcceleration>
 		<OverrideDeceleration> .1 </OverrideDeceleration>
-		<Layer_Z_Adjust> -290 </Layer_Z_Adjust>
+		
 
 		<Armor_Type> Armor_Calamari_Cruiser </Armor_Type>
 

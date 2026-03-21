@@ -66,7 +66,7 @@
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		
-		<Layer_Z_Adjust>-150.0</Layer_Z_Adjust>		
+				
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>8</Bank_Turn_Angle>
 		<OverrideAcceleration> .03 </OverrideAcceleration>
@@ -253,7 +253,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Scale_Factor>0.85</Scale_Factor>
-		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
+		
 		<Max_Speed>1.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
 		<Max_Thrust>1</Max_Thrust>

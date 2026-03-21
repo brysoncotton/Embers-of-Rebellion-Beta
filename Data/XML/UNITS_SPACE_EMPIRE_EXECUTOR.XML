@@ -76,7 +76,7 @@
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		
-		<Layer_Z_Adjust>-500.0</Layer_Z_Adjust>
+		
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>3</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
@@ -319,7 +319,7 @@
 		<Space_Model_Name>EV_ExecutorStarDestroyer_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>SFX_Death_Bombard</Death_SFXEvent_Start_Die>
 		<Scale_Factor>1</Scale_Factor>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
+		
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
 		<Max_Thrust>0.05</Max_Thrust>

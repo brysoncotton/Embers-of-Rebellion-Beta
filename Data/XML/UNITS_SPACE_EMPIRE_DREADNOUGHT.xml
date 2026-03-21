@@ -18,7 +18,7 @@
 		<Max_Rate_Of_Turn>0.5</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		
-		<Layer_Z_Adjust>-100.0</Layer_Z_Adjust>		
+				
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>25</Bank_Turn_Angle> <!-- was 8 -->
 		<OverrideAcceleration> .03 </OverrideAcceleration>
