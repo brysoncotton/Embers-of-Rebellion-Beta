@@ -1,10 +1,11 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 
 <Game_Object_Files>
 
 	<File>TransportUnits.xml</File>
 
-	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always show up on the left of the build bar. -->
+	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always
+	show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
 	<File>GroundStructures.xml</File>
 	<File>GroundTurrets.xml</File>
@@ -20,11 +21,11 @@
 	<File>GroundBuildablesSkirmish.xml</File>
 
 	<File>SpaceProps.xml</File>
-	
+
 	<File>SpacePrimarySkydomes.xml</File>
 	<File>SpaceSecondarySkydomes.xml</File>
 	<File>SpaceBuildablesSkirmish.xml</File>
-	
+
 	<File>NamedHeroUnits.xml</File>
 	<File>GenericHeroUnits.xml</File>
 	<File>HeroCompanies.xml</File>
@@ -60,7 +61,7 @@
 	<File>Props_Desert.xml</File>
 	<File>Props_Urban.xml</File>
 	<File>Props_Generic.xml</File>
-	<File>Props_Story.xml</File>	
+	<File>Props_Story.xml</File>
 
 	<File>CIN_SpaceUnitsCapital.xml</File>
 	<File>CIN_SpaceUnitsFighters.xml</File>
@@ -84,7 +85,7 @@
 
 
 	<!-- Expansion General Files -->
-	
+
 	<File>SpaceProps_Underworld.xml</File>
 	<File>Underworld_TransportUnits.xml</File>
 	<File>Minor_Heroes_Expansion.xml</File>
@@ -96,10 +97,12 @@
 	<File>Corruption_Special_Units.XML</File>
 
 
-	<!--GENERIC MOD FILES-->
+	<!--GENERIC
+	MOD FILES-->
 	<File>MOD_GROUND_STRUCTURES.xml</File>
-	
-	<!--ORDER THE UNIT XML FILES IN THE ORDER THAT THEY SHOULD APPEAR IN THE BUILD BAR GUI
+
+	<!--ORDER
+	THE UNIT XML FILES IN THE ORDER THAT THEY SHOULD APPEAR IN THE BUILD BAR GUI
 	
 		FIGHTERS
 		CORVETTES
@@ -110,7 +113,8 @@
 		SUPER CAPITALS
 		SUPERS
 
-	IF THERE ARE TWO UNITS THAT TIE, PLACE THEM ACCORDING TO FIRE POWER (SMALLEST ABOVE, USE JUDGEMENT) AND THEN OLDER MODELS ABOVE NEWER MODELS (VICTORY I ABOVE VICTORY II)
+	IF THERE ARE TWO UNITS THAT TIE, PLACE THEM ACCORDING TO FIRE POWER (SMALLEST ABOVE, USE JUDGEMENT)
+	AND THEN OLDER MODELS ABOVE NEWER MODELS (VICTORY I ABOVE VICTORY II)
 	-->
 
 	<!-- EMPIRE MOD SPACEUNITS HERE-->
@@ -128,7 +132,8 @@
 	<File>UNITS_SPACE_EMPIRE_VINDICATOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_INTERDICTOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_DREADNOUGHT.xml</File>
-	<!--<File>UNITS_SPACE_EMPIRE_ARQUITENS.xml</File>--> <!--Commented out for stability-->
+	<!--<File>UNITS_SPACE_EMPIRE_ARQUITENS.xml</File>--> <!--Commented
+	out for stability-->
 	<File>UNITS_SPACE_EMPIRE_ACCLAMATOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_VICTORY_STAR_DESTROYER.xml</File>
 	<File>UNITS_SPACE_EMPIRE_VICTORY_II_STAR_DESTROYER.XML</File>
@@ -138,7 +143,7 @@
 	<File>UNITS_SPACE_EMPIRE_SECUTOR.XML</File>
 	<File>Units_Space_Empire_Executor.xml</File>
 	<File>UNITS_SPACE_EMPIRE_DEATH_STAR.xml</File>
-	
+
 
 	<!-- EMPIRE MOD HERO UNITS-->
 	<File>UNITS_HERO_EMPIRE_TARKIN.xml</File>
@@ -151,12 +156,13 @@
 	<!--<File>Units_Land_Empire_Noghri.xml</File>-->
 	<File>Units_Land_Empire_Juggernaut.xml</File>
 
-	<!--REBEL MOD SPACE UNITS-->
+	<!--REBEL
+	MOD SPACE UNITS-->
 	<File>UNITS_SPACE_REBEL_X_WING.xml</File>
 	<File>UNITS_SPACE_REBEL_Z95_HEADHUNTER.xml</File>
 	<File>UNITS_SPACE_REBEL_A_WING.xml</File>
 	<File>UNITS_SPACE_REBEL_Y_WING.xml</File>
-	<File>Units_Space_Rebel_B_Wing.xml</File>	
+	<File>Units_Space_Rebel_B_Wing.xml</File>
 	<File>UNITS_SPACE_REBEL_GALLOFREE_GR75.XML</File>
 	<File>UNITS_SPACE_REBEL_PELTA.xml</File>
 	<File>UNITS_SPACE_REBEL_CR90.xml</File>
