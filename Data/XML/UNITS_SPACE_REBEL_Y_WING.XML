@@ -4,7 +4,7 @@
 
 
 
-<!-- **** BASE SHIP INFORMATION **** -->
+	<!-- **** BASE SHIP INFORMATION **** -->
 
 	<SpaceUnit Name="Y-Wing">
 
@@ -45,7 +45,7 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
 		<Armor_Type> Armor_Bomber </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Is_Bomber>yes</Is_Bomber>
@@ -115,7 +115,7 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		
+
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
@@ -125,27 +125,27 @@
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 
- 		<!-- Unit abilities description -->
+		<!-- Unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<!--<Unit_Ability>
+			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Attack_Y_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>-->
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
 
 	</SpaceUnit>
-	
+
 	<SpaceUnit Name="Y-Wing_No_Ability">
 
 		<Text_ID>TEXT_UNIT_Y_WING</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-		
-		
+
+
 		<Space_Model_Name>rv_ywing.alo</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>
@@ -180,7 +180,7 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>bomber</Ship_Class>
 		<Armor_Type> Armor_Bomber </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Is_Bomber>yes</Is_Bomber>
@@ -248,7 +248,7 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Bomber</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		
+
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
@@ -257,20 +257,20 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
- 		
+
 		<Strafe_Distance>500.0</Strafe_Distance>
 		<Population_Value>0</Population_Value>
 
 	</SpaceUnit>
 
 
-<!-- **** SQUADRON INFORMATION **** -->
+	<!-- **** SQUADRON INFORMATION **** -->
 
 
 	<Squadron Name="Y-Wing_Squadron">
 		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
-		
-		
+
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -314,39 +314,39 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
-		
+
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
 		<Create_Team_Type>Y_Wing_Squadron_Container </Create_Team_Type>
-     	<Max_Squad_Size> 6 </Max_Squad_Size>
-			
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-			<!--<Unit_Ability>
+			<Unit_Ability>
 				<Type>ION_CANNON_SHOT</Type>
-			</Unit_Ability>-->
+			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</Squadron>
-	
-	
+
+
 	<Squadron Name="Y-Wing_Squadron_No_Ability">
 		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
-		
-		
+
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -385,21 +385,23 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Autonomous_Move_Extension_Vs_Attacker>300.0</Autonomous_Move_Extension_Vs_Attacker>
 		<Property_Flags> SmallShip </Property_Flags>
-		
+
 		<!-- if we have a targeted ability, we'll need a team object to attach this ability to -->
 		<Create_Team_Type>Y_Wing_Squadron_Container </Create_Team_Type>
-     	<Max_Squad_Size> 6 </Max_Squad_Size>
-			
-		
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
-		
+
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 700</Score_Cost_Credits>
 	</Squadron>
 
 	<Container Name="Y_Wing_Squadron_Container">
 		<Variant_Of_Existing_Type>Darth_Vader_TIE_Fighter_Container</Variant_Of_Existing_Type>
+		<Encyclopedia_Good_Against> Star_Destroyer Victory_Destroyer Acclamator_Assault_Ship </Encyclopedia_Good_Against>
+		<Encyclopedia_Vulnerable_To> TIE_Fighter Tartan_Patrol_Cruiser Pirate_Fighter </Encyclopedia_Vulnerable_To>
 		<Encyclopedia_Text>TEXT_TOOLTIP_Y_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_Y_WING_SQUADRON</Text_ID>
@@ -408,19 +410,39 @@
 		<GUI_Distance>120</GUI_Distance>
 		<GUI_Offset>0 0 0</GUI_Offset>
 		<GUI_Velocity>45</GUI_Velocity>
-		
+
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
 		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-	
+
 		<Icon_Name />
-		
+
 		<CategoryMask>Bomber | AntiFrigate | AntiCapital</CategoryMask>
 		<Max_Speed>5.0</Max_Speed>
 		<Min_Speed>1.5</Min_Speed>
 		<Hyperspace>yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
 
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<!-- Unit abilities description -->
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>ION_CANNON_SHOT</Type>
+				<Recharge_Seconds>20.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Y_Wing_Container_Ion_Cannon_Shot</GUI_Activated_Ability_Name>				<!-- GUI Command Bar support -->
+				<Projectile_Types_Override>Proj_Ion_Cannon_Medium_Laser_Blue</Projectile_Types_Override>
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
+
+		<Abilities SubObjectList="Yes">
+			<Ion_Cannon_Shot_Attack_Ability Name="Y_Wing_Container_Ion_Cannon_Shot">
+				<Activation_Style> User_Input </Activation_Style>
+				<!-- We only consider the following unit types "valid targets": -->
+				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
+				<Applicable_Unit_Types />
+			</Ion_Cannon_Shot_Attack_Ability>
+		</Abilities>
+
 	</Container>
 
 </Y_wing_files>

@@ -4,7 +4,7 @@
 
 
 
-<!-- **** BASE SHIP INFORMATION **** -->
+	<!-- **** BASE SHIP INFORMATION **** -->
 	<SpaceUnit Name="TIE_Bomber">
 
 		<Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
@@ -63,8 +63,8 @@
 			<!--<Unit_Ability>
 				<Type>ENERGY_WEAPON</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> TIE_Bomber_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name>--> <!-- GUI Command Bar support -->
-				<!--<Recharge_Seconds>200</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> TIE_Bomber_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name>-->			<!-- GUI Command Bar support -->
+			<!--<Recharge_Seconds>200</Recharge_Seconds>
 				<Expiration_Seconds>3</Expiration_Seconds>
 				<SFXEvent_Target_Ability> Unit_Energy_Blast_Piett </SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Energy_Blast </SFXEvent_Special_Ability_Loop> 
@@ -85,11 +85,11 @@
 				<Activation_Min_Range>10</Activation_Min_Range>
 	            <Activation_Max_Range>500</Activation_Max_Range>-->
 
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<!--<Damage_Per_Frame>5</Damage_Per_Frame>			
+			<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+			<!--<Damage_Per_Frame>5</Damage_Per_Frame>			
 			</Energy_Weapon_Attack_Ability>-->
-			
-        </Abilities>
+
+		</Abilities>
 
 		<Land_FOW_Reveal_Range>130.0</Land_FOW_Reveal_Range>
 		<Space_FOW_reveal_Range>160000</Space_FOW_reveal_Range>
@@ -143,7 +143,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
-		
+
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
@@ -159,13 +159,13 @@
 	</SpaceUnit>
 
 
-<!-- **** SQUADRON INFORMATION **** -->
+	<!-- **** SQUADRON INFORMATION **** -->
 
 
 	<Squadron Name="TIE_Bomber_Squadron">
 		<Text_ID>TEXT_TIE_BOMBER_SQUADRON</Text_ID>
 		<Space_FOW_reveal_Range>160000.0</Space_FOW_reveal_Range>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>2</Formation_Priority>
@@ -188,7 +188,7 @@
 		<Squadron_Units>TIE_Bomber, TIE_Bomber</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>		
+		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_tie_bomber.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieBomber.ALO</GUI_Model_Name>
@@ -209,7 +209,7 @@
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Property_Flags> SmallShip </Property_Flags>
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_BOMBER</Encyclopedia_Unit_Class>
 
@@ -217,8 +217,8 @@
 			<!--<Unit_Ability>
 				<Type>ENERGY_WEAPON</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> TIE_Bomber_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name>--> <!-- GUI Command Bar support -->
-				<!--<Recharge_Seconds>200</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> TIE_Bomber_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name>-->			<!-- GUI Command Bar support -->
+			<!--<Recharge_Seconds>200</Recharge_Seconds>
 				<Expiration_Seconds>3</Expiration_Seconds>
 				<SFXEvent_Target_Ability> Unit_Energy_Blast_Piett </SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Energy_Blast </SFXEvent_Special_Ability_Loop> 
@@ -239,30 +239,30 @@
 				<Activation_Min_Range>10</Activation_Min_Range>
 	            <Activation_Max_Range>500</Activation_Max_Range>-->
 
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<!--<Damage_Per_Frame>5</Damage_Per_Frame>			
+			<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+			<!--<Damage_Per_Frame>5</Damage_Per_Frame>			
 			</Energy_Weapon_Attack_Ability>-->
-			
-        </Abilities>
-		
+
+		</Abilities>
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>550</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>17</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 370</Score_Cost_Credits>
 
 		<Create_Team_Type>TIE_Bomber_Squadron_Container</Create_Team_Type>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</Squadron>
 
 
 	<Container Name="TIE_Bomber_Squadron_Container">
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_BOMBER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_BOMBER </Encyclopedia_Unit_Class>
 		<Text_ID>TEXT_UNIT_TIE_BOMBER</Text_ID>
@@ -275,14 +275,14 @@
 
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,60.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>		
+		<Squadron_Offsets>0.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-60.0,0.0</Squadron_Offsets>
-		
+
 		<Behavior>TEAM, TEAM_LOCOMOTOR, SELECTABLE, TARGETING, UNIT_AI</Behavior>
 		<SpaceBehavior> REVEAL, ABILITY_COUNTDOWN</SpaceBehavior>
-	
+
 		<Icon_Name />
-		
+
 		<CategoryMask>Fighter | AntiBomber</CategoryMask>
 		<Max_Speed>4.0</Max_Speed>
 		<Min_Speed>2.5</Min_Speed>
@@ -294,8 +294,8 @@
 			<!--<Unit_Ability>
 				<Type>ENERGY_WEAPON</Type>
 				<Mod_Multiplier>SPEED_MULTIPLIER, 0.4f</Mod_Multiplier>
-				<GUI_Activated_Ability_Name> TIE_Bomber_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name>--> <!-- GUI Command Bar support-->
-				<!--<Recharge_Seconds>200</Recharge_Seconds>
+				<GUI_Activated_Ability_Name> TIE_Bomber_Energy_Weapon_Attack_Ability </GUI_Activated_Ability_Name>-->			<!-- GUI Command Bar support-->
+			<!--<Recharge_Seconds>200</Recharge_Seconds>
 				<Expiration_Seconds>3</Expiration_Seconds>
 				<SFXEvent_Target_Ability> Unit_Energy_Blast_Piett </SFXEvent_Target_Ability>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Energy_Blast </SFXEvent_Special_Ability_Loop> 
@@ -316,10 +316,10 @@
 				<Activation_Min_Range>10</Activation_Min_Range>
 	            <Activation_Max_Range>500</Activation_Max_Range>-->
 
-				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-				<!--<Damage_Per_Frame>5</Damage_Per_Frame>			
+			<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+			<!--<Damage_Per_Frame>5</Damage_Per_Frame>			
 			</Energy_Weapon_Attack_Ability>-->
-			
-        </Abilities>
+
+		</Abilities>
 	</Container>
 </TIE_Bomber_files>

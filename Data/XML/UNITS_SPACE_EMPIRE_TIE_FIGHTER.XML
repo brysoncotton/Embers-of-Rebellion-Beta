@@ -4,7 +4,7 @@
 
 
 
-<!-- **** BASE SHIP INFORMATION **** -->
+	<!-- **** BASE SHIP INFORMATION **** -->
 
 	<SpaceUnit Name="TIE_Fighter">
 
@@ -61,12 +61,12 @@
 			HP_TIE_Main_Cannon
 		</HardPoints>
 
-        <Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types></Projectile_Types>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.1</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
-		
+
 		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
@@ -129,7 +129,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 
 		<No_Colorization_Color> 75, 75, 75, 255 </No_Colorization_Color>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -137,7 +137,7 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
 		<Spin_Away_On_Death_Chance>0.4</Spin_Away_On_Death_Chance>
 		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
@@ -157,14 +157,14 @@
 	</SpaceUnit>
 
 
-<!-- **** SQUADRON INFORMATION **** -->
+	<!-- **** SQUADRON INFORMATION **** -->
 
 
 	<Squadron Name="TIE_Fighter_Squadron">
 		<Text_ID>TEXT_TIE_FIGHTER_2_SQUADRON</Text_ID>
-		
+
 		<Space_FOW_reveal_Range>160000.0</Space_FOW_reveal_Range>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
@@ -191,7 +191,7 @@
 		<Squadron_Offsets>-60.0,60.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-60.0,-60.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>-120.0,90.0,0.0</Squadron_Offsets>
-		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>	
+		<Squadron_Offsets>-120.0,-90.0,0.0</Squadron_Offsets>
 		<Icon_Name>i_button_unit_tie_fighter.tga</Icon_Name>
 		<GUI_Model_Name>EV_TieFighter.ALO</GUI_Model_Name>
 		<GUI_Distance>120</GUI_Distance>
@@ -212,7 +212,7 @@
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Score_Cost_Credits> 420</Score_Cost_Credits>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -220,20 +220,20 @@
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-			
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_FIGHTER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>300</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</Squadron>
 
 	<Squadron Name="TIE_Fighter_Flight">
@@ -243,14 +243,14 @@
 		<Squadron_Units>TIE_Fighter, TIE_Fighter</Squadron_Units>
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</Squadron>
 
 	<Squadron Name="TIE_Fighter_Squadron_E3">
 		<Variant_Of_Existing_Type>TIE_Fighter_Squadron</Variant_Of_Existing_Type>
 		<Squadron_Units>TIE_Fighter_E3, TIE_Fighter_E3, TIE_Fighter_E3,TIE_Fighter_E3</Squadron_Units>
 		<Squadron_Units>TIE_Fighter_E3, TIE_Fighter_E3, TIE_Fighter_E3</Squadron_Units>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</Squadron>
 
 </TIE_fighter_files>

@@ -2,13 +2,13 @@
 
 <Red_Squadron_files>
 
-<!-- **** SQUADRON INFORMATION **** -->
+	<!-- **** SQUADRON INFORMATION **** -->
 
 	<Squadron Name="Red_Squadron">
 		<Text_ID>TEXT_HERO_RED_SQUADRON</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_RED_SQUADRON </Encyclopedia_Unit_Class>
-		
-		
+
+
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_RED_SQUADRON</Encyclopedia_Text>
 		<Icon_Name>i_button_luke_skywalker.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
@@ -34,10 +34,10 @@
 		<Squadron_Units> Red_Leader_XWing,Wedge_XWing </Squadron_Units>
 		<Squadron_Units> Biggs_XWing, Hobbie_XWing </Squadron_Units>
 		<Squadron_Units> Luke_XWing, Porkins_XWing </Squadron_Units>
-		
+
 		<Create_Team_Type>Red_Squadron_Container </Create_Team_Type>
-     	<Max_Squad_Size> 6 </Max_Squad_Size>
-	
+		<Max_Squad_Size> 6 </Max_Squad_Size>
+
 		<Squadron_Offsets>60.0,0.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,30.0,0.0</Squadron_Offsets>
 		<Squadron_Offsets>0.0,-30.0,0.0</Squadron_Offsets>
@@ -54,25 +54,25 @@
 		<Space_FOW_reveal_Range>1000.0</Space_FOW_reveal_Range>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Population_Value>1</Population_Value>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Someone commented this out. This is needed on ALL Red Squadron units! -Oksana -->
 			<Unit_Ability>
-				 <Type>LUCKY_SHOT</Type>
-			</Unit_Ability> 
+				<Type>LUCKY_SHOT</Type>
+			</Unit_Ability>
 
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
-			
+
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
 				<Mod_Multiplier>SPEED_MULTIPLIER,		2</Mod_Multiplier>
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
-		
+
 		<Is_Homogeneous>Yes</Is_Homogeneous>
 		<Score_Cost_Credits> 15000 </Score_Cost_Credits>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -98,19 +98,19 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			
-			
+
+
 			<Lucky_Shot_Attack_Ability Name="Red_Squadron_Lucky_Shot">
 				<Activation_Style> User_Input </Activation_Style>
-				
+
 				<!-- We only consider the following unit types "valid targets": -->
 				<Applicable_Unit_Categories>All</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<!-- <SFXEvent_Activate>Unit_Flamethrower_Fire</SFXEvent_Activate> -->
-				
+
 			</Lucky_Shot_Attack_Ability>
 		</Abilities>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</Squadron>
 
 </Red_Squadron_files>

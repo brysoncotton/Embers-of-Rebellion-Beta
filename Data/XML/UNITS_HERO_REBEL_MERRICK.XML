@@ -4,7 +4,7 @@
 
 
 
-<!-- **** BASE SHIP INFORMATION **** -->
+	<!-- **** BASE SHIP INFORMATION **** -->
 
 	<SpaceUnit Name="X_Wing_Blue">
 		<LOD_Bias>10</LOD_Bias>
@@ -17,7 +17,7 @@
 
 		<Mouse_Collide_Override_Sphere_Radius> 50.0 </Mouse_Collide_Override_Sphere_Radius>
 
-        <Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Mass>0.98</Mass>
@@ -43,7 +43,7 @@
 		<Energy_Refresh_Rate>300</Energy_Refresh_Rate>
 		<Ship_Class>fighter</Ship_Class>
 		<Armor_Type> Armor_Fighter </Armor_Type>
-        <Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Is_Bomber>no</Is_Bomber>
@@ -81,7 +81,7 @@
 		<SFXEvent_Fleet_Move>Unit_Fleet_Move_X_Wing</SFXEvent_Fleet_Move>
 		<SFXEvent_Attack>Unit_Attack_X_Wing</SFXEvent_Attack>
 		<SFXEvent_Guard>Unit_Guard_X_Wing</SFXEvent_Guard>
-		<SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>		
+		<SFXEvent_Assist_Move> Unit_Assist_Move_X_Wing </SFXEvent_Assist_Move>
 		<SFXEvent_Assist_Attack> Unit_Assist_Attack_X_Wing </SFXEvent_Assist_Attack>
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_X_Wing </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_X_Wing </SFXEvent_Move_Into_Nebula>
@@ -97,7 +97,7 @@
 		<SFXEvent_Health_Low_Warning> Unit_Health_Low_X_Wing </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_X_Wing </SFXEvent_Health_Critical_Warning>
 		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_X_Wing </SFXEvent_Enemy_Damaged_Health_Low_Warning>
-		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>		
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_X_Wing </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 		<SFXEvent_Ambient_Moving> Unit_X_Wing_Fly_By </SFXEvent_Ambient_Moving>
 		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
 		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
@@ -119,21 +119,21 @@
 		<Collision_Box_Modifier>2.0</Collision_Box_Modifier>
 		<Targeting_Priority_Set>Fighter</Targeting_Priority_Set>
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_BLUE_SQUADRON</Encyclopedia_Text>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-			<Type>SPOILER_LOCK</Type>
-			
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		            1.3</Mod_Multiplier>
-			<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
-			<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
+				<Type>SPOILER_LOCK</Type>
+
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		            1.3</Mod_Multiplier>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
 
 			<Unit_Ability>
@@ -165,7 +165,7 @@
 				</Target_Types>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Tactical_Bribe_Cost>125</Tactical_Bribe_Cost>
 
 		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
@@ -188,7 +188,7 @@
 	</SpaceUnit>
 
 
-<!-- **** SQUADRON INFORMATION **** -->
+	<!-- **** SQUADRON INFORMATION **** -->
 
 
 	<Squadron Name="General_Merrick_Squadron">
@@ -213,7 +213,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline />
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
-		
+
 		<CategoryMask>SpaceHero | Fighter | AntiCapital | AntiSuper</CategoryMask>
 
 		<Required_Special_Structures />
@@ -243,37 +243,37 @@
 		<Attack_Move_Response_Range>300.0</Attack_Move_Response_Range>
 		<Property_Flags> SmallShip </Property_Flags>
 		<Autonomous_Move_Extension_Vs_Attacker>500.0</Autonomous_Move_Extension_Vs_Attacker>
-	
+
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
 			<Unit_Ability>
-			<Type>SPOILER_LOCK</Type>
-			
-			<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
-			<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-			<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-			<Mod_Multiplier>SPEED_MULTIPLIER,		2</Mod_Multiplier>
+				<Type>SPOILER_LOCK</Type>
+
+				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
+				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
+				<Mod_Multiplier>SPEED_MULTIPLIER,		2</Mod_Multiplier>
 			</Unit_Ability>
 
 			<Unit_Ability>
 				<Type>HUNT</Type>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_MERRICK</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 	</Squadron>
 
 </Merrick_files>

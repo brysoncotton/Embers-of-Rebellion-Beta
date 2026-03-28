@@ -4,7 +4,7 @@
 <TIE_Phantom_Files>
 
 
-<!-- **** BASE SHIP INFORMATION **** -->
+	<!-- **** BASE SHIP INFORMATION **** -->
 
 
 	<SpaceUnit Name="TIE_Phantom">
@@ -63,12 +63,12 @@
 			HP_TIE_Phantom_Wing_Cannons
 		</HardPoints>
 
-        <Damage_Type>Damage_Fighter</Damage_Type>
+		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Types></Projectile_Types>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>.8</Projectile_Fire_Recharge_Seconds>
-		
+
 		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 3.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 1.0 </Fire_Inaccuracy_Distance>
@@ -96,10 +96,10 @@
 		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Tie_Phantom </SFXEvent_Move_Into_Asteroid_Field>
 		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Tie_Phantom </SFXEvent_Move_Into_Nebula>
 
-		<SFXEvent_Health_Low_Warning> </SFXEvent_Health_Low_Warning>
-		<SFXEvent_Health_Critical_Warning> </SFXEvent_Health_Critical_Warning>
-		<SFXEvent_Enemy_Damaged_Health_Low_Warning> </SFXEvent_Enemy_Damaged_Health_Low_Warning>
-		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+		<SFXEvent_Health_Low_Warning></SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning></SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning></SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning></SFXEvent_Enemy_Damaged_Health_Critical_Warning>
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER,  </SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Attack_Hardpoint>
@@ -147,26 +147,26 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-            <Unit_Ability>
-                <Type>STEALTH</Type>
+			<Unit_Ability>
+				<Type>STEALTH</Type>
 				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
-                <GUI_Activated_Ability_Name>Stealth_Phantom</GUI_Activated_Ability_Name> 
-                <Recharge_Seconds>10.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Stealth_Phantom</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>10.0</Recharge_Seconds>
 				<Expiration_Seconds>80.0</Expiration_Seconds>
-            <SFXEvent_GUI_Unit_Ability_Activated> Unit_Stealth_On_Tie_Phantom </SFXEvent_GUI_Unit_Ability_Activated>  				
-				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Stealth_Off_Tie_Phantom </SFXEvent_GUI_Unit_Ability_Deactivated> 
-            </Unit_Ability>
+				<SFXEvent_GUI_Unit_Ability_Activated> Unit_Stealth_On_Tie_Phantom </SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated> Unit_Stealth_Off_Tie_Phantom </SFXEvent_GUI_Unit_Ability_Deactivated>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-        
+		<Abilities SubObjectList="Yes">
+
 			<Stealth_Ability Name="Stealth_Phantom">
 				<Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
-                <Stealth_Transition_Time>0.8</Stealth_Transition_Time>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>0.8</Stealth_Transition_Time>
 				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
 			</Stealth_Ability>
-			
+
 			<Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
@@ -179,17 +179,17 @@
 	</SpaceUnit>
 
 
-<!-- **** SQUADRON INFORMATION **** -->
+	<!-- **** SQUADRON INFORMATION **** -->
 
 	<Squadron Name="TIE_Phantom_Squadron">
 		<Text_ID>TEXT_TIE_PHANTOM_SQUADRON</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_PHANTOM</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		
+
 		<Icon_Name>i_button_EV_TIE_Phantom.tga</Icon_Name>
 
 		<Space_FOW_reveal_Range>160000.0</Space_FOW_reveal_Range>
-		
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Formation_Priority>1</Formation_Priority>
@@ -235,32 +235,32 @@
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
-            <Unit_Ability>
-                <Type>STEALTH</Type>
+			<Unit_Ability>
+				<Type>STEALTH</Type>
 				<Alternate_Icon_Name>i_sa_stealth.tga</Alternate_Icon_Name>
-                <GUI_Activated_Ability_Name>Stealth_Phantom</GUI_Activated_Ability_Name> 
-                <Recharge_Seconds>10.0</Recharge_Seconds>
+				<GUI_Activated_Ability_Name>Stealth_Phantom</GUI_Activated_Ability_Name>
+				<Recharge_Seconds>10.0</Recharge_Seconds>
 				<Expiration_Seconds>80.0</Expiration_Seconds>
-            </Unit_Ability>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-        <Abilities SubObjectList="Yes">
-        
-            <Stealth_Ability Name="Stealth_Phantom">
-                <Activation_Style> User_Input </Activation_Style>
-                <Stealth_Color>255, 255, 255, 255</Stealth_Color>
-                <Stealth_Transition_Time>0.8</Stealth_Transition_Time>
-                <SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
-            </Stealth_Ability>
-            
+		<Abilities SubObjectList="Yes">
+
+			<Stealth_Ability Name="Stealth_Phantom">
+				<Activation_Style> User_Input </Activation_Style>
+				<Stealth_Color>255, 255, 255, 255</Stealth_Color>
+				<Stealth_Transition_Time>0.8</Stealth_Transition_Time>
+				<SFXEvent_Activate>Unit_Lightsaber_Projectile_Block</SFXEvent_Activate>
+			</Stealth_Ability>
+
 			<Galactic_Stealth_Ability Name="Phantom_Galactic_Stealth">
 				<Initially_Enabled>Yes</Initially_Enabled>
 				<Activation_Style>Galactic_Automatic</Activation_Style>
 				<Causes_Despawn>No</Causes_Despawn>
 				<Evade_Detection_Chance>0.0</Evade_Detection_Chance>
 			</Galactic_Stealth_Ability>
-            
-        </Abilities>
+
+		</Abilities>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>425</Tactical_Build_Cost_Multiplayer>
@@ -268,9 +268,9 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 
 	</Squadron>
 
