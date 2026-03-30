@@ -35,11 +35,11 @@
 		<Base_Position>Out_Base</Base_Position>
 		<Tech_Level>1</Tech_Level>
 		<Destruction_Survivors> Rebel_Prisoner_Team, 1.0 </Destruction_Survivors>
-		
+
 		<Death_Clone_Is_Obstacle> true </Death_Clone_Is_Obstacle>
-		
+
 		<Select_Box_Scale>100</Select_Box_Scale>
-		
+
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.5</Scale_Factor>
 		<!--<Is_Sprite>No</Is_Sprite>-->
@@ -61,13 +61,13 @@
 		<GUI_Bracket_Width>40</GUI_Bracket_Width>
 		<GUI_Bracket_Height>0</GUI_Bracket_Height>
 
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
-		
+
 		<!-- The ground structures have this data which looks like it's space only because the
 		snowspeeders are using space style pathfinding which needs this information so that we won't
 		path speeders through structures -->
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 

@@ -73,7 +73,7 @@
 			Utapau, 
 			VergessoAsteroids, 
 			Wayland, 
-			Yavin, 			<!-- MODDED PLANETS START AFTER THIS -->
+			Yavin, 																																				<!-- MODDED PLANETS START AFTER THIS -->
 			Cato_Neimoidia,
 			Jakku,
 			Jedha,
@@ -285,7 +285,6 @@
 		<Starting_Forces> Rebel, Hoth, Y-Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, CR90 </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, Gallofree_Repair_Ship</Starting_Forces>
-		<Starting_Forces> Rebel, Hoth, Calamari_Cruiser </Starting_Forces>
 		<!-- Hoth Land Forces -->
 		<Starting_Forces> Rebel, Hoth, R_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Rebel, Hoth, R_Ground_Base_Shield </Starting_Forces>
@@ -480,10 +479,10 @@
 		<Starting_Forces> Empire, Thyferra, Field_Com_Empire_Team </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_forces> Empire, Thyferra, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- AlzocIII Space Forces -->
 		<Starting_Forces> Empire, AlzocIII, Acclamator_Assault_Ship </Starting_Forces>
-		<Starting_Forces> Empire, AlzocIII, Venator_Class_Star_Destroyer </Starting_Forces>
 		<!-- AlzocIII Land Forces -->
 		<Starting_Forces> Empire, AlzocIII, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, AlzocIII, Imperial_Anti_Infantry_Brigade </Starting_Forces>
@@ -502,7 +501,11 @@
 		<Starting_Forces> Empire, Scarif, Acclamator_Assault_Ship </Starting_Forces>
 		<!-- Scarif Land Forces -->
 		<Starting_Forces> Empire, Scarif, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Scarif, Imperial_Anti_Infantry_Brigade </Starting_Forces>
+		<Starting_Forces> Empire, Scarif, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Scarif, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_forces> Empire, Scarif, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
+		<Starting_Forces> Empire, Imperial_Stormtrooper_Squad</Starting_Forces>
 
 		<!-- Carida Space Forces -->
 		<Starting_Forces> Empire, Carida, Raider_Corvette </Starting_Forces>
@@ -524,6 +527,7 @@
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_forces> Empire, Coruscant, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Zeffo Space Forces -->
 		<Starting_Forces> Empire, Zeffo, Empire_Star_Base_2 </Starting_Forces>
@@ -547,6 +551,7 @@
 		<Starting_Forces> Empire, Mustafar, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Mustafar, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Mustafar, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_forces> Empire, Mustafar, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Naboo Space Forces -->
 		<Starting_Forces> Empire, Naboo, Empire_Star_Base_2 </Starting_Forces>
@@ -607,7 +612,7 @@
 		<Starting_Forces> Empire, Onderon, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Onderon, Vindicator_Heavy_Crusier </Starting_Forces>
 		<Starting_Forces> Empire, Onderon, Vindicator_Heavy_Crusier </Starting_Forces>
-		<Starting_Forces> Empire, Onderon, Venator_Class_Star_Destroyer </Starting_Forces>
+		<Starting_Forces> Empire, Onderon, Arquitens_Cruiser </Starting_Forces>
 		<!-- Onderon Land Forces -->
 		<Starting_Forces> Empire, Onderon, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Onderon, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -650,6 +655,7 @@
 		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_forces> Empire, Kuat, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Kashyyyk Space Forces -->
 		<Starting_Forces> Empire, Kashyyyk, Empire_Star_Base_3 </Starting_Forces>
@@ -663,7 +669,6 @@
 		<Starting_Forces> Empire, Kashyyyk, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Kashyyyk, E_Ground_Light_Vehicle_Factory </Starting_Forces>
-		<Starting_Forces> Empire, Kashyyyk, E_Prison_Facility </Starting_Forces>
 
 		<!-- Muunilinst Space Forces -->
 		<Starting_Forces> Empire, Muunilinst, Victory_I_Destroyer </Starting_Forces>
@@ -709,6 +714,7 @@
 		<Starting_Forces> Empire, Fondor, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, E_Ground_Heavy_Vehicle_Factory </Starting_Forces>
+		<Starting_forces> Empire, Fondor, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Corulag Space Forces -->
 		<Starting_Forces> Empire, Corulag, Raider_Corvette </Starting_Forces>
@@ -732,6 +738,7 @@
 		<Starting_Forces> Empire, Corellia, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Imperial_Light_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, E_Ground_Barracks </Starting_Forces>
+		<Starting_forces> Empire, Corellia, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Bestine Space Forces -->
 		<Starting_Forces> Empire, Bestine, Raider_Corvette </Starting_Forces>
@@ -765,7 +772,6 @@
 		<Starting_Forces> Empire, Malastare, Raider_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Malastare, Raider_Corvette </Starting_Forces>
 		<Starting_Forces> Empire, Malastare, Arquitens_Cruiser </Starting_Forces>
-		<Starting_Forces> Empire, Malastare, Venator_Class_Star_Destroyer </Starting_Forces>
 		<!-- Malastare Land Forces -->
 		<Starting_Forces> Empire, Malastare, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Malastare, Imperial_Stormtrooper_Squad </Starting_Forces>
@@ -850,6 +856,7 @@
 		<Starting_Forces> Empire, Endor, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Endor, Imperial_Light_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Endor, E_Ground_Barracks </Starting_Forces>
+		<Starting_forces> Empire, Endor, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Jakku Space Forces -->
 		<Starting_Forces> Empire, Jakku, ISD_I </Starting_Forces>
@@ -944,7 +951,7 @@
 			Utapau, 
 			VergessoAsteroids, 
 			Wayland, 
-			Yavin, 			<!-- MODDED PLANETS START AFTER THIS -->
+			Yavin, 																																				<!-- MODDED PLANETS START AFTER THIS -->
 			Cato_Neimoidia,
 			Jakku,
 			Jedha,
@@ -1350,6 +1357,7 @@
 		<Starting_Forces> Empire, Thyferra, Field_Com_Empire_Team </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_forces> Empire, Thyferra, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- AlzocIII Space Forces -->
 		<Starting_Forces> Empire, AlzocIII, Acclamator_Assault_Ship </Starting_Forces>
@@ -1374,6 +1382,8 @@
 		<Starting_Forces> Empire, Scarif, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Scarif, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Scarif, Imperial_Stormtrooper_Squad </Starting_Forces>
+		<Starting_forces> Empire, Scarif, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
+		<Starting_Forces> Empire, Imperial_Stormtrooper_Squad</Starting_Forces>
 
 		<!-- Carida Space Forces -->
 		<Starting_Forces> Empire, Carida, Raider_Corvette </Starting_Forces>
@@ -1395,6 +1405,7 @@
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_forces> Empire, Coruscant, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Zeffo Space Forces -->
 		<Starting_Forces> Empire, Zeffo, Empire_Star_Base_2 </Starting_Forces>
@@ -1418,6 +1429,7 @@
 		<Starting_Forces> Empire, Mustafar, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Mustafar, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Mustafar, Imperial_Heavy_Scout_Squad </Starting_Forces>
+		<Starting_forces> Empire, Mustafar, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Naboo Space Forces -->
 		<Starting_Forces> Empire, Naboo, Empire_Star_Base_2 </Starting_Forces>
@@ -1521,6 +1533,7 @@
 		<Starting_Forces> Empire, Kuat, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Kuat, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_forces> Empire, Kuat, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Kashyyyk Space Forces -->
 		<Starting_Forces> Empire, Kashyyyk, Empire_Star_Base_3 </Starting_Forces>
@@ -1579,6 +1592,7 @@
 		<Starting_Forces> Empire, Fondor, Imperial_Heavy_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Fondor, E_Ground_Heavy_Vehicle_Factory </Starting_Forces>
+		<Starting_forces> Empire, Fondor, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Corulag Space Forces -->
 		<Starting_Forces> Empire, Corulag, Raider_Corvette </Starting_Forces>
@@ -1602,6 +1616,7 @@
 		<Starting_Forces> Empire, Corellia, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, Imperial_Light_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Corellia, E_Ground_Barracks </Starting_Forces>
+		<Starting_forces> Empire, Corellia, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Bestine Space Forces -->
 		<Starting_Forces> Empire, Bestine, Raider_Corvette </Starting_Forces>
@@ -1719,6 +1734,7 @@
 		<Starting_Forces> Empire, Endor, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Endor, Imperial_Light_Scout_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Endor, E_Ground_Barracks </Starting_Forces>
+		<Starting_forces> Empire, Endor, E_Galactic_Turbolaser_Tower_Defenses </Starting_Forces>
 
 		<!-- Jakku Space Forces -->
 		<Starting_Forces> Empire, Jakku, ISD_I </Starting_Forces>
