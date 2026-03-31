@@ -4091,7 +4091,7 @@
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
 		<Is_Valid_Target>False</Is_Valid_Target>
 		
-		
+		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>50.0</Layer_Z_Adjust>
 		<Min_Speed>1.0</Min_Speed>
 		<Hover_Offset>50.0</Hover_Offset>
@@ -4721,7 +4721,7 @@
 		<Max_Lift>0.0</Max_Lift>
 		<Bank_Turn_Angle>60</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>100.0</Begin_Turn_Towards_Distance>
-		
+		<Space_Layer> Frigate </Space_Layer>
 		<MaxJiggleDistance> 0 </MaxJiggleDistance>
 
 		<LandBehavior>FIGHTER_LOCOMOTOR,IDLE,INDIGENOUS_UNIT</LandBehavior>
@@ -4782,7 +4782,7 @@
 		<Max_Lift>0.0</Max_Lift>
 		<Bank_Turn_Angle>60</Bank_Turn_Angle>
 		<Begin_Turn_Towards_Distance>100.0</Begin_Turn_Towards_Distance>
-		
+		<Space_Layer> Frigate </Space_Layer>
 
 		<LandBehavior>FIGHTER_LOCOMOTOR,IDLE,INDIGENOUS_UNIT</LandBehavior>
 		<Allow_Idle_When_Moving>Yes</Allow_Idle_When_Moving>

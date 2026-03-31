@@ -26,8 +26,8 @@
 		<Max_Speed>4.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.6</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		
-		
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
@@ -194,7 +194,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Calamari_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>0.7</Scale_Factor>
-		
+		<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 		<Max_Speed>1.2</Max_Speed>
 		<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
 		<Max_Thrust>1</Max_Thrust>

@@ -79,7 +79,8 @@
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>0.3</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		
+		<Space_Layer> Capital </Space_Layer>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
@@ -334,6 +335,7 @@
 		<Space_Model_Name>Empire_Imperator_Star_Destroyer_MK_I_Deathclone.ALO</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Scale_Factor>.16</Scale_Factor>
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<Max_Thrust>0.05</Max_Thrust>
@@ -380,7 +382,6 @@
 		<!-- <Max_Speed>1.0</Max_Speed> -->
 
 		<Death_Clone>Damage_Normal, Star_Destroyer_II_Death_Clone</Death_Clone>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 
 

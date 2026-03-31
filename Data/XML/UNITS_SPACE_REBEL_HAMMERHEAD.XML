@@ -18,8 +18,8 @@
 		<Max_Speed>2.1</Max_Speed>  <!-- was 3.0 -->
 		<Max_Rate_Of_Turn>1.2</Max_Rate_Of_Turn> <!-- was 1.6 -->
 		<MovementClass> Space </MovementClass>
-		
-		
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<OverrideAcceleration> .05 </OverrideAcceleration>
@@ -170,7 +170,6 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>2</Population_Value>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 
 	<SpaceUnit Name="Hammerhead_Corvette_Death_Clone">
@@ -180,7 +179,7 @@
 		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 		<Scale_Factor>.55</Scale_Factor>
-		
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<Max_Thrust>0.05</Max_Thrust>

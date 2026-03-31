@@ -120,8 +120,8 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS02_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS02_FP00</Collision_Mesh>
-		<Damage_Decal>HP_MIS02_EMITDAMAGE</Damage_Decal>
-		<Damage_Particles>HP_MIS02_EMITDAMAGE</Damage_Particles>
+		<Damage_Decal>HP_IC_BR_EmitDamage</Damage_Decal>
+		<Damage_Particles>HP_IC_BR_EmitDamage</Damage_Particles>
 		<Fire_Bone_A>HP_MIS02_FP00</Fire_Bone_A>
 		<Fire_Bone_B>HP_MIS02_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>

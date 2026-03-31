@@ -18,6 +18,8 @@
 		<MovementClass> Space </MovementClass>
 
 
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
@@ -171,6 +173,8 @@
 		<MovementClass> Space </MovementClass>
 
 
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>15</Bank_Turn_Angle>
 
@@ -315,6 +319,8 @@
 		<MovementClass> Space </MovementClass>
 
 
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>0</Bank_Turn_Angle>
@@ -438,6 +444,10 @@
 		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
 
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
+		<Obstacle_Y_Offset>-30.0</Obstacle_Y_Offset>
+		<UnitCollisionClass>Landing Transport</UnitCollisionClass>
+		<Space_Layer> Land </Space_Layer>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade>
 	</TransportUnit>
 
 	<TransportUnit Name="Shuttle_Tyderium">
@@ -458,6 +468,8 @@
 		<MovementClass> Space </MovementClass>
 
 
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>0.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>
@@ -652,6 +664,8 @@
 		<MovementClass> Space </MovementClass>
 
 
+		<Space_Layer> Corvette </Space_Layer>
+		<Layer_Z_Adjust>-20.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
 		<Use_Special_Submit_Rules> true </Use_Special_Submit_Rules>

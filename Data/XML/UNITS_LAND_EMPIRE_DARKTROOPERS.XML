@@ -918,7 +918,7 @@
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
-		
+		<Layer_Z_Adjust>-290.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.1</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
@@ -1066,7 +1066,7 @@
 		<Space_Model_Name>EV_archammer_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Scale_Factor>1</Scale_Factor>
-		
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.4</Max_Rate_Of_Turn>
 		<Max_Thrust>0.05</Max_Thrust>

@@ -1171,7 +1171,7 @@
 		<Max_Rate_Of_Roll>4.5</Max_Rate_Of_Roll>
 		<Max_Lift>2.5</Max_Lift>
 		<Bank_Turn_Angle>20</Bank_Turn_Angle>
-		
+		<Space_Layer> Frigate </Space_Layer>
 		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
 		<FormationGrouping> Solo </FormationGrouping>
 		<PathFrameDelay> 4 </PathFrameDelay>
@@ -2270,7 +2270,7 @@
 		<Max_Lift>2.0</Max_Lift>
 		<Bank_Turn_Angle>40</Bank_Turn_Angle>
 		<MovementClass> Space </MovementClass>
-		
+		<Space_Layer> Frigate </Space_Layer>
 		<Layer_Z_Adjust>40.0</Layer_Z_Adjust>
 		<Min_Speed>2.0</Min_Speed>
 		<Hover_Offset>100.0</Hover_Offset>

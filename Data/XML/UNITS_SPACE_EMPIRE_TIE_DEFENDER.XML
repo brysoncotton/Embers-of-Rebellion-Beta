@@ -283,7 +283,6 @@
 				<Applicable_Unit_Types />
 			</Ion_Cannon_Shot_Attack_Ability>
 		</Abilities>
-		<Lua_Script></Lua_Script>
 
 	</Squadron>
 

@@ -267,7 +267,7 @@
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
-		<Score_Cost_Credits>600</Score_Cost_Credits>
+		<Score_Cost_Credits> 600</Score_Cost_Credits>
 	</Squadron>
 
 	<Container Name="X-Wing_Squadron_Container">

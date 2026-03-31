@@ -20,8 +20,8 @@
 			<Max_Speed>2</Max_Speed>
 			<Max_Rate_Of_Turn>1</Max_Rate_Of_Turn>
 			<MovementClass> Space </MovementClass>
-			
-			
+			<Space_Layer> Frigate </Space_Layer>
+			<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 			<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 			<Bank_Turn_Angle>5</Bank_Turn_Angle>
 			<OverrideAcceleration> .04 </OverrideAcceleration>
@@ -199,7 +199,7 @@
 			<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
 			<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 			<Population_Value>3</Population_Value>
-			<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+			<Lua_Script></Lua_Script>
 		</SpaceUnit>
 	
 		<SpaceUnit Name="Pelta_Death_Clone">
@@ -209,7 +209,7 @@
 			<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 			<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 			<Scale_Factor>.2</Scale_Factor>
-			
+			<Layer_Z_Adjust>-90.0</Layer_Z_Adjust>
 			<Max_Speed>1.2</Max_Speed>
 			<Max_Rate_Of_Turn>0.03</Max_Rate_Of_Turn>
 			<Max_Thrust>1</Max_Thrust>

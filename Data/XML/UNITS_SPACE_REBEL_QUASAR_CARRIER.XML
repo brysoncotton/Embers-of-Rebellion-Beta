@@ -32,7 +32,6 @@
 		<Reserve_Spawned_Units_Tech_0>Rebel_X-Wing_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>Y-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Death_Clone>Damage_Normal, Rebel_Quasar_Death_Clone</Death_Clone>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 
 <!--DEATH CLONES-->

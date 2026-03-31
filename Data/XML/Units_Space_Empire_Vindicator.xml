@@ -20,8 +20,8 @@
 		<Max_Speed>2</Max_Speed>
 		<Max_Rate_Of_Turn>0.7</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
-		
-				
+		<Space_Layer> Frigate </Space_Layer>
+		<Layer_Z_Adjust>-175.0</Layer_Z_Adjust>		
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>8</Bank_Turn_Angle>
 		<OverrideAcceleration> .03 </OverrideAcceleration>
@@ -157,6 +157,5 @@
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 		<Score_Cost_Credits> 2250</Score_Cost_Credits>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
 	</SpaceUnit>
 </VINDICATOR_IMMOBILIZER_DATA>

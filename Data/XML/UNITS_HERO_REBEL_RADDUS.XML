@@ -85,7 +85,7 @@
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script>ObjectScript_PowerToShields</Lua_Script>
 	</UniqueUnit>
 
 </Admiral_Raddus_Files>

@@ -273,7 +273,6 @@
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
 		<Score_Cost_Credits> 600</Score_Cost_Credits>
-		<Lua_Script></Lua_Script>
 	</Squadron>
 
 </Merrick_files>

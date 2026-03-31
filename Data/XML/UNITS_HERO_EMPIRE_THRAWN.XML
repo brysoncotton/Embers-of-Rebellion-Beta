@@ -28,7 +28,7 @@
 		<Size_Value>75</Size_Value>
 		<Damage>80</Damage>
 		<Autoresolve_Health>200</Autoresolve_Health>
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script>Tarkin</Lua_Script>
 		
 		<Attach_To_Flagship_During_Space_Battle>Yes</Attach_To_Flagship_During_Space_Battle>
 		<Stay_In_Transport_During_Ground_Battle>Yes</Stay_In_Transport_During_Ground_Battle>
@@ -380,7 +380,7 @@
 		<xxxSpace_Model_Name>EV_StarDestroyer_Dead.ALO</xxxSpace_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Scale_Factor>.16</Scale_Factor>
-		
+		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
 		<Max_Speed>0.25</Max_Speed>
 		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
 		<Max_Thrust>0.05</Max_Thrust>

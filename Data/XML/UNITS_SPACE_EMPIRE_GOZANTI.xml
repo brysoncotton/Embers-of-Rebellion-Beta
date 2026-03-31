@@ -21,7 +21,7 @@
 		<Max_Rate_Of_Turn>1.1</Max_Rate_Of_Turn>
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Corvette </Space_Layer>
-		
+		<Layer_Z_Adjust>-5.0</Layer_Z_Adjust>
 		<Max_Rate_Of_Roll>0.2</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>45</Bank_Turn_Angle>
 		<OverrideAcceleration> .065 </OverrideAcceleration>
@@ -160,7 +160,7 @@
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 		
 		<!-- Layer-Z Script -->
-		<Lua_Script>OBJECTSCRIPT_LAYERZ</Lua_Script>
+		<Lua_Script></Lua_Script>
 		
 	</SpaceUnit>
 

@@ -254,7 +254,6 @@
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Population_Value>1</Population_Value>
-		<Lua_Script></Lua_Script>
 	</Squadron>
 
 </A_wing_files>
