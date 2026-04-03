@@ -4,7 +4,7 @@
 
 	<File>TransportUnits.xml</File>
 
-	<File>TechBuilding.xml</File>		<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always
+	<File>TechBuilding.xml</File>	<!-- AJA 10/12/2005 - Moved to the top so that tech upgrades always
 	show up on the left of the build bar. -->
 	<File>GroundBases.xml</File>
 	<File>GroundStructures.xml</File>
@@ -132,7 +132,7 @@
 	<File>UNITS_SPACE_EMPIRE_VINDICATOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_INTERDICTOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_DREADNOUGHT.xml</File>
-	<!--<File>UNITS_SPACE_EMPIRE_ARQUITENS.xml</File>--> <!--Commented
+	<!--<File>UNITS_SPACE_EMPIRE_ARQUITENS.xml</File>-->	<!--Commented
 	out for stability-->
 	<File>UNITS_SPACE_EMPIRE_ACCLAMATOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_VICTORY_STAR_DESTROYER.xml</File>
@@ -159,6 +159,7 @@
 	<!--REBEL
 	MOD SPACE UNITS-->
 	<File>UNITS_SPACE_REBEL_X_WING.xml</File>
+	<File>UNITS_SPACE_REBEL_U_WING.xml</File>
 	<File>UNITS_SPACE_REBEL_Z95_HEADHUNTER.xml</File>
 	<File>UNITS_SPACE_REBEL_A_WING.xml</File>
 	<File>UNITS_SPACE_REBEL_Y_WING.xml</File>

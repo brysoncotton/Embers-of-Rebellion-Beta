@@ -10,11 +10,11 @@
 		<Land_Model_Name>RB_CommandCenter.alo</Land_Model_Name>
 		<Scale_Factor>.65</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Barracks">
 		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -24,11 +24,11 @@
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Light Vehicle Factory">
 		<Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -38,7 +38,7 @@
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
 		<Scale_Factor>1.20</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -52,11 +52,11 @@
 		<Land_Model_Name>rb_heavyvehiclefactory.alo</Land_Model_Name>
 		<Scale_Factor>1.42</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Communications Array">
 		<Text_ID>TEXT_STRUCTURE_COMM_ARRAY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -66,11 +66,11 @@
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Research Facility">
 		<Text_ID>TEXT_GROUND_RESEARCH_FACILITY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -80,11 +80,11 @@
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Power Generator">
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -94,11 +94,11 @@
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Base Shield">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -108,7 +108,7 @@
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -122,7 +122,7 @@
 		<Space_Model_Name>RB_STATION_01.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -143,11 +143,11 @@
 		<Land_Model_Name>RB_CommandCenter.alo</Land_Model_Name>
 		<Scale_Factor>.65</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_Barracks">
 		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -157,11 +157,11 @@
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_Light_Vehicle_Factory">
 		<Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -171,7 +171,7 @@
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -185,11 +185,11 @@
 		<Land_Model_Name>rb_heavyvehiclefactory.alo</Land_Model_Name>
 		<Scale_Factor>1.42</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_Communications_Array">
 		<Text_ID>TEXT_STRUCTURE_COMM_ARRAY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -199,11 +199,11 @@
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_Research_Facility">
 		<Text_ID>TEXT_GROUND_RESEARCH_FACILITY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -213,11 +213,11 @@
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_Power_Generator">
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -227,11 +227,11 @@
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_Base Shield">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -241,11 +241,11 @@
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_Base_Shield_Small">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -255,11 +255,11 @@
 		<Land_Model_Name>NB_BASESHIELDGEN_small.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_Turbolaser_Structure_Position">
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -268,12 +268,12 @@
 		<Space_Model_Name />
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_00_BuildPads_Position">
 		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -282,7 +282,7 @@
 		<Space_Model_Name />
 		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>1</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
@@ -296,7 +296,7 @@
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -306,7 +306,7 @@
 		<Marker_For_Specific_Object_Type> Reinforcement_Point_Underworld, Reinforcement_Point_Rebel, Reinforcement_Point_Empire </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>W_Pedistal_Rebel.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>1.25</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
@@ -324,11 +324,11 @@
 		<Land_Model_Name>RB_CommandCenter.alo</Land_Model_Name>
 		<Scale_Factor>.65</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_Barracks">
 		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -338,11 +338,11 @@
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_Light_Vehicle_Factory">
 		<Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -352,7 +352,7 @@
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -366,11 +366,11 @@
 		<Land_Model_Name>rb_heavyvehiclefactory.alo</Land_Model_Name>
 		<Scale_Factor>1.42</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_Communications_Array">
 		<Text_ID>TEXT_STRUCTURE_COMM_ARRAY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -380,11 +380,11 @@
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_Research_Facility">
 		<Text_ID>TEXT_GROUND_RESEARCH_FACILITY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -394,11 +394,11 @@
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_Power_Generator">
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -408,11 +408,11 @@
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_Base Shield">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -422,11 +422,11 @@
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_Base_Shield_Small">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -436,11 +436,11 @@
 		<Land_Model_Name>NB_BASESHIELDGEN_small.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_Turbolaser_Structure_Position">
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -449,12 +449,12 @@
 		<Space_Model_Name />
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_01_BuildPads_Position">
 		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -463,7 +463,7 @@
 		<Space_Model_Name />
 		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>1</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
@@ -477,7 +477,7 @@
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -487,7 +487,7 @@
 		<Marker_For_Specific_Object_Type> Reinforcement_Point_Underworld, Reinforcement_Point_Rebel, Reinforcement_Point_Empire </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>W_Pedistal_Rebel.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>1.25</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
@@ -505,11 +505,11 @@
 		<Land_Model_Name>RB_CommandCenter.alo</Land_Model_Name>
 		<Scale_Factor>.65</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_02_Barracks">
 		<Text_ID>TEXT_GROUND_BARRACKS</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -519,11 +519,11 @@
 		<Land_Model_Name>RB_InfantryBarracks.alo</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_02_Light_Vehicle_Factory">
 		<Text_ID>TEXT_GROUND_LIGHT_VEHICLE_FACTORY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -533,7 +533,7 @@
 		<Land_Model_Name>rb_lightvehiclefactory.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -547,11 +547,11 @@
 		<Land_Model_Name>rb_heavyvehiclefactory.alo</Land_Model_Name>
 		<Scale_Factor>1.42</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_02_Communications_Array">
 		<Text_ID>TEXT_STRUCTURE_COMM_ARRAY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -561,11 +561,11 @@
 		<Land_Model_Name>RB_COMCENTER.ALO</Land_Model_Name>
 		<Scale_Factor>1</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_02_Research_Facility">
 		<Text_ID>TEXT_GROUND_RESEARCH_FACILITY</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -575,11 +575,11 @@
 		<Land_Model_Name>RB_ResearchFacility.alo</Land_Model_Name>
 		<Scale_Factor>1.40</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_02_Power_Generator">
 		<Text_ID>TEXT_STRUCTURE_POWER_GENERATOR</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -589,11 +589,11 @@
 		<Land_Model_Name>RB_SHIELD-GENERATOR.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_02_Base Shield">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -603,12 +603,12 @@
 		<Land_Model_Name>NB_BASESHIELDGEN.ALO</Land_Model_Name>
 		<Scale_Factor>.75</Scale_Factor>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
-	<MultiplayerStructureMarker Name="Team_02_Base_Shield_Small">
+
+	<!--<MultiplayerStructureMarker Name="Team_02_Base_Shield_Small">
 		<Text_ID>TEXT_GROUND_BASE_SHIELD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
@@ -620,8 +620,8 @@
 		<Is_Discardable>false</Is_Discardable>  
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>true</Include_In_UI_Map_Header>
-	</MultiplayerStructureMarker>
-	
+	</MultiplayerStructureMarker>-->
+
 	<MultiplayerStructureMarker Name="Team_02_Turbolaser_Structure_Position">
 		<Text_ID>TEXT_GROUND_TURBOLASER_TOWER</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -630,12 +630,12 @@
 		<Space_Model_Name />
 		<Land_Model_Name>EB_TLTower.ALO</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>0.75</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
-	
+
 	<MultiplayerStructureMarker Name="Team_02_BuildPads_Position">
 		<Text_ID>TEXT_EMPIRE_BUILD_PAD</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
@@ -644,7 +644,7 @@
 		<Space_Model_Name />
 		<Land_Model_Name>NB_BasePad.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>1</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
@@ -658,7 +658,7 @@
 		<Space_Model_Name>EB_STATION_01.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>
 	</MultiplayerStructureMarker>
@@ -668,7 +668,7 @@
 		<Marker_For_Specific_Object_Type> Reinforcement_Point_Underworld, Reinforcement_Point_Rebel, Reinforcement_Point_Empire </Marker_For_Specific_Object_Type>
 		<Land_Model_Name>W_Pedistal_Rebel.alo</Land_Model_Name>
 		<Behavior>MARKER</Behavior>
-		<Is_Discardable>false</Is_Discardable>  
+		<Is_Discardable>false</Is_Discardable>
 		<Affiliation>Neutral</Affiliation>
 		<Scale_Factor>1.25</Scale_Factor>
 		<Include_In_UI_Map_Header>false</Include_In_UI_Map_Header>

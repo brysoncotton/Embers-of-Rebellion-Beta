@@ -52,31 +52,31 @@
 <HardPoints>
 	<HardPoint Name="Victory_II_Torpedo">
 		<Type> HARD_POINT_WEAPON_TORPEDO </Type>
-        <Is_Targetable>Yes</Is_Targetable>
-        <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-        <Health>260.0</Health>
+		<Is_Targetable>Yes</Is_Targetable>
+		<Is_Destroyable>Yes</Is_Destroyable>
+		<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
+		<Health>260.0</Health>
 
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
 
-        <Attachment_Bone>HP_TORP01</Attachment_Bone>
-        <Collision_Mesh>HP_TORP01</Collision_Mesh>
+		<Attachment_Bone>HP_TORP01</Attachment_Bone>
+		<Collision_Mesh>HP_TORP01</Collision_Mesh>
 
-        <Fire_Bone_A>HP_TORP01</Fire_Bone_A>
-        <Fire_Bone_B>HP_TORP01</Fire_Bone_B>
-        <Fire_Cone_Width>130.0</Fire_Cone_Width>
-        <Fire_Cone_Height>130.0</Fire_Cone_Height> 
-        <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo_Light</Fire_Projectile_Type> <!-- Split off so it doesn't 5x cap ships -->
-        <Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
-        <Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>4</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
-        <Fire_Range_Distance>1400.0</Fire_Range_Distance>
+		<Fire_Bone_A>HP_TORP01</Fire_Bone_A>
+		<Fire_Bone_B>HP_TORP01</Fire_Bone_B>
+		<Fire_Cone_Width>130.0</Fire_Cone_Width>
+		<Fire_Cone_Height>130.0</Fire_Cone_Height>
+		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo_Light</Fire_Projectile_Type>		<!-- Split off so it doesn't 5x cap ships -->
+		<Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
+		<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
+		<Fire_Pulse_Count>4</Fire_Pulse_Count>
+		<Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
+		<Fire_Range_Distance>1400.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Torpedo_Fire</Fire_SFXEvent>
-            
-			<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
-    </HardPoint>
+
+		<Fire_Category_Restrictions> Fighter, Bomber, Transport </Fire_Category_Restrictions>
+	</HardPoint>
 
 	<HardPoint Name="Victory_II_IC_01">
 		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
@@ -84,7 +84,7 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS01_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS01_FP00</Collision_Mesh>
@@ -116,12 +116,12 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS02_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS02_FP00</Collision_Mesh>
-		<Damage_Decal>HP_IC_BR_EmitDamage</Damage_Decal>
-		<Damage_Particles>HP_IC_BR_EmitDamage</Damage_Particles>
+		<Damage_Decal>HP_MIS02_EMITDAMAGE</Damage_Decal>
+		<Damage_Particles>HP_MIS02_EMITDAMAGE</Damage_Particles>
 		<Fire_Bone_A>HP_MIS02_FP00</Fire_Bone_A>
 		<Fire_Bone_B>HP_MIS02_FP01</Fire_Bone_B>
 		<Fire_Cone_Width>170.0</Fire_Cone_Width>
@@ -148,7 +148,7 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS03_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS03_FP00</Collision_Mesh>
@@ -180,7 +180,7 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS04_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS04_FP00</Collision_Mesh>
@@ -205,14 +205,14 @@
 		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
+
 	<HardPoint Name="Victory_II_IC_05">
 		<Type> HARD_POINT_WEAPON_ION_CANNON </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS05_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS05_FP00</Collision_Mesh>
@@ -244,7 +244,7 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS06_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS06_FP00</Collision_Mesh>
@@ -276,7 +276,7 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS07_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS07_FP00</Collision_Mesh>
@@ -308,7 +308,7 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
 		<Health>1000.0</Health>
-		<Death_Explosion_Particles>  </Death_Explosion_Particles>
+		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>HP_MIS08_FP00</Attachment_Bone>
 		<Collision_Mesh>HP_MIS08_FP00</Collision_Mesh>
@@ -333,23 +333,23 @@
 		<Fire_Inaccuracy_Distance> Capital, 15.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
 	</HardPoint>
-	
+
 	<HardPoint Name="Victory_II_LC_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>420.0</Health>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	
+
 		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
-	
+
 		<Model_To_Attach></Model_To_Attach>
 		<Attachment_Bone>HP_LC01</Attachment_Bone>
 		<Collision_Mesh>HP_LC01</Collision_Mesh>
 		<Damage_Decal>HP_LC01_EMITDAMAGE</Damage_Decal>
 		<Damage_Particles>HP_LC01_EMITDAMAGE</Damage_Particles>
-	
+
 		<Fire_Bone_A>HP_LC01</Fire_Bone_A>
 		<Fire_Bone_B>HP_LC01</Fire_Bone_B>
 		<Fire_Cone_Width>180</Fire_Cone_Width>
@@ -361,9 +361,9 @@
 		<Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2750.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-	
+
 		<Full_Salvo_Weapon_Delay_Multiplier>0.66</Full_Salvo_Weapon_Delay_Multiplier>
-			
+
 		<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -379,16 +379,16 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>420.0</Health>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	
+
 		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
-	
+
 		<Model_To_Attach></Model_To_Attach>
 		<Attachment_Bone>HP_LC04</Attachment_Bone>
 		<Collision_Mesh>HP_LC04</Collision_Mesh>
 		<Damage_Decal></Damage_Decal>
 		<Damage_Particles></Damage_Particles>
-	
+
 		<Fire_Bone_A>HP_LC04</Fire_Bone_A>
 		<Fire_Bone_B>HP_LC04</Fire_Bone_B>
 		<Fire_Cone_Width>180</Fire_Cone_Width>
@@ -400,9 +400,9 @@
 		<Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2750.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-	
+
 		<Full_Salvo_Weapon_Delay_Multiplier>0.66</Full_Salvo_Weapon_Delay_Multiplier>
-			
+
 		<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -418,16 +418,16 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>420.0</Health>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	
+
 		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
-	
+
 		<Model_To_Attach></Model_To_Attach>
 		<Attachment_Bone>HP_TBL06</Attachment_Bone>
 		<Collision_Mesh>HP_TBL06</Collision_Mesh>
 		<Damage_Decal>HP_TBL06_EMITDAMAGE</Damage_Decal>
 		<Damage_Particles>HP_TBL06_EMITDAMAGE</Damage_Particles>
-	
+
 		<Fire_Bone_A>HP_TBL06</Fire_Bone_A>
 		<Fire_Bone_B>HP_TBL06</Fire_Bone_B>
 		<Fire_Cone_Width>180</Fire_Cone_Width>
@@ -439,9 +439,9 @@
 		<Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2750.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-	
+
 		<Full_Salvo_Weapon_Delay_Multiplier>0.66</Full_Salvo_Weapon_Delay_Multiplier>
-			
+
 		<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -457,16 +457,16 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>420.0</Health>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	
+
 		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
-	
+
 		<Model_To_Attach></Model_To_Attach>
 		<Attachment_Bone>HP_TBL03</Attachment_Bone>
 		<Collision_Mesh>HP_TBL03</Collision_Mesh>
 		<Damage_Decal></Damage_Decal>
 		<Damage_Particles></Damage_Particles>
-	
+
 		<Fire_Bone_A>HP_TBL03</Fire_Bone_A>
 		<Fire_Bone_B>HP_TBL03</Fire_Bone_B>
 		<Fire_Cone_Width>180</Fire_Cone_Width>
@@ -478,9 +478,9 @@
 		<Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2750.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-	
+
 		<Full_Salvo_Weapon_Delay_Multiplier>0.66</Full_Salvo_Weapon_Delay_Multiplier>
-			
+
 		<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -496,16 +496,16 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>420.0</Health>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	
+
 		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
-	
+
 		<Model_To_Attach></Model_To_Attach>
 		<Attachment_Bone>HP_LC05</Attachment_Bone>
 		<Collision_Mesh>HP_LC05</Collision_Mesh>
 		<Damage_Decal>HP_LC05_EMITDAMAGE</Damage_Decal>
 		<Damage_Particles>HP_LC05_EMITDAMAGE</Damage_Particles>
-	
+
 		<Fire_Bone_A>HP_LC05</Fire_Bone_A>
 		<Fire_Bone_B>HP_LC05</Fire_Bone_B>
 		<Fire_Cone_Width>180</Fire_Cone_Width>
@@ -517,9 +517,9 @@
 		<Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2750.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-	
+
 		<Full_Salvo_Weapon_Delay_Multiplier>0.66</Full_Salvo_Weapon_Delay_Multiplier>
-			
+
 		<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -535,16 +535,16 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>420.0</Health>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	
+
 		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
-	
+
 		<Model_To_Attach></Model_To_Attach>
 		<Attachment_Bone>HP_LC08</Attachment_Bone>
 		<Collision_Mesh>HP_LC08</Collision_Mesh>
 		<Damage_Decal>HP_LC08_EMITDAMAGE</Damage_Decal>
 		<Damage_Particles>HP_LC08_EMITDAMAGE</Damage_Particles>
-	
+
 		<Fire_Bone_A>HP_LC08</Fire_Bone_A>
 		<Fire_Bone_B>HP_LC08</Fire_Bone_B>
 		<Fire_Cone_Width>180</Fire_Cone_Width>
@@ -556,9 +556,9 @@
 		<Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2750.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-	
+
 		<Full_Salvo_Weapon_Delay_Multiplier>0.66</Full_Salvo_Weapon_Delay_Multiplier>
-			
+
 		<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -574,16 +574,16 @@
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Health>420.0</Health>
 		<Tooltip_Text>TEXT_WEAPON_LASERCANNON</Tooltip_Text>
-	
+
 		<Death_Explosion_Particles></Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent></Death_Explosion_SFXEvent>
-	
+
 		<Model_To_Attach></Model_To_Attach>
 		<Attachment_Bone>HP_LC07</Attachment_Bone>
 		<Collision_Mesh>HP_LC07</Collision_Mesh>
 		<Damage_Decal>HP_LC07_BLAST</Damage_Decal>
 		<Damage_Particles>HP_LC07_BLAST</Damage_Particles>
-	
+
 		<Fire_Bone_A>HP_LC07</Fire_Bone_A>
 		<Fire_Bone_B>HP_LC07</Fire_Bone_B>
 		<Fire_Cone_Width>180</Fire_Cone_Width>
@@ -595,9 +595,9 @@
 		<Fire_Pulse_Delay_Seconds>.2</Fire_Pulse_Delay_Seconds>
 		<Fire_Range_Distance>2750.0</Fire_Range_Distance>
 		<Fire_SFXEvent>Unit_Empire_Ship_Laser_Cannon_Fire</Fire_SFXEvent>
-	
+
 		<Full_Salvo_Weapon_Delay_Multiplier>0.66</Full_Salvo_Weapon_Delay_Multiplier>
-			
+
 		<Fire_Inaccuracy_Distance> Fighter, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Bomber, 25.0 </Fire_Inaccuracy_Distance>
 		<Fire_Inaccuracy_Distance> Transport, 15.0 </Fire_Inaccuracy_Distance>
@@ -808,7 +808,7 @@
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
 
 		<Model_To_Attach></Model_To_Attach>
-		<Attachment_Bone>HP_ENGINE</Attachment_Bone> <!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
+		<Attachment_Bone>HP_ENGINE</Attachment_Bone>		<!-- This is an attachment bone for the HUD reticle centering, even though no model is attached -->
 		<Collision_Mesh>HP_ENGINE</Collision_Mesh>
 		<Damage_Decal>HP_ENGINE_EMITDAMAGE</Damage_Decal>
 		<Damage_Particles>HP_ENGINE_EMITDAMAGE</Damage_Particles>
@@ -825,7 +825,7 @@
 		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
-		<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+		<Death_Breakoff_Prop></Death_Breakoff_Prop>
 
 		<Model_To_Attach></Model_To_Attach>
 		<Attachment_Bone>HP_SHIELD</Attachment_Bone>
@@ -842,10 +842,10 @@
 		<Collision_Mesh>HP_SPAWN</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
 		<Health>200.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>		<!-- STUBBED PLACEHOLDER -->
+		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>		<!-- STUBBED PLACEHOLDER -->
 		<Damage_Decal>HP_SPAWN_EMITDAMAGE</Damage_Decal>
 		<Damage_Particles>HP_SPAWN_EMITDAMAGE</Damage_Particles>
-	</HardPoint> 
+	</HardPoint>
 
 </HardPoints>

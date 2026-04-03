@@ -2,8 +2,8 @@
 <RebelGroundCompanies>
 	<GroundCompany Name="Rebel_Speeder_Wing">
 		<Text_ID>TEXT_REBEL_SPEEDER_WING</Text_ID>
-		
-		
+
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>24</Damage>
@@ -46,9 +46,9 @@
 			<Unit_Ability>
 				<Type>CABLE_ATTACK</Type>
 				<Recharge_Seconds>120</Recharge_Seconds>
-				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
+				<GUI_Activated_Ability_Name>Cable</GUI_Activated_Ability_Name>				<!-- GUI Command Bar support -->
 			</Unit_Ability>
-			
+
 		</Unit_Abilities_Data>
 
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
@@ -59,17 +59,17 @@
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
 		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-  		
-  		<Encyclopedia_Text>TEXT_TOOLTIP_SPEEDER</Encyclopedia_Text>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_SPEEDER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_SPEEDER</Encyclopedia_Unit_Class>
-        <Maintenance_Cost>0.05</Maintenance_Cost>
+		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
 
-	<GroundCompany Name="Rebel_Light_Tank_Brigade"> <!--T2B Tank Company-->
+	<GroundCompany Name="Rebel_Light_Tank_Brigade">		<!--T2B Tank Company-->
 		<Text_ID>TEXT_REBEL_LIGHT_TANK_BRIGADE</Text_ID>
-		
-		
+
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>30</Damage>
@@ -116,26 +116,26 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
-  		<Encyclopedia_Text>TEXT_TOOLTIP_T2B</Encyclopedia_Text>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_T2B</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_TANK</Encyclopedia_Unit_Class>
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Rebel_Infantry_Squad">
 		<Text_ID>TEXT_REBEL_INFANTRY_SQUAD</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		
-		
+
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>15</Damage>
-		<Autoresolve_Health>100</Autoresolve_Health> <!-- changed to reflect unit health w/ size-->
+		<Autoresolve_Health>100</Autoresolve_Health>		<!-- changed to reflect unit health w/ size-->
 		<Affiliation>Rebel</Affiliation>
 		<Build_Cost_Credits>52</Build_Cost_Credits>
 		<Piracy_Value_Credits>50</Piracy_Value_Credits>
@@ -154,9 +154,9 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Transport_Unit>U_Wing_Transport</Company_Transport_Unit>
 		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
-        <!-- AI  Changed to 15 soldiers with 5 per troop -->
+		<!-- AI  Changed to 15 soldiers with 5 per troop -->
 		<Company_Units> Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper,Squad_Rebel_Trooper,Squad_Rebel_Trooper,Squad_Rebel_Trooper</Company_Units>
 		<Max_Squad_Size> 5 </Max_Squad_Size>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
@@ -172,16 +172,16 @@
 
 
 		<Score_Cost_Credits>45</Score_Cost_Credits>
-		
+
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>320</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>3</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -192,25 +192,25 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		
+
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
-	
+
 	<GroundCompany Name="Rebel_Mini_Infantry_Squad">
 		<Variant_Of_Existing_Type>Rebel_Infantry_Squad</Variant_Of_Existing_Type>
 		<Company_Units> Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
 		<Tech_Level>6</Tech_Level>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
 		<Max_Squad_Size> 5 </Max_Squad_Size>
-		<Damage>5</Damage> 
+		<Damage>5</Damage>
 	</GroundCompany>
 
 	<GroundCompany Name="Rebel_Tank_Buster_Squad">
 		<LOD_Bias>5</LOD_Bias>
 		<Text_ID>TEXT_REBEL_TANK_BUSTER_SQUAD</Text_ID>
-		
-		
+
+
 		<Encyclopedia_Text>TEXT_TOOLTIP_PLEX TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
 		<GUI_Row> 1 </GUI_Row>
@@ -236,7 +236,7 @@
 		<Formation_Priority>2</Formation_Priority>
 		<Is_Escort>yes</Is_Escort>
 		<Ship_Class>Infantry</Ship_Class>
-		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Transport_Unit>U_Wing_Transport</Company_Transport_Unit>
 		<Create_Team_Type> Plex_Soldier_Team </Create_Team_Type>
 		<Company_Units> Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier, Squad_Plex_Soldier </Company_Units>
 		<Max_Squad_Size> 3 </Max_Squad_Size>
@@ -266,25 +266,25 @@
 		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		  			
+
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
-	
 
-	
+
+
 	<!--  Oksana 08/25/2005:  Since this team has only one unit, and this unit is supposed to have a non-team ability,
 							  I am removing the team and will use the unit itself instead. Will keep this entry commented
 							  out in case we need to go back and look up some tags. -->
 
 	<!-- This unit is supposed to be SOLO.  DO NOT add another infiltrator to this team.  -PP 11/30/05 -->
 
-	 <GroundCompany Name="Rebel_Infiltrator_Team">
+	<GroundCompany Name="Rebel_Infiltrator_Team">
 		<Text_ID>TEXT_UNIT_REBEL_INFILTRATOR</Text_ID>
-		
-		
+
+
 		<GUI_Row> 1 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>8</Damage>
@@ -312,7 +312,7 @@
 		<Formation_Priority>1</Formation_Priority>
 		<Is_Escort>no</Is_Escort>
 		<Ship_Class>infantry</Ship_Class>
-		<Company_Transport_Unit>Gallofree_Transport</Company_Transport_Unit>
+		<Company_Transport_Unit>U_Wing_Transport</Company_Transport_Unit>
 		<Icon_Name>i_button_infiltrator.tga</Icon_Name>
 		<SFXEvent_Build_Started>RHD_Build_Troops</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>RHD_Recruitment_Canceled</SFXEvent_Build_Cancelled>
@@ -325,11 +325,11 @@
 		<Tactical_Build_Prerequisites>RC_Level_Two_Tech_Upgrade</Tactical_Build_Prerequisites>
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 
-  		<Encyclopedia_Text>TEXT_TOOLTIP_INFILTRATOR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_INFILTRATOR TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		
+
 		<Maintenance_Cost>0.05</Maintenance_Cost>
 		<Score_Cost_Credits>120</Score_Cost_Credits>
 
@@ -341,15 +341,15 @@
 				<GUI_Activated_Ability_Name> Infiltrator_Grenade_Attack </GUI_Activated_Ability_Name>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Population_Value>1</Population_Value>
 	</GroundCompany>
-	
-	
-	<GroundCompany Name="Rebel_Pod_Walker_Company"> <!--Rebel AT-AP Walker-->
+
+
+	<GroundCompany Name="Rebel_Pod_Walker_Company">		<!--Rebel AT-AP Walker-->
 		<Text_ID>TEXT_UNIT_POD_WALKER_COMPANY</Text_ID>
-		
-		
+
+
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>30</Damage>
 		<Autoresolve_Health>800</Autoresolve_Health>
@@ -374,8 +374,8 @@
 		<Company_Units>Pod_Walker_Rebel, Pod_Walker_Rebel, Pod_Walker_Rebel</Company_Units>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Build_Can_Be_Unlocked_By_Slicer>No</Build_Can_Be_Unlocked_By_Slicer>
-		
-  		<Encyclopedia_Text>TEXT_TOOLTIP_PODWALKER</Encyclopedia_Text>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_PODWALKER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_LIGHT_VEHICLE</Encyclopedia_Unit_Class>
 
 		<Max_Squad_Size> 1 </Max_Squad_Size>
@@ -399,12 +399,12 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>--> 
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
-		
-		<Population_Value>1</Population_Value>	
+
+		<Population_Value>1</Population_Value>
 	</GroundCompany>
-	
+
 	<!--multiplayer cantina-->
 	<GroundCompany Name="RN_Rebel_Pod_Walker_Company">
 		<Variant_Of_Existing_Type>Rebel_Pod_Walker_Company</Variant_Of_Existing_Type>
@@ -418,12 +418,12 @@
 	<!--multiplayer cantina-->
 
 
-	
-<!-- Used for exploding Rebel buildings -->
+
+	<!-- Used for exploding Rebel buildings -->
 
 	<GroundCompany Name="Rebel_Survivors_Small">
 		<Text_ID>TEXT_UNIT_REBEL_TROOPER</Text_ID>
-		
+
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>8</Damage>
 		<Autoresolve_Health>100</Autoresolve_Health>
@@ -438,9 +438,9 @@
 		<Company_Units>Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 		<Score_Cost_Credits>15</Score_Cost_Credits>
-  		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		
+
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
@@ -451,10 +451,10 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
-		
+
+
 		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
-	</GroundCompany>	
+	</GroundCompany>
 
 
 	<GroundCompany Name="Rebel_Survivors_Medium">
@@ -473,10 +473,10 @@
 		<Company_Units>Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 		<Score_Cost_Credits>30</Score_Cost_Credits>
-  		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		
-		
+
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -486,9 +486,9 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
+
 		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
-	</GroundCompany>	
+	</GroundCompany>
 
 
 	<GroundCompany Name="Rebel_Survivors_Large">
@@ -507,9 +507,9 @@
 		<Company_Units>Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper, Squad_Rebel_Trooper</Company_Units>
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
 		<Score_Cost_Credits>45</Score_Cost_Credits>
-  		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_REBELSOLDIER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -519,11 +519,11 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
-		
-		
+
+
+
 		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
-	</GroundCompany>	
+	</GroundCompany>
 
 
 	<GroundCompany Name="Rebel_Prisoner_Team">
@@ -541,13 +541,13 @@
 		<Ship_Class>infantry</Ship_Class>
 		<Company_Units>Prisoner_Rebel_01, Prisoner_Rebel_02, Prisoner_Rebel_03, Prisoner_Rebel_04, Prisoner_Rebel_05 Prisoner_Rebel_06 Prisoner_Rebel_07</Company_Units>
 		<Is_Homogeneous>No</Is_Homogeneous>
-		
+
 		<Icon_Name>i_button_rebel_soldier.tga</Icon_Name>
-		
-  		<Encyclopedia_Text>TEXT_TOOLTIP_PRISONER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_PRISONER TEXT_TOOLTIP_UNIT_CAPTURE_ABILITY</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_INFANTRY</Encyclopedia_Unit_Class>
-		
-		
+
+
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
 			<!-- Primary ability -->
@@ -557,10 +557,10 @@
 				<Mod_Multiplier>TAKE_DAMAGE_MULTIPLIER, 0.5f</Mod_Multiplier>
 			</Unit_Ability>
 		</Unit_Abilities_Data>
-		
-		
+
+
 		<Create_Team_Type> Rebel_Trooper_Team </Create_Team_Type>
-	</GroundCompany>	
+	</GroundCompany>
 
 
 

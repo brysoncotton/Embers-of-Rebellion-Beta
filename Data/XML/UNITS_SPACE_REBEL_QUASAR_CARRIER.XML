@@ -34,11 +34,11 @@
 		<Death_Clone>Damage_Normal, Rebel_Quasar_Death_Clone</Death_Clone>
 	</SpaceUnit>
 
-<!--DEATH CLONES-->
+	<!--DEATH CLONES-->
 
 	<SpaceUnit Name="Rebel_Quasar_Death_Clone">
 		<Variant_Of_Existing_Type>Empire_Quasar_Death_Clone</Variant_Of_Existing_Type>
-		<Space_Model_Name>RV_Quasar_d_DIE_00.ala</Space_Model_Name>
+		<Space_Model_Name>RV_Quasar_d.alo</Space_Model_Name>
 		<Affiliation>Rebel</Affiliation>
 	</SpaceUnit>
 

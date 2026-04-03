@@ -3,8 +3,8 @@
 
 <GroundStructures>
 
-	
-	<GroundStructure Name="Destroyer_Spawn_House">
+
+	<!--<GroundStructure Name="Destroyer_Spawn_House">
 		<Text_ID>TEXT_STRUCTURE_HUMAN_DWELLING</Text_ID>
 		<Land_Model_Name>NB_VCH.alo</Land_Model_Name>
 		<Icon_Name>i_button_W_Urban_CorBuild_A.tga</Icon_Name>
@@ -57,12 +57,12 @@
 		<Land_Damage_Alternates>0, 1, 2, 3</Land_Damage_Alternates>
 		<Land_Damage_SFX>null,SFX_Grenade_Detonation, SFX_Grenade_Detonation,null</Land_Damage_SFX>
 
-		<GUI_Bracket_Size>2</GUI_Bracket_Size> 
+		<GUI_Bracket_Size>2</GUI_Bracket_Size> -->
 
-		<!-- The ground structures have this data which looks like it's space only because the
+	<!-- The ground structures have this data which looks like it's space only because the
 		snowspeeders are using space style pathfinding which needs this information so that we won't
 		path speeders through structures -->
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+	<!--<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
 		<Space_Layer> Frigate | Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
@@ -71,9 +71,9 @@
 		<Encyclopedia_Text>TEXT_ENCYCLOPEDIA_HUMAN_SPAWNER</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 
-	</GroundStructure>
-	
-	
+	</GroundStructure>-->
+
+
 
 	<GroundStructure Name="Ysalamiri_Tree">
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
@@ -87,7 +87,7 @@
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 
 		<Collidable_By_Projectile_Living>No</Collidable_By_Projectile_Living>
-		
+
 		<Behavior>DUMMY_TOOLTIP</Behavior>
 		<LandBehavior>IDLE, SPACE_OBSTACLE, LAND_OBSTACLE, DISABLE_FORCE_ABILITIES</LandBehavior>
 
@@ -103,16 +103,16 @@
 		<Reveal_During_Setup_Phase> False </Reveal_During_Setup_Phase>
 		<Mass>1.0</Mass>
 		<Scale_Factor>1.0</Scale_Factor>
-		
+
 		<Affiliation>Hostile</Affiliation>
-		
+
 		<Disable_Force_Abilities_Range>150</Disable_Force_Abilities_Range>
 
 		<Victory_Relevant>No</Victory_Relevant>
 		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
 		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
 
-		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset>
 		<Space_Layer> Frigate | Corvette </Space_Layer>
 		<Has_Land_Evaluator>True</Has_Land_Evaluator>
 
