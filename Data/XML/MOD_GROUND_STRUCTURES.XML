@@ -108,7 +108,7 @@
 	<GroundStructure Name="Empire_Airbase">
 		<GUI_Bounds_Scale>0.3</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_EMPIRE_AIRBASE</Text_ID>
-		<Encyclopedia_Text></Encyclopedia_Text>
+		<Encyclopedia_Text>TEXT_TOOLTIP_EMPIRE_AIRBASE</Encyclopedia_Text>
 		<MP_Encyclopedia_Text></MP_Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Can_Contain_Heroes_During_Ground_Battle> Yes </Can_Contain_Heroes_During_Ground_Battle>

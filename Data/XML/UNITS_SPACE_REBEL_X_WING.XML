@@ -350,8 +350,8 @@
 		<Select_Box_Scale>40</Select_Box_Scale>
 
 		<Ranking_In_Category>6</Ranking_In_Category>
-		<Max_Speed>5.5</Max_Speed>
-		<Min_Speed>2.0</Min_Speed>
+		<Max_Speed>7.5</Max_Speed>
+		<Min_Speed>5.0</Min_Speed>
 		<OverrideAcceleration> .2 </OverrideAcceleration>
 		<OverrideDeceleration> .2 </OverrideDeceleration>
 		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
@@ -370,7 +370,7 @@
 		<AI_Combat_Power>150</AI_Combat_Power>
 
 		<Behavior>SELECTABLE, POWERED</Behavior>
-		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, AMBIENT_SFX,UNIT_AI,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SHIELDED</LandBehavior>
+		<LandBehavior>ABILITY_COUNTDOWN, HUNT, FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, AMBIENT_SFX,UNIT_AI,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING, SHIELDED</LandBehavior>
 		<Influences_Capture_Point>False</Influences_Capture_Point>
 
 		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
@@ -383,13 +383,13 @@
 		<Damage>50</Damage>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Points>200</Shield_Points>
-		<Tactical_Health>150</Tactical_Health>
+		<Tactical_Health>250</Tactical_Health>
 		<Shield_Refresh_Rate>4</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
 
 		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
-		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Land_FOW_Reveal_Range>1000.0</Land_FOW_Reveal_Range>
 		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
 
 		<Turret_Rotate_Extent_Degrees>20.0</Turret_Rotate_Extent_Degrees>
@@ -473,6 +473,11 @@
 				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Ability_On_X_Wing</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_GUI_Unit_Ability_Deactivated>Unit_Ability_Off_X_Wing</SFXEvent_GUI_Unit_Ability_Deactivated>
 			</Unit_Ability>
+
+			<!-- Secondary ability -->
+			<Unit_Ability>
+				<Type>HUNT</Type>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 		<Always_Spawn_In_Orbit>Yes</Always_Spawn_In_Orbit>
 		<Converted_To_Enemy_Die_Time_Seconds>999</Converted_To_Enemy_Die_Time_Seconds>
@@ -495,7 +500,7 @@
 		<Build_Time_Reduced_By_Multiple_Factories> Yes </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Build_Tab_Land_Units>No</Build_Tab_Land_Units>
-		<Tech_Level>2</Tech_Level>
+		<Tech_Level>1</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>

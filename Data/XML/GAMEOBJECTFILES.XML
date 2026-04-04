@@ -144,6 +144,9 @@
 	<File>Units_Space_Empire_Executor.xml</File>
 	<File>UNITS_SPACE_EMPIRE_DEATH_STAR.xml</File>
 
+	<!--EMPIRE MOD GROUND UNITS HERE-->
+	<File>UNITS_SPACE_EMPIRE_TIE_STRIKER.XML</File>
+
 
 	<!-- EMPIRE MOD HERO UNITS-->
 	<File>UNITS_HERO_EMPIRE_TARKIN.xml</File>

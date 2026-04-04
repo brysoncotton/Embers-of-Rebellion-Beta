@@ -1,30 +1,30 @@
 <?xml version="1.0"?>
 <Planets>
 
-	<Planet Name="Galaxy_Core_Art_Model">
-		<Text_ID />
-		<Galactic_Model_Name>w_galaxy00.alo</Galactic_Model_Name>
-        <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-		<Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-		<Mass>1.0</Mass>
-		<Scale_Factor>4</Scale_Factor>
-		<Show_Name>No</Show_Name>
-		<Name_Adjust>-10.0, 10.0, -0.1</Name_Adjust>
-		<Behavior>IDLE</Behavior>
-		<Pre_Lit>no</Pre_Lit>
-		<Political_Control>0</Political_Control>
-		<Camera_Aligned>No</Camera_Aligned>
-		<Terrain />
-		<Planet_Credit_Value>0</Planet_Credit_Value>
-		<Galactic_Position>0.0, 0.0, 0.0</Galactic_Position>
-		<Special_Structures>0</Special_Structures>
-		<In_Background>yes</In_Background>
-		<Max_Ground_Base>0</Max_Ground_Base>
-		<Max_Space_Base>0</Max_Space_Base>
-	</Planet>
+  <Planet Name="Galaxy_Core_Art_Model">
+    <Text_ID />
+    <Galactic_Model_Name>w_galaxy00.alo</Galactic_Model_Name>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Mass>1.0</Mass>
+    <Scale_Factor>4</Scale_Factor>
+    <Show_Name>No</Show_Name>
+    <Name_Adjust>-10.0, 10.0, -0.1</Name_Adjust>
+    <Behavior>IDLE</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>No</Camera_Aligned>
+    <Terrain />
+    <Planet_Credit_Value>0</Planet_Credit_Value>
+    <Galactic_Position>0.0, 0.0, 0.0</Galactic_Position>
+    <Special_Structures>0</Special_Structures>
+    <In_Background>yes</In_Background>
+    <Max_Ground_Base>0</Max_Ground_Base>
+    <Max_Space_Base>0</Max_Space_Base>
+  </Planet>
 
 
-<!--
+  <!--
 
 NOTE: Planet Capture Bonus = (Max_Ground_Base + Max_Space_Base) x 2000
 
@@ -45,27 +45,13 @@ Slice Difficulty Rating
 
 This rating is a measurement of the law-level of a planet.  This can include Imperial control, but
 can also include the indigenous forces and their ability (or willingness) to root out theft
-and lawlessness.  The number after the rating is used for the Underworld Black Market modifier.
-
-	0	=	Incredibly Easy		(0)
-	1	=	Easy				(+200)
-	2	=	Average				(+400)
-	3	=	Somewhat Difficult	(+600)
-	4	=	Difficult			(+800)
-	5	=	Next to Impossible	(+1000)
+and lawlessness.  The number after the rating is used for the Underworld Black Market modifier. 0 =	Incredibly Easy (0) 1 =	Easy (+200) 2 =	Average (+400) 3 =	Somewhat Difficult (+600) 4 =	Difficult (+800) 5 =	Next to Impossible	(+1000)
 
 Slicing Tech Availability Rating
 
 This is a measurement of how much tech is available on the planet in question; generally a rating
 of the technological advancement level of the indigenous species.  A sample planet is included for
-a guide.  The number after the rating is used for the Underworld Black Market modifier.
-
-	0	=	No Tech, Primitive Culture (Ewoks on Endor)					(+500)
-	1	=	Low Tech, Colonists with little access (Gamorr)				(+400)
-	2	=	Back-Water, Little access to high tech (Tatooine)			(+300)
-	3	=	Average, Average citizens of the galaxy (Alderaan)			(+100)
-	4	=	Semi-Urban, Large population with plentifiul Tech (Sullust)	(0)
-	5	=	Megalopolis, Huge urban and industrial centers (Coruscant)	(-200)
+a guide.  The number after the rating is used for the Underworld Black Market modifier. 0 =	No Tech, Primitive Culture (Ewoks on Endor) (+500) 1 =	Low Tech, Colonists with little access (Gamorr) (+400) 2 =	Back-Water, Little access to high tech (Tatooine) (+300) 3 =	Average, Average citizens of the galaxy (Alderaan) (+100) 4 =	Semi-Urban, Large population with plentifiul Tech (Sullust) (0) 5 =	Megalopolis, Huge urban and industrial centers (Coruscant)	(-200)
 
 
 Black Market Modifier
@@ -92,8 +78,8 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
 -->
 
-	<Planet Name="Abregado_Rae">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+  <Planet Name="Abregado_Rae">
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ABREGADORAE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -135,8 +121,8 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Describe_Tactical></Describe_Tactical>
     <Describe_Advantage></Describe_Advantage>
     <Describe_History>TEXT_PLANET_ABREGADORAE_INFO_HIS_01</Describe_History>
-    <Planet_Ability_Name>  </Planet_Ability_Name>
-    <Planet_Ability_Description>  </Planet_Ability_Description>
+    <Planet_Ability_Name></Planet_Ability_Name>
+    <Planet_Ability_Description></Planet_Ability_Description>
     <Encyclopedia_Text></Encyclopedia_Text>
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
@@ -145,7 +131,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Kidnapping </Corruption_1_Required_Mission_Type>
@@ -157,9 +143,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ABREGADORAE_STORY_BRIBERY</Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="AetenII">
-    <Zoomed_Terrain_Index>3 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>3 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_AETENII</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -203,7 +189,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Describe_Advantage></Describe_Advantage>
     <Describe_History>TEXT_PLANET_AETENII_INFO_HIS_01</Describe_History>
     <Planet_Ability_Name></Planet_Ability_Name>
-    <Planet_Ability_Description>  </Planet_Ability_Description>
+    <Planet_Ability_Description></Planet_Ability_Description>
     <Encyclopedia_Text></Encyclopedia_Text>
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
@@ -213,14 +199,14 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>12</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_AetenII_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_AetenII_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>AETENII_PIR_LOAD_COR02_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event>AETENII_PIR_VICTORY_COR02_03</Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>AETENII_PIR_LOSS_COR02_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_AETENII_STORY_PIRACY</Corruption_1_Mission_Briefing>
@@ -236,9 +222,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_AETENII_STORY_RACKETEER</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Alderaan">
-    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)--> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALDERAAN</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -291,9 +277,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="AlzocIII">
-    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ALZOCIII</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -346,7 +332,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_AlzocIII_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -370,7 +356,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Anaxes">
-    <Zoomed_Terrain_Index></Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index></Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ANAXES_ASTEROID_BELT</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -389,7 +375,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
     <Planet_Is_Destroyable_By_TSW> No </Planet_Is_Destroyable_By_TSW>
-    
+
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
     <Galactic_Position>302.0, 208.0, 10.0</Galactic_Position>
@@ -399,7 +385,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
-    <Land_Tactical_Map> </Land_Tactical_Map>
+    <Land_Tactical_Map></Land_Tactical_Map>
     <Planet_Surface_Accessible> No </Planet_Surface_Accessible>
     <Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
@@ -424,17 +410,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Anaxes_Intimidation.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Anaxes_Intimidation.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>ANAXES_INT_LOAD_COR04_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> ANAXES_INT_VICTORY_COR04_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>ANAXES_INT_LOSS_COR04_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ANAXES_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
@@ -442,7 +428,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> ANAXES_RKT_VICTORY_COR04_05 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -458,9 +444,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_ANAXES_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Atzerri">
-    <Zoomed_Terrain_Index>2 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>2 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ATZERRI</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -518,7 +504,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 3 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> ATZERRI_RKT_VICTORY_COR05_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -543,7 +529,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Bespin">
-    <Zoomed_Terrain_Index>11 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>11 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BESPIN</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -586,7 +572,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Describe_Advantage></Describe_Advantage>
     <Describe_History>TEXT_PLANET_BESPIN_INFO_HIS_01</Describe_History>
     <Planet_Ability_Name></Planet_Ability_Name>
-    <Planet_Ability_Description>  </Planet_Ability_Description>
+    <Planet_Ability_Description></Planet_Ability_Description>
     <Encyclopedia_Text></Encyclopedia_Text>
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
@@ -594,10 +580,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Ability_Icon>i_pa_improved_weapons.tga</Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Bespin_Piracy.ted </Corruption_1_Tactical_Map_Name>
@@ -620,9 +606,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BESPIN_STORY_RACKETEER</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Bestine">
-    <Zoomed_Terrain_Index>7 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>7 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BESTINE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -673,17 +659,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Bestine_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Bestine_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>BESTINE_KID_LOAD_COR07_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> BESTINE_KID_VICTORY_COR07_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>BESTINE_KID_LOSS_COR07_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_BESTINE_STORY_KIDNAP</Corruption_1_Mission_Briefing>
@@ -697,9 +683,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BESTINE_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Bonadan">
-    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BONADAN</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -753,7 +739,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 900 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> BONADAN_RKT_VICTORY_COR08_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -776,9 +762,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_BONADAN_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Bothawui">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_BOTHAWUI</Text_ID>
     <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -856,7 +842,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Bothawui_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -869,7 +855,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_BOTHAWUI_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -888,9 +874,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_BOTHAWUI_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
-  <Planet Name="Takodana"> <!--Was BYSS-->
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+
+  <Planet Name="Takodana">    <!--Was BYSS-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TAKODANA</Text_ID>
     <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -941,17 +927,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>18</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 100</Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Byss_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Byss_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>BYSS_KID_LOAD_COR10_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> BYSS_KID_VICTORY_COR10_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>BYSS_KID_LOSS_COR10_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_BYSS_STORY_KIDNAP</Corruption_1_Mission_Briefing>
@@ -965,9 +951,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_BYSS_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Carida">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CARIDA</Text_ID>
     <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1032,14 +1018,14 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Carida_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Carida_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>CARIDA_KID_LOAD_COR11_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> CARIDA_KID_VICTORY_COR11_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>CARIDA_KID_LOSS_COR11_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_CARIDA_STORY_KIDNAP</Corruption_1_Mission_Briefing>
@@ -1060,9 +1046,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_CARIDA_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Corellia">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORELLIA</Text_ID>
     <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1146,9 +1132,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_CORELLIA_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Corulag">
-    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORULAG</Text_ID>
     <Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1199,17 +1185,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 450</Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Corulag_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Corulag_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>CORULAG_PIR_LOAD_COR13_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> CORULAG_PIR_VICTORY_COR13_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>CORULAG_PIR_LOSS_COR13_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_CORULAG_STORY_PIRACY</Corruption_1_Mission_Briefing>
@@ -1227,7 +1213,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Coruscant">
-    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CORUSCANT</Text_ID>
     <Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1297,7 +1283,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Crait">
-    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CRAIT</Text_ID>
     <Galactic_Model_Name>W_planet_Ice01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1345,7 +1331,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
-   
+
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1200 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Kidnapping </Corruption_1_Required_Mission_Type>
@@ -1355,10 +1341,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_CRAIT_STORY_BRIBERY</Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Dathomir">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>2 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>2 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_DATHOMIR</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1407,10 +1393,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    
+
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Kidnapping </Corruption_1_Required_Mission_Type>
@@ -1420,7 +1406,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_DATHOMIR_STORY_BRIBERY</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
@@ -1438,9 +1424,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_3_Mission_Briefing> TEXT_CORRUPTION_DATHOMIR_STORY_RACKETEER </Corruption_3_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Dantooine">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_DANTOOINE</Text_ID>
     <Galactic_Model_Name>W_planet_Dantooine01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1488,13 +1474,13 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    
+
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>18</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1200 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Dantooine_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -1516,7 +1502,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="DQar">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_DQAR</Text_ID>
     <Galactic_Model_Name>W_planet_naboo_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1566,17 +1552,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power></Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Naboo_Intimidation.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Naboo_Intimidation.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>DQAR_INT_LOAD_COR39_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> DQAR_INT_VICTORY_COR39_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>DQAR_INT_LOSS_COR39_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_DQAR_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
@@ -1584,7 +1570,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> DQAR_BND_VICTORY_COR39_05 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -1592,9 +1578,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Success_Unlock_Unit_Type>Gungan_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Endor">
-    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ENDOR</Text_ID>
     <Galactic_Model_Name>W_planet_endor_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1645,7 +1631,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Potential_Indigenous_Power>Ewok_Hunter, 1600</Potential_Indigenous_Power>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Bonded_Citizens </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Piracy </Corruption_1_Required_Mission_Type>
@@ -1656,9 +1642,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Success_Unlock_Unit_Type>Underworld_Ewok_Handler_Company</Corruption_1_Success_Unlock_Unit_Type>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Eriadu">
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ERIADU</Text_ID>
     <Galactic_Model_Name>W_planet_eriadu_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1709,12 +1695,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 150</Potential_Indigenous_Power>
-   
+
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 600 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> ERIADU_RKT_VICTORY_COR19_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -1728,10 +1714,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing> TEXT_CORRUPTION_ERIADU_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Felucia">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>12 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>12 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_FELUCIA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -1782,12 +1768,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Ability_Icon>i_pa_tactical_environment.tga</Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1200 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> FELUCIA_RKT_VICTORY_COR20_02 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
@@ -1805,7 +1791,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Fondor">
-    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_FONDOR</Text_ID>
     <Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1868,21 +1854,21 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Fondor_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Fondor_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>FONDOR_PIR_LOAD_COR21_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> FONDOR_PIR_VICTORY_COR21_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>FONDOR_PIR_LOSS_COR21_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_FONDOR_STORY_PIRACY</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Underworld_A_Wing_Squadron</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 3 </Corruption_2_Required_Mission_Count>
@@ -1893,7 +1879,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Fresia">
-    <Zoomed_Terrain_Index>7 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>7 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_FRESIA</Text_ID>
     <Galactic_Model_Name>W_planet_Ocean01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -1944,7 +1930,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>18</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Kidnapping </Corruption_1_Required_Mission_Type>
@@ -1963,9 +1949,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_FRESIA_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Geonosis">
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_GEONOSIS</Text_ID>
     <Galactic_Model_Name>W_planet_geonosis_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2016,10 +2002,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Geonosian, 1200</Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Corrupt_Militia </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Required_Mission_Type> Corruption_Bribery </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
@@ -2028,7 +2014,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_GEONOSIS_STORY_CORUPTMILITIA</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -2038,10 +2024,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Success_Unlock_Unit_Type>Geonosian_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Honoghr">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_HONOGHR</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2092,10 +2078,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Ability_Icon>i_pa_tactical_secure.tga</Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Honoghr_Intimidate.ted </Corruption_1_Tactical_Map_Name>
@@ -2108,7 +2094,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_HONOGHR_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 300 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
@@ -2121,7 +2107,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Hosnian_Prime">
-    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_HOSNIAN_PRIME</Text_ID>
     <Galactic_Model_Name>W_planet_Urban01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2176,7 +2162,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
       <Reduce_Production_Price_Ability Name="Hosnian_Prime_Production_Boost">
         <Unit_Strength_Category />
         <Applicable_Unit_Categories> Frigate </Applicable_Unit_Categories>
-        <Applicable_Unit_Types> </Applicable_Unit_Types>
+        <Applicable_Unit_Types></Applicable_Unit_Types>
         <Price_Reduction_Percentage>0.20</Price_Reduction_Percentage>
         <Stacking_Category>9</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
@@ -2184,21 +2170,21 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_HOSNIAN_PRIME_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_HOSNIAN_PRIME_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>HOSNIAN_PRIME_PIR_LOAD_COR21_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> HOSNIAN_PRIME_PIR_VICTORY_COR21_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>HOSNIAN_PRIME_PIR_LOSS_COR21_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_HOSNIAN_PRIME_STORY_PIRACY</Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Underworld_A_Wing_Squadron</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 3 </Corruption_2_Required_Mission_Count>
@@ -2209,7 +2195,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Hoth">
-    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_HOTH</Text_ID>
     <Galactic_Model_Name>W_planet_hoth_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2257,24 +2243,24 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-    
+
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Wampa, 2000</Potential_Indigenous_Power>
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> HOTH_RKT_VICTORY_COR24_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_HOTH_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Hypori">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_HYPORI</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2324,7 +2310,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Black_Market </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Piracy </Corruption_1_Required_Mission_Type>
@@ -2334,9 +2320,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing> TEXT_CORRUPTION_HYPORI_STORY_BLACKMARKET </Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Ilum">
-    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ILUM</Text_ID>
     <Galactic_Model_Name>W_planet_Ice01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2384,7 +2370,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
-   
+
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1200 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Kidnapping </Corruption_1_Required_Mission_Type>
@@ -2394,9 +2380,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ILUM_STORY_BRIBERY</Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Jabiim">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_JABIIM</Text_ID>
     <Galactic_Model_Name>W_planet_Temperate01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2458,7 +2444,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_JABIIM_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 600 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -2467,9 +2453,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_JABIIM_STORY_CORUPTMILITIA</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Kamino">
-    <Zoomed_Terrain_Index></Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index></Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KAMINO</Text_ID>
     <Galactic_Model_Name>W_planet_kamino_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2517,10 +2503,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Corrupt_Militia </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 600 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Required_Mission_Type> Corruption_Bribery </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
@@ -2536,9 +2522,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KAMINO_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Kashyyyk">
-    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KASHYYYK</Text_ID>
     <Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2585,7 +2571,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    
+
     <Native_Icon_Name></Native_Icon_Name>
     <Potential_Indigenous_Power>Wookie_Warrior, 800</Potential_Indigenous_Power>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
@@ -2602,7 +2588,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Credit_Cost> 1000 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 3 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> KASHYYYK_BND_VICTORY_COR29_02 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -2610,9 +2596,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Success_Unlock_Unit_Type>Wookiee_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Kessel">
-    <Zoomed_Terrain_Index>7 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>7 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KESSEL</Text_ID>
     <Galactic_Model_Name>w_planet_sphere_kessel.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2663,21 +2649,21 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Kessel_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Kessel_Piracy.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>KESSEL_PIR_LOAD_COR30_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> KESSEL_PIR_VICTORY_COR30_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>KESSEL_PIR_LOSS_COR30_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing> TEXT_CORRUPTION_KESSEL_STORY_PIRACY </Corruption_1_Mission_Briefing>
     <Corruption_1_Success_Unlock_Unit_Type>Marauder_Underworld</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Corrupt_Militia </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 550 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Bribery </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -2686,9 +2672,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KESSEL_STORY_CORUPTMILITIA </Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
-  <Planet Name="Korriban">
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+
+  <Planet Name="Korriban">    <!--IN GAME AS MORABAND-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KORRIBAN</Text_ID>
     <Galactic_Model_Name>W_planet_Korriban01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2738,7 +2724,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Desert_Civilian_A, 150</Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1200 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
@@ -2750,9 +2736,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_KORRIBAN_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Kuat">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_KUAT</Text_ID>
     <Galactic_Model_Name>W_planet_Kuat_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2815,14 +2801,14 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Kuat_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Kuat_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>KUAT_KID_LOAD_COR32_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> KUAT_KID_VICTORY_COR32_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>KUAT_KID_LOSS_COR32_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing> TEXT_CORRUPTION_KUAT_STORY_KIDNAP </Corruption_1_Mission_Briefing>
@@ -2836,9 +2822,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing> TEXT_CORRUPTION_KUAT_STORY_BLACKMARKET </Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Manaan">
-    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANAAN</Text_ID>
     <Galactic_Model_Name>W_planet_Kamino_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -2898,10 +2884,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MANAAN_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Mandalore">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MANDALORE</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -2952,10 +2938,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_Mandalore_Piracy.ted </Corruption_1_Tactical_Map_Name>
@@ -2969,7 +2955,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Success_Unlock_Unit_Type>Tartan_Underworld</Corruption_1_Success_Unlock_Unit_Type>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 2 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Kidnapping </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
@@ -2978,10 +2964,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MANDALORE_STORY_BRIBERY</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
-  
+
+
   <Planet Name="MonCalimari">
-    <Zoomed_Terrain_Index>7 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>7 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MONCALAMARI</Text_ID>
     <Galactic_Model_Name>W_planet_Moncalamari01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3036,7 +3022,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
       <Reduce_Production_Price_Ability Name="Mon_Calamari_Frigate_Production_Boost">
         <Unit_Strength_Category />
         <Applicable_Unit_Categories> Frigate </Applicable_Unit_Categories>
-        <Applicable_Unit_Types> </Applicable_Unit_Types>
+        <Applicable_Unit_Types></Applicable_Unit_Types>
         <Price_Reduction_Percentage>0.10</Price_Reduction_Percentage>
         <Stacking_Category>9</Stacking_Category>
         <Galaxy_Wide> No </Galaxy_Wide>
@@ -3044,14 +3030,14 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     </Abilities>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_MonCalamari_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name>Story_Plots_Underworld_MonCalamari_Piracy.xml</Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>MONCALAMARI_PIR_LOAD_COR35_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> MONCALAMARI_PIR_VICTORY_COR35_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>MONCALAMARI_PIR_LOSS_COR35_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MONCALAMARI_STORY_PIRACY</Corruption_1_Mission_Briefing>
@@ -3068,10 +3054,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Success_Unlock_Unit_Type>Mon_Calamari_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Mustafar">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>3 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>3 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUSTAFAR</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3122,7 +3108,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
-    
+
     <Corruption_1_Type> Corruption_Corrupt_Militia </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Bribery </Corruption_1_Required_Mission_Type>
@@ -3141,10 +3127,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MUSTAFAR_STORY_BRIBERY</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Muunilinst">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MUUNILINST</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3197,14 +3183,14 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Muunilinst_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Muunilinst_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>MUUNILINST_KID_LOAD_COR37_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> MUUNILINST_KID_VICTORY_COR37_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>MUUNILINST_KID_LOSS_COR37_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MUUNILINST_STORY_KIDNAP</Corruption_1_Mission_Briefing>
@@ -3218,10 +3204,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_MUUNILINST_STORY_BRIBERY</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Myrkr">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MYRKR</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3277,16 +3263,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Success_Speech_Event> MYRKR_RKT_VICTORY_COR38_01 </Corruption_1_Success_Speech_Event>
     <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MYRKR_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Naboo">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_NABOO</Text_ID>
     <Galactic_Model_Name>W_planet_naboo_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3336,17 +3322,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Gungan_Warrior, 120</Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Naboo_Intimidation.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Naboo_Intimidation.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>NABOO_INT_LOAD_COR39_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> NABOO_INT_VICTORY_COR39_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>NABOO_INT_LOSS_COR39_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_NABOO_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
@@ -3354,7 +3340,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> NABOO_BND_VICTORY_COR39_05 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
@@ -3362,9 +3348,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Success_Unlock_Unit_Type>Gungan_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="NalHutta">
-    <Zoomed_Terrain_Index>2 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>2 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_NALHUTTA</Text_ID>
     <Galactic_Model_Name>W_planet_Nalhutta01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3417,7 +3403,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Potential_Indigenous_Power>Hutt_Civilian, 360</Potential_Indigenous_Power>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_NalHutta_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
@@ -3445,12 +3431,12 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_3_Success_Speech_Event> NALHUTTA_BLK_VICTORY_COR40_06 </Corruption_3_Success_Speech_Event>
     <Corruption_3_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_3_Success_Bink_Hologram_Name>
     <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_NALHUTTA_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
-    
+
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
 
   <Planet Name="PolisMassa">
-    <Zoomed_Terrain_Index>8 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>8 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_POLISMASSA</Text_ID>
     <Galactic_Model_Name>W_planet_Asteroids.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3503,11 +3489,11 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_improved_weapons.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
-  
+
   </Planet>
 
   <Planet Name="Ryloth">
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_RYLOTH</Text_ID>
     <Galactic_Model_Name>W_planet_ryloth_high.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3557,7 +3543,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Twilek_Female, 300</Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Corrupt_Militia </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Bribery </Corruption_1_Required_Mission_Type>
@@ -3577,10 +3563,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Success_Unlock_Unit_Type>Twilek_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Saleucami">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_SALEUCAMI</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -3630,10 +3616,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
-   
+
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1300 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Saleucami_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -3648,16 +3634,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Credit_Cost> 700 </Corruption_2_Credit_Cost>
     <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 3 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Success_Speech_Event> SALEUCAMI_RKT_VICTORY_COR43_05 </Corruption_2_Success_Speech_Event>
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_SALEUCAMI_STORY_RACKETEER</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Shola">
-    <Zoomed_Terrain_Index>3 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>3 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_SHOLA</Text_ID>
     <Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3718,9 +3704,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SHOLA_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Sullust">
-    <Zoomed_Terrain_Index>3 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>3 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_SULLUST</Text_ID>
     <Galactic_Model_Name>W_planet_Volcanic01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3781,7 +3767,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_SULLUST_STORY_BRIBERY</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bonded_Citizens </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -3791,9 +3777,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Success_Unlock_Unit_Type>Sullustan_Slave_Company</Corruption_2_Success_Unlock_Unit_Type>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Taris">
-    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TARIS</Text_ID>
     <Galactic_Model_Name>W_planet_taris01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3844,23 +3830,23 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 300</Potential_Indigenous_Power>
-   
+
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 900 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Taris_Intimidation.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Taris_Intimidation.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>TARIS_INT_LOAD_COR46_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> TARIS_INT_VICTORY_COR46_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>TARIS_INT_LOSS_COR46_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_TARIS_STORY_INTIMIDATION</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 800 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 4 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Kidnapping </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -3869,9 +3855,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_TARIS_STORY_BRIBERY</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Tatooine">
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_TATOOINE</Text_ID>
     <Galactic_Model_Name>W_planet_tatooine_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -3924,10 +3910,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Potential_Indigenous_Power>Rancor, 1000</Potential_Indigenous_Power>
     <Potential_Indigenous_Power>Sand_Person_Sniper_A, 50</Potential_Indigenous_Power>
     <Additional_Population_Capacity>18</Additional_Population_Capacity>
-  
+
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Required_Mission_Type> Corruption_Kidnapping </Corruption_1_Required_Mission_Type>
     <Corruption_1_Required_Mission_Count> 1 </Corruption_1_Required_Mission_Count>
@@ -3943,9 +3929,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_TATOOINE_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Thyferra">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_THYFERRA</Text_ID>
     <Galactic_Model_Name>W_planet_thyferra01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4011,7 +3997,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Success_Credit_Bonus>7500</Corruption_1_Success_Credit_Bonus>
     <Corruption_2_Type> Corruption_Racketeering </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 500 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Intimidation </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 2 </Corruption_2_Required_Mission_Count>
@@ -4019,10 +4005,10 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_THYFERRA_STORY_RACKETEER</Corruption_2_Mission_Briefing>
   </Planet>
-  
+
   <Planet Name="Utapau">
     <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>10 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>10 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_UTAPAU</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -4073,17 +4059,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon>i_pa_tactical_shields.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
-  
+
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_Utapau_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_Utapau_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>UTAPAU_KID_LOAD_COR49_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> UTAPAU_KID_VICTORY_COR49_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>UTAPAU_KID_LOSS_COR49_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_UTAPAU_STORY_KIDNAP</Corruption_1_Mission_Briefing>
@@ -4097,9 +4083,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_UTAPAU_STORY_BRIBERY</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="VergessoAsteroids">
-    <Zoomed_Terrain_Index>8 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>8 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_VERGESSO</Text_ID>
     <Galactic_Model_Name>W_planet_Asteroids.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4153,9 +4139,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Ability_Icon>i_pa_improved_weapons.tga</Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
   </Planet>
-  
+
   <Planet Name="Wayland">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_WAYLAND</Text_ID>
     <Galactic_Model_Name>W_planet_wayland_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4206,7 +4192,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 200</Potential_Indigenous_Power>
-  
+
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 200 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
@@ -4225,9 +4211,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_WAYLAND_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
-  
+
   <Planet Name="Yavin">
-    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_YAVIN</Text_ID>
     <Galactic_Model_Name>W_planet_yavinIV_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4278,7 +4264,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>3</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
-  
+
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
     <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
@@ -4290,7 +4276,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_YAVIN_STORY_RACKETEER</Corruption_1_Mission_Briefing>
     <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
     <Corruption_2_Credit_Cost> 200 </Corruption_2_Credit_Cost>
-    <Corruption_2_Required_Unit_Type>  </Corruption_2_Required_Unit_Type>
+    <Corruption_2_Required_Unit_Type></Corruption_2_Required_Unit_Type>
     <Corruption_2_Required_Unit_Count> 1 </Corruption_2_Required_Unit_Count>
     <Corruption_2_Required_Mission_Type> Corruption_Kidnapping </Corruption_2_Required_Mission_Type>
     <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
@@ -4303,92 +4289,92 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   <!-- MODDED PLANETS AFTER THIS COMMENT-->
 
   <Planet Name="Cato_Neimoidia">
-    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)--> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
-    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CATO_NEIMOIDIA</Text_ID> 
-    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00> 
-    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic> 
-    <Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name> 
-    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name> 
-    <GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name> 
-    <Mass>1.0</Mass> 
-    <Scale_Factor>1.25</Scale_Factor> 
-    <Mouse_Collide_Override_Sphere_Radius>18</Mouse_Collide_Override_Sphere_Radius> 
-    <Show_Name>Yes</Show_Name> 
-    <Name_Adjust>-6, -6, 0.1</Name_Adjust> 
-    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior> 
-    <Pre_Lit>no</Pre_Lit> 
-    <Political_Control>0</Political_Control> 
-    <Camera_Aligned>yes</Camera_Aligned> 
-    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust> 
-    <Terrain>Swamp</Terrain> 
-    <Planet_Credit_Value>280</Planet_Credit_Value> 
-    <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value> 
-    <Galactic_Position>94.0, -30.0, 10.0</Galactic_Position> 
-    <Special_Structures_Land>8</Special_Structures_Land> 
-    <Special_Structures_Space>1</Special_Structures_Space> 
-    <Max_Space_Base>5</Max_Space_Base> 
-    <The_Force>Neutral</The_Force> 
-    <Force_Strength>0.0</Force_Strength> 
-    <Planet_Surface_Accessible>Yes</Planet_Surface_Accessible> 
-    <Planet_Capture_Bonus_Reward>1300</Planet_Capture_Bonus_Reward> 
-    <Land_Tactical_Map>_Land_Planet_Cato_Neimoidia_02.ted</Land_Tactical_Map> 
-    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_FOREST_01.ted</Space_Tactical_Map> 
-    <Destroyed_Space_Tactical_Map /> 
-    <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating> 
-    <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating> 
-    <Planet_Slice_Affinity_Types>R_Ground_Light_Vehicle_Factory</Planet_Slice_Affinity_Types> 
-    <Describe_Population>TEXT_PLANET_CATO_NEIMOIDIA_INFO_POP</Describe_Population> 
-    <Describe_Wildlife>TEXT_PLANET_CATO_NEIMOIDIA_INFO_WL</Describe_Wildlife> 
-    <Describe_Terrain>TEXT_PLANET_CATO_NEIMOIDIA_INFO_TER</Describe_Terrain> 
-    <Describe_Weather>TEXT_PLANET_CATO_NEIMOIDIA_INFO_WEA</Describe_Weather> 
-    <Describe_Tactical></Describe_Tactical> 
-    <Describe_Advantage></Describe_Advantage> 
-    <Describe_History>TEXT_PLANET_CATO_NEIMOIDIA_INFO_HIS_01</Describe_History> 
-    <Planet_Ability_Name></Planet_Ability_Name> 
-    <Planet_Ability_Description></Planet_Ability_Description> 
-    <Encyclopedia_Text></Encyclopedia_Text> 
-    <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon> 
-    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name> 
-    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info> 
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon> 
-    <Native_Icon_Name></Native_Icon_Name> 
-    <Additional_Population_Capacity>24</Additional_Population_Capacity> 
-    <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power> 
-    
+    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_CATO_NEIMOIDIA</Text_ID>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.25</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius>18</Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-6, -6, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Swamp</Terrain>
+    <Planet_Credit_Value>280</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
+    <Galactic_Position>94.0, -30.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>8</Special_Structures_Land>
+    <Special_Structures_Space>1</Special_Structures_Space>
+    <Max_Space_Base>5</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
+    <Planet_Capture_Bonus_Reward>1300</Planet_Capture_Bonus_Reward>
+    <Land_Tactical_Map>_Land_Planet_Cato_Neimoidia_02.ted</Land_Tactical_Map>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_FOREST_01.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map />
+    <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types>R_Ground_Light_Vehicle_Factory</Planet_Slice_Affinity_Types>
+    <Describe_Population>TEXT_PLANET_CATO_NEIMOIDIA_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_CATO_NEIMOIDIA_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_CATO_NEIMOIDIA_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_CATO_NEIMOIDIA_INFO_WEA</Describe_Weather>
+    <Describe_Tactical></Describe_Tactical>
+    <Describe_Advantage></Describe_Advantage>
+    <Describe_History>TEXT_PLANET_CATO_NEIMOIDIA_INFO_HIS_01</Describe_History>
+    <Planet_Ability_Name></Planet_Ability_Name>
+    <Planet_Ability_Description></Planet_Ability_Description>
+    <Encyclopedia_Text></Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Native_Icon_Name></Native_Icon_Name>
+    <Additional_Population_Capacity>24</Additional_Population_Capacity>
+    <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power>
+
     <Planet_Black_Market_Influences>Yes</Planet_Black_Market_Influences>
     <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
-    
-    <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type> 
-    <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost> 
-    <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type> 
-    <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count> 
-    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type> 
-    <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count> 
-    <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event> 
-    <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name> 
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_RACKETEER</Corruption_1_Mission_Briefing> 
-    <Corruption_2_Type>Corruption_Bribery</Corruption_2_Type> 
-    <Corruption_2_Credit_Cost>1500</Corruption_2_Credit_Cost> 
-    <Corruption_2_Required_Mission_Type>Corruption_Kidnapping</Corruption_2_Required_Mission_Type> 
-    <Corruption_2_Required_Mission_Count>1</Corruption_2_Required_Mission_Count> 
-    <Corruption_2_Success_Speech_Event>ATZERRI_BRB_VICTORY_COR05_02</Corruption_2_Success_Speech_Event> 
-    <Corruption_2_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_2_Success_Bink_Hologram_Name> 
-    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BRIBERY</Corruption_2_Mission_Briefing> 
-    <Corruption_3_Type>Corruption_Black_Market</Corruption_3_Type> 
-    <Corruption_3_Credit_Cost>1000</Corruption_3_Credit_Cost> 
-    <Corruption_3_Required_Mission_Type>Corruption_Piracy</Corruption_3_Required_Mission_Type> 
-    <Corruption_3_Required_Mission_Count>1</Corruption_3_Required_Mission_Count> 
-    <Corruption_3_Success_Speech_Event>CARIDA_BLK_VICTORY_COR11_06</Corruption_3_Success_Speech_Event> 
-    <Corruption_3_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Success_Bink_Hologram_Name> 
-    <Corruption_3_Failure_Speech_Event /> 
-    <Corruption_3_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Failure_Bink_Hologram_Name> 
-    <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BLACKMARKET</Corruption_3_Mission_Briefing> 
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost> 
-    </Planet>
-    
-  
+
+    <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type>
+    <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost>
+    <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type>
+    <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count>
+    <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event>
+    <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_RACKETEER</Corruption_1_Mission_Briefing>
+    <Corruption_2_Type>Corruption_Bribery</Corruption_2_Type>
+    <Corruption_2_Credit_Cost>1500</Corruption_2_Credit_Cost>
+    <Corruption_2_Required_Mission_Type>Corruption_Kidnapping</Corruption_2_Required_Mission_Type>
+    <Corruption_2_Required_Mission_Count>1</Corruption_2_Required_Mission_Count>
+    <Corruption_2_Success_Speech_Event>ATZERRI_BRB_VICTORY_COR05_02</Corruption_2_Success_Speech_Event>
+    <Corruption_2_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_2_Success_Bink_Hologram_Name>
+    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BRIBERY</Corruption_2_Mission_Briefing>
+    <Corruption_3_Type>Corruption_Black_Market</Corruption_3_Type>
+    <Corruption_3_Credit_Cost>1000</Corruption_3_Credit_Cost>
+    <Corruption_3_Required_Mission_Type>Corruption_Piracy</Corruption_3_Required_Mission_Type>
+    <Corruption_3_Required_Mission_Count>1</Corruption_3_Required_Mission_Count>
+    <Corruption_3_Success_Speech_Event>CARIDA_BLK_VICTORY_COR11_06</Corruption_3_Success_Speech_Event>
+    <Corruption_3_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Success_Bink_Hologram_Name>
+    <Corruption_3_Failure_Speech_Event />
+    <Corruption_3_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Failure_Bink_Hologram_Name>
+    <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
+    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+  </Planet>
+
+
   <Planet Name="Jakku">
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_JAKKU</Text_ID>
     <Galactic_Model_Name>W_planet_tatooine_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4439,7 +4425,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Jedha">
-    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>1 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_JEDHA</Text_ID>
     <Galactic_Model_Name>W_planet_Desert01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4490,151 +4476,151 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Malastare">
-    <Zoomed_Terrain_Index>2 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
-   <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MALASTARE</Text_ID>
-   <Galactic_Model_Name>W_planet_dagobah_low.alo</Galactic_Model_Name>
-   <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-   <GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
-       <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-   <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-   <Mass>1.0</Mass>
-   <Scale_Factor>1.25</Scale_Factor>
-   <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
-   <Show_Name>Yes</Show_Name>
-   <Name_Adjust>-6, -6, 0.1</Name_Adjust>
-   <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-   <Pre_Lit>no</Pre_Lit>
-   <Political_Control>0</Political_Control>
-   <Camera_Aligned>yes</Camera_Aligned>
-   <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-   <Terrain>Swamp</Terrain>
-   <Planet_Credit_Value>300</Planet_Credit_Value>
-   <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-   <Galactic_Position>100.0, -205.0, 10.0</Galactic_Position>
-   <Special_Structures_Land>5</Special_Structures_Land>
-   <Special_Structures_Space>2</Special_Structures_Space>
-   <Max_Space_Base>4</Max_Space_Base>
-   <The_Force>Neutral</The_Force>
-   <Force_Strength>0.0</Force_Strength>
-   <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-   <Space_Tactical_Map>_SPACE_PLANET_GENERIC_SWAMP_01.ted</Space_Tactical_Map>
-   <Land_Tactical_Map> _Land_Planet_Atzerri_02.ted </Land_Tactical_Map>
+    <Zoomed_Terrain_Index>2 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MALASTARE</Text_ID>
+    <Galactic_Model_Name>W_planet_dagobah_low.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>W_planet_Swamp01.alo</GUI_Model_Name>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.25</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-6, -6, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Swamp</Terrain>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
+    <Galactic_Position>100.0, -205.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>5</Special_Structures_Land>
+    <Special_Structures_Space>2</Special_Structures_Space>
+    <Max_Space_Base>4</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_SWAMP_01.ted</Space_Tactical_Map>
+    <Land_Tactical_Map> _Land_Planet_Atzerri_02.ted </Land_Tactical_Map>
 
-   <Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
-   <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
-   <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
-   <Planet_Slice_Affinity_Types />
-         <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
-
- 
-
-   <Describe_Population>TEXT_PLANET_MALASTARE_INFO_POP</Describe_Population>
-   <Describe_Wildlife>TEXT_PLANET_MALASTARE_INFO_WL</Describe_Wildlife>
-   <Describe_Terrain>TEXT_PLANET_MALASTARE_INFO_TER</Describe_Terrain>
-   <Describe_Weather>TEXT_PLANET_MALASTARE_INFO_WEA</Describe_Weather>
-   <Describe_Tactical></Describe_Tactical>
-   <Describe_Advantage></Describe_Advantage>
-   <Describe_History>TEXT_PLANET_MALASTARE_INFO_HIS_01</Describe_History>
-   <Planet_Ability_Name></Planet_Ability_Name>
-   <Encyclopedia_Text></Encyclopedia_Text>
-   <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
-   <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
-   <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-   <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
-   <Native_Icon_Name></Native_Icon_Name>
-
-   <Additional_Population_Capacity>27</Additional_Population_Capacity>
-
-   <Potential_Indigenous_Power>Swamp_Civilian_A, 250</Potential_Indigenous_Power>
-   
+    <Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
+    <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>2</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types />
+    <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
 
 
-   <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
-   <Corruption_1_Credit_Cost> 900 </Corruption_1_Credit_Cost>
-   <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
-   <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
-   <Corruption_1_Required_Unit_Type> Underworld_Disruptor_Merc </Corruption_1_Required_Unit_Type>
-   <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
-   <Corruption_1_Success_Speech_Event> JABIIM_RKT_VICTORY_COR27_01 </Corruption_1_Success_Speech_Event>
-   <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
-   <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_JABIIM_STORY_RACKETEER</Corruption_1_Mission_Briefing>
 
-   <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+    <Describe_Population>TEXT_PLANET_MALASTARE_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_MALASTARE_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_MALASTARE_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_MALASTARE_INFO_WEA</Describe_Weather>
+    <Describe_Tactical></Describe_Tactical>
+    <Describe_Advantage></Describe_Advantage>
+    <Describe_History>TEXT_PLANET_MALASTARE_INFO_HIS_01</Describe_History>
+    <Planet_Ability_Name></Planet_Ability_Name>
+    <Encyclopedia_Text></Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Native_Icon_Name></Native_Icon_Name>
 
- </Planet>
+    <Additional_Population_Capacity>27</Additional_Population_Capacity>
 
-<Planet Name="Mygeeto">
-  <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)--> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
-  <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MYGEETO</Text_ID> 
-  <Galactic_Model_Name>W_planet_hoth_low.alo</Galactic_Model_Name> 
-  <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name> 
-  <GUI_Model_Name>W_planet_hoth_low.alo</GUI_Model_Name> 
-  <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00> 
-  <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic> 
-  <Mass>1.0</Mass> 
-  <Scale_Factor>1.25</Scale_Factor> 
-  <Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius> 
-  <Show_Name>Yes</Show_Name> 
-  <Name_Adjust>-6, -6, 0.1</Name_Adjust> 
-  <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior> 
-  <Pre_Lit>no</Pre_Lit> 
-  <Political_Control>0</Political_Control> 
-  <Camera_Aligned>yes</Camera_Aligned> 
-  <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust> 
-  <Terrain>Arctic</Terrain> 
-  <Planet_Credit_Value>50</Planet_Credit_Value> 
-  <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-  <Galactic_Position>-35.0, 308.0, 10.0</Galactic_Position>
-  <Special_Structures_Land>5</Special_Structures_Land> 
-  <Special_Structures_Space>2</Special_Structures_Space> 
-  <Max_Space_Base>3</Max_Space_Base> 
-  <The_Force>Neutral</The_Force> 
-  <Force_Strength>0.0</Force_Strength> 
-  <Planet_Surface_Accessible>Yes</Planet_Surface_Accessible> 
-  <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map> 
-  <Land_Tactical_Map>_Land_Planet_Mygeeto_02.ted</Land_Tactical_Map> 
-  <Planet_Capture_Bonus_Reward>2300</Planet_Capture_Bonus_Reward> 
-  <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating> 
-  <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating> 
-  <Planet_Black_Market_Modifier>1500</Planet_Black_Market_Modifier> 
-  <Describe_Population>TEXT_PLANET_MYGEETO_INFO_POP</Describe_Population> 
-  <Describe_Wildlife>TEXT_PLANET_MYGEETO_INFO_WL</Describe_Wildlife> 
-  <Describe_Terrain>TEXT_PLANET_MYGEETO_INFO_TER</Describe_Terrain> 
-  <Describe_Weather>TEXT_PLANET_MYGEETO_INFO_WEA</Describe_Weather> 
-  <Describe_Tactical></Describe_Tactical> 
-  <Describe_Advantage></Describe_Advantage> 
-  <Describe_History>TEXT_PLANET_MYGEETO_INFO_HIS_01</Describe_History> 
-  <Planet_Ability_Name></Planet_Ability_Name> 
-  <Planet_Ability_Description></Planet_Ability_Description> 
-  <Encyclopedia_Text></Encyclopedia_Text> 
-  <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon> 
-  <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name> 
-  <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info> 
-  <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon> 
-  <Additional_Population_Capacity>27</Additional_Population_Capacity> 
-  <Native_Icon_Name></Native_Icon_Name> 
-  <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type> 
-  <Corruption_1_Credit_Cost>1200</Corruption_1_Credit_Cost> 
-  <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type> 
-  <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count> 
-  <Corruption_1_Success_Speech_Event>POLUS_RKT_VICTORY_COR41_01</Corruption_1_Success_Speech_Event> 
-  <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name> 
-  <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_POLUS_STORY_RACKETEER</Corruption_1_Mission_Briefing> 
-  
-  <Corruption_3_Type>Corruption_Black_Market</Corruption_3_Type> 
-  <Corruption_3_Credit_Cost>1000</Corruption_3_Credit_Cost> 
-  <Corruption_3_Required_Mission_Type>Corruption_Piracy</Corruption_3_Required_Mission_Type> 
-  <Corruption_3_Required_Mission_Count>1</Corruption_3_Required_Mission_Count> 
-  <Corruption_3_Success_Speech_Event>CARIDA_BLK_VICTORY_COR11_06</Corruption_3_Success_Speech_Event> 
-  <Corruption_3_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Success_Bink_Hologram_Name> 
-  <Corruption_3_Failure_Speech_Event /> 
-  <Corruption_3_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Failure_Bink_Hologram_Name> 
-  <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_POLUS_STORY_BLACKMARKET</Corruption_3_Mission_Briefing> 
-  <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost> 
+    <Potential_Indigenous_Power>Swamp_Civilian_A, 250</Potential_Indigenous_Power>
+
+
+
+    <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
+    <Corruption_1_Credit_Cost> 900 </Corruption_1_Credit_Cost>
+    <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
+    <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
+    <Corruption_1_Required_Unit_Type> Underworld_Disruptor_Merc </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Count> 2 </Corruption_1_Required_Unit_Count>
+    <Corruption_1_Success_Speech_Event> JABIIM_RKT_VICTORY_COR27_01 </Corruption_1_Success_Speech_Event>
+    <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_JABIIM_STORY_RACKETEER</Corruption_1_Mission_Briefing>
+
+    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
+  </Planet>
+
+  <Planet Name="Mygeeto">
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MYGEETO</Text_ID>
+    <Galactic_Model_Name>W_planet_hoth_low.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>W_planet_hoth_low.alo</GUI_Model_Name>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.25</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-6, -6, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Arctic</Terrain>
+    <Planet_Credit_Value>50</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
+    <Galactic_Position>-35.0, 308.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>5</Special_Structures_Land>
+    <Special_Structures_Space>2</Special_Structures_Space>
+    <Max_Space_Base>3</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map>
+    <Land_Tactical_Map>_Land_Planet_Mygeeto_02.ted</Land_Tactical_Map>
+    <Planet_Capture_Bonus_Reward>2300</Planet_Capture_Bonus_Reward>
+    <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
+    <Planet_Black_Market_Modifier>1500</Planet_Black_Market_Modifier>
+    <Describe_Population>TEXT_PLANET_MYGEETO_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_MYGEETO_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_MYGEETO_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_MYGEETO_INFO_WEA</Describe_Weather>
+    <Describe_Tactical></Describe_Tactical>
+    <Describe_Advantage></Describe_Advantage>
+    <Describe_History>TEXT_PLANET_MYGEETO_INFO_HIS_01</Describe_History>
+    <Planet_Ability_Name></Planet_Ability_Name>
+    <Planet_Ability_Description></Planet_Ability_Description>
+    <Encyclopedia_Text></Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Additional_Population_Capacity>27</Additional_Population_Capacity>
+    <Native_Icon_Name></Native_Icon_Name>
+    <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type>
+    <Corruption_1_Credit_Cost>1200</Corruption_1_Credit_Cost>
+    <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type>
+    <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count>
+    <Corruption_1_Success_Speech_Event>POLUS_RKT_VICTORY_COR41_01</Corruption_1_Success_Speech_Event>
+    <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_POLUS_STORY_RACKETEER</Corruption_1_Mission_Briefing>
+
+    <Corruption_3_Type>Corruption_Black_Market</Corruption_3_Type>
+    <Corruption_3_Credit_Cost>1000</Corruption_3_Credit_Cost>
+    <Corruption_3_Required_Mission_Type>Corruption_Piracy</Corruption_3_Required_Mission_Type>
+    <Corruption_3_Required_Mission_Count>1</Corruption_3_Required_Mission_Count>
+    <Corruption_3_Success_Speech_Event>CARIDA_BLK_VICTORY_COR11_06</Corruption_3_Success_Speech_Event>
+    <Corruption_3_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Success_Bink_Hologram_Name>
+    <Corruption_3_Failure_Speech_Event />
+    <Corruption_3_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Failure_Bink_Hologram_Name>
+    <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_POLUS_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
+    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
 
   <Planet Name="Nur">
-    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>7</Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_NUR</Text_ID>
     <Galactic_Model_Name>W_planet_Kamino_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4685,17 +4671,17 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power></Potential_Indigenous_Power>
-    
+
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Space </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Space_Planet_MonCalamari_Piracy.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name>Story_Plots_Underworld_MonCalamari_Piracy.xml</Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>MONCALAMARI_PIR_LOAD_COR35_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> MONCALAMARI_PIR_VICTORY_COR35_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>MONCALAMARI_PIR_LOSS_COR35_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name></Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MONCALAMARI_STORY_PIRACY</Corruption_1_Mission_Briefing>
@@ -4714,240 +4700,240 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Onderon">
-    <Zoomed_Terrain_Index>12 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
-   <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ONDERON</Text_ID>
-   <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-   <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-   <Galactic_Model_Name>W_planet_utapau_low.alo</Galactic_Model_Name>
-   <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-   <GUI_Model_Name>W_planet_utapau_low.alo</GUI_Model_Name>
-   <Mass>1.0</Mass>
-   <Scale_Factor>1.25</Scale_Factor>
-   <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
-   <Show_Name>Yes</Show_Name>
-   <Name_Adjust>-6, -6, 0.1</Name_Adjust>
-   <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-   <Pre_Lit>no</Pre_Lit>
-   <Political_Control>0</Political_Control>
-   <Camera_Aligned>yes</Camera_Aligned>
-   <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-   <Terrain>Swamp</Terrain>
-   <Planet_Credit_Value>50</Planet_Credit_Value>
-   <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-   <Galactic_Position>136.0, 91.0, 10.0</Galactic_Position>
-   <Special_Structures_Land>5</Special_Structures_Land>
-   <Special_Structures_Space>2</Special_Structures_Space>
-   <Max_Space_Base>4</Max_Space_Base>
-   <The_Force>Neutral</The_Force>
-   <Force_Strength>0.0</Force_Strength>
-   <Land_Tactical_Map> _Land_Planet_Onderon_02.ted </Land_Tactical_Map>
-   <Space_Tactical_Map>_SPACE_PLANET_ONDERON_01.ted</Space_Tactical_Map>
-   <Destroyed_Space_Tactical_Map />
-   <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-   <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
-   <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
-   <Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
-   <Planet_Slice_Affinity_Types />
-   <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
-       <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
+    <Zoomed_Terrain_Index>12 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ONDERON</Text_ID>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Galactic_Model_Name>W_planet_utapau_low.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>W_planet_utapau_low.alo</GUI_Model_Name>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.25</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-6, -6, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Swamp</Terrain>
+    <Planet_Credit_Value>50</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
+    <Galactic_Position>136.0, 91.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>5</Special_Structures_Land>
+    <Special_Structures_Space>2</Special_Structures_Space>
+    <Max_Space_Base>4</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Land_Tactical_Map> _Land_Planet_Onderon_02.ted </Land_Tactical_Map>
+    <Space_Tactical_Map>_SPACE_PLANET_ONDERON_01.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map />
+    <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+    <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
+    <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>3</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types />
+    <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
+    <Planet_Black_Market_Modifier>500</Planet_Black_Market_Modifier>
 
-   <Describe_Population>TEXT_PLANET_ONDERON_INFO_POP</Describe_Population>
-   <Describe_Wildlife>TEXT_PLANET_ONDERON_INFO_WL</Describe_Wildlife>
-   <Describe_Terrain>TEXT_PLANET_ONDERON_INFO_TER</Describe_Terrain>
-   <Describe_Weather>TEXT_PLANET_ONDERON_INFO_WEA</Describe_Weather>
-   <Describe_Tactical></Describe_Tactical>
-   <Describe_Advantage></Describe_Advantage>
-   <Describe_History>TEXT_PLANET_ONDERON_INFO_HIS</Describe_History>
+    <Describe_Population>TEXT_PLANET_ONDERON_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_ONDERON_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_ONDERON_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_ONDERON_INFO_WEA</Describe_Weather>
+    <Describe_Tactical></Describe_Tactical>
+    <Describe_Advantage></Describe_Advantage>
+    <Describe_History>TEXT_PLANET_ONDERON_INFO_HIS</Describe_History>
 
-   <Planet_Ability_Name></Planet_Ability_Name>
-   <Planet_Ability_Description></Planet_Ability_Description>
+    <Planet_Ability_Name></Planet_Ability_Name>
+    <Planet_Ability_Description></Planet_Ability_Description>
 
-   <Encyclopedia_Text></Encyclopedia_Text>
-   <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
-   <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
-   <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-   <Planet_Ability_Icon>i_pa_tactical_shields.tga</Planet_Ability_Icon>
-   <Native_Icon_Name></Native_Icon_Name>
+    <Encyclopedia_Text></Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_tactical_shields.tga</Planet_Ability_Icon>
+    <Native_Icon_Name></Native_Icon_Name>
 
-   <Additional_Population_Capacity>27</Additional_Population_Capacity>
+    <Additional_Population_Capacity>27</Additional_Population_Capacity>
 
-  
 
-   
 
-   <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
-   <Corruption_2_Credit_Cost> 1500 </Corruption_2_Credit_Cost>
-   <Corruption_2_Required_Mission_Type> Corruption_Kidnapping </Corruption_2_Required_Mission_Type>
-   <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-   <Corruption_2_Success_Speech_Event> UTAPAU_BRB_VICTORY_COR49_05 </Corruption_2_Success_Speech_Event>
-   <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-   <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_UTAPAU_STORY_BRIBERY</Corruption_2_Mission_Briefing>
-   
-   <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
 
- </Planet>
 
- <Planet Name="Rendili">
-  <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)--> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
-  <Text_ID>TEXT_OBJECT_STAR_SYSTEM_RENDILI</Text_ID>   
-  <Galactic_Model_Name>W_planet_bonadan_low.alo</Galactic_Model_Name> 
-  <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name> 
-  <GUI_Model_Name>W_planet_bonadan_low.alo</GUI_Model_Name> 
-  <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00> 
-  <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic> 
-  <Mass>1.0</Mass> 
-  <Scale_Factor>1.25</Scale_Factor> 
-  <Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius> 
-  <Show_Name>Yes</Show_Name> 
-  <Name_Adjust>-6, -6, 0.1</Name_Adjust> 
-  <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior> 
-  <Pre_Lit>no</Pre_Lit> 
-  <Political_Control>0</Political_Control> 
-  <Camera_Aligned>yes</Camera_Aligned> 
-  <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust> 
-  <Terrain>Temperate</Terrain> 
-  <Planet_Credit_Value>350</Planet_Credit_Value> 
-  <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value> 
-  <Galactic_Position>54.0, 0.0, 10.0</Galactic_Position> 
-  <Special_Structures_Land>5</Special_Structures_Land> 
-  <Special_Structures_Space>1</Special_Structures_Space> 
-  <Max_Space_Base>5</Max_Space_Base> 
-  <The_Force>Neutral</The_Force> 
-  <Force_Strength>0.0</Force_Strength> 
-  <Planet_Surface_Accessible>Yes</Planet_Surface_Accessible> 
-  <Planet_Capture_Bonus_Reward>1300</Planet_Capture_Bonus_Reward> 
-  <Land_Tactical_Map>_Land_Planet_Rendili_02.ted</Land_Tactical_Map> 
-  <Space_Tactical_Map>_SPACE_PLANET_GENERIC_TEMPERATE_01.ted</Space_Tactical_Map> 
-  <Destroyed_Space_Tactical_Map /> 
-  <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating> 
-  <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>  
-  <Planet_Slice_Affinity_Types /> 
-  <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>  
-  <Describe_Population>TEXT_PLANET_RENDILI_INFO_POP</Describe_Population> 
-  <Describe_Wildlife>TEXT_PLANET_RENDILI_INFO_WL</Describe_Wildlife> 
-  <Describe_Terrain>TEXT_PLANET_RENDILI_INFO_TER</Describe_Terrain> 
-  <Describe_Weather>TEXT_PLANET_RENDILI_INFO_WEA</Describe_Weather> 
-  <Describe_Tactical></Describe_Tactical> 
-  <Describe_Advantage></Describe_Advantage> 
-  <Describe_History>TEXT_PLANET_RENDILI_INFO_HIS_01</Describe_History> 
-  <Planet_Ability_Name></Planet_Ability_Name> 
-  <Planet_Ability_Description></Planet_Ability_Description> 
-  <Encyclopedia_Text></Encyclopedia_Text> 
-  <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon> 
-  <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name> 
-  <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info> 
-  <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon> 
-  <Native_Icon_Name></Native_Icon_Name> 
-  <Additional_Population_Capacity>27</Additional_Population_Capacity> 
-  <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power> 
-  
+    <Corruption_2_Type> Corruption_Bribery </Corruption_2_Type>
+    <Corruption_2_Credit_Cost> 1500 </Corruption_2_Credit_Cost>
+    <Corruption_2_Required_Mission_Type> Corruption_Kidnapping </Corruption_2_Required_Mission_Type>
+    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
+    <Corruption_2_Success_Speech_Event> UTAPAU_BRB_VICTORY_COR49_05 </Corruption_2_Success_Speech_Event>
+    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
+    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_UTAPAU_STORY_BRIBERY</Corruption_2_Mission_Briefing>
 
-  
-  <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type> 
-  <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost> 
-  <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type> 
-  <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count> 
-  <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type> 
-  <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count> 
-  <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event> 
-  <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name> 
-  <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_RACKETEER</Corruption_1_Mission_Briefing> 
-  <Corruption_2_Type>Corruption_Bribery</Corruption_2_Type> 
-  <Corruption_2_Credit_Cost>1500</Corruption_2_Credit_Cost> 
-  <Corruption_2_Required_Mission_Type>Corruption_Kidnapping</Corruption_2_Required_Mission_Type> 
-  <Corruption_2_Required_Mission_Count>1</Corruption_2_Required_Mission_Count> 
-  <Corruption_2_Success_Speech_Event>ATZERRI_BRB_VICTORY_COR05_02</Corruption_2_Success_Speech_Event> 
-  <Corruption_2_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_2_Success_Bink_Hologram_Name> 
-  <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BRIBERY</Corruption_2_Mission_Briefing> 
-  <Corruption_3_Type>Corruption_Black_Market</Corruption_3_Type> 
-  <Corruption_3_Credit_Cost>1000</Corruption_3_Credit_Cost> 
-  <Corruption_3_Required_Mission_Type>Corruption_Piracy</Corruption_3_Required_Mission_Type> 
-  <Corruption_3_Required_Mission_Count>1</Corruption_3_Required_Mission_Count> 
-  <Corruption_3_Success_Speech_Event>CARIDA_BLK_VICTORY_COR11_06</Corruption_3_Success_Speech_Event> 
-  <Corruption_3_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Success_Bink_Hologram_Name> 
-  <Corruption_3_Failure_Speech_Event /> 
-  <Corruption_3_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Failure_Bink_Hologram_Name> 
-  <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BLACKMARKET</Corruption_3_Mission_Briefing> 
-  <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost> 
+    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
   </Planet>
 
- <Planet Name="Rhen_Var">
-  <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
-  <Text_ID>TEXT_OBJECT_STAR_SYSTEM_RHENVAR</Text_ID>
-  <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-  <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-  <Galactic_Model_Name>W_planet_Ice01.alo</Galactic_Model_Name>
-  <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-  <GUI_Model_Name>W_planet_Ice01.alo</GUI_Model_Name>
-  <Mass>1.0</Mass>
-  <Scale_Factor>1.25</Scale_Factor>
-  <Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
-  <Show_Name>Yes</Show_Name>
-  <Name_Adjust>-6, -6, 0.1</Name_Adjust>
-  <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-  <Pre_Lit>no</Pre_Lit>
-  <Political_Control>0</Political_Control>
-  <Camera_Aligned>yes</Camera_Aligned>
-  <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-  <Terrain>Arctic</Terrain>
-  <Planet_Credit_Value>0</Planet_Credit_Value>
-  <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-  <Galactic_Position>312.0, 248.0, 10.0</Galactic_Position>
-  <Special_Structures_Land>5</Special_Structures_Land>
-  <Special_Structures_Space>1</Special_Structures_Space>
-  <Max_Space_Base>3</Max_Space_Base>
-  <The_Force>Neutral</The_Force>
-  <Force_Strength>0.0</Force_Strength>
-  <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-  <Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
-  <Land_Tactical_Map> _Land_Planet_Rhen_Var_02.ted </Land_Tactical_Map>
-  <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map>
-  <Destroyed_Space_Tactical_Map />
-  <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
-  <Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
-  <Planet_Slice_Affinity_Types>Rebel_Ground_Mining_Facility</Planet_Slice_Affinity_Types>
-  <Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
-      <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
+  <Planet Name="Rendili">
+    <Zoomed_Terrain_Index>6 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_RENDILI</Text_ID>
+    <Galactic_Model_Name>W_planet_bonadan_low.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>W_planet_bonadan_low.alo</GUI_Model_Name>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.25</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius>19.77</Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-6, -6, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Temperate</Terrain>
+    <Planet_Credit_Value>350</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
+    <Galactic_Position>54.0, 0.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>5</Special_Structures_Land>
+    <Special_Structures_Space>1</Special_Structures_Space>
+    <Max_Space_Base>5</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Planet_Surface_Accessible>Yes</Planet_Surface_Accessible>
+    <Planet_Capture_Bonus_Reward>1300</Planet_Capture_Bonus_Reward>
+    <Land_Tactical_Map>_Land_Planet_Rendili_02.ted</Land_Tactical_Map>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_TEMPERATE_01.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map />
+    <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types />
+    <Planet_Black_Market_Modifier>-200</Planet_Black_Market_Modifier>
+    <Describe_Population>TEXT_PLANET_RENDILI_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_RENDILI_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_RENDILI_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_RENDILI_INFO_WEA</Describe_Weather>
+    <Describe_Tactical></Describe_Tactical>
+    <Describe_Advantage></Describe_Advantage>
+    <Describe_History>TEXT_PLANET_RENDILI_INFO_HIS_01</Describe_History>
+    <Planet_Ability_Name></Planet_Ability_Name>
+    <Planet_Ability_Description></Planet_Ability_Description>
+    <Encyclopedia_Text></Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Native_Icon_Name></Native_Icon_Name>
+    <Additional_Population_Capacity>27</Additional_Population_Capacity>
+    <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power>
 
-  <Describe_Population>TEXT_PLANET_RHENVAR_INFO_POP</Describe_Population>
-  <Describe_Wildlife>TEXT_PLANET_RHENVAR_INFO_WL</Describe_Wildlife>
-  <Describe_Terrain>TEXT_PLANET_RHENVAR_INFO_TER</Describe_Terrain>
-  <Describe_Weather>TEXT_PLANET_RHENVAR_INFO_WEA</Describe_Weather>
-  <Describe_Tactical></Describe_Tactical>
-  <Describe_Advantage></Describe_Advantage>
-  <Describe_History>TEXT_PLANET_RHENVAR_INFO_HIS_01</Describe_History>
 
-  <Planet_Ability_Name></Planet_Ability_Name>
-  <Planet_Ability_Description></Planet_Ability_Description>
 
-  <Encyclopedia_Text></Encyclopedia_Text>
-  <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
-  <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
-  <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-  <Planet_Ability_Icon>i_pa_spy_network.tga</Planet_Ability_Icon>
+    <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type>
+    <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost>
+    <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type>
+    <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count>
+    <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event>
+    <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_RACKETEER</Corruption_1_Mission_Briefing>
+    <Corruption_2_Type>Corruption_Bribery</Corruption_2_Type>
+    <Corruption_2_Credit_Cost>1500</Corruption_2_Credit_Cost>
+    <Corruption_2_Required_Mission_Type>Corruption_Kidnapping</Corruption_2_Required_Mission_Type>
+    <Corruption_2_Required_Mission_Count>1</Corruption_2_Required_Mission_Count>
+    <Corruption_2_Success_Speech_Event>ATZERRI_BRB_VICTORY_COR05_02</Corruption_2_Success_Speech_Event>
+    <Corruption_2_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_2_Success_Bink_Hologram_Name>
+    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BRIBERY</Corruption_2_Mission_Briefing>
+    <Corruption_3_Type>Corruption_Black_Market</Corruption_3_Type>
+    <Corruption_3_Credit_Cost>1000</Corruption_3_Credit_Cost>
+    <Corruption_3_Required_Mission_Type>Corruption_Piracy</Corruption_3_Required_Mission_Type>
+    <Corruption_3_Required_Mission_Count>1</Corruption_3_Required_Mission_Count>
+    <Corruption_3_Success_Speech_Event>CARIDA_BLK_VICTORY_COR11_06</Corruption_3_Success_Speech_Event>
+    <Corruption_3_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Success_Bink_Hologram_Name>
+    <Corruption_3_Failure_Speech_Event />
+    <Corruption_3_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_3_Failure_Bink_Hologram_Name>
+    <Corruption_3_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_BLACKMARKET</Corruption_3_Mission_Briefing>
+    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+  </Planet>
 
-  <Additional_Population_Capacity>0</Additional_Population_Capacity>
+  <Planet Name="Rhen_Var">
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_RHENVAR</Text_ID>
+    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
+    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
+    <Galactic_Model_Name>W_planet_Ice01.alo</Galactic_Model_Name>
+    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
+    <GUI_Model_Name>W_planet_Ice01.alo</GUI_Model_Name>
+    <Mass>1.0</Mass>
+    <Scale_Factor>1.25</Scale_Factor>
+    <Mouse_Collide_Override_Sphere_Radius> 18 </Mouse_Collide_Override_Sphere_Radius>
+    <Show_Name>Yes</Show_Name>
+    <Name_Adjust>-6, -6, 0.1</Name_Adjust>
+    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
+    <Pre_Lit>no</Pre_Lit>
+    <Political_Control>0</Political_Control>
+    <Camera_Aligned>yes</Camera_Aligned>
+    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
+    <Terrain>Arctic</Terrain>
+    <Planet_Credit_Value>0</Planet_Credit_Value>
+    <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
+    <Galactic_Position>312.0, 248.0, 10.0</Galactic_Position>
+    <Special_Structures_Land>5</Special_Structures_Land>
+    <Special_Structures_Space>1</Special_Structures_Space>
+    <Max_Space_Base>3</Max_Space_Base>
+    <The_Force>Neutral</The_Force>
+    <Force_Strength>0.0</Force_Strength>
+    <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
+    <Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
+    <Land_Tactical_Map> _Land_Planet_Rhen_Var_02.ted </Land_Tactical_Map>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map>
+    <Destroyed_Space_Tactical_Map />
+    <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>
+    <Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
+    <Planet_Slice_Affinity_Types>Rebel_Ground_Mining_Facility</Planet_Slice_Affinity_Types>
+    <Planet_Is_Mining_Colony>Yes</Planet_Is_Mining_Colony>
+    <Planet_Black_Market_Modifier>600</Planet_Black_Market_Modifier>
 
-  
-  <Galactic_Influence_Range>150.0</Galactic_Influence_Range>
-  <Hyperspace_Fleet_Reveal_Range>150.0</Hyperspace_Fleet_Reveal_Range>
+    <Describe_Population>TEXT_PLANET_RHENVAR_INFO_POP</Describe_Population>
+    <Describe_Wildlife>TEXT_PLANET_RHENVAR_INFO_WL</Describe_Wildlife>
+    <Describe_Terrain>TEXT_PLANET_RHENVAR_INFO_TER</Describe_Terrain>
+    <Describe_Weather>TEXT_PLANET_RHENVAR_INFO_WEA</Describe_Weather>
+    <Describe_Tactical></Describe_Tactical>
+    <Describe_Advantage></Describe_Advantage>
+    <Describe_History>TEXT_PLANET_RHENVAR_INFO_HIS_01</Describe_History>
 
-  <Corruption_2_Type> Corruption_Black_Market </Corruption_2_Type>
-  <Corruption_2_Credit_Cost> 1500 </Corruption_2_Credit_Cost>
-  <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
-  <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
-  <Corruption_2_Success_Speech_Event> ALZOCIII_BLK_VICTORY_COR03_05 </Corruption_2_Success_Speech_Event>
-  <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
-  <Corruption_2_Failure_Speech_Event />
-  <Corruption_2_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_2_Failure_Bink_Hologram_Name>
-  <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_ALZOCIII_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
-  
-  <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+    <Planet_Ability_Name></Planet_Ability_Name>
+    <Planet_Ability_Description></Planet_Ability_Description>
 
-</Planet>
+    <Encyclopedia_Text></Encyclopedia_Text>
+    <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
+    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
+    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
+    <Planet_Ability_Icon>i_pa_spy_network.tga</Planet_Ability_Icon>
+
+    <Additional_Population_Capacity>0</Additional_Population_Capacity>
+
+
+    <Galactic_Influence_Range>150.0</Galactic_Influence_Range>
+    <Hyperspace_Fleet_Reveal_Range>150.0</Hyperspace_Fleet_Reveal_Range>
+
+    <Corruption_2_Type> Corruption_Black_Market </Corruption_2_Type>
+    <Corruption_2_Credit_Cost> 1500 </Corruption_2_Credit_Cost>
+    <Corruption_2_Required_Mission_Type> Corruption_Piracy </Corruption_2_Required_Mission_Type>
+    <Corruption_2_Required_Mission_Count> 1 </Corruption_2_Required_Mission_Count>
+    <Corruption_2_Success_Speech_Event> ALZOCIII_BLK_VICTORY_COR03_05 </Corruption_2_Success_Speech_Event>
+    <Corruption_2_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_2_Success_Bink_Hologram_Name>
+    <Corruption_2_Failure_Speech_Event />
+    <Corruption_2_Failure_Bink_Hologram_Name>Saboteur_Loop</Corruption_2_Failure_Bink_Hologram_Name>
+    <Corruption_2_Mission_Briefing>TEXT_CORRUPTION_ALZOCIII_STORY_BLACKMARKET</Corruption_2_Mission_Briefing>
+
+    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
+  </Planet>
 
   <Planet Name="Rothana">
-    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ROTHANA</Text_ID>
     <Galactic_Model_Name>W_planet_Ice01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -4975,13 +4961,13 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
 
-    <Land_Tactical_Map>_Land_Planet_Rothana_02.ted</Land_Tactical_Map> 
-      <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map> 
-  
+    <Land_Tactical_Map>_Land_Planet_Rothana_02.ted</Land_Tactical_Map>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map>
+
     <Planet_Capture_Bonus_Reward> 1900 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>2</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>4</Planet_Tech_Availability_Rating>
-      <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
+    <Planet_Black_Market_Modifier>400</Planet_Black_Market_Modifier>
 
     <Describe_Population>TEXT_PLANET_ROTHANA_INFO_POP</Describe_Population>
     <Describe_Wildlife>TEXT_PLANET_ROTHANA_INFO_WL</Describe_Wildlife>
@@ -5001,29 +4987,29 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
 
-      <Additional_Population_Capacity>24</Additional_Population_Capacity>
+    <Additional_Population_Capacity>24</Additional_Population_Capacity>
 
     <Planet_Groundbase_Stealth>No</Planet_Groundbase_Stealth>
 
 
-   
-    <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type> 
-    <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost> 
-    <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type> 
-    <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count> 
-    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type> 
-    <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count> 
-    <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event> 
-    <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name> 
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_RACKETEER</Corruption_1_Mission_Briefing> 
-    
 
-   <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+    <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type>
+    <Corruption_1_Credit_Cost>1000</Corruption_1_Credit_Cost>
+    <Corruption_1_Required_Mission_Type>Corruption_Intimidation</Corruption_1_Required_Mission_Type>
+    <Corruption_1_Required_Mission_Count>1</Corruption_1_Required_Mission_Count>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Count>3</Corruption_1_Required_Unit_Count>
+    <Corruption_1_Success_Speech_Event>ATZERRI_RKT_VICTORY_COR05_01</Corruption_1_Success_Speech_Event>
+    <Corruption_1_Success_Bink_Hologram_Name>Saboteur_Loop</Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ATZERRI_STORY_RACKETEER</Corruption_1_Mission_Briefing>
 
- </Planet>
+
+    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
+
+  </Planet>
 
   <Planet Name="Scarif">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_SCARIF</Text_ID>
     <Galactic_Model_Name>W_planet_Ocean01.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -5075,7 +5061,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Zeffo">
-    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ZEFFO</Text_ID>
     <Galactic_Model_Name>W_planet_alderaan_low.alo</Galactic_Model_Name>
     <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
@@ -5113,30 +5099,30 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Describe_Wildlife>TEXT_PLANET_ZEFFO_INFO_WL</Describe_Wildlife>
     <Describe_Terrain>TEXT_PLANET_ZEFFO_INFO_TER</Describe_Terrain>
     <Describe_Weather>TEXT_PLANET_ZEFFO_INFO_WEA</Describe_Weather>
-    <Describe_Tactical></Describe_Tactical> <!-- I.E Whats the planetary Bonus-->
-    <Describe_Advantage></Describe_Advantage> <!--NAME OF PLANETARY BONUS-->
+    <Describe_Tactical></Describe_Tactical>    <!-- I.E Whats the planetary Bonus-->
+    <Describe_Advantage></Describe_Advantage>    <!--NAME OF PLANETARY BONUS-->
     <Describe_History>TEXT_PLANET_ZEFFO_INFO_HIS_01</Describe_History>
-    <Planet_Ability_Name></Planet_Ability_Name> <!--NAME OF PLANETARY BONUS-->
-    <Planet_Ability_Description></Planet_Ability_Description> <!-- I.E Whats the planetary Bonus-->
+    <Planet_Ability_Name></Planet_Ability_Name>    <!--NAME OF PLANETARY BONUS-->
+    <Planet_Ability_Description></Planet_Ability_Description>    <!-- I.E Whats the planetary Bonus-->
     <Encyclopedia_Text></Encyclopedia_Text>
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
     <Planet_Ability_Icon></Planet_Ability_Icon>
-    <Native_Icon_Name></Native_Icon_Name> <!--ICON FOR NATIVE LIFE-->
+    <Native_Icon_Name></Native_Icon_Name>    <!--ICON FOR NATIVE LIFE-->
     <Additional_Population_Capacity>12</Additional_Population_Capacity>
     <Potential_Indigenous_Power></Potential_Indigenous_Power>
 
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type>  </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_ZEFFO_Kidnapping.ted </Corruption_1_Tactical_Map_Name>
     <Corruption_1_Tactical_Script_Name> Story_Plots_Underworld_ZEFFO_Kidnapping.xml </Corruption_1_Tactical_Script_Name>
     <Corruption_1_Mission_Commencing_Speech_Event>ZEFFO_KID_LOAD_COR10_01</Corruption_1_Mission_Commencing_Speech_Event>
     <Corruption_1_Success_Speech_Event> ZEFFO_KID_VICTORY_COR10_03 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> </Corruption_1_Success_Bink_Hologram_Name>
+    <Corruption_1_Success_Bink_Hologram_Name></Corruption_1_Success_Bink_Hologram_Name>
     <Corruption_1_Failure_Speech_Event>ZEFFO_KID_LOSS_COR10_04</Corruption_1_Failure_Speech_Event>
     <Corruption_1_Failure_Bink_Hologram_Name>_Loop</Corruption_1_Failure_Bink_Hologram_Name>
     <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_ZEFFO_STORY_KIDNAP</Corruption_1_Mission_Briefing>
@@ -5152,7 +5138,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Pantora">
-    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_PANTORA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -5206,7 +5192,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_PANTORA_Intimidation.ted </Corruption_1_Tactical_Map_Name>
@@ -5230,7 +5216,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
   </Planet>
 
   <Planet Name="Orto_Plutonia">
-    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index> <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
+    <Zoomed_Terrain_Index>4 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_ORTO_PLUTONIA</Text_ID>
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
@@ -5284,7 +5270,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Unit_Type> </Corruption_1_Required_Unit_Type>
+    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
     <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
     <Corruption_1_Tactical_Game_Mode> Land </Corruption_1_Tactical_Game_Mode>
     <Corruption_1_Tactical_Map_Name> _Land_Planet_ORTO_PLUTONIA_Intimidation.ted </Corruption_1_Tactical_Map_Name>

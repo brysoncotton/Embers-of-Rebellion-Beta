@@ -273,11 +273,11 @@
 		<Ranking_In_Category>6</Ranking_In_Category>
 		<Max_Speed>5.5</Max_Speed>
 		<Min_Speed>2.0</Min_Speed>
-		<OverrideAcceleration> .2 </OverrideAcceleration>
-		<OverrideDeceleration> .2 </OverrideDeceleration>
-		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
-		<Max_Rate_Of_Roll>4.5</Max_Rate_Of_Roll>
-		<Max_Lift>2.5</Max_Lift>
+		<OverrideAcceleration> .1 </OverrideAcceleration>
+		<OverrideDeceleration> .3 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>3.5</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>4.0</Max_Rate_Of_Roll>
+		<Max_Lift>1.75</Max_Lift>
 		<Bank_Turn_Angle>75</Bank_Turn_Angle>
 		<Space_Layer> Frigate </Space_Layer>
 		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
@@ -304,7 +304,7 @@
 		<Damage>50</Damage>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Shield_Points>0</Shield_Points>
-		<Tactical_Health>150</Tactical_Health>
+		<Tactical_Health>175</Tactical_Health>
 		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
 		<Energy_Capacity>1000</Energy_Capacity>
 		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>

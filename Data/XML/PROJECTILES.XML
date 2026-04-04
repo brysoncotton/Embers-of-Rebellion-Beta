@@ -168,6 +168,31 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
+	<Projectile Name="Proj_Ship_Fighter_Laser_Green_Ground" Description="Empire_Fighter_Laser">
+		<Land_Model_Name>w_laser_g.alo</Land_Model_Name>
+		<Projectile_Length>1</Projectile_Length>
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>.5</Scale_Factor>
+		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Max_Speed>25.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Turbolaser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Blast_Area_Damage> 20 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 50 </Projectile_Blast_Area_Range>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>20</Projectile_Energy_Per_Shot>
+		<Projectile_Ground_Detonation_Particle />
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>200</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Ion_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
 	<Projectile Name="Proj_Ship_Dual_Laser_Green_Ground" Description="Empire_Dual_Fighter_Laser_Ground">
 		<Land_Model_Name>w_laser_g2.alo</Land_Model_Name>
 		<Projectile_Length>.5</Projectile_Length>
@@ -179,7 +204,8 @@
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Turbolaser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>14</Projectile_Damage>
+		<Projectile_Blast_Area_Damage> 20 </Projectile_Blast_Area_Damage>
+		<Projectile_Blast_Area_Range> 50 </Projectile_Blast_Area_Range>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>

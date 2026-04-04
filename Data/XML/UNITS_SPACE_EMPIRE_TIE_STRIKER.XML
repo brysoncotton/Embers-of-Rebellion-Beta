@@ -1,0 +1,182 @@
+﻿<?xml version="1.0"?>
+
+<TIE_Striker_files>
+
+	<GroundVehicle Name="TIE_Striker">
+		<No_Colorization_Color> 200, 104, 59, 255 </No_Colorization_Color>
+		<Blob_Shadow_Below_Detail_Level>2</Blob_Shadow_Below_Detail_Level>
+		<Blob_Shadow_Scale>40.0, 40.0</Blob_Shadow_Scale>
+		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
+		<Text_ID>TEXT_UNIT_TIE_STRIKER_SQUADRON</Text_ID>
+
+		<Encyclopedia_Text>TEXT_TOOLTIP_TIE_STRIKER</Encyclopedia_Text>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+
+		<Land_Model_Name>Ev_TieStriker.ALO</Land_Model_Name>
+		<Mass>0.985</Mass>
+
+		<Scale_Factor>6</Scale_Factor>
+		<Size_Value>15</Size_Value>
+		<Select_Box_Scale>40</Select_Box_Scale>
+
+		<Ranking_In_Category>6</Ranking_In_Category>
+		<Max_Speed>8</Max_Speed>
+		<Min_Speed>2.0</Min_Speed>
+		<OverrideAcceleration> .2 </OverrideAcceleration>
+		<OverrideDeceleration> .2 </OverrideDeceleration>
+		<Max_Rate_Of_Turn>5.0</Max_Rate_Of_Turn>
+		<Max_Rate_Of_Roll>4.5</Max_Rate_Of_Roll>
+		<Max_Lift>2.5</Max_Lift>
+		<Bank_Turn_Angle>75</Bank_Turn_Angle>
+		<Space_Layer> Frigate </Space_Layer>
+		<Stationary_Space_Layer> Land </Stationary_Space_Layer>
+		<FormationGrouping> Solo </FormationGrouping>
+		<PathFrameDelay> 4 </PathFrameDelay>
+		<Hover_Offset>120.0</Hover_Offset>
+		<Prepare_Strafe_Height>250.0</Prepare_Strafe_Height>
+		<MaxFacingLookAheadFrames>5.0</MaxFacingLookAheadFrames>
+		<Should_Cause_Limited_Turrets_To_Turn> false </Should_Cause_Limited_Turrets_To_Turn>
+
+		<AI_Combat_Power>150</AI_Combat_Power>
+
+		<Behavior>SELECTABLE, POWERED</Behavior>
+		<LandBehavior>ABILITY_COUNTDOWN, FLYING_LOCOMOTOR,REVEAL,HIDE_WHEN_FOGGED, AMBIENT_SFX,UNIT_AI,TARGETING,WEAPON,STUNNABLE, WIND_DISTURBANCE,DAMAGE_TRACKING</LandBehavior>
+		<Influences_Capture_Point>False</Influences_Capture_Point>
+
+		<Collidable_By_Projectile_Living> Yes </Collidable_By_Projectile_Living>
+
+		<Affiliation>Empire</Affiliation>
+		<Political_Control>0</Political_Control>
+
+		<Armor_Type> Armor_Speeder </Armor_Type>
+		<Shield_Armor_Type>Shield_Fighter</Shield_Armor_Type>
+		<Damage>50</Damage>
+		<Autoresolve_Health>40.0</Autoresolve_Health>
+		<Shield_Points>0</Shield_Points>
+		<Tactical_Health>200</Tactical_Health>
+		<Shield_Refresh_Rate>0</Shield_Refresh_Rate>
+		<Energy_Capacity>1000</Energy_Capacity>
+		<Energy_Refresh_Rate>999</Energy_Refresh_Rate>
+
+		<Ranged_Target_Z_Adjust>0.0</Ranged_Target_Z_Adjust>
+		<Land_FOW_Reveal_Range>500.0</Land_FOW_Reveal_Range>
+		<Targeting_Max_Attack_Distance>350.0</Targeting_Max_Attack_Distance>
+
+		<Turret_Rotate_Extent_Degrees>20.0</Turret_Rotate_Extent_Degrees>
+		<Turret_Elevate_Extent_Degrees>30.0</Turret_Elevate_Extent_Degrees>
+
+		<Projectile_Fire_Recharge_Seconds>1.5</Projectile_Fire_Recharge_Seconds>
+		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
+
+
+		<HardPoints>
+			HP_TIE_Striker_Main_Cannon_Ground
+		</HardPoints>
+
+		<Always_Spawn_In_Orbit>False</Always_Spawn_In_Orbit>
+
+		<Damaged_Smoke_Asset_Name>P_Smoke_Small02.alo</Damaged_Smoke_Asset_Name>
+		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+
+		<Spin_Away_On_Death>Yes</Spin_Away_On_Death>
+		<Spin_Away_On_Death_Chance>0.2</Spin_Away_On_Death_Chance>
+		<Spin_Away_On_Death_Time>2.0f</Spin_Away_On_Death_Time>
+		<Spin_Away_On_Death_Explosion>Medium_Explosion_Space</Spin_Away_On_Death_Explosion>
+		<Spin_Away_On_Death_SFXEvent_Start_Die>Unit_X_Wing_Spinning_By</Spin_Away_On_Death_SFXEvent_Start_Die>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
+
+		<Wind_Disturbance_Radius>100</Wind_Disturbance_Radius>
+		<Wind_Disturbance_Strength>5</Wind_Disturbance_Strength>
+		<Wind_Disturbance_Sphere_Alpha>0.1</Wind_Disturbance_Sphere_Alpha>
+
+		<SFXEvent_Fire> Unit_TIE_Fighter_Fire </SFXEvent_Fire>
+		<SFXEvent_Select> Unit_Select_TIE_Fighter </SFXEvent_Select>
+		<SFXEvent_Move> Unit_Move_TIE_Fighter </SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_TIE_Fighter</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack> Unit_Attack_TIE_Fighter </SFXEvent_Attack>
+		<SFXEvent_Guard> Unit_Guard_TIE_Fighter </SFXEvent_Guard>
+
+		<SFXEvent_Health_Low_Warning> Unit_Health_Low_TIE_Fighter</SFXEvent_Health_Low_Warning>
+		<SFXEvent_Health_Critical_Warning> Unit_Health_Critical_TIE_Fighter </SFXEvent_Health_Critical_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Low_Warning> Unit_Enemy_Health_Low_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Low_Warning>
+		<SFXEvent_Enemy_Damaged_Health_Critical_Warning> Unit_Enemy_Health_Critical_Tie_Fighter </SFXEvent_Enemy_Damaged_Health_Critical_Warning>
+
+		<!-- Test: Each TIE fighter will play a 3D ambient "flyby" sound every X to Y seconds -->
+		<!-- Note: To invoke SFXEvent_Ambient, AMBIENT_SFX behavior needs to be added to the behavior list -->
+		<SFXEvent_Ambient_Moving> Unit_TIE_Fighter_Fly_By </SFXEvent_Ambient_Moving>
+		<SFXEvent_Ambient_Moving_Min_Delay_Seconds> 5 </SFXEvent_Ambient_Moving_Min_Delay_Seconds>
+		<SFXEvent_Ambient_Moving_Max_Delay_Seconds> 10 </SFXEvent_Ambient_Moving_Max_Delay_Seconds>
+		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_TIE_Fighter_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
+
+		<Icon_Name>i_button_tie_striker.tga</Icon_Name>
+		<CategoryMask> Air | AntiAir</CategoryMask>
+		<MovementClass> Flying </MovementClass>
+		<OccupationStyle>1x1</OccupationStyle>
+		<Victory_Relevant>yes</Victory_Relevant>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<Occlusion_Silhouette_Enabled>1</Occlusion_Silhouette_Enabled>
+		<GUI_Bracket_Size>1</GUI_Bracket_Size>
+
+		<Air_Vehicle_Turret_Target> Yes </Air_Vehicle_Turret_Target>
+		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
+
+
+		<Idle_Chase_Range>200.0</Idle_Chase_Range>
+		<Guard_Chase_Range>400.0</Guard_Chase_Range>
+		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
+		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
+		<Targeting_Priority_Set>Air_Attack_Move</Targeting_Priority_Set>
+		<Autonomous_Move_Extension_Vs_Attacker>400.0</Autonomous_Move_Extension_Vs_Attacker>
+
+		<Weather_Category>Flying</Weather_Category>
+
+		<Score_Cost_Credits>150</Score_Cost_Credits>
+
+		<Always_Spawn_In_Orbit>False</Always_Spawn_In_Orbit>
+		<Converted_To_Enemy_Die_Time_Seconds>999</Converted_To_Enemy_Die_Time_Seconds>
+	</GroundVehicle>
+
+	<GroundCompany Name="Empire_TIE_Striker_Squadron">
+		<Variant_Of_Existing_Type>X_Wing_Ground_Squadron</Variant_Of_Existing_Type>
+		<Text_ID>TEXT_UNIT_TIE_STRIKER_SQUADRON</Text_ID>
+		<Encyclopedia_Text> TEXT_TOOLTIP_TIE_STRIKER </Encyclopedia_Text>
+		<GUI_Row>1</GUI_Row>
+		<Build_Tab_Space_Station>0</Build_Tab_Space_Station>
+		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_FIGHTER</Encyclopedia_Unit_Class>
+		<Icon_Name>i_button_tie_striker.tga</Icon_Name>
+
+		<Affiliation>Empire</Affiliation>
+		<Build_Cost_Credits>500</Build_Cost_Credits>
+		<Build_Time_Seconds>45</Build_Time_Seconds>
+
+		<Build_Time_Reduced_By_Multiple_Factories>Yes</Build_Time_Reduced_By_Multiple_Factories>
+		<Build_Tab_Land_Units>Yes</Build_Tab_Land_Units>
+		<Build_Initially_Locked>No</Build_Initially_Locked>
+		<Tech_Level>2</Tech_Level>
+		<Required_Timeline>0</Required_Timeline>
+		<Required_Planets></Required_Planets>
+		<Required_Special_Structures>Empire_Airbase</Required_Special_Structures>
+		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
+		<Required_Star_Base_Level>0</Required_Star_Base_Level>
+
+		<!--<Company_Transport_Unit>Imperial_Gozanti_Cruiser_Tie</Company_Transport_Unit>-->
+		<Company_Transport_Unit>Imperial_Landing_Craft</Company_Transport_Unit>
+		<Company_Units>
+            Tie_Striker, Tie_Striker
+		</Company_Units>
+
+		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
+		<SFXEvent_Build_Cancelled>EHD_Vehicle_Canceled</SFXEvent_Build_Cancelled>
+		<SFXEvent_Build_Complete>Unit_Complete_Tie_Interceptor</SFXEvent_Build_Complete>
+		<SFXEvent_Fleet_Move>Unit_Move_TIE_Interceptor</SFXEvent_Fleet_Move>
+
+		<Tactical_Build_Cost_Multiplayer>600</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>10</Tactical_Build_Time_Seconds>
+		<Always_Spawn_In_Orbit>False</Always_Spawn_In_Orbit>
+		<!--<Tactical_Build_Prerequisites>EC_Level_Three_Tech_Upgrade</Tactical_Build_Prerequisites>-->
+	</GroundCompany>
+
+</TIE_Striker_files>

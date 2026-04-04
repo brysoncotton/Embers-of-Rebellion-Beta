@@ -216,7 +216,7 @@
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+        <Fire_SFXEvent>Unit_TIE_Fighter_Fire</Fire_SFXEvent>
 
         <Damage_Type> Damage_Fighter </Damage_Type>
 
@@ -246,7 +246,7 @@
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+        <Fire_SFXEvent>Unit_TIE_Fighter_Fire</Fire_SFXEvent>
 
         <Damage_Type> Damage_Fighter </Damage_Type>
 
@@ -255,6 +255,34 @@
         <Targeting_Fire_Inaccuracy>Vehicle, 5.0</Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy>Air, 1.0</Targeting_Fire_Inaccuracy>
         <Targeting_Fire_Inaccuracy>Structure, 10.0</Targeting_Fire_Inaccuracy>
+
+        <Fire_Category_Restrictions></Fire_Category_Restrictions>
+    </HardPoint>
+
+    <HardPoint Name="HP_TIE_Striker_Main_Cannon_Ground">
+        <Type> HARD_POINT_WEAPON_LASER </Type>
+        <Is_Targetable>No</Is_Targetable>
+        <Is_Destroyable>No</Is_Destroyable>
+
+        <Fire_Bone_A>HP_00</Fire_Bone_A>
+        <Fire_Bone_B>HP_01</Fire_Bone_B>
+        <Fire_Cone_Width>60.0</Fire_Cone_Width>
+        <Fire_Cone_Height>60.0</Fire_Cone_Height>
+        <Fire_Projectile_Type>Proj_Ship_Dual_Laser_Green_Ground</Fire_Projectile_Type>
+        <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
+        <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.3</Fire_Pulse_Delay_Seconds>
+        <Fire_Range_Distance>500.0</Fire_Range_Distance>
+        <Fire_SFXEvent>Unit_TIE_Fighter_Fire</Fire_SFXEvent>
+
+        <Damage_Type> Damage_Fighter </Damage_Type>
+
+        <Targeting_Fire_Inaccuracy>LandHero, 15.0</Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy>Infantry, 2.0</Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy>Vehicle, 2.0</Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy>Air, 1.0</Targeting_Fire_Inaccuracy>
+        <Targeting_Fire_Inaccuracy>Structure, 1.0</Targeting_Fire_Inaccuracy>
 
         <Fire_Category_Restrictions></Fire_Category_Restrictions>
     </HardPoint>
@@ -276,7 +304,7 @@
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+        <Fire_SFXEvent>Unit_TIE_Fighter_Fire</Fire_SFXEvent>
 
         <Damage_Type> Damage_Fighter </Damage_Type>
 
@@ -331,7 +359,7 @@
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.1</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>500.0</Fire_Range_Distance>
-        <Fire_SFXEvent>Unit_Rebel_Ship_Laser_Fire</Fire_SFXEvent>
+        <Fire_SFXEvent>Unit_TIE_Fighter_Fire</Fire_SFXEvent>
 
         <Damage_Type> Damage_Fighter </Damage_Type>
 
