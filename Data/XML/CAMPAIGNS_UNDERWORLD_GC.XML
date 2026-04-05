@@ -599,22 +599,7 @@
 		<Starting_Forces> Empire, Thyferra, Field_Com_Empire_Team </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Heavy_Scout_Squad </Starting_Forces>
-
-		<!-- AlzocIII Space Forces -->
-		<Starting_Forces> Empire, AlzocIII, Acclamator_Assault_Ship </Starting_Forces>
-		<!-- AlzocIII Land Forces -->
-		<Starting_Forces> Empire, AlzocIII, E_Ground_Light_Vehicle_Factory </Starting_Forces>
-		<Starting_Forces> Empire, AlzocIII, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, AlzocIII, Imperial_Heavy_Scout_Squad </Starting_Forces>
-
-		<!-- Abregado_Rae Space Forces -->
-		<Starting_Forces> Empire, Abregado_Rae, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Abregado_Rae, Acclamator_Assault_Ship </Starting_Forces>
-		<!-- Abregado_Rae Land Forces -->
-		<Starting_Forces> Empire, Abregado_Rae, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Abregado_Rae, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Abregado_Rae, Imperial_Heavy_Scout_Squad </Starting_Forces>
-
+	
 		<!-- Scarif Space Forces -->
 		<Starting_Forces> Empire, Scarif, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Scarif, Acclamator_Assault_Ship </Starting_Forces>
@@ -1694,21 +1679,6 @@
 		<Starting_Forces> Empire, Thyferra, Field_Com_Empire_Team </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Heavy_Scout_Squad </Starting_Forces>
-
-		<!-- AlzocIII Space Forces -->
-		<Starting_Forces> Empire, AlzocIII, Acclamator_Assault_Ship </Starting_Forces>
-		<!-- AlzocIII Land Forces -->
-		<Starting_Forces> Empire, AlzocIII, E_Ground_Light_Vehicle_Factory </Starting_Forces>
-		<Starting_Forces> Empire, AlzocIII, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, AlzocIII, Imperial_Heavy_Scout_Squad </Starting_Forces>
-
-		<!-- Abregado_Rae Space Forces -->
-		<Starting_Forces> Empire, Abregado_Rae, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Abregado_Rae, Acclamator_Assault_Ship </Starting_Forces>
-		<!-- Abregado_Rae Land Forces -->
-		<Starting_Forces> Empire, Abregado_Rae, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Abregado_Rae, Imperial_Anti_Infantry_Brigade </Starting_Forces>
-		<Starting_Forces> Empire, Abregado_Rae, Imperial_Heavy_Scout_Squad </Starting_Forces>
 
 		<!-- Scarif Space Forces -->
 		<Starting_Forces> Empire, Scarif, Empire_Star_Base_1 </Starting_Forces>
