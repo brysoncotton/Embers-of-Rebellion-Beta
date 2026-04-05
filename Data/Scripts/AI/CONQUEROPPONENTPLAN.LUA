@@ -68,7 +68,7 @@ function Definitions()
 		,"Vehicle | Infantry | Air = 100%"
 	}
 	}
-	RequiredCategories = { "Infantry", "Corvette | Frigate | Capital | Super" }		--Must have at least one ground unit, also make sure space force is reasonable
+	RequiredCategories = { "Infantry", "Corvette | Frigate | Capital | Fighter | Super" }		--Must have at least one ground unit, also make sure space force is reasonable
 
 	PerFailureContrastAdjust = 0.5
 	

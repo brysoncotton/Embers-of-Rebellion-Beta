@@ -58,7 +58,7 @@ function Definitions()
 		,"Frigate | Capital | Corvette | Fighter | Bomber = 100%"
 	}
 	}
-	RequiredCategories = { "Corvette | Frigate | Capital | Super" }	
+	RequiredCategories = { "Corvette | Frigate | Capital | Super | Fighter | Bomber" }	
 end
 
 function MainForce_Thread()

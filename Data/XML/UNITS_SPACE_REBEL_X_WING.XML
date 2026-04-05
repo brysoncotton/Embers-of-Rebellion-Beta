@@ -440,7 +440,7 @@
 		<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_X_Wing_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 
 		<Icon_Name>i_button_xwing.tga</Icon_Name>
-		<CategoryMask> Air | AntiAir</CategoryMask>
+		<CategoryMask> Air | Fighter </CategoryMask>
 		<MovementClass> Flying </MovementClass>
 		<OccupationStyle>1x1</OccupationStyle>
 		<Victory_Relevant>yes</Victory_Relevant>

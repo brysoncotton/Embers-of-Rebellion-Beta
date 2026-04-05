@@ -73,7 +73,7 @@
 			Utapau, 
 			VergessoAsteroids, 
 			Wayland, 
-			Yavin, 																																																																																																																																																																																																																								<!-- MODDED PLANETS START AFTER THIS -->
+			Yavin, 																																																																																																																																																																																																																											<!-- MODDED PLANETS START AFTER THIS -->
 			Cato_Neimoidia,
 			Jakku,
 			Jedha,
@@ -599,7 +599,7 @@
 		<Starting_Forces> Empire, Thyferra, Field_Com_Empire_Team </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Heavy_Scout_Squad </Starting_Forces>
-	
+
 		<!-- Scarif Space Forces -->
 		<Starting_Forces> Empire, Scarif, Empire_Star_Base_1 </Starting_Forces>
 		<Starting_Forces> Empire, Scarif, Acclamator_Assault_Ship </Starting_Forces>
@@ -1154,7 +1154,7 @@
 			Utapau, 
 			VergessoAsteroids, 
 			Wayland, 
-			Yavin, 																																																																																																																																																																																																																											<!-- MODDED PLANETS START AFTER THIS -->
+			Yavin, 																																																																																																																																																																																																																														<!-- MODDED PLANETS START AFTER THIS -->
 			Cato_Neimoidia,
 			Jakku,
 			Jedha,
@@ -1679,6 +1679,7 @@
 		<Starting_Forces> Empire, Thyferra, Field_Com_Empire_Team </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Heavy_Scout_Squad </Starting_Forces>
+
 
 		<!-- Scarif Space Forces -->
 		<Starting_Forces> Empire, Scarif, Empire_Star_Base_1 </Starting_Forces>
