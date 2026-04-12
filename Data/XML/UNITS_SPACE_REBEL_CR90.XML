@@ -69,7 +69,7 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>120</Size_Value>
 		<Behavior>DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED</Behavior>
-		<SpaceBehavior> ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+		<SpaceBehavior> HUNT, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, SELECTABLE, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
 		<Space_FOW_reveal_Range>160000.0</Space_FOW_reveal_Range>
 		<Targeting_Max_Attack_Distance>800.0</Targeting_Max_Attack_Distance>
@@ -153,6 +153,30 @@
 				<SFXEvent_GUI_Unit_Ability_Deactivated />
 			</Unit_Ability>
 			
+			<Unit_Ability>
+				<Type>HUNT</Type>
+				<Target_Types>
+					TIE_Fighter, 
+					TIE_Fighter_Squadron, 
+					TIE_Interceptor,
+					TIE_Interceptor_Squadron,
+					TIE_Scout, 
+					TIE_Scout_Squadron, 
+					TIE_Defender,
+					TIE_Defender_Squadron,
+					Z-95_Headhunter, 
+					Z95_Headhunter_Squadron, 
+					Z95_Headhunter_Rebel_Squadron, 
+					Pirate_Fighter_Squadron,
+					Pirate_Fighter,
+					VWing_Squadron_P, 
+					VWing_Squadron_R, 
+					VWing_Squadron_E, 
+					Rebel_X-Wing_Squadron, 
+					A_Wing_Squadron,
+					Z-95_Headhunter_Rebel
+				</Target_Types>
+			</Unit_Ability>
 		</Unit_Abilities_Data>
 		
 		

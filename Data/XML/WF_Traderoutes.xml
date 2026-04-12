@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+
+
+<TradeRoutes>
+  <TradeRoute Name="Wayland_Carida">
+    <Point_A>Wayland</Point_A>
+    <Point_B>Carida</Point_B>
+    <HS_Speed_Factor>5.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Carida_Taris">
+    <Point_A>Carida</Point_A>
+    <Point_B>Taris</Point_B>
+    <HS_Speed_Factor>5.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+  <TradeRoute Name="Taris_Yavin">
+    <Point_A>Taris</Point_A>
+    <Point_B>Yavin</Point_B>
+    <HS_Speed_Factor>5.0</HS_Speed_Factor>
+    <Political_Control_Gain>0</Political_Control_Gain>
+    <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+    <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+  </TradeRoute>
+<TradeRoute Name="Yavin_Anaxes"><Point_A>Yavin</Point_A><Point_B>Anaxes</Point_B><HS_Speed_Factor>5.0</HS_Speed_Factor><Political_Control_Gain>0</Political_Control_Gain><Credit_Gain_Factor>0.5</Credit_Gain_Factor><Visible_Line_Name>DEFAULT</Visible_Line_Name></TradeRoute><TradeRoute Name="Thyferra_Mustafar"><Point_A>Thyferra</Point_A><Point_B>Mustafar</Point_B><HS_Speed_Factor>5.0</HS_Speed_Factor><Political_Control_Gain>0</Political_Control_Gain><Credit_Gain_Factor>0.5</Credit_Gain_Factor><Visible_Line_Name>DEFAULT</Visible_Line_Name></TradeRoute></TradeRoutes>

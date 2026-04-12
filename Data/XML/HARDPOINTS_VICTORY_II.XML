@@ -67,7 +67,7 @@
 		<Fire_Bone_B>HP_TORP01</Fire_Bone_B>
 		<Fire_Cone_Width>130.0</Fire_Cone_Width>
 		<Fire_Cone_Height>130.0</Fire_Cone_Height>
-		<Fire_Projectile_Type>Proj_Ship_Proton_Torpedo_Light</Fire_Projectile_Type>		<!-- Split off so it doesn't 5x cap ships -->
+		<Fire_Projectile_Type>Proj_Proton_Torpedo_Mod</Fire_Projectile_Type>		<!-- Split off so it doesn't 5x cap ships -->
 		<Fire_Min_Recharge_Seconds>20.0</Fire_Min_Recharge_Seconds>
 		<Fire_Max_Recharge_Seconds>25.0</Fire_Max_Recharge_Seconds>
 		<Fire_Pulse_Count>4</Fire_Pulse_Count>

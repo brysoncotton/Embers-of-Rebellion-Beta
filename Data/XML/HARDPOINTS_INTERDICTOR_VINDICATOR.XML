@@ -52,42 +52,42 @@
 <HardPoints>
 
     <HardPoint Name="Vindicator_Shield_Generator">
-		<Type> HARD_POINT_SHIELD_GENERATOR </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-		<Health>375.0</Health>
+        <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+        <Health>375.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
-		<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-		<Model_To_Attach></Model_To_Attach>
-		<Attachment_Bone>HP_SG</Attachment_Bone>
-		<Collision_Mesh>HP_SG</Collision_Mesh>
-		<Damage_Decal>HP_SG_Fire</Damage_Decal>
-		<Damage_Particles>HP_SG_Fire</Damage_Particles>
-</HardPoint>
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>HP_SG</Attachment_Bone>
+        <Collision_Mesh>HP_SG</Collision_Mesh>
+        <Damage_Decal>HP_SG_Fire</Damage_Decal>
+        <Damage_Particles>HP_SG_Fire</Damage_Particles>
+    </HardPoint>
 
-	<HardPoint Name="Vindicator_LC_00">
+    <HardPoint Name="Vindicator_LC_00">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Health>800.0</Health>
-    
+
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-    
+
         <Model_To_Attach></Model_To_Attach>
         <Attachment_Bone>HP_03</Attachment_Bone>
         <Collision_Mesh>HP_03</Collision_Mesh>
         <Damage_Decal>HP_03_FIRE</Damage_Decal>
         <Damage_Particles>HP_03_FIRE</Damage_Particles>
-    
-        <Death_Breakoff_Prop> </Death_Breakoff_Prop>
-    
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
         <Damage_Type> Damage_Acclamator </Damage_Type>
         <Fire_Bone_A>HP_03</Fire_Bone_A>
         <Fire_Bone_B>HP_03</Fire_Bone_B>
@@ -99,8 +99,8 @@
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-    
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
@@ -108,7 +108,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-        
+
     </HardPoint>
 
     <HardPoint Name="Vindicator_LC_01">
@@ -117,18 +117,18 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Health>800.0</Health>
-    
+
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
-    
+
         <Model_To_Attach></Model_To_Attach>
         <Attachment_Bone>HP_06</Attachment_Bone>
         <Collision_Mesh>HP_06</Collision_Mesh>
         <Damage_Decal>HP_06_FIRE</Damage_Decal>
         <Damage_Particles>HP_06_FIRE</Damage_Particles>
-    
-        <Death_Breakoff_Prop> </Death_Breakoff_Prop>
-    
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
         <Damage_Type> Damage_Acclamator </Damage_Type>
         <Fire_Bone_A>HP_06</Fire_Bone_A>
         <Fire_Bone_B>HP_06</Fire_Bone_B>
@@ -140,8 +140,8 @@
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-    
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
@@ -149,7 +149,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-        
+
     </HardPoint>
 
     <HardPoint Name="Vindicator_IC_00">
@@ -158,15 +158,15 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Health>800.0</Health>
-    
+
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-    
+
         <Attachment_Bone>HP_02</Attachment_Bone>
         <Collision_Mesh>HP_02</Collision_Mesh>
         <Damage_Decal>HP_02_FIRE</Damage_Decal>
         <Damage_Particles>HP_02_FIRE</Damage_Particles>
-    
+
         <Fire_Bone_A>HP_02</Fire_Bone_A>
         <Fire_Bone_B>HP_02</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
@@ -177,8 +177,8 @@
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
-    
+        <Fire_SFXEvent>Unit_Ion_Fire</Fire_SFXEvent>
+
     </HardPoint>
 
     <HardPoint Name="Vindicator_IC_01">
@@ -187,15 +187,15 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Health>800.0</Health>
-    
+
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
-    
+
         <Attachment_Bone>HP_05</Attachment_Bone>
         <Collision_Mesh>HP_05</Collision_Mesh>
         <Damage_Decal>HP_05_FIRE</Damage_Decal>
         <Damage_Particles>HP_05_FIRE</Damage_Particles>
-    
+
         <Fire_Bone_A>HP_05</Fire_Bone_A>
         <Fire_Bone_B>HP_05</Fire_Bone_B>
         <Fire_Cone_Width>180</Fire_Cone_Width>
@@ -206,8 +206,8 @@
         <Fire_Pulse_Count>3</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.4</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_MUnit_Ion_Fireissile_Fire</Fire_SFXEvent>
-    
+        <Fire_SFXEvent>Unit_MUnit_Ion_Fireissile_Fire</Fire_SFXEvent>
+
     </HardPoint>
 
     <HardPoint Name="Vindicator_TL_00">
@@ -216,16 +216,16 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Health>800.0</Health>
-    
+
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP_01</Attachment_Bone>
         <Collision_Mesh>HP_01</Collision_Mesh>
         <Damage_Decal>HP_01_FIRE</Damage_Decal>
         <Damage_Particles>HP_01_FIRE</Damage_Particles>
-    
-        <Death_Breakoff_Prop> </Death_Breakoff_Prop>
-    
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
         <Damage_Type> Damage_Acclamator </Damage_Type>
         <Fire_Bone_A>HP_01</Fire_Bone_A>
         <Fire_Bone_B>HP_01</Fire_Bone_B>
@@ -237,8 +237,8 @@
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-    
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
@@ -246,7 +246,7 @@
         <Fire_Inaccuracy_Distance> Frigate, 15.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Capital, 1.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Super, 1.0 </Fire_Inaccuracy_Distance>
-        
+
     </HardPoint>
 
     <HardPoint Name="Vindicator_TL_01">
@@ -255,16 +255,16 @@
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Health>800.0</Health>
-    
+
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Laser_Death</Death_Explosion_SFXEvent>
         <Attachment_Bone>HP_04</Attachment_Bone>
         <Collision_Mesh>HP_04</Collision_Mesh>
         <Damage_Decal>HP_04_FIRE</Damage_Decal>
         <Damage_Particles>HP_04_FIRE</Damage_Particles>
-    
-        <Death_Breakoff_Prop> </Death_Breakoff_Prop>
-    
+
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
+
         <Damage_Type> Damage_Acclamator </Damage_Type>
         <Fire_Bone_A>HP_04</Fire_Bone_A>
         <Fire_Bone_B>HP_04</Fire_Bone_B>
@@ -276,8 +276,8 @@
         <Fire_Pulse_Count>4</Fire_Pulse_Count>
         <Fire_Pulse_Delay_Seconds>0.2</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>1400.0</Fire_Range_Distance>
-            <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
-    
+        <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
+
         <Fire_Inaccuracy_Distance> Fighter, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Bomber, 70.0 </Fire_Inaccuracy_Distance>
         <Fire_Inaccuracy_Distance> Transport, 70.0 </Fire_Inaccuracy_Distance>
@@ -288,47 +288,31 @@
     </HardPoint>
 
     <HardPoint Name="HP_Interdictor_Gravity_Well">
-			<Type> HARD_POINT_GRAVITY_WELL </Type>
-            <Is_Targetable>Yes</Is_Targetable>
-            <Is_Destroyable>Yes</Is_Destroyable>
-            <Tooltip_Text>TEXT_GRAVITY_WELL_HARDPOINT</Tooltip_Text>
-            <Health>125.0</Health>
-
-			<Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
-			<Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent>
-
-            <Attachment_Bone>ROOT</Attachment_Bone>
-            <Collision_Mesh>ROOT</Collision_Mesh>
-            <Damage_Decal></Damage_Decal>
-            <Damage_Particles></Damage_Particles>
-    </HardPoint>
-
-    
-
-    <HardPoint Name="Vindicator_Shields">
-        <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+        <Type> HARD_POINT_GRAVITY_WELL </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>375.0</Health>
-    
-        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
-        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
-    
-        <Attachment_Bone>SHILED</Attachment_Bone>
-        <Collision_Mesh>SHIELD</Collision_Mesh>
+        <Tooltip_Text>TEXT_GRAVITY_WELL_HARDPOINT</Tooltip_Text>
+        <Health>125.0</Health>
+
+        <Death_Explosion_Particles> Medium_Explosion_Space_Empire </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent>
+
+        <Attachment_Bone>ROOT</Attachment_Bone>
+        <Collision_Mesh>ROOT</Collision_Mesh>
+        <Damage_Decal></Damage_Decal>
+        <Damage_Particles></Damage_Particles>
     </HardPoint>
 
     <HardPoint Name="Vindicator_Hanger">
         <Type> HARD_POINT_FIGHTER_BAY </Type>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Attachment_Bone>HP_H</Attachment_Bone>             
+        <Attachment_Bone>HP_H</Attachment_Bone>
         <Collision_Mesh>HP_H</Collision_Mesh>
         <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
         <Health>100.0</Health>
-        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-        <Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>        <!-- STUBBED PLACEHOLDER -->
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Gravity_Well_Death</Death_Explosion_SFXEvent>        <!-- STUBBED PLACEHOLDER -->
     </HardPoint>
 
 

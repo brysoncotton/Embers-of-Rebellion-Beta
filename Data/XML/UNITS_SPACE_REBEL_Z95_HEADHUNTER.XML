@@ -12,7 +12,7 @@
 
 
 		<Icon_Name>i_button_z95.tga</Icon_Name>
-		<Space_Model_Name>RV_Z-95.ALO</Space_Model_Name>
+		<Space_Model_Name>Z95A_Headhunter_Base.ALO</Space_Model_Name>
 		<Mass>0.995</Mass>
 		<Scale_Factor>0.2</Scale_Factor>
 		<Fires_Forward>no</Fires_Forward>
@@ -61,7 +61,7 @@
 		<SpaceBehavior>HUNT, FIGHTER_LOCOMOTOR, SELECTABLE, TARGETING, WEAPON, POWERED, SHIELDED, HIDE_WHEN_FOGGED, AMBIENT_SFX, DAMAGE_TRACKING, NEBULA </SpaceBehavior>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage>4</Damage>
-		<Projectile_Types>Proj_Ship_Small_Laser_Cannon_Green</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>2</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
@@ -136,7 +136,7 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
 
 
-		<Space_Model_Name>RV_Z-95.ALO</Space_Model_Name>
+		<Space_Model_Name>Z95A_Headhunter_Base.ALO</Space_Model_Name>
 		<Icon_Name>i_button_z95.tga</Icon_Name>
 
 		<Mass>0.995</Mass>

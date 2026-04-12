@@ -5,7 +5,7 @@
 	<File>CIN_HardPoints.xml</File>
 	<File>HardPoints_Underworld.xml</File>
 
-<!--MOD HARDPOINT FILES-->
+	<!--MOD HARDPOINT FILES-->
 	<File>HARDPOINTS_MC75.xml</File>
 	<File>HARDPOINTS_STAR DESTROYER_I.XML</File>
 	<File>HARDPOINTS_VICTORY_II.XML</File>
@@ -31,4 +31,5 @@
 	<File>HardPoints_Gozanti.xml</File>
 	<File>HARDPOINTS_DP20.xml</File>
 	<File>HARDPOINTS_ACCLAMATOR.xml</File>
+	<File>HARDPOINTS_ASSAULT_FRIGATE.xml</File>
 </Hard_Point_Files>

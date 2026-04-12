@@ -302,7 +302,7 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Affiliation>Empire</Affiliation>
 		<Ship_Class>capital_ship</Ship_Class>
-		<Glory_Cinematics>CAM_SDestroyer_Glory01.tec</Glory_Cinematics>
+		<Glory_Cinematics></Glory_Cinematics>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 	</SpaceUnit>

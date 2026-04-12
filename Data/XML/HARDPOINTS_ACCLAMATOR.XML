@@ -51,7 +51,7 @@
 
 <HardPoints>
 
-	<HardPoint Name="HP_ACCLAMATOR_TORP_01">
+    <HardPoint Name="HP_ACCLAMATOR_TORP_01">
         <Type> HARD_POINT_WEAPON_TORPEDO </Type>
         <Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -73,7 +73,7 @@
         <Fire_Bone_C></Fire_Bone_C>
         <Fire_Cone_Width>180</Fire_Cone_Width>
         <Fire_Cone_Height>90.0</Fire_Cone_Height>
-        <Fire_Projectile_Type>Proj_Ship_Proton_Torpedo</Fire_Projectile_Type>
+        <Fire_Projectile_Type>Proj_Proton_Torpedo_Mod</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>10</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>15.0</Fire_Max_Recharge_Seconds>
         <Fire_Pulse_Count>6</Fire_Pulse_Count>
@@ -92,7 +92,7 @@
         <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
 
-	<HardPoint Name="HP_ACCLAMATOR_IC_01">
+    <HardPoint Name="HP_ACCLAMATOR_IC_01">
         <Type> HARD_POINT_WEAPON_ION_CANNON </Type>
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -170,8 +170,8 @@
         <Allow_Opportunity_Fire_When_Targeting></Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
 
-	
-	<HardPoint Name="HP_ACCLAMATOR_TBL_01">
+
+    <HardPoint Name="HP_ACCLAMATOR_TBL_01">
         <Type> HARD_POINT_WEAPON_LASER </Type>
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
@@ -183,7 +183,7 @@
         <Model_To_Attach></Model_To_Attach>
         <Attachment_Bone>TL_01</Attachment_Bone>
         <Collision_Mesh>TL_01</Collision_Mesh>
-        
+
 
         <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
 
@@ -223,7 +223,7 @@
         <Model_To_Attach></Model_To_Attach>
         <Attachment_Bone>TL_03</Attachment_Bone>
         <Collision_Mesh>TL_03</Collision_Mesh>
-        
+
 
         <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
 
@@ -263,7 +263,7 @@
         <Model_To_Attach></Model_To_Attach>
         <Attachment_Bone>TL_04</Attachment_Bone>
         <Collision_Mesh>TL_04</Collision_Mesh>
-        
+
 
         <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
 
@@ -303,7 +303,7 @@
         <Model_To_Attach></Model_To_Attach>
         <Attachment_Bone>TL_06</Attachment_Bone>
         <Collision_Mesh>TL_06</Collision_Mesh>
-        
+
 
         <Damage_Type> Damage_Calamari_Cruiser </Damage_Type>
 
@@ -346,14 +346,14 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+        <Is_Turret></Is_Turret>
+        <Turret_Rest_Angle></Turret_Rest_Angle>
+        <Turret_Rotation_Offset></Turret_Rotation_Offset>
+        <Turret_Rotate_Speed></Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees></Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees></Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name></Turret_Bone_Name>
+        <Barrel_Bone_Name></Barrel_Bone_Name>
 
         <Death_Breakoff_Prop></Death_Breakoff_Prop>
 
@@ -398,14 +398,14 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+        <Is_Turret></Is_Turret>
+        <Turret_Rest_Angle></Turret_Rest_Angle>
+        <Turret_Rotation_Offset></Turret_Rotation_Offset>
+        <Turret_Rotate_Speed></Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees></Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees></Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name></Turret_Bone_Name>
+        <Barrel_Bone_Name></Barrel_Bone_Name>
 
         <Death_Breakoff_Prop></Death_Breakoff_Prop>
 
@@ -450,14 +450,14 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+        <Is_Turret></Is_Turret>
+        <Turret_Rest_Angle></Turret_Rest_Angle>
+        <Turret_Rotation_Offset></Turret_Rotation_Offset>
+        <Turret_Rotate_Speed></Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees></Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees></Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name></Turret_Bone_Name>
+        <Barrel_Bone_Name></Barrel_Bone_Name>
 
         <Death_Breakoff_Prop></Death_Breakoff_Prop>
 
@@ -502,14 +502,14 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+        <Is_Turret></Is_Turret>
+        <Turret_Rest_Angle></Turret_Rest_Angle>
+        <Turret_Rotation_Offset></Turret_Rotation_Offset>
+        <Turret_Rotate_Speed></Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees></Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees></Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name></Turret_Bone_Name>
+        <Barrel_Bone_Name></Barrel_Bone_Name>
 
         <Death_Breakoff_Prop></Death_Breakoff_Prop>
 
@@ -554,14 +554,14 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+        <Is_Turret></Is_Turret>
+        <Turret_Rest_Angle></Turret_Rest_Angle>
+        <Turret_Rotation_Offset></Turret_Rotation_Offset>
+        <Turret_Rotate_Speed></Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees></Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees></Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name></Turret_Bone_Name>
+        <Barrel_Bone_Name></Barrel_Bone_Name>
 
         <Death_Breakoff_Prop></Death_Breakoff_Prop>
 
@@ -606,14 +606,14 @@
         <Damage_Decal></Damage_Decal>
         <Damage_Particles></Damage_Particles>
 
-        <Is_Turret>  </Is_Turret>
-        <Turret_Rest_Angle>  </Turret_Rest_Angle>
-        <Turret_Rotation_Offset>  </Turret_Rotation_Offset>
-        <Turret_Rotate_Speed>  </Turret_Rotate_Speed>
-        <Turret_Rotate_Extent_Degrees>  </Turret_Rotate_Extent_Degrees>
-        <Turret_Elevate_Extent_Degrees>  </Turret_Elevate_Extent_Degrees>
-        <Turret_Bone_Name>  </Turret_Bone_Name>
-        <Barrel_Bone_Name>  </Barrel_Bone_Name>
+        <Is_Turret></Is_Turret>
+        <Turret_Rest_Angle></Turret_Rest_Angle>
+        <Turret_Rotation_Offset></Turret_Rotation_Offset>
+        <Turret_Rotate_Speed></Turret_Rotate_Speed>
+        <Turret_Rotate_Extent_Degrees></Turret_Rotate_Extent_Degrees>
+        <Turret_Elevate_Extent_Degrees></Turret_Elevate_Extent_Degrees>
+        <Turret_Bone_Name></Turret_Bone_Name>
+        <Barrel_Bone_Name></Barrel_Bone_Name>
 
         <Death_Breakoff_Prop></Death_Breakoff_Prop>
 
@@ -643,37 +643,37 @@
         <Allow_Opportunity_Fire_When_Targeting>True</Allow_Opportunity_Fire_When_Targeting>
     </HardPoint>
 
-	<HardPoint Name="HP_ACCLAMATOR_SHIELDS">
-		<Type> HARD_POINT_SHIELD_GENERATOR </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-		<Health>375.0</Health>
+    <HardPoint Name="HP_ACCLAMATOR_SHIELDS">
+        <Type> HARD_POINT_SHIELD_GENERATOR </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
+        <Health>375.0</Health>
 
-		<Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
+        <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 
-		<Death_Breakoff_Prop> </Death_Breakoff_Prop>
+        <Death_Breakoff_Prop></Death_Breakoff_Prop>
 
-		<Model_To_Attach></Model_To_Attach>
-		<Attachment_Bone>SHIELD</Attachment_Bone>
-		<Collision_Mesh>SHIELD</Collision_Mesh>
-		<Damage_Decal>SHIELD_FIRE</Damage_Decal>
-		<Damage_Particles>SHIELD_FIRE</Damage_Particles>
-	</HardPoint>
+        <Model_To_Attach></Model_To_Attach>
+        <Attachment_Bone>SHIELD</Attachment_Bone>
+        <Collision_Mesh>SHIELD</Collision_Mesh>
+        <Damage_Decal>SHIELD_FIRE</Damage_Decal>
+        <Damage_Particles>SHIELD_FIRE</Damage_Particles>
+    </HardPoint>
 
-	<HardPoint Name="HP_ACCLAMATOR_HANGER">
-		<Type> HARD_POINT_FIGHTER_BAY </Type>
-		<Is_Targetable>Yes</Is_Targetable>
-		<Is_Destroyable>Yes</Is_Destroyable>
-		<Attachment_Bone>SPAWN_01</Attachment_Bone>             
-		<Collision_Mesh>SPAWN_01</Collision_Mesh>
-		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Health>200.0</Health>
-		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
-		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
-		<Damage_Decal>HANGER_FIRE</Damage_Decal>
-		<Damage_Particles>HANGER_FIRE</Damage_Particles>
-	</HardPoint> 
+    <HardPoint Name="HP_ACCLAMATOR_HANGER">
+        <Type> HARD_POINT_FIGHTER_BAY </Type>
+        <Is_Targetable>Yes</Is_Targetable>
+        <Is_Destroyable>Yes</Is_Destroyable>
+        <Attachment_Bone>SPAWN_01</Attachment_Bone>
+        <Collision_Mesh>SPAWN_01</Collision_Mesh>
+        <Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
+        <Health>200.0</Health>
+        <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>        <!-- STUBBED PLACEHOLDER -->
+        <Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>        <!-- STUBBED PLACEHOLDER -->
+        <Damage_Decal>HANGER_FIRE</Damage_Decal>
+        <Damage_Particles>HANGER_FIRE</Damage_Particles>
+    </HardPoint>
 
 </HardPoints>

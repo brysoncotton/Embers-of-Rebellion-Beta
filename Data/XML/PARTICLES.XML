@@ -96,8 +96,8 @@
 	</Particle>
 
 	<Particle Name="Small_Explosion_Space">
-		<Land_Model_Name>p_explosion_small00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_small00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Very_Small_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Very_Small_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -107,8 +107,8 @@
 	</Particle>
 
 	<Particle Name="Small_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_small00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_small00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Very_Small_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Very_Small_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -118,8 +118,8 @@
 	</Particle>
 
 	<Particle Name="Medium_Explosion_Space">
-		<Land_Model_Name>p_explosion_med00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_med00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Small_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Small_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -129,8 +129,8 @@
 	</Particle>
 
 	<Particle Name="Medium_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_med00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_med00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Small_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Small_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -140,8 +140,8 @@
 	</Particle>
 
 	<Particle Name="Large_Explosion_Space">
-		<Land_Model_Name>p_explosion_big00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_big00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Small_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Small_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -151,8 +151,8 @@
 	</Particle>
 
 	<Particle Name="Large_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_big00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_big00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Small_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Small_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -162,8 +162,8 @@
 	</Particle>
 
 	<Particle Name="Huge_Explosion_Space">
-		<Land_Model_Name>p_explosion_huge00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_huge00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -173,8 +173,8 @@
 	</Particle>
 
 	<Particle Name="Friggin_Huge_Explosion_Space">
-		<Land_Model_Name>p_explosion_friggin_huge00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_friggin_huge00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -184,8 +184,8 @@
 	</Particle>
 
 	<Particle Name="Friggin_Huge_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_friggin_huge00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_friggin_huge00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Large_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Large_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -194,8 +194,8 @@
 	</Particle>
 
 	<Particle Name="Huge_Explosion_Space_Empire">
-		<Land_Model_Name>p_explosion_empire_huge00.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_huge00.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Large_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Large_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
@@ -204,8 +204,8 @@
 	</Particle>
 
 	<Particle Name="Huge_Explosion_Space_Empire_No_Debris">
-		<Land_Model_Name>p_explosion_empire_huge00_no_debris.alo</Land_Model_Name>
-		<Space_Model_Name>p_explosion_empire_huge00_no_debris.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Large_Explosion.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Large_Explosion.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>

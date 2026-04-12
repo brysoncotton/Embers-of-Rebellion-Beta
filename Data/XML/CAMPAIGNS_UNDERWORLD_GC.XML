@@ -1,4 +1,8 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+
 <Campaigns>
 
 
@@ -20,195 +24,12 @@
 		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
 		<Camera_Distance> 1200.0 </Camera_Distance>
 
-		<Locations> 
-			Galaxy_Core_Art_Model, 
-			Abregado_Rae,
-			AetenII, 
-			Alderaan, 
-			AlzocIII, 
-			Anaxes, 
-			Atzerri, 
-			Bespin, 
-			Bestine, 
-			Bonadan, 
-			Bothawui,
-			Carida, 
-			Corellia, 
-			Corulag, 
-			Coruscant,
-			Dantooine, 
-			Dathomir, 
-			Endor, 
-			Eriadu, 
-			Felucia, 
-			Fondor, 
-			Fresia, 
-			Geonosis, 
-			Honoghr, 
-			Hoth, 
-			Hypori, 
-			Ilum, 
-			Jabiim, 
-			Kamino, 
-			Kashyyyk, 
-			Kessel, 
-			Korriban, 
-			Kuat, 
-			Manaan, 
-			Mandalore, 
-			MonCalimari, 
-			Mustafar, 
-			Muunilinst, 
-			Myrkr, 
-			Naboo, 
-			NalHutta, 
-			Ryloth, 
-			Saleucami, 
-			Shola, 
-			Sullust, 
-			Taris, 
-			Tatooine, 
-			Takodana,
-			Thyferra, 
-			Utapau, 
-			VergessoAsteroids, 
-			Wayland, 
-			Yavin, 																																																																																																																																																																																																																											<!-- MODDED PLANETS START AFTER THIS -->
-			Cato_Neimoidia,
-			Jakku,
-			Jedha,
-			Malastare,
-			Mygeeto,
-			Nur,
-			Onderon,
-			Rendili,
-			Rhen_Var,
-			Rothana,
-			Scarif,
-			Hosnian_Prime,
-			PolisMassa,
-			Crait,
-			DQar,
-			Zeffo,
-			Pantora,
-			Orto_Plutonia
-		</Locations>
+		<Locations>Abregado_Rae, AetenII, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Carida, Cato_Neimoidia, Corellia, Corulag, Coruscant, Crait, Dantooine, Dathomir, DQar, Endor, Eriadu, Felucia, Fondor, Fresia, Galaxy_Core_Art_Model, Geonosis, Honoghr, Hosnian_Prime, Hoth, Hypori, Ilum, Jabiim, Jakku, Jedha, Kamino, Kashyyyk, Kessel, Korriban, Kuat, Malastare, Manaan, Mandalore, MonCalimari, Mustafar, Muunilinst, Mygeeto, Naboo, NalHutta, Nur, Onderon, Orto_Plutonia, Pantora, PolisMassa, Rendili, Rhen_Var, Rothana, Ryloth, Saleucami, Scarif, Shola, Sullust, Takodana, Taris, Tatooine, Thyferra, Utapau, VergessoAsteroids, Wayland, Yavin, Zeffo</Locations>
 
-		<Trade_Routes>
-			Coruscant_Corulag,
-			Corulag_Mygeeto,
-			Corulag_Carida,
-			Corulag_Alderaan,
-			Kuat_Alderaan,
-			Kuat_Rendili,
-			Corellia_Rendili,
-			Hosnian-Prime_Corellia,
-			Bestine_Fondor
-			Abregado_Rae_Fondor,
-			Abregado_Rae_Jakku,
-			Coruscant_Jedha,
-			Coruscant_Fresia,
-			Jedha_Fresia,
-			Abregado-Rae_Fresia,
-			Bestine_Hosnian-Prime,
-			Thyferra_Fondor,
-			Thyferra_Bestine,
-			Thyferra_Takodana,
-			Jakku_Takodana,
-			Jakku_Fresia,
-			Thyferra_Bespin,
-			Hoth_Bespin,
-			Hoth_PolisMassa,
-			Mustafar_PolisMassa,
-			Mustafar_Nur,
-			Mustafar_Eriadu,
-			Utapau_Eriadu,
-			Sullust_Eriadu,
-			Sullust_Crait,
-			Sullust_Malasatre,
-			Naboo_Crait,
-			DQar_Naboo
-			Vergesso_Naboo,
-			Vergesso_DQar,
-			AlzocIII_DQar,
-			Ryloth_Alzoc,
-			Malastare_Mandalore,
-			Naboo_Mandalore,
-			Ryloth_Geonosis,
-			Geonosis_Tatooine,
-			Geonosis_Vergesso,
-			Hypori_Tatooine,
-			Hypori_Rothana,
-			Scarif_Rothana,
-			Scarif_Hypori,
-			Manaan_Bothawui,
-			Bothawui_Kamino,
-			Scarif_Kamino,
-			Bothawui_Tatooine,
-			Kamino_Shola,
-			Rothana_Shola,
-			Rothana_Scarif,
-			Shola_Honoghr,
-			Kessel_Honoghr,
-			Kessel_Saleucami,
-			Kashyyyk_Saleucami,
-			Kashyyyk_Onderon,
-			Carida_Onderon,
-			Manaan_Onderon,
-			Carida_Myrkr,
-			Taris_Myrkr,
-			Wayland_Myrkr,
-			Taris_Dathomir,
-			Dathomir_Yavin,
-			Wayland_Anaxes,
-			Korriban_Yavin,
-			RhenVar_Anaxes,
-			RhenVar_Felucia,
-			Korriban_Felucia,
-			Korriban_Bonadan,
-			Felucia_Bonadan,
-			Anaxes_Jabiim,
-			Anaxes_Saleucami,
-			Jabiim_Saleucami,
-			Jabiim_MonCalimari,
-			Bonadan_MonCalimari,
-			Honoghr_MonCalimari,
-			NalHutta_Shola,
-			NalHutta_Kashyyyk,
-			NalHutta_Bothawui,
-			Mandalore_Bothawui,
-			Mandalore_CatoNeimoidia,
-			Manaan_CatoNeimoidia,
-			Atzerri_CatoNeimoidia,
-			Atzerri_Malastare,
-			Mygeeto_Dathomir,
-			Mygeeto_Dantooine,
-			Mygeeto_Muunilinst,
-			Muunilinst_Dantooine,
-			Muunilinst_AetenII,
-			Thyferra_Sullust,
-			Endor_Bespin,
-			Mustafar_Utapau,
-			AlzocIII_Utapau,
-			Mygeeto_AetenII,
-			Manaan_Kuat, 
-			AetenII_Ilum,
-			Bestine_Sullust,
-			Eriadu_Sullust,
-			Corulag_Carida,
-			Anaxes_Onderon,
-			DQar_Crait,
-			Zeffo_Dathomir,
-			Zeffo_Dantooine,
-			Corellia_CatoNeimoidia,
-			Pantora_Utapau,
-			Pantora_AlzocIII,
-			Pantora_OrtoPlutonia,
-			Endor_Jakku,
-			Jedha_Ilum
-		</Trade_Routes>
+		<Trade_Routes>Abregado-Rae_Fresia, Abregado_Rae_Jakku, AetenII_Ilum, AlzocIII_DQar, AlzocIII_Utapau, Anaxes_Jabiim, Anaxes_Onderon, Anaxes_Saleucami, Atzerri_CatoNeimoidia, Atzerri_Malastare, Bestine_Fondor, Bestine_Fondor
+			Abregado_Rae_Fondor, Bestine_Hosnian-Prime, Bestine_Sullust, Bonadan_MonCalimari, Bothawui_Kamino, Bothawui_Tatooine, Carida_Onderon, Carida_Taris, Corellia_CatoNeimoidia, Corellia_Rendili, Corulag_Alderaan, Corulag_Carida, Corulag_Mygeeto, Coruscant_Corulag, Coruscant_Fresia, Coruscant_Jedha, Dathomir_Yavin, DQar_Crait, DQar_Naboo, Endor_Bespin, Endor_Jakku, Eriadu_Sullust, Felucia_Bonadan, Geonosis_Tatooine, Geonosis_Vergesso, Honoghr_MonCalimari, Hosnian-Prime_Corellia, Hoth_Bespin, Hoth_PolisMassa, Hypori_Rothana, Hypori_Tatooine, Jabiim_MonCalimari, Jabiim_Saleucami, Jakku_Fresia, Jakku_Takodana, Jedha_Fresia, Jedha_Ilum, Kamino_Shola, Kashyyyk_Onderon, Kashyyyk_Saleucami, Kessel_Honoghr, Kessel_Saleucami, Korriban_Bonadan, Korriban_Felucia, Korriban_Yavin, Kuat_Alderaan, Kuat_Rendili, Malastare_Mandalore, Manaan_Bothawui, Manaan_CatoNeimoidia, Manaan_Kuat, Manaan_Onderon, Mandalore_Bothawui, Mandalore_CatoNeimoidia, Mustafar_Eriadu, Mustafar_Nur, Mustafar_PolisMassa, Mustafar_Utapau, Muunilinst_AetenII, Muunilinst_Dantooine, Mygeeto_AetenII, Mygeeto_Dantooine, Mygeeto_Dathomir, Mygeeto_Muunilinst, Naboo_Crait, Naboo_Mandalore, NalHutta_Bothawui, NalHutta_Kashyyyk, NalHutta_Shola, Pantora_AlzocIII, Pantora_OrtoPlutonia, Pantora_Utapau, RhenVar_Anaxes, RhenVar_Felucia, Rothana_Scarif, Rothana_Shola, Ryloth_Alzoc, Ryloth_Geonosis, Scarif_Hypori, Scarif_Kamino, Scarif_Rothana, Shola_Honoghr, Sullust_Crait, Sullust_Eriadu, Sullust_Malasatre, Taris_Dathomir, Taris_Yavin, Thyferra_Bespin, Thyferra_Bestine, Thyferra_Fondor, Thyferra_Mustafar, Thyferra_Sullust, Thyferra_Takodana, Utapau_Eriadu, Vergesso_DQar, Vergesso_Naboo, Wayland_Anaxes, Wayland_Carida, Yavin_Anaxes, Zeffo_Dantooine, Zeffo_Dathomir, Wayland_Carida, Taris_Carida</Trade_Routes>
 
-		<Home_Location> Rebel, Hoth </Home_Location>
+		<Home_Location> Rebel, Yavin </Home_Location>
 		<Home_Location> Empire, Coruscant </Home_Location>
 
 		<Starting_Active_Player> Rebel </Starting_Active_Player>
@@ -590,6 +411,18 @@
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
+		<!-- AetenII Space Forces -->
+		<Starting_Forces>Empire, AetenII, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Dreadnought_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Raider_Corvette</Starting_Forces>
+		<!-- AetenII Ground Forces -->
+		<Starting_Forces>Empire, AetenII, Empire_Airbase</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Imperial_Prison_Facility</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Imperial_Stormtrooper_Squad</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Imperial_Stormtrooper_Squad</Starting_Forces>
+
 		<!-- Thyferra Space Forces -->
 		<Starting_Forces> Empire, Thyferra, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Raider_Corvette </Starting_Forces>
@@ -1058,6 +891,33 @@
 		<Starting_Tech_Level> Pirates, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Pirates, 5 </Max_Tech_Level>
 
+		<!-- Dathomir Space Forces -->
+		<Starting_Forces>Pirates, Dathomir, Pirate_Asteroid_Base</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Frigate</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Frigate</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, V-wing_Fighter_P</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Z95_Headhunter_Squadron</Starting_Forces>
+		<!-- Dathomir Ground Forces -->
+		<Starting_Forces>Pirates, Dathomir, Pirate_Command_Center</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_PLEX_Squad</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Pod_Walker_Team</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Survivors_Large</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Survivors_Large</Starting_Forces>
+
+		<!-- Takodana Space Forces -->
+		<Starting_Forces>Pirates, Takodana, Pirate_Asteroid_Base</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Frigate</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Frigate</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, V-wing_Fighter_P</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Z95_Headhunter_Squadron</Starting_Forces>
+		<!-- Takodana Ground Forces -->
+		<Starting_Forces>Pirates, Takodana, Pirate_Command_Center</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Pod_Walker_Team</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Survivors_Large</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Survivors_Large</Starting_Forces>
+
 		<!-- NalHutta Space Forces -->
 		<Starting_Forces> Pirates, NalHutta, Pirate_Asteroid_Base </Starting_Forces>
 		<Starting_Forces> Pirates, NalHutta, Z-95_Headhunter </Starting_Forces>
@@ -1101,195 +961,13 @@
 		<Camera_Shift_Y> 0.0 </Camera_Shift_Y>
 		<Camera_Distance> 1200.0 </Camera_Distance>
 
-		<Locations> 
-			Galaxy_Core_Art_Model, 
-			Abregado_Rae,
-			AetenII, 
-			Alderaan, 
-			AlzocIII, 
-			Anaxes, 
-			Atzerri, 
-			Bespin, 
-			Bestine, 
-			Bonadan, 
-			Bothawui,
-			Carida, 
-			Corellia, 
-			Corulag, 
-			Coruscant,
-			Dantooine, 
-			Dathomir, 
-			Endor, 
-			Eriadu, 
-			Felucia, 
-			Fondor, 
-			Fresia, 
-			Geonosis, 
-			Honoghr, 
-			Hoth, 
-			Hypori, 
-			Ilum, 
-			Jabiim, 
-			Kamino, 
-			Kashyyyk, 
-			Kessel, 
-			Korriban, 
-			Kuat, 
-			Manaan, 
-			Mandalore, 
-			MonCalimari, 
-			Mustafar, 
-			Muunilinst, 
-			Myrkr, 
-			Naboo, 
-			NalHutta, 
-			Ryloth, 
-			Saleucami, 
-			Shola, 
-			Sullust, 
-			Taris, 
-			Tatooine, 
-			Takodana,
-			Thyferra, 
-			Utapau, 
-			VergessoAsteroids, 
-			Wayland, 
-			Yavin, 																																																																																																																																																																																																																														<!-- MODDED PLANETS START AFTER THIS -->
-			Cato_Neimoidia,
-			Jakku,
-			Jedha,
-			Malastare,
-			Mygeeto,
-			Nur,
-			Onderon,
-			Rendili,
-			Rhen_Var,
-			Rothana,
-			Scarif,
-			Hosnian_Prime,
-			PolisMassa,
-			Crait,
-			DQar,
-			Zeffo,
-			Pantora,
-			Orto_Plutonia
-		</Locations>
+		<Locations>Abregado_Rae, AetenII, Alderaan, AlzocIII, Anaxes, Atzerri, Bespin, Bestine, Bonadan, Bothawui, Carida, Cato_Neimoidia, Corellia, Corulag, Coruscant, Crait, Dantooine, Dathomir, DQar, Endor, Eriadu, Felucia, Fondor, Fresia, Galaxy_Core_Art_Model, Geonosis, Honoghr, Hosnian_Prime, Hoth, Hypori, Ilum, Jabiim, Jakku, Jedha, Kamino, Kashyyyk, Kessel, Korriban, Kuat, Malastare, Manaan, Mandalore, MonCalimari, Mustafar, Muunilinst, Mygeeto, Naboo, NalHutta, Nur, Onderon, Orto_Plutonia, Pantora, PolisMassa, Rendili, Rhen_Var, Rothana, Ryloth, Saleucami, Scarif, Shola, Sullust, Takodana, Taris, Tatooine, Thyferra, Utapau, VergessoAsteroids, Wayland, Yavin, Zeffo</Locations>
 
-		<Trade_Routes>
-			Coruscant_Corulag,
-			Corulag_Mygeeto,
-			Corulag_Carida,
-			Corulag_Alderaan,
-			Kuat_Alderaan,
-			Kuat_Rendili,
-			Corellia_Rendili,
-			Hosnian-Prime_Corellia,
-			Bestine_Fondor
-			Abregado_Rae_Fondor,
-			Abregado_Rae_Jakku,
-			Coruscant_Jedha,
-			Coruscant_Fresia,
-			Jedha_Fresia,
-			Abregado-Rae_Fresia,
-			Bestine_Hosnian-Prime,
-			Thyferra_Fondor,
-			Thyferra_Bestine,
-			Thyferra_Takodana,
-			Jakku_Takodana,
-			Jakku_Fresia,
-			Thyferra_Bespin,
-			Hoth_Bespin,
-			Hoth_PolisMassa,
-			Mustafar_PolisMassa,
-			Mustafar_Nur,
-			Mustafar_Eriadu,
-			Utapau_Eriadu,
-			Sullust_Eriadu,
-			Sullust_Crait,
-			Sullust_Malasatre,
-			Naboo_Crait,
-			DQar_Naboo,
-			Vergesso_Naboo,
-			Vergesso_DQar,
-			AlzocIII_DQar,
-			Ryloth_Alzoc,
-			Malastare_Mandalore,
-			Naboo_Mandalore,
-			Ryloth_Geonosis,
-			Geonosis_Tatooine,
-			Geonosis_Vergesso,
-			Hypori_Tatooine,
-			Hypori_Rothana,
-			Scarif_Rothana,
-			Scarif_Hypori,
-			Manaan_Bothawui,
-			Bothawui_Kamino,
-			Scarif_Kamino,
-			Bothawui_Tatooine,
-			Kamino_Shola,
-			Rothana_Shola,
-			Rothana_Scarif,
-			Shola_Honoghr,
-			Kessel_Honoghr,
-			Kessel_Saleucami,
-			Kashyyyk_Saleucami,
-			Kashyyyk_Onderon,
-			Carida_Onderon,
-			Manaan_Onderon,
-			Carida_Myrkr,
-			Taris_Myrkr,
-			Wayland_Myrkr,
-			Taris_Dathomir,
-			Dathomir_Yavin,
-			Wayland_Anaxes,
-			Korriban_Yavin,
-			RhenVar_Anaxes,
-			RhenVar_Felucia,
-			Korriban_Felucia,
-			Korriban_Bonadan,
-			Felucia_Bonadan,
-			Anaxes_Jabiim,
-			Anaxes_Saleucami,
-			Jabiim_Saleucami,
-			Jabiim_MonCalimari,
-			Bonadan_MonCalimari,
-			Honoghr_MonCalimari,
-			NalHutta_Shola,
-			NalHutta_Kashyyyk,
-			NalHutta_Bothawui,
-			Mandalore_Bothawui,
-			Mandalore_CatoNeimoidia,
-			Manaan_CatoNeimoidia,
-			Atzerri_CatoNeimoidia,
-			Atzerri_Malastare,
-			Mygeeto_Dathomir,
-			Mygeeto_Dantooine,
-			Mygeeto_Muunilinst,
-			Muunilinst_Dantooine,
-			Muunilinst_AetenII,
-			Thyferra_Sullust,
-			Endor_Bespin,
-			Mustafar_Utapau,
-			AlzocIII_Utapau,
-			Mygeeto_AetenII,
-			Manaan_Kuat, 
-			AetenII_Ilum,
-			Bestine_Sullust,
-			Eriadu_Sullust,
-			Corulag_Carida,
-			Anaxes_Onderon,
-			DQar_Crait,
-			Zeffo_Dathomir,
-			Zeffo_Dantooine,
-			Pantora_Utapau,
-			Pantora_AlzocIII,
-			Pantora_OrtoPlutonia,
-			Endor_Jakku,
-			Jedha_Ilum
-		</Trade_Routes>
+		<Trade_Routes>Abregado-Rae_Fresia, Abregado_Rae_Jakku, AetenII_Ilum, AlzocIII_DQar, AlzocIII_Utapau, Anaxes_Jabiim, Anaxes_Onderon, Anaxes_Saleucami, Atzerri_CatoNeimoidia, Atzerri_Malastare, Bestine_Fondor, Bestine_Fondor
+			Abregado_Rae_Fondor, Bestine_Hosnian-Prime, Bestine_Sullust, Bonadan_MonCalimari, Bothawui_Kamino, Bothawui_Tatooine, Carida_Onderon, Carida_Taris, Corellia_CatoNeimoidia, Corellia_Rendili, Corulag_Alderaan, Corulag_Carida, Corulag_Mygeeto, Coruscant_Corulag, Coruscant_Fresia, Coruscant_Jedha, Dathomir_Yavin, DQar_Crait, DQar_Naboo, Endor_Bespin, Endor_Jakku, Eriadu_Sullust, Felucia_Bonadan, Geonosis_Tatooine, Geonosis_Vergesso, Honoghr_MonCalimari, Hosnian-Prime_Corellia, Hoth_Bespin, Hoth_PolisMassa, Hypori_Rothana, Hypori_Tatooine, Jabiim_MonCalimari, Jabiim_Saleucami, Jakku_Fresia, Jakku_Takodana, Jedha_Fresia, Jedha_Ilum, Kamino_Shola, Kashyyyk_Onderon, Kashyyyk_Saleucami, Kessel_Honoghr, Kessel_Saleucami, Korriban_Bonadan, Korriban_Felucia, Korriban_Yavin, Kuat_Alderaan, Kuat_Rendili, Malastare_Mandalore, Manaan_Bothawui, Manaan_CatoNeimoidia, Manaan_Kuat, Manaan_Onderon, Mandalore_Bothawui, Mandalore_CatoNeimoidia, Mustafar_Eriadu, Mustafar_Nur, Mustafar_PolisMassa, Mustafar_Utapau, Muunilinst_AetenII, Muunilinst_Dantooine, Mygeeto_AetenII, Mygeeto_Dantooine, Mygeeto_Dathomir, Mygeeto_Muunilinst, Naboo_Crait, Naboo_Mandalore, NalHutta_Bothawui, NalHutta_Kashyyyk, NalHutta_Shola, Pantora_AlzocIII, Pantora_OrtoPlutonia, Pantora_Utapau, RhenVar_Anaxes, RhenVar_Felucia, Rothana_Scarif, Rothana_Shola, Ryloth_Alzoc, Ryloth_Geonosis, Scarif_Hypori, Scarif_Kamino, Scarif_Rothana, Shola_Honoghr, Sullust_Crait, Sullust_Eriadu, Sullust_Malasatre, Taris_Dathomir, Taris_Yavin, Thyferra_Bespin, Thyferra_Bestine, Thyferra_Fondor, Thyferra_Mustafar, Thyferra_Sullust, Thyferra_Takodana, Utapau_Eriadu, Vergesso_DQar, Vergesso_Naboo, Wayland_Anaxes, Wayland_Carida, Yavin_Anaxes, Zeffo_Dantooine, Zeffo_Dathomir, Wayland_Carida, Taris_Carida</Trade_Routes>
 
-		<Home_Location> Rebel, Hoth </Home_Location>
-		<Home_Location> Empire, Thyferra </Home_Location>
+		<Home_Location> Rebel, Yavin </Home_Location>
+		<Home_Location> Empire, Coruscant </Home_Location>
 
 		<Starting_Active_Player> Empire </Starting_Active_Player>
 
@@ -1670,6 +1348,18 @@
 		<Starting_Tech_Level> Empire, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Empire, 5 </Max_Tech_Level>
 
+		<!-- AetenII Space Forces -->
+		<Starting_Forces>Empire, AetenII, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Acclamator_Assault_Ship</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Dreadnought_Cruiser</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Raider_Corvette</Starting_Forces>
+		<!-- AetenII Ground Forces -->
+		<Starting_Forces>Empire, AetenII, Empire_Airbase</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, E_Ground_Barracks</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Imperial_Prison_Facility</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Imperial_Stormtrooper_Squad</Starting_Forces>
+		<Starting_Forces>Empire, AetenII, Imperial_Stormtrooper_Squad</Starting_Forces>
+
 		<!-- Thyferra Space Forces -->
 		<Starting_Forces> Empire, Thyferra, Empire_Star_Base_2 </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Raider_Corvette </Starting_Forces>
@@ -1679,7 +1369,6 @@
 		<Starting_Forces> Empire, Thyferra, Field_Com_Empire_Team </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Stormtrooper_Squad </Starting_Forces>
 		<Starting_Forces> Empire, Thyferra, Imperial_Heavy_Scout_Squad </Starting_Forces>
-
 
 		<!-- Scarif Space Forces -->
 		<Starting_Forces> Empire, Scarif, Empire_Star_Base_1 </Starting_Forces>
@@ -2139,6 +1828,33 @@
 		<Starting_Tech_Level> Pirates, 1 </Starting_Tech_Level>
 		<Max_Tech_Level> Pirates, 5 </Max_Tech_Level>
 
+		<!-- Dathomir Space Forces -->
+		<Starting_Forces>Pirates, Dathomir, Pirate_Asteroid_Base</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Frigate</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Frigate</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, V-wing_Fighter_P</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Z95_Headhunter_Squadron</Starting_Forces>
+		<!-- Dathomir Ground Forces -->
+		<Starting_Forces>Pirates, Dathomir, Pirate_Command_Center</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_PLEX_Squad</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Pod_Walker_Team</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Survivors_Large</Starting_Forces>
+		<Starting_Forces>Pirates, Dathomir, Pirate_Survivors_Large</Starting_Forces>
+
+		<!-- Takodana Space Forces -->
+		<Starting_Forces>Pirates, Takodana, Pirate_Asteroid_Base</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Frigate</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Frigate</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, V-wing_Fighter_P</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Z95_Headhunter_Squadron</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Z95_Headhunter_Squadron</Starting_Forces>
+		<!-- Takodana Ground Forces -->
+		<Starting_Forces>Pirates, Takodana, Pirate_Command_Center</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Pod_Walker_Team</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Survivors_Large</Starting_Forces>
+		<Starting_Forces>Pirates, Takodana, Pirate_Survivors_Large</Starting_Forces>
+
 		<!-- NalHutta Space Forces -->
 		<Starting_Forces> Pirates, NalHutta, Pirate_Asteroid_Base </Starting_Forces>
 		<Starting_Forces> Pirates, NalHutta, Z-95_Headhunter </Starting_Forces>
@@ -2166,11 +1882,6 @@
 		<Starting_Forces> Pirates, Kessel, Pirate_Soldier_Squad </Starting_Forces>
 		<Starting_Forces> Pirates, Kessel, Pirate_Pod_Walker_Team </Starting_Forces>
 		<Starting_Forces> Pirates, Kessel, Pirate_Ground_Base_1 </Starting_Forces>
-
-
-
-
-
 	</Campaign>
 
 

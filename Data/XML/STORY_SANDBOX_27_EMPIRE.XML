@@ -16,8 +16,8 @@
 	<Event Name="Opening_Crawl_End">
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 	</Event>
-	
-		
+
+
 	<Event Name="Universal_Story_Start">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
@@ -26,14 +26,22 @@
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
 
-<!-- Empire Hero Release -->
+	<!-- Empire Hero Release -->
 
-<!--ERA 1 EVENTS: FLEET MODERNIZATION (EMPIRE) COMPLETED (5 BBY – 2 BBY)-->
+	<!--ERA 1 EVENTS: FLEET MODERNIZATION (EMPIRE) COMPLETED (5 BBY – 2 BBY)-->
 
 	<Event Name="Empire_AI_Unlock_Research_Facility">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>E_Ground_Research_Facility</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Vader_Star_Destroyer">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
@@ -53,22 +61,29 @@
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
-<!--ERA 2 EVENTS: TIE DEFENDER PROJECT COMPLETED (2 BBY - 0 BBY)-->
+	<!--ERA 2 EVENTS: TIE DEFENDER PROJECT COMPLETED (2 BBY - 0 BBY)-->
 
 	<Event Name="Empire_Enters_Era_02">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>2</Event_Param1>
 	</Event>
 
+	<Event Name="Lock_Secutor_Class">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Secutor_II</Reward_Param1>
+		<Prereq>Empire_Enters_Tech_02</Prereq>
+	</Event>
+
 	<Event Name="Spawn_Thrawn">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Chimaera_Star_Destroyer</Reward_Param1>
-        <Reward_Param2>Coruscant</Reward_Param2>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Chimaera_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
 		<Prereq>Empire_Enters_Era_02</Prereq>
 	</Event>
 
-<!--ERA 3 EVENTS: SUPER_WEAPONS COMPLETED (0 ABY - 3 ABY)-->
+	<!--ERA 3 EVENTS: SUPER_WEAPONS COMPLETED (0 ABY - 3 ABY)-->
 
 	<Event Name="Empire_Enters_Era_03">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
@@ -83,7 +98,7 @@
 		<Prereq>Empire_Enters_Era_03</Prereq>
 	</Event>
 
-	<Event Name="Spawn_Piett"> <!--FOR TESTING PURPOSES-->
+	<Event Name="Spawn_Piett">		<!--FOR TESTING PURPOSES-->
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Piet_Team</Reward_Param1>
@@ -94,16 +109,16 @@
 	<Event Name="Spawn_Piett_On_Ozzel_Death">
 		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
 		<Event_Param1>Admiral_Ozzel</Event_Param1>
-        <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
-        <Reward_Param2>Coruscant</Reward_Param2>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
+		<Reward_Param2>Coruscant</Reward_Param2>
 	</Event>
 
 	<Event Name="Spawn_Veers">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>General_Veers_Team</Reward_Param1>
-		<Reward_Param2>Coruscant</Reward_Param2>
+		<Reward_Param2>Mustafar</Reward_Param2>
 		<Prereq>Empire_Enters_Era_03</Prereq>
 	</Event>
 
@@ -115,7 +130,7 @@
 		<Prereq>Empire_Enters_Era_03</Prereq>
 	</Event>
 
-<!--ERA 4 EVENTS: OPERATION CINDER COMPLETED (3 ABY - 6 ABY)-->
+	<!--ERA 4 EVENTS: OPERATION CINDER COMPLETED (3 ABY - 6 ABY)-->
 
 	<Event Name="Empire_Enters_Era_04">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
@@ -124,21 +139,21 @@
 
 	<Event Name="Spawn_Sloane">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Admiral_Rae_Sloane</Reward_Param1>
-        <Reward_Param2>Coruscant</Reward_Param2>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Admiral_Rae_Sloane</Reward_Param1>
+		<Reward_Param2>Jakku</Reward_Param2>
 		<Prereq>Empire_Enters_Era_04</Prereq>
 	</Event>
 
-<!--ERA 5 EVENTS: SECRET PROJECTS COMPLETED (6+ ABY)-->
+	<!--ERA 5 EVENTS: SECRET PROJECTS COMPLETED (6+ ABY)-->
 
 	<Event Name="Empire_Enters_Era_05">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
 		<Event_Param1>5</Event_Param1>
 	</Event>
-	
-	
-<!--ON EVENT OF HERO DEATH REMOVE THEM FROM PLAY-->
+
+
+	<!--ON EVENT OF HERO DEATH REMOVE THEM FROM PLAY-->
 
 	<Event Name="Tarkin_Death">
 		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
@@ -195,6 +210,15 @@
 		<Reward_Type>REMOVE_UNIT</Reward_Type>
 		<Reward_Param1>Admiral_Rae_Sloane</Reward_Param1>
 	</Event>
-	
+
+	<Event Name="Vader_Die_TIE_ADVANCED_1">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Darth_Team</Reward_Param1>
+	</Event>
+
+
+
 
 </Story>

@@ -1,4 +1,6 @@
-<?xml version="1.0"?>
+﻿<?xml version="1.0"?>
+
+
 <Planets>
 
   <Planet Name="Galaxy_Core_Art_Model">
@@ -7,7 +9,7 @@
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Mass>1.0</Mass>
-    <Scale_Factor>4</Scale_Factor>
+    <Scale_Factor>.5</Scale_Factor>
     <Show_Name>No</Show_Name>
     <Name_Adjust>-10.0, 10.0, -0.1</Name_Adjust>
     <Behavior>IDLE</Behavior>
@@ -16,7 +18,7 @@
     <Camera_Aligned>No</Camera_Aligned>
     <Terrain />
     <Planet_Credit_Value>0</Planet_Credit_Value>
-    <Galactic_Position>0.0, 0.0, 0.0</Galactic_Position>
+    <Galactic_Position>0, 0</Galactic_Position>
     <Special_Structures>0</Special_Structures>
     <In_Background>yes</In_Background>
     <Max_Ground_Base>0</Max_Ground_Base>
@@ -97,9 +99,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>30</Planet_Credit_Value>
+    <Planet_Credit_Value>45</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-35.0, -76.0, 10.0</Galactic_Position>
+    <Galactic_Position>-35, -76</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -127,7 +129,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
@@ -163,9 +165,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Volcanic</Terrain>
-    <Planet_Credit_Value>-20</Planet_Credit_Value>
+    <Planet_Credit_Value>-30</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-111.0, 280.0, 10.0</Galactic_Position>
+    <Galactic_Position>-111, 280</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -194,7 +196,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>12</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
@@ -242,9 +244,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>310</Planet_Credit_Value>
+    <Planet_Credit_Value>465</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>43.0, 80.0, 10.0</Galactic_Position>
+    <Galactic_Position>43, 80</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -272,7 +274,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
@@ -297,9 +299,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Arctic</Terrain>
-    <Planet_Credit_Value>280</Planet_Credit_Value>
+    <Planet_Credit_Value>420</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>200.0, -393.0, 10.0</Galactic_Position>
+    <Galactic_Position>200, -393</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>2</Max_Space_Base>
@@ -328,7 +330,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 1000 </Corruption_1_Credit_Cost>
@@ -378,7 +380,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
 
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>302.0, 208.0, 10.0</Galactic_Position>
+    <Galactic_Position>302, 208</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -406,7 +408,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 400</Potential_Indigenous_Power>
@@ -464,9 +466,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>320</Planet_Credit_Value>
+    <Planet_Credit_Value>480</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>72.0, -119.0, 10.0</Galactic_Position>
+    <Galactic_Position>72, -119</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -495,7 +497,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_black_market_influences.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power>
@@ -547,9 +549,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>240</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-108.0, -326.0, 10.0</Galactic_Position>
+    <Galactic_Position>-108, -326</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -577,7 +579,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_improved_weapons.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
 
@@ -626,9 +628,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>210</Planet_Credit_Value>
+    <Planet_Credit_Value>315</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>29.0, -123.0, 10.0</Galactic_Position>
+    <Galactic_Position>29, -123</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -656,7 +658,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
 
@@ -703,9 +705,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>450</Planet_Credit_Value>
+    <Planet_Credit_Value>675</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>356.0, 392.0, 10.0</Galactic_Position>
+    <Galactic_Position>356, 392</Galactic_Position>
     <Special_Structures_Land>7</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -732,7 +734,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
@@ -782,9 +784,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>300</Planet_Credit_Value>
+    <Planet_Credit_Value>450</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>292.0, -136.0, 10.0</Galactic_Position>
+    <Galactic_Position>292, -136</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -837,7 +839,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_spy_network.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
@@ -894,9 +896,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>120</Planet_Credit_Value>
+    <Planet_Credit_Value>180</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-78.0, -139.0, 10.0</Galactic_Position>
+    <Galactic_Position>-78, -139</Galactic_Position>
     <Special_Structures_Land>8</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -923,7 +925,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_improved_atat_reactors.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>18</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 100</Potential_Indigenous_Power>
@@ -971,9 +973,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>90</Planet_Credit_Value>
+    <Planet_Credit_Value>135</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>60.0, 125.0, 10.0</Galactic_Position>
+    <Galactic_Position>60, 125</Galactic_Position>
     <Special_Structures_Land>7</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -1001,7 +1003,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
@@ -1066,9 +1068,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>210</Planet_Credit_Value>
+    <Planet_Credit_Value>315</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>44.0, -50.0, 10.0</Galactic_Position>
+    <Galactic_Position>44, -50</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1095,7 +1097,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 250</Potential_Indigenous_Power>
@@ -1152,9 +1154,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>510</Planet_Credit_Value>
+    <Planet_Credit_Value>765</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>14.0, 131.0, 10.0</Galactic_Position>
+    <Galactic_Position>14, 131</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1181,7 +1183,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 450</Potential_Indigenous_Power>
@@ -1231,9 +1233,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>1160</Planet_Credit_Value>
+    <Planet_Credit_Value>1740</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-40.0, 84.0, 10.0</Galactic_Position>
+    <Galactic_Position>-40, 84</Galactic_Position>
     <Special_Structures_Land>8</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1260,7 +1262,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>36</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 250</Potential_Indigenous_Power>
@@ -1303,7 +1305,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Arctic</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>100.0, -275.0, 10.0</Galactic_Position>
+    <Galactic_Position>100, -275</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>0</Special_Structures_Space>
     <Max_Space_Base>1</Max_Space_Base>
@@ -1329,7 +1331,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
 
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
@@ -1362,9 +1364,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>50</Planet_Credit_Value>
+    <Planet_Credit_Value>75</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>135.0, 276.0, 10.0</Galactic_Position>
+    <Galactic_Position>135, 276</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1444,9 +1446,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>110</Planet_Credit_Value>
+    <Planet_Credit_Value>165</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-22.0, 373.0, 10.0</Galactic_Position>
+    <Galactic_Position>-22, 373</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>2</Max_Space_Base>
@@ -1522,7 +1524,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>150.0, -325.0, 10.0</Galactic_Position>
+    <Galactic_Position>150, -325</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1548,7 +1550,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_enhanced_t4b_damage.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power></Potential_Indigenous_Power>
@@ -1600,7 +1602,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-200.0, -263.0, 10.0</Galactic_Position>
+    <Galactic_Position>-200, -263</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1627,7 +1629,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_light_armor_plating.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Potential_Indigenous_Power>Ewok_Hunter, 1600</Potential_Indigenous_Power>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
@@ -1662,9 +1664,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>600</Planet_Credit_Value>
+    <Planet_Credit_Value>900</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>53.0, -339.0, 10.0</Galactic_Position>
+    <Galactic_Position>53, -339</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -1691,7 +1693,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 150</Potential_Indigenous_Power>
@@ -1735,9 +1737,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>330</Planet_Credit_Value>
+    <Planet_Credit_Value>495</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>332.0, 288.0, 10.0</Galactic_Position>
+    <Galactic_Position>332, 288</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1765,7 +1767,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_environment.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
 
@@ -1809,9 +1811,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>860</Planet_Credit_Value>
+    <Planet_Credit_Value>1290</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-10.0, -126.0, 10.0</Galactic_Position>
+    <Galactic_Position>-10, -126</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1838,7 +1840,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>33</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 200</Potential_Indigenous_Power>
@@ -1897,9 +1899,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>50</Planet_Credit_Value>
+    <Planet_Credit_Value>75</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-75.0, 29.0, 10.0</Galactic_Position>
+    <Galactic_Position>-75, 29</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -1926,7 +1928,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>18</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
@@ -1971,7 +1973,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Desert</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>346.0, -312.0, 10.0</Galactic_Position>
+    <Galactic_Position>346, -312</Galactic_Position>
     <Special_Structures_Land>8</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -1998,7 +2000,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Geonosian, 1200</Potential_Indigenous_Power>
@@ -2045,9 +2047,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>150</Planet_Credit_Value>
+    <Planet_Credit_Value>225</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>419.0, 60.0, 10.0</Galactic_Position>
+    <Galactic_Position>419, 60</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -2075,7 +2077,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_secure.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
 
@@ -2125,9 +2127,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Urban</Terrain>
-    <Planet_Credit_Value>500</Planet_Credit_Value>
+    <Planet_Credit_Value>750</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>35.0, -90.0, 10.0</Galactic_Position>
+    <Galactic_Position>35, -90</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -2154,7 +2156,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 200</Potential_Indigenous_Power>
@@ -2215,7 +2217,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Arctic</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-108.0, -386.0, 10.0</Galactic_Position>
+    <Galactic_Position>-108, -386</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -2280,7 +2282,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Desert</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>386.0, -220.0, 10.0</Galactic_Position>
+    <Galactic_Position>386, -220</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -2308,7 +2310,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
 
     <Corruption_1_Type> Corruption_Black_Market </Corruption_1_Type>
@@ -2342,7 +2344,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Arctic</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-232.0, 209.0, 10.0</Galactic_Position>
+    <Galactic_Position>-232, 209</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>0</Special_Structures_Space>
     <Max_Space_Base>1</Max_Space_Base>
@@ -2368,7 +2370,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
 
     <Corruption_1_Type> Corruption_Bribery </Corruption_1_Type>
@@ -2400,9 +2402,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>220</Planet_Credit_Value>
+    <Planet_Credit_Value>330</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>362.0, 197.0, 10.0</Galactic_Position>
+    <Galactic_Position>362, 197</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -2429,7 +2431,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_restricted_units.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 250</Potential_Indigenous_Power>
@@ -2475,7 +2477,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>376.0, -108.0, 10.0</Galactic_Position>
+    <Galactic_Position>376, -108</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -2483,7 +2485,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> NO </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-    <Land_Tactical_Map></Land_Tactical_Map>
+    <Land_Tactical_Map>_SPACE_PLANET_GENERIC_OCEAN_01.ted</Land_Tactical_Map>
     <Space_Tactical_Map>_SPACE_PLANET_GENERIC_OCEAN_01.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -2501,7 +2503,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_cloning.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
 
     <Corruption_1_Type> Corruption_Corrupt_Militia </Corruption_1_Type>
@@ -2542,9 +2544,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>200</Planet_Credit_Value>
+    <Planet_Credit_Value>300</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>220.0, 91.0, 10.0</Galactic_Position>
+    <Galactic_Position>220, 91</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -2616,9 +2618,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>40</Planet_Credit_Value>
+    <Planet_Credit_Value>60</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>390.0, 88.0, 10.0</Galactic_Position>
+    <Galactic_Position>390, 88</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -2644,7 +2646,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Piracy </Corruption_1_Type>
@@ -2694,7 +2696,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Desert</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>291.0, 318.0, 10.0</Galactic_Position>
+    <Galactic_Position>291, 318</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>0</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -2720,7 +2722,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Desert_Civilian_A, 150</Potential_Indigenous_Power>
@@ -2756,9 +2758,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>580</Planet_Credit_Value>
+    <Planet_Credit_Value>870</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>69.0, 33.0, 10.0</Galactic_Position>
+    <Galactic_Position>69, 33</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -2785,7 +2787,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power>
@@ -2842,9 +2844,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>90</Planet_Credit_Value>
+    <Planet_Credit_Value>135</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>114.0, 20.0, 10.0</Galactic_Position>
+    <Galactic_Position>114, 20</Galactic_Position>
     <Special_Structures_Land>2</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -2871,7 +2873,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_heal_Infantry.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>18</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
     <Corruption_1_Credit_Cost> 800 </Corruption_1_Credit_Cost>
@@ -2905,9 +2907,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>90</Planet_Credit_Value>
+    <Planet_Credit_Value>135</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>162.0, -144.0, 10.0</Galactic_Position>
+    <Galactic_Position>162, -144</Galactic_Position>
     <Special_Structures_Land>7</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -2935,7 +2937,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
 
@@ -2985,9 +2987,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>30</Planet_Credit_Value>
+    <Planet_Credit_Value>45</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>440.0, 251.0, 10.0</Galactic_Position>
+    <Galactic_Position>440, 251</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3014,7 +3016,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>9</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Mon_Calamari_Civilian, 400</Potential_Indigenous_Power>
@@ -3075,9 +3077,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Volcanic</Terrain>
-    <Planet_Credit_Value>80</Planet_Credit_Value>
+    <Planet_Credit_Value>120</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-17.0, -416.0, 10.0</Galactic_Position>
+    <Galactic_Position>-17, -416</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3105,7 +3107,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
 
@@ -3148,9 +3150,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>90</Planet_Credit_Value>
+    <Planet_Credit_Value>135</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-68.0, 361.0, 10.0</Galactic_Position>
+    <Galactic_Position>-68, 361</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3178,7 +3180,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name></Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
@@ -3205,72 +3207,6 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
   </Planet>
 
-  <Planet Name="Myrkr">
-    <!-- EXPANSION PLANET -->
-    <Zoomed_Terrain_Index>5 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
-    <Text_ID>TEXT_OBJECT_STAR_SYSTEM_MYRKR</Text_ID>
-    <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
-    <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
-    <Galactic_Model_Name>W_planet_Forest01.alo</Galactic_Model_Name>
-    <Destroyed_Galactic_Model_Name>W_planet_Asteroids.alo</Destroyed_Galactic_Model_Name>
-    <GUI_Model_Name>W_planet_Forest01.alo</GUI_Model_Name>
-    <Mass>1.0</Mass>
-    <Scale_Factor>1.25</Scale_Factor>
-    <Mouse_Collide_Override_Sphere_Radius> 19.77 </Mouse_Collide_Override_Sphere_Radius>
-    <Show_Name>Yes</Show_Name>
-    <Name_Adjust>-12, -12, 0.1</Name_Adjust>
-    <Behavior>SELECTABLE, PLANET, PRODUCTION</Behavior>
-    <Pre_Lit>no</Pre_Lit>
-    <Political_Control>0</Political_Control>
-    <Camera_Aligned>yes</Camera_Aligned>
-    <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>10</Planet_Credit_Value>
-    <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>100.0, 182.0, 10.0</Galactic_Position>
-    <Special_Structures_Land>5</Special_Structures_Land>
-    <Special_Structures_Space>2</Special_Structures_Space>
-    <Max_Space_Base>5</Max_Space_Base>
-    <The_Force>Neutral</The_Force>
-    <Force_Strength>0.0</Force_Strength>
-    <Land_Tactical_Map> _Land_Planet_Myrkr_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_FOREST_01.ted</Space_Tactical_Map>
-    <Destroyed_Space_Tactical_Map />
-    <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-    <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>
-    <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
-    <Planet_Tech_Availability_Rating>1</Planet_Tech_Availability_Rating>
-    <Planet_Slice_Affinity_Types />
-    <Planet_Black_Market_Modifier>-500</Planet_Black_Market_Modifier>
-    <Describe_Population>TEXT_PLANET_MYRKR_INFO_POP</Describe_Population>
-    <Describe_Wildlife>TEXT_PLANET_MYRKR_INFO_WL</Describe_Wildlife>
-    <Describe_Terrain>TEXT_PLANET_MYRKR_INFO_TER</Describe_Terrain>
-    <Describe_Weather>TEXT_PLANET_MYRKR_INFO_WEA</Describe_Weather>
-    <Describe_Tactical></Describe_Tactical>
-    <Describe_Advantage></Describe_Advantage>
-    <Describe_History>TEXT_PLANET_MYRKR_INFO_HIS</Describe_History>
-    <Planet_Ability_Name></Planet_Ability_Name>
-    <Planet_Ability_Description></Planet_Ability_Description>
-    <Encyclopedia_Text></Encyclopedia_Text>
-    <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
-    <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
-    <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_force.tga</Planet_Ability_Icon>
-    <Native_Icon_Name></Native_Icon_Name>
-    <Additional_Population_Capacity>18</Additional_Population_Capacity>
-    <!-- Unlock Unit: Vornskr Wolf Pack -->
-    <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
-    <Corruption_1_Credit_Cost> 500 </Corruption_1_Credit_Cost>
-    <Corruption_1_Required_Mission_Type> Corruption_Intimidation </Corruption_1_Required_Mission_Type>
-    <Corruption_1_Required_Mission_Count> 2 </Corruption_1_Required_Mission_Count>
-    <Corruption_1_Required_Unit_Type></Corruption_1_Required_Unit_Type>
-    <Corruption_1_Required_Unit_Count> 1 </Corruption_1_Required_Unit_Count>
-    <Corruption_1_Success_Speech_Event> MYRKR_RKT_VICTORY_COR38_01 </Corruption_1_Success_Speech_Event>
-    <Corruption_1_Success_Bink_Hologram_Name> Saboteur_Loop </Corruption_1_Success_Bink_Hologram_Name>
-    <Corruption_1_Mission_Briefing>TEXT_CORRUPTION_MYRKR_STORY_RACKETEER</Corruption_1_Mission_Briefing>
-    <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
-  </Planet>
-
   <Planet Name="Naboo">
     <Zoomed_Terrain_Index>0 </Zoomed_Terrain_Index>    <!--Controls what terrain is shown when zoomed in on the planet (Behind the defending units)-->
     <Text_ID>TEXT_OBJECT_STAR_SYSTEM_NABOO</Text_ID>
@@ -3290,9 +3226,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>270</Planet_Credit_Value>
+    <Planet_Credit_Value>405</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>150.0, -275.0, 10.0</Galactic_Position>
+    <Galactic_Position>150, -275</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3318,7 +3254,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_enhanced_t4b_damage.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Gungan_Warrior, 120</Potential_Indigenous_Power>
@@ -3368,9 +3304,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>290</Planet_Credit_Value>
+    <Planet_Credit_Value>435</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>338.0, -21.0, 10.0</Galactic_Position>
+    <Galactic_Position>338, -21</Galactic_Position>
     <Special_Structures_Land>8</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3397,7 +3333,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_bounty.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Hutt_Civilian, 360</Potential_Indigenous_Power>
@@ -3454,9 +3390,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>30</Planet_Credit_Value>
+    <Planet_Credit_Value>45</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-100.0, -516.0, 10.0</Galactic_Position>
+    <Galactic_Position>-100, -516</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3468,6 +3404,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <!-- If you abandon this planet, you will not retain political control -->
     <Planet_Retains_Residual_Influence> Yes </Planet_Retains_Residual_Influence>
     <Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
+    <Land_Tactical_Map> _Space_Planet_VergessoAsteroids_01.ted </Land_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
@@ -3487,7 +3424,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_improved_weapons.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>6</Additional_Population_Capacity>
 
   </Planet>
@@ -3511,9 +3448,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>240</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>352.0, -355.0, 10.0</Galactic_Position>
+    <Galactic_Position>352, -355</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -3539,7 +3476,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_stamina_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Twilek_Female, 300</Potential_Indigenous_Power>
@@ -3584,9 +3521,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>330</Planet_Credit_Value>
+    <Planet_Credit_Value>495</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>340.0, 149.0, 10.0</Galactic_Position>
+    <Galactic_Position>340, 149</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3614,7 +3551,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_damage.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
 
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
@@ -3661,9 +3598,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>-30</Planet_Credit_Value>
+    <Planet_Credit_Value>-45</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>442.0, -47.0, 10.0</Galactic_Position>
+    <Galactic_Position>442, -47</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3690,7 +3627,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_auto_damage.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name />
     <Additional_Population_Capacity>3</Additional_Population_Capacity>
     <Corruption_1_Type> Corruption_Racketeering </Corruption_1_Type>
@@ -3724,9 +3661,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Volcanic</Terrain>
-    <Planet_Credit_Value>470</Planet_Credit_Value>
+    <Planet_Credit_Value>705</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>50.0, -259.0, 10.0</Galactic_Position>
+    <Galactic_Position>50, -259</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3753,7 +3690,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_ASH</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_ASH</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>30</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Sullustan_Civilian, 100</Potential_Indigenous_Power>
@@ -3797,9 +3734,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>370</Planet_Credit_Value>
+    <Planet_Credit_Value>555</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>113.0, 230.0, 10.0</Galactic_Position>
+    <Galactic_Position>113, 229.698</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3826,7 +3763,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Urban_Civilian_A, 300</Potential_Indigenous_Power>
@@ -3875,9 +3812,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>-20</Planet_Credit_Value>
+    <Planet_Credit_Value>-30</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>334.0, -267.0, 10.0</Galactic_Position>
+    <Galactic_Position>334, -267</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>2</Max_Space_Base>
@@ -3903,7 +3840,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_light_armor_plating.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Potential_Indigenous_Power>Jawa_Scout, 50</Potential_Indigenous_Power>
     <Potential_Indigenous_Power>Desert_Civilian_A, 200</Potential_Indigenous_Power>
@@ -3949,16 +3886,16 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>150</Planet_Credit_Value>
+    <Planet_Credit_Value>225</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>9.0, -180.0, 10.0</Galactic_Position>
+    <Galactic_Position>9, -180</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
-    <Space_Tactical_Map>_Space_Planet_Wayland_01.ted</Space_Tactical_Map>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_TEMPERATE_01.ted</Space_Tactical_Map>
     <Land_Tactical_Map> _Land_Planet_Thyferra_02.ted </Land_Tactical_Map>
     <Planet_Capture_Bonus_Reward> 1300 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>3</Planet_Slice_Difficulty_Rating>
@@ -3977,7 +3914,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_heal_Infantry.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
     <Planet_Corruption_Removal_Base_Cost>1500</Planet_Corruption_Removal_Base_Cost>
@@ -4026,9 +3963,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>230</Planet_Credit_Value>
+    <Planet_Credit_Value>345</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>84.0, -415.0, 10.0</Galactic_Position>
+    <Galactic_Position>84, -415</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -4057,7 +3994,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SAND</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_WIND</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_shields.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
 
     <Corruption_1_Type> Corruption_Kidnapping </Corruption_1_Type>
@@ -4103,9 +4040,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Desert</Terrain>
-    <Planet_Credit_Value>30</Planet_Credit_Value>
+    <Planet_Credit_Value>45</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>198.0, -322.0, 10.0</Galactic_Position>
+    <Galactic_Position>198, -322</Galactic_Position>
     <Special_Structures_Land>0</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -4117,6 +4054,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <!-- If you abandon this planet, you will not retain political control -->
     <Planet_Retains_Residual_Influence> Yes </Planet_Retains_Residual_Influence>
     <Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
+    <Land_Tactical_Map> _Space_Planet_VergessoAsteroids_01.ted </Land_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
@@ -4136,7 +4074,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_improved_weapons.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>15</Additional_Population_Capacity>
   </Planet>
 
@@ -4161,7 +4099,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>146.0, 203.0, 10.0</Galactic_Position>
+    <Galactic_Position>146, 203</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -4188,7 +4126,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_improved_treads.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 200</Potential_Indigenous_Power>
@@ -4231,9 +4169,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Forest</Terrain>
-    <Planet_Credit_Value>-20</Planet_Credit_Value>
+    <Planet_Credit_Value>-30</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>208.0, 289.0, 10.0</Galactic_Position>
+    <Galactic_Position>208, 289</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -4260,7 +4198,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_enhanced_fighter_shields.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>3</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 150</Potential_Indigenous_Power>
@@ -4307,9 +4245,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>280</Planet_Credit_Value>
+    <Planet_Credit_Value>420</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>94.0, -30.0, 10.0</Galactic_Position>
+    <Galactic_Position>94, -30</Galactic_Position>
     <Special_Structures_Land>8</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -4336,7 +4274,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power>
@@ -4392,9 +4330,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>-30</Planet_Credit_Value>
+    <Planet_Credit_Value>-45</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-102.0, -55.0, 10.0</Galactic_Position>
+    <Galactic_Position>-102, -55</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>2</Max_Space_Base>
@@ -4419,7 +4357,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Text></Encyclopedia_Text>
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_PLANET_JAKKU_INFO_WEA</Encyclopedia_Weather_Name>
-    <Planet_Ability_Icon>i_pa_light_armor_plating.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>12</Additional_Population_Capacity>
   </Planet>
@@ -4443,9 +4381,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Political_Control>0</Political_Control>
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
-    <Planet_Credit_Value>70</Planet_Credit_Value>
+    <Planet_Credit_Value>105</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-142.0, 75.0, 10.0</Galactic_Position>
+    <Galactic_Position>-142, 75</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>2</Max_Space_Base>
@@ -4494,9 +4432,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>300</Planet_Credit_Value>
+    <Planet_Credit_Value>450</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>100.0, -205.0, 10.0</Galactic_Position>
+    <Galactic_Position>100, -205</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -4526,7 +4464,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
 
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
@@ -4568,9 +4506,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Arctic</Terrain>
-    <Planet_Credit_Value>50</Planet_Credit_Value>
+    <Planet_Credit_Value>75</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-35.0, 308.0, 10.0</Galactic_Position>
+    <Galactic_Position>-35, 308</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -4596,7 +4534,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Native_Icon_Name></Native_Icon_Name>
     <Corruption_1_Type>Corruption_Racketeering</Corruption_1_Type>
@@ -4640,7 +4578,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-40.0, -396.0, 10.0</Galactic_Position>
+    <Galactic_Position>-40, -396</Galactic_Position>
     <Special_Structures_Land>3</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -4667,7 +4605,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
     <Potential_Indigenous_Power></Potential_Indigenous_Power>
@@ -4718,9 +4656,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Swamp</Terrain>
-    <Planet_Credit_Value>50</Planet_Credit_Value>
+    <Planet_Credit_Value>75</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>136.0, 91.0, 10.0</Galactic_Position>
+    <Galactic_Position>136, 91</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>4</Max_Space_Base>
@@ -4752,7 +4690,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_shields.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
 
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
@@ -4792,9 +4730,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>350</Planet_Credit_Value>
+    <Planet_Credit_Value>525</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>54.0, 0.0, 10.0</Galactic_Position>
+    <Galactic_Position>54, 0</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -4822,7 +4760,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SUN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SUN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
     <Potential_Indigenous_Power>Swamp_Civilian_A, 50</Potential_Indigenous_Power>
@@ -4878,7 +4816,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Arctic</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>312.0, 248.0, 10.0</Galactic_Position>
+    <Galactic_Position>312, 248</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>3</Max_Space_Base>
@@ -4910,7 +4848,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_spy_network.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
 
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
 
@@ -4951,9 +4889,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Arctic</Terrain>
-    <Planet_Credit_Value>300</Planet_Credit_Value>
+    <Planet_Credit_Value>450</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>487.0, -147.0, 10.0</Galactic_Position>
+    <Galactic_Position>487, -147</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -4984,7 +4922,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_galactic_production_boost.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
 
     <Additional_Population_Capacity>24</Additional_Population_Capacity>
@@ -5029,7 +4967,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>400.0, -150.0, 10.0</Galactic_Position>
+    <Galactic_Position>400, -150</Galactic_Position>
     <Special_Structures_Land>4</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -5055,7 +4993,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_tactical_heal_Infantry.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Native_Icon_Name></Native_Icon_Name>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
   </Planet>
@@ -5079,9 +5017,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>-30</Planet_Credit_Value>
+    <Planet_Credit_Value>-45</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>30, 383.0, 10.0</Galactic_Position>
+    <Galactic_Position>30, 383</Galactic_Position>
     <Special_Structures_Land>8</Special_Structures_Land>
     <Special_Structures_Space>3</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -5156,9 +5094,9 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Camera_Aligned>yes</Camera_Aligned>
     <Facing_Adjust>0.0, 0.0, 0.0</Facing_Adjust>
     <Terrain>Temperate</Terrain>
-    <Planet_Credit_Value>240</Planet_Credit_Value>
+    <Planet_Credit_Value>360</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>210.0, -453.0, 10.0</Galactic_Position>
+    <Galactic_Position>210, -453</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>2</Max_Space_Base>
@@ -5187,7 +5125,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_RAIN</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_RAIN</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>27</Additional_Population_Capacity>
 
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
@@ -5236,7 +5174,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Arctic</Terrain>
     <Planet_Credit_Value>0</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>210.0, -503.0, 10.0</Galactic_Position>
+    <Galactic_Position>210, -503</Galactic_Position>
     <Special_Structures_Land>5</Special_Structures_Land>
     <Special_Structures_Space>1</Special_Structures_Space>
     <Max_Space_Base>2</Max_Space_Base>
@@ -5265,7 +5203,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Encyclopedia_Weather_Icon></Encyclopedia_Weather_Icon>
     <Encyclopedia_Weather_Name>TEXT_WEATHER_NAME_SNOW</Encyclopedia_Weather_Name>
     <Encyclopedia_Weather_Info>TEXT_TACTICAL_WEATHER_OBJECTIVE_SNOW</Encyclopedia_Weather_Info>
-    <Planet_Ability_Icon>i_pa_high_credit_value.tga</Planet_Ability_Icon>
+    <Planet_Ability_Icon></Planet_Ability_Icon>
     <Additional_Population_Capacity>0</Additional_Population_Capacity>
 
     <Corruption_1_Type> Corruption_Intimidation </Corruption_1_Type>
