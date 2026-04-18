@@ -6661,7 +6661,7 @@
             <Scale>1.0</Scale>
             <Font_Name>EmpireAtWar-Bold</Font_Name>
             <Alternate_Font_Name>EmpireAtWar-Medium, EmpireAtWar-Medium, EmpireAtWar-Bold</Alternate_Font_Name>
-            <Font_Point_Size>7</Font_Point_Size>
+            <Font_Point_Size>5</Font_Point_Size>
             <Text_Offset>0 0</Text_Offset>
             <Text_Offset2>0 -17</Text_Offset2>
             <Text_Outline>True</Text_Outline>
@@ -6692,8 +6692,8 @@
     <CommandBarComponent Name="g_planet_value">
             <Type>TextButton</Type>
             <Scale>1.0</Scale>
-            <Font_Name>EmpireAtWar-Medium</Font_Name>
-            <Font_Point_Size>6</Font_Point_Size>
+            <Font_Name>EmpireAtWar-Small</Font_Name>
+            <Font_Point_Size>4</Font_Point_Size>
             <Text_Offset>0 0</Text_Offset>
             <Text_Offset2>0 -17</Text_Offset2>
             <Text_Outline>True</Text_Outline>
@@ -6723,29 +6723,29 @@
             <Bar_Overlay_Name>i_bar_control_small0.tga i_bar_control_small1.tga i_bar_control_small2.tga i_bar_control_small3.tga i_bar_control_small4.tga</Bar_Overlay_Name>
             <No_Shell>True</No_Shell>
             <Base_Layer>0</Base_Layer>
-            <Scale>1.0</Scale>
-            <Default_Offset>72 -26</Default_Offset>
+            <Scale>.5</Scale>
+            <Default_Offset>72 -15</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_ground_icon">
             <Type>Button</Type>
             <Icon_Texture_Name>i_bar_icons_land.tga</Icon_Texture_Name>
             <No_Shell>True</No_Shell>
-            <Scale>1.0</Scale>
+            <Scale></Scale>
             <Default_Offset>32 0</Default_Offset>
             <Base_Layer>0</Base_Layer>
             <Tooltip_Text>TEXT_TOOLTIP_GROUND_LEVEL</Tooltip_Text>
-            <Default_Offset>34 -26</Default_Offset>
+            <Default_Offset>34 -15</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_ground_level_pips">
             <Type>Button</Type>
             <Icon_Alternate_Texture_Name>i_bar_icons_land.tga i_bar_icons_land.tga</Icon_Alternate_Texture_Name>
             <No_Shell>True</No_Shell>
-            <Scale>1.0</Scale>
+            <Scale>.5</Scale>
             <Base_Layer>0</Base_Layer>
             <Tooltip_Text>TEXT_TOOLTIP_GROUND_LEVEL</Tooltip_Text>
-            <Default_Offset>34 -26</Default_Offset>
+            <Default_Offset>34 -15</Default_Offset>
     </CommandBarComponent>
     
     <CommandBarComponent Name="g_space_level">
@@ -6754,28 +6754,28 @@
             <Bar_Overlay_Name>i_bar_control_small0.tga i_bar_control_small1.tga i_bar_control_small2.tga i_bar_control_small3.tga i_bar_control_small4.tga</Bar_Overlay_Name>
             <No_Shell>True</No_Shell>
             <Base_Layer>0</Base_Layer>
-            <Scale>1.0</Scale>
-            <Default_Offset>72 -13</Default_Offset>
+            <Scale>.5</Scale>
+            <Default_Offset>72 -8</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_space_icon">
             <Type>Button</Type>
             <Icon_Texture_Name>i_bar_icons_space.tga</Icon_Texture_Name>
             <No_Shell>True</No_Shell>
-            <Scale>1.0</Scale>
+            <Scale>.5</Scale>
             <Base_Layer>0</Base_Layer>
             <Tooltip_Text>TEXT_TOOLTIP_SPACE_LEVEL</Tooltip_Text>
-            <Default_Offset>34 -13</Default_Offset>
+            <Default_Offset>34 -8</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_space_level_pips">
             <Type>Button</Type>
             <Icon_Alternate_Texture_Name>i_bar_icons_space.tga i_bar_icons_space.tga</Icon_Alternate_Texture_Name>
             <No_Shell>True</No_Shell>
-            <Scale>1.0</Scale>
+            <Scale>.5</Scale>
             <Base_Layer>0</Base_Layer>
             <Tooltip_Text>TEXT_TOOLTIP_SPACE_LEVEL</Tooltip_Text>
-            <Default_Offset>34 -13</Default_Offset>
+            <Default_Offset>34 -8</Default_Offset>
     </CommandBarComponent>
 
     <CommandBarComponent Name="g_conflict">

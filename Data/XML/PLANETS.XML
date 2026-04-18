@@ -9,7 +9,7 @@
     <Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
     <Always_Instantiate_Galactic>yes</Always_Instantiate_Galactic>
     <Mass>1.0</Mass>
-    <Scale_Factor>.5</Scale_Factor>
+    <Scale_Factor>1</Scale_Factor>
     <Show_Name>No</Show_Name>
     <Name_Adjust>-10.0, 10.0, -0.1</Name_Adjust>
     <Behavior>IDLE</Behavior>

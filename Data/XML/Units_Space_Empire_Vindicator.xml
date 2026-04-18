@@ -35,9 +35,9 @@
 		<Armor_Type> Armor_Victory_Class </Armor_Type>
         <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
 		<Damage>40</Damage>
-		<Autoresolve_Health>10</Autoresolve_Health>
+		<Autoresolve_Health>5000</Autoresolve_Health>
 		<Shield_Points>1600</Shield_Points>
-		<Tactical_Health>10</Tactical_Health>  <!-- was 2600 -->
+		<Tactical_Health>5000</Tactical_Health>  <!-- was 2600 -->
 		<Shield_Refresh_Rate>80</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>

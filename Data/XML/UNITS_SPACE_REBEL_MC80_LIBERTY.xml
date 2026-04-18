@@ -44,7 +44,7 @@
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets></Required_Planets>
-		<Autoresolve_Health>2500</Autoresolve_Health>
+		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Tactical_Health>8500</Tactical_Health>
 		<Shield_Points>4000</Shield_Points>
 		<Shield_Refresh_Rate>75</Shield_Refresh_Rate>

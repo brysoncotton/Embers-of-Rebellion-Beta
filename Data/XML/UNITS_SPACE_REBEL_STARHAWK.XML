@@ -50,7 +50,7 @@
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets></Required_Planets>
 		<Damage>70</Damage>
-		<Autoresolve_Health>7500</Autoresolve_Health>
+		<Autoresolve_Health>10000</Autoresolve_Health>
 		<Shield_Points>3000</Shield_Points>
 		<Tactical_Health>7000</Tactical_Health> <!-- was 6000 -->
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>

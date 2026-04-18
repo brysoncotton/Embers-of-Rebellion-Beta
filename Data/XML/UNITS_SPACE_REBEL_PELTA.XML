@@ -9,7 +9,7 @@
 			<Scale_Factor>.2</Scale_Factor>
 			<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 			<Damage>30</Damage>
-			<Autoresolve_Health>3600</Autoresolve_Health>
+			<Autoresolve_Health>2000</Autoresolve_Health>
 			<Shield_Points>700</Shield_Points>
 			<Tactical_Health>1000</Tactical_Health>
 			<Shield_Refresh_Rate>50</Shield_Refresh_Rate>

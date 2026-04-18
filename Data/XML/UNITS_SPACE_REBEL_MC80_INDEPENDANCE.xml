@@ -100,7 +100,7 @@
 		<Targeting_Priority_Set>Capital, Frigate, Corvette</Targeting_Priority_Set>
 
 		<Damage>80</Damage>
-		<Autoresolve_Health>3000</Autoresolve_Health>
+		<Autoresolve_Health>8000</Autoresolve_Health>
 		<Tactical_Health>8000</Tactical_Health>
 		<Shield_Points>5000</Shield_Points>
 		<Tactical_Health>10000</Tactical_Health>

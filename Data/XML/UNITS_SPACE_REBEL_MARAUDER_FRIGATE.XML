@@ -49,7 +49,7 @@
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
-		<Autoresolve_Health>600</Autoresolve_Health>
+		<Autoresolve_Health>2200</Autoresolve_Health>
 		<Damage>20</Damage>
 		<Shield_Points>300</Shield_Points>
 		<Tactical_Health>650</Tactical_Health>

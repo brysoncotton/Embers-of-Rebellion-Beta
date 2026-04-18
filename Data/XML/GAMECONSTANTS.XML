@@ -233,7 +233,7 @@
 
 	<!-- Display of game monetary credits balance -->
 	<Credits_Display_Font_Name> Arial </Credits_Display_Font_Name>
-	<Credits_Display_Font_Size> 8 </Credits_Display_Font_Size>
+	<Credits_Display_Font_Size> 5 </Credits_Display_Font_Size>
 
    <!-- Random story generation -->
    <Random_Story_Triggers>STORY_ENTER STORY_LAND_ON STORY_CONQUER STORY_CONSTRUCT STORY_CONSTRUCT_LEVEL STORY_DESTROY STORY_DESTROY_BASE STORY_DEPLOY STORY_MOVE STORY_ACCUMULATE STORY_DEFEAT_HERO STORY_WIN_BATTLES</Random_Story_Triggers>
