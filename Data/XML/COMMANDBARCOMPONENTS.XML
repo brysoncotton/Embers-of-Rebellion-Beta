@@ -992,7 +992,7 @@
 
     <CommandBarComponent Name="radar_galactic">
             <Type>Button</Type>
-            <Size>125 125</Size> <!-- Controls the size of the area that the planet icons can be in on the mini map-->
+            <Size>75 90</Size> <!-- Controls the size of the area that the planet icons can be in on the mini map (x, y)--> 
     </CommandBarComponent>
 
     <CommandBarComponent Name="Text_Tech_Level">
@@ -7066,7 +7066,7 @@
 
     <CommandBarComponent Name="radar_blip">
             <Type>Button</Type>
-            <Icon_Texture_Name>i_radar_focus.tga</Icon_Texture_Name>
+            <Icon_Texture_Name></Icon_Texture_Name>
             <Scale>1.0</Scale>
             <Base_Layer>5</Base_Layer>
             <No_Shell>True</No_Shell>

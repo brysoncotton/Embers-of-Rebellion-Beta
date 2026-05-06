@@ -39,6 +39,22 @@
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>Yes</Is_Decoration>
 	</Props_Generic>
+
+	<Props_Generic Name="Prop_Zeffo_Landing_Pad_1">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>zeffo_landing_pad.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
+
+	<Props_Generic Name="Prop_Cliff_Landing_Pad_0">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>cliff_landing_pad.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>Yes</Is_Decoration>
+	</Props_Generic>
 	
 	<Props_Generic Name="Prop_Generator00">
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -821,8 +837,25 @@
 	
 	<Props_Generic Name="Prop_Venator_Wreck">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>NV_JEDICRUISER.ALO</Land_Model_Name>
-		<Scale_Factor>10.0</Scale_Factor>
+		<Land_Model_Name>Ev_Venator.ALO</Land_Model_Name>
+		<Scale_Factor>20.0</Scale_Factor>
+		<HardPoints>
+			VENATOR_HANGER,
+			VENATOR_SHIELDS,
+			VENATOR_ENGINES,
+			VENATOR_TORP_00,
+			VENATOR_TORP_01,
+			VENATOR_TB_00,
+			VENATOR_TB_01,
+			VENATOR_TB_02,
+			VENATOR_TB_03,
+			VENATOR_TB_04,
+			VENATOR_TB_05,
+			VENATOR_TB_06,
+			VENATOR_TB_07,
+			VENATOR_TB_08,
+			VENATOR_TB_09
+		</HardPoints>
 		<!--<Is_Sprite>No</Is_Sprite>-->
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
@@ -893,8 +926,15 @@
 		<Is_Decoration>No</Is_Decoration>
 		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
 	</Props_Generic>
-	
-	
+
+	<Props_Generic Name="Prop_Generic_House">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>NB_VCH.ALO</Land_Model_Name>
+		<Scale_Factor>1.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+	</Props_Generic>
 	
 	<Props_Generic Name="Prop_Stars_Skydome">
 		<Text_ID>TEXT_NONE</Text_ID>

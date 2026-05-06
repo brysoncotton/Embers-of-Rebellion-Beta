@@ -5,6 +5,7 @@
 		<GUI_Row> 0 </GUI_Row>
 		<GUI_Bounds_Scale>0.25</GUI_Bounds_Scale>
 		<Text_ID>TEXT_STRUCTURE_PRISON_FACILITY</Text_ID>
+		<Encyclopedia_Text>TEXT_TOOLTIP_EMPIRE_PRISON</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class>TEXT_ENCYCLOPEDIA_CLASS_STRUCTURE</Encyclopedia_Unit_Class>
 		<Land_Model_Name>NB_Prison.ALO</Land_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
@@ -90,7 +91,7 @@
 			</Reduce_Production_Time_Ability>
 
 			<Reduce_Production_Time_Ability Name="Reduce_Production_Time_Ground">
-				<Applicable_Unit_Categories>Infantry | Vehicle | AirGunship | AirSpeeder</Applicable_Unit_Categories>
+				<Applicable_Unit_Categories> Vehicle | AirGunship | AirSpeeder</Applicable_Unit_Categories>
 				<Time_Reduction_Percentage>0.5</Time_Reduction_Percentage>
 				<Stacking_Category>9</Stacking_Category>
 				<Galaxy_Wide> No </Galaxy_Wide>

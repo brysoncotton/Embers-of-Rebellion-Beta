@@ -76,7 +76,8 @@ War\corruption\Mods\Embers-of-Rebellion\Data\XML\UNITS_SPACE_REBEL_MC80.xml.xml
 		<OverrideDeceleration> .1 </OverrideDeceleration>
 		<Layer_Z_Adjust> -90 </Layer_Z_Adjust>
 
-		<Armor_Type> Armor_Nebulon_B </Armor_Type>
+		<Armor_Type> Armor_Capital </Armor_Type>
+		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
 
 		<Max_Thrust>1.6</Max_Thrust>
 		<Select_Box_Scale>400</Select_Box_Scale>
@@ -191,6 +192,7 @@ War\corruption\Mods\Embers-of-Rebellion\Data\XML\UNITS_SPACE_REBEL_MC80.xml.xml
 		<Targeting_Priority_Set>Frigate</Targeting_Priority_Set>
 
 		<Death_Clone>Damage_Normal, Venator_Death_Clone</Death_Clone>
+		<Remove_Upon_Death>true</Remove_Upon_Death>
 
 		<Defend_Mode_Weapon_Delay_Multiplier>3.0</Defend_Mode_Weapon_Delay_Multiplier>
 		<Defend_Mode_Shield_Regen_Multiplier>5.0</Defend_Mode_Shield_Regen_Multiplier>
@@ -205,8 +207,7 @@ War\corruption\Mods\Embers-of-Rebellion\Data\XML\UNITS_SPACE_REBEL_MC80.xml.xml
 		<Tactical_Bribe_Cost>3200</Tactical_Bribe_Cost>
 
 
-		<!--<MULTIPLAYER
-		SKIRMISH VALUES BEGIN>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>2000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>30</Tactical_Build_Time_Seconds>
 		<Tactical_Build_Prerequisites />
@@ -217,7 +218,9 @@ War\corruption\Mods\Embers-of-Rebellion\Data\XML\UNITS_SPACE_REBEL_MC80.xml.xml
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 	</SpaceUnit>
 
-	<SpaceUnit Name="Venator_Death_Clone">
+	<!--COMMENTED OUT BECUAUSE DEATH CLONE ISNT DISAPPEARING AFTER ANIMATION ENDS-->
+
+	<!--><SpaceUnit Name="Venator_Death_Clone">
 		<Text_ID>TEXT_UNIT_JEDI_CRUISER</Text_ID>
 		<Space_Model_Name>Ev_Venator_D.alo</Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
@@ -229,6 +232,6 @@ War\corruption\Mods\Embers-of-Rebellion\Data\XML\UNITS_SPACE_REBEL_MC80.xml.xml
 		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<Remove_Upon_Death>true</Remove_Upon_Death>
-	</SpaceUnit>
+	</SpaceUnit>-->
 
 </Unit>

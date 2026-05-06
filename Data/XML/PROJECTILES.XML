@@ -65,7 +65,7 @@
 		<Projectile_Length>1</Projectile_Length>
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>.2</Scale_Factor>
-		<Damage_Type> Damage_Proton_Torp </Damage_Type>
+		<Damage_Type> Damage_Torp </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -253,7 +253,7 @@
 		<Projectile_Length>1</Projectile_Length>
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>.2</Scale_Factor>
-		<Damage_Type> Damage_Fighter </Damage_Type>
+		<Damage_Type> Damage_Anti_Fighter_Laser </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
@@ -2782,6 +2782,8 @@
 
 		<Projectile_Lifetime_Detonation_Particle>Weaken_Enemy_Detonation_Effect</Projectile_Lifetime_Detonation_Particle>
 	</Projectile>
+
+	
 
 	<Projectile Name="Self_Destruct_Star_Base_Level_1_Empire">
 		<Text_ID>TEXT_NONE</Text_ID>

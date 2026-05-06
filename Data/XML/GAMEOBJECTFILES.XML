@@ -132,8 +132,7 @@
 	<File>UNITS_SPACE_EMPIRE_VINDICATOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_INTERDICTOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_DREADNOUGHT.xml</File>
-	<!--<File>UNITS_SPACE_EMPIRE_ARQUITENS.xml</File>-->	<!--Commented
-	out for stability-->
+	<!--<File>UNITS_SPACE_EMPIRE_ARQUITENS.xml</File>-->	<!--Commented out for stability-->
 	<File>UNITS_SPACE_EMPIRE_ACCLAMATOR.xml</File>
 	<File>UNITS_SPACE_EMPIRE_VICTORY_STAR_DESTROYER.xml</File>
 	<File>UNITS_SPACE_EMPIRE_VICTORY_II_STAR_DESTROYER.XML</File>

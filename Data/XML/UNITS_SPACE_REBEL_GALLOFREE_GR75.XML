@@ -28,8 +28,8 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
-		<Armor_Type> Armor_Corellian_Corvette </Armor_Type>
-        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+		<Armor_Type> Armor_Light_Corvette </Armor_Type>
+        <Shield_Armor_Type>Shield_Light_Corvette</Shield_Armor_Type>
 		<Max_Thrust>0.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>
@@ -163,6 +163,41 @@
 				<Lighting_Effect_Name>Repair_Facility_Effect</Lighting_Effect_Name>
 			</Force_Healing_Ability>
 		</Abilities>
+
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>WEAKEN_ENEMY</Type>
+
+				<Recharge_Seconds>60</Recharge_Seconds>
+
+				<!-- This is the radius within which we can "drop" the projectile (targeting radius) -->
+				<!-- The actual radius of ability is in projectile XML -->
+				<Effective_Radius> 1000.0 </Effective_Radius>
+				<Spawned_Object_Type>Antilles_Weaken_Enemy_Effect</Spawned_Object_Type>
+				<SFXEvent_Target_Ability> Unit_Energy_Flux_Antilles </SFXEvent_Target_Ability>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Flux_Antilles</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+
+				<!-- Area effect decal size depends on "Antills_Weaken_Enemy_Effect" -->
+				<Area_Effect_Decal_Distance> 300 </Area_Effect_Decal_Distance>
+
+			</Unit_Ability>
+
+			<Unit_Ability>
+				<Type>MISSILE_SHIELD</Type>
+				<Disable_Movement>Yes</Disable_Movement>
+
+				<Effective_Radius>750</Effective_Radius>
+				<Recharge_Seconds>0</Recharge_Seconds>
+				<Expiration_Seconds>0</Expiration_Seconds>
+
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
+				<SFXEvent_GUI_Unit_Ability_Deactivated />
+				<Supports_Autofire>True</Supports_Autofire>
+			</Unit_Ability>
+
+		</Unit_Abilities_Data>
 		
 		
 	

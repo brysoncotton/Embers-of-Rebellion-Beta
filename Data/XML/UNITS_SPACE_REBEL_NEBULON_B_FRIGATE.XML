@@ -28,8 +28,8 @@
 		<OverrideAcceleration> .04 </OverrideAcceleration>
 		<OverrideDeceleration> .04 </OverrideDeceleration>
 
-		<Armor_Type> Armor_Nebulon_B </Armor_Type>
-        <Shield_Armor_Type>Shield_Frigate</Shield_Armor_Type>
+		<Armor_Type> Armor_Light_Frigate </Armor_Type>
+        <Shield_Armor_Type>Shield_Heavy_Frigate</Shield_Armor_Type>
 		<Max_Thrust>1.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Select_Box_Scale>300</Select_Box_Scale>
@@ -153,20 +153,6 @@
 		
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>MISSILE_SHIELD</Type>
-				<Disable_Movement>Yes</Disable_Movement>
-				<Recharge_Seconds>60</Recharge_Seconds>
-				<Expiration_Seconds>30</Expiration_Seconds>
-				<Effective_Radius>750</Effective_Radius>
-				<Recharge_Seconds>0</Recharge_Seconds>
-				<Expiration_Seconds>0</Expiration_Seconds>
-				
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Missile_Field_Interdictor</SFXEvent_GUI_Unit_Ability_Activated>
-				<SFXEvent_GUI_Unit_Ability_Deactivated />
-				<Supports_Autofire>True</Supports_Autofire>
-			</Unit_Ability>
 			
 		</Unit_Abilities_Data>
 		

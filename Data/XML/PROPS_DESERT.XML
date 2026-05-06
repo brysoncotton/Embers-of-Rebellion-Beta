@@ -341,6 +341,23 @@
 
 	</Prop_Desert>
 
+	<Prop_Desert Name="Prop_Jedha_RockForm00">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>W_Jedha_Rock_Formation.ALO</Land_Model_Name>
+		<!-- <LandBehavior>LAND_OBSTACLE</LandBehavior> -->
+		<Scale_Factor>2.0</Scale_Factor>
+		<!--<Is_Sprite>No</Is_Sprite>-->
+		<Is_Decoration>No</Is_Decoration>
+		<No_Reflection_Below_Detail_Level>1</No_Reflection_Below_Detail_Level>
+		<No_Refraction_Below_Detail_Level>1</No_Refraction_Below_Detail_Level>
+
+		<!-- <Space_Obstacle_Offset> 0 0 0 </Space_Obstacle_Offset> 
+		<Space_Obstacle_Radius> 60 </Space_Obstacle_Radius> -->
+		<Space_Layer> Capital | Frigate | Corvette </Space_Layer>
+		<Exclude_From_Distance_Fade>true</Exclude_From_Distance_Fade> 
+
+	</Prop_Desert>
+
 	<Prop_Desert Name="Prop_Tatooine_RockForm02">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>W_Tat_RockForm02.ALO</Land_Model_Name>

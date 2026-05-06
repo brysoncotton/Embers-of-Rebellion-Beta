@@ -25,8 +25,8 @@
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
-		<Armor_Type>Armor_Star_Destroyer</Armor_Type>
-		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
+		<Armor_Type>Armor_Super</Armor_Type>
+		<Shield_Armor_Type>Shield_Super</Shield_Armor_Type>
 
 		<Max_Speed>1.4</Max_Speed>
 		<Max_Rate_Of_Turn>0.15</Max_Rate_Of_Turn>
@@ -44,16 +44,16 @@
 		<Maintenance_Cost>0.3</Maintenance_Cost>
 
 		<Affiliation>Rebel</Affiliation>
-		<Tech_Level>99</Tech_Level>
+		<Tech_Level>5</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>1</Required_Star_Base_Level>
 		<Required_Planets></Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>10000</Autoresolve_Health>
-		<Shield_Points>3000</Shield_Points>
+		<Shield_Points>4000</Shield_Points>
 		<Tactical_Health>7000</Tactical_Health> <!-- was 6000 -->
-		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Ship_Class>Capital</Ship_Class>
@@ -61,10 +61,10 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>8000</Build_Cost_Credits>
+		<Build_Cost_Credits>20000</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>8000</AI_Combat_Power>
-		<Build_Time_Seconds>4</Build_Time_Seconds>
+		<Build_Time_Seconds>300</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 
@@ -92,12 +92,7 @@
 		<Targeting_Max_Attack_Distance>1800.0</Targeting_Max_Attack_Distance>
 
 		<HardPoints>
-			HP_Starhawk_Tractor_Beam,
-			<!--HP_Starhawk_Tractor_Beam_01,
-			HP_Starhawk_Tractor_Beam_02,
-			HP_Starhawk_Tractor_Beam_03,
-			HP_Starhawk_Tractor_Beam_04,
-			HP_Starhawk_Tractor_Beam_05,-->
+			HP_Starhawk_Tractor_Beam
 			HP_Starhawk_TBL_O_01,
 			HP_Starhawk_TBL_O_02,
 			HP_Starhawk_TBL_O_03,
@@ -111,12 +106,16 @@
 			HP_Starhawk_TBL_D_03,
 			HP_Starhawk_TBL_D_04,
 			HP_Starhawk_TBL_D_05,
+			HP_Starhawk_TBL_D_06,
+			HP_Starhawk_TBL_D_07,
 			HP_STARHAWK_IC_01,
 			HP_STARHAWK_IC_02,
 			HP_STARHAWK_IC_03,
 			HP_STARHAWK_IC_04,
 			HP_STARHAWK_IC_05,
 			HP_STARHAWK_IC_06,
+			HP_STARHAWK_IC_07,
+			HP_STARHAWK_IC_08,
 			Starhawk_Engines_01,
 			Starhawk_Engines_02,
 			HP_Starhawk_Shields_01,
@@ -141,30 +140,22 @@
 
 
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Star_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Star_Destroyer
-		</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Star_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Star_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Star_Destroyer
-		</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Star_Destroyer
-		</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Star_Destroyer</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Star_Destroyer</SFXEvent_Attack_Hardpoint>
 		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Star_Destroyer </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer
-		</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer
-		</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Star_Destroyer
-		</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer
-		</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer
-		</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 

@@ -1,0 +1,5 @@
+Go to C/windows/regedit in the windows registry editor and go to "Computer\HKEY_CURRENT_USER\Software\Petroglyph\StarWars FOC\Profiles\Profile0\Player"
+
+Find the files called, "ShaderDetail" and "WaterDetail" and set their values to 3 for "ShaderDetail" and 2 for "WaterDetail"
+
+More info -> https://steamcommunity.com/app/32470/discussions/0/558755529477943047/?l=german

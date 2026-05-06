@@ -26,8 +26,8 @@
 		<OverrideDeceleration> .05 </OverrideDeceleration>
 
 		<Ranged_Target_Z_Adjust>0</Ranged_Target_Z_Adjust>
-		<Armor_Type> Armor_Missile_Cruiser </Armor_Type>
-        <Shield_Armor_Type>Shield_Corvette</Shield_Armor_Type>
+		<Armor_Type> Armor_Light_Frigate </Armor_Type>
+        <Shield_Armor_Type>Shield_Light_Frigate</Shield_Armor_Type>
 		<Max_Thrust>0.5</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1.5</Hyperspace_Speed>

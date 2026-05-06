@@ -76,6 +76,14 @@
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
 
+	<Event Name="Era_1_Text">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>READY_TO_ADVANCE_ERA_2</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<preq>Permit_Advance_Era_2</preq>
+	</Event>
+
 	<Event Name="Spawn_Jan_Dodonna">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>

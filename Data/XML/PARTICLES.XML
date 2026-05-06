@@ -96,89 +96,89 @@
 	</Particle>
 
 	<Particle Name="Small_Explosion_Space">
-		<Land_Model_Name>P_Ship_Fire_Very_Small_Explosion.alo</Land_Model_Name>
-		<Space_Model_Name>P_Ship_Fire_Very_Small_Explosion.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Very_Small_Explosion_Death.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Very_Small_Explosion_Death.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
 
 	<Particle Name="Small_Explosion_Space_Empire">
-		<Land_Model_Name>P_Ship_Fire_Very_Small_Explosion.alo</Land_Model_Name>
-		<Space_Model_Name>P_Ship_Fire_Very_Small_Explosion.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Very_Small_Explosion_Death.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Very_Small_Explosion_Death.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>1</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_SMALL</Explosion_Scorch_Mark>
 	</Particle>
 
 	<Particle Name="Medium_Explosion_Space">
-		<Land_Model_Name>P_Ship_Fire_Small_Explosion.alo</Land_Model_Name>
-		<Space_Model_Name>P_Ship_Fire_Small_Explosion.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Small_Explosion_death.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Small_Explosion_death.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>2</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
 	</Particle>
 
 	<Particle Name="Medium_Explosion_Space_Empire">
-		<Land_Model_Name>P_Ship_Fire_Small_Explosion.alo</Land_Model_Name>
-		<Space_Model_Name>P_Ship_Fire_Small_Explosion.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Small_Explosion_death.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Small_Explosion_death.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>2</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_MEDIUM</Explosion_Scorch_Mark>
 	</Particle>
 
 	<Particle Name="Large_Explosion_Space">
-		<Land_Model_Name>P_Ship_Fire_Small_Explosion.alo</Land_Model_Name>
-		<Space_Model_Name>P_Ship_Fire_Small_Explosion.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Small_Explosion_death.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Small_Explosion_death.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_LARGE</Explosion_Scorch_Mark>
 	</Particle>
 
 	<Particle Name="Large_Explosion_Space_Empire">
-		<Land_Model_Name>P_Ship_Fire_Small_Explosion.alo</Land_Model_Name>
-		<Space_Model_Name>P_Ship_Fire_Small_Explosion.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Small_Explosion_death.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Small_Explosion_death.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>3</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
 	</Particle>
 
 	<Particle Name="Huge_Explosion_Space">
-		<Land_Model_Name>P_Ship_Fire_Explosion.alo</Land_Model_Name>
-		<Space_Model_Name>P_Ship_Fire_Explosion.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Explosion_death.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Explosion_death.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
 	</Particle>
 
 	<Particle Name="Friggin_Huge_Explosion_Space">
-		<Land_Model_Name>P_Ship_Fire_Explosion.alo</Land_Model_Name>
-		<Space_Model_Name>P_Ship_Fire_Explosion.alo</Space_Model_Name>
+		<Land_Model_Name>P_Ship_Fire_Explosion_death.alo</Land_Model_Name>
+		<Space_Model_Name>P_Ship_Fire_Explosion_death.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
 		<Explosion_Scorch_Mark>EXPLOSION_SCORCH_MARK_HUGE</Explosion_Scorch_Mark>
 	</Particle>
@@ -189,7 +189,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
 	</Particle>
 
@@ -199,7 +199,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
 	</Particle>
 
@@ -209,7 +209,7 @@
 		<Scale_Factor>1.0</Scale_Factor>
 		<Is_Decoration>Yes</Is_Decoration>
 		<Behavior>PARTICLE</Behavior>
-		<Particle_Lifetime_Frames>30</Particle_Lifetime_Frames>
+		<Particle_Lifetime_Frames>300</Particle_Lifetime_Frames>
 		<Explosion_Jitter_Factor>4</Explosion_Jitter_Factor>
 	</Particle>
 
