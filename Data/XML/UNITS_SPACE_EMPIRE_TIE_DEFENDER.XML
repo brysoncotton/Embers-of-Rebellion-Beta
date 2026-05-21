@@ -206,7 +206,7 @@
 		<Build_Cost_Credits>650</Build_Cost_Credits>
 		<Build_Time_Seconds>20</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
-		<Tech_Level>5</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>
 
 		<Behavior>DUMMY_SPACE_FIGHTER_SQUADRON</Behavior>

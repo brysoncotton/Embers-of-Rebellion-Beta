@@ -16,7 +16,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>1</Tech_Level>
-		<Build_Cost_Credits>2</Build_Cost_Credits>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
@@ -40,7 +40,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>2</Tech_Level>
-		<Build_Cost_Credits>2</Build_Cost_Credits>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
@@ -64,7 +64,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>3</Tech_Level>
-		<Build_Cost_Credits>2</Build_Cost_Credits>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
@@ -88,13 +88,13 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>4</Tech_Level>
-		<Build_Cost_Credits>2</Build_Cost_Credits>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Behavior></Behavior>
-		<Icon_Name>REBELLION_LOGO.TGA.tga</Icon_Name>
+		<Icon_Name>i_button_Defender.tga</Icon_Name>
 		<SFXEvent_Build_Started></SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled></SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete></SFXEvent_Build_Complete>
@@ -104,23 +104,23 @@
 
 <!--EMPIRE ERA CHANGERS-->
 
-	<TechBuilding Name="DS_Primary_Hyperdrive">
+	<TechBuilding Name="DS_Primary_Hyperdrive"> <!--TIE DEFENDER PROJECT-->
 		<Text_ID>TEXT_DEATHSTAR_PART_SHIELDGEN</Text_ID>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_ADVANCE </Encyclopedia_Unit_Class>
 		<GUI_Row> 0 </GUI_Row>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>1</Tech_Level>
-		<Build_Cost_Credits>2000</Build_Cost_Credits>
-		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
 		<Behavior></Behavior>
-		<Icon_Name>i_button_death_star_build.tga</Icon_Name>
+		<Icon_Name>I_BUTTON_TIE_DEFENDER.tga</Icon_Name>
 		<SFXEvent_Build_Started>EHD_Tech_Upgrade_Progress</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Tech_Upgrade_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>EHD_Tech_Upgrade_Complete</SFXEvent_Build_Complete>
@@ -137,11 +137,11 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>2</Tech_Level>
-		<Build_Cost_Credits>4000</Build_Cost_Credits>
-		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
@@ -163,11 +163,11 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>3</Tech_Level>
-		<Build_Cost_Credits>6000</Build_Cost_Credits>
-		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
@@ -189,11 +189,11 @@
 		<Is_Dummy>Yes</Is_Dummy>
 		<Affiliation>Empire</Affiliation>
 		<Required_Ground_Base_Level>1</Required_Ground_Base_Level>
-		<Required_Special_Structures>E_Ground_Research_Facility</Required_Special_Structures>
+		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>4</Tech_Level>
-		<Build_Cost_Credits>8000</Build_Cost_Credits>
-		<Build_Time_Seconds>200</Build_Time_Seconds>
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
 		<Build_Tab_Special_Structures>Yes</Build_Tab_Special_Structures>
