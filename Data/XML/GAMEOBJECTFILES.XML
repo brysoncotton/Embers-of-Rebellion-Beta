@@ -158,8 +158,7 @@
 	<!--<File>Units_Land_Empire_Noghri.xml</File>-->
 	<File>Units_Land_Empire_Juggernaut.xml</File>
 
-	<!--REBEL
-	MOD SPACE UNITS-->
+	<!--REBEL MOD SPACE UNITS-->
 	<File>UNITS_SPACE_REBEL_X_WING.xml</File>
 	<File>UNITS_SPACE_REBEL_U_WING.xml</File>
 	<File>UNITS_SPACE_REBEL_Z95_HEADHUNTER.xml</File>
@@ -182,6 +181,9 @@
 	<File>UNITS_SPACE_REBEL_MC80_LIBERTY.xml</File>
 	<File>UNITS_SPACE_REBEL_DEFENDER.xml</File>
 	<File>UNITS_SPACE_REBEL_STARHAWK.XML</File>
+
+	<!--REBEL MOD GROUND UNITS-->
+	<File>UNITS_LAND_REBEL_JUGGERNAUT.XML</File>
 
 	<!-- REBEL MOD HERO UNITS-->
 	<File>UNITS_HERO_REBEL_RADDUS.XML</File>

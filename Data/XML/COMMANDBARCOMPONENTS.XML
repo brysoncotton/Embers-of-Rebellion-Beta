@@ -990,7 +990,7 @@
             <Swap_Texture>True</Swap_Texture>
     </CommandBarComponent>
 
-    <CommandBarComponent Name="radar_galactic">
+    <CommandBarComponent Name="radar_galactic"> <!-- BE SURE TO EDIT THE SIZE OF THE "radar_galactic_adv_map" COMPNENT AS WELL-->
             <Type>Button</Type>
             <Size>75 90</Size> <!-- Controls the size of the area that the planet icons can be in on the mini map (x, y)--> 
     </CommandBarComponent>
@@ -9519,9 +9519,9 @@
            <Scale>1.0</Scale>
    </CommandBarComponent>
 
-   <CommandBarComponent Name="radar_galactic_adv_map">
+   <CommandBarComponent Name="radar_galactic_adv_map"> <!--BE SURE TO EDIT THE SIZE OF THE "radar_galactic" COMPONENT AS WELL-->
            <Type>Button</Type>
-           <Size>175 175</Size>
+           <Size>75 90</Size> <!--THE MINI MAP THAT IS SHOWN WHEN YOU ZOOM IN TO SEE THE BASE LAYOUT OF A PLANET-->
    </CommandBarComponent>
 
    <CommandBarComponent Name="b_zoom_adv_map">
@@ -9637,7 +9637,7 @@
    <CommandBarComponent Name="map_window">
            <Type>Icon</Type>
            <Base_Layer>2</Base_Layer>
-           <Scale>1</Scale>
+           <Scale>1.25</Scale>
            <Size>512 512</Size>
            <Color>200 200 200 255</Color>
    </CommandBarComponent>

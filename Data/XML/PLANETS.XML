@@ -1312,7 +1312,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 800 </Planet_Capture_Bonus_Reward>
-    <Land_Tactical_Map> _Land_Planet_Ilum_02.ted </Land_Tactical_Map>
+    <Land_Tactical_Map> _LAND_PLANET_ILUM_02.ted </Land_Tactical_Map>
     <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map>
     <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
@@ -2054,7 +2054,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Max_Space_Base>5</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
-    <Land_Tactical_Map> _Space_Planet_Honoghr_01.ted </Land_Tactical_Map>
+    <Land_Tactical_Map> _LAND_PLANET_HONOGHR_02.ted </Land_Tactical_Map>
     <Space_Tactical_Map>_SPACE_PLANET_GENERIC_TEMPERATE_01.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
@@ -2351,8 +2351,8 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 800 </Planet_Capture_Bonus_Reward>
-    <Land_Tactical_Map> _SPACE_PLANET_GENERIC_ICE_01.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_Space_Planet_Ilum_01.ted</Space_Tactical_Map>
+    <Land_Tactical_Map> _LAND_PLANET_ILUM_02.ted </Land_Tactical_Map>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map>
     <Planet_Slice_Difficulty_Rating>0</Planet_Slice_Difficulty_Rating>
     <Planet_Tech_Availability_Rating>0</Planet_Tech_Availability_Rating>
     <Planet_Black_Market_Modifier>0</Planet_Black_Market_Modifier>
@@ -2484,7 +2484,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> NO </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
-    <Land_Tactical_Map>_SPACE_PLANET_GENERIC_OCEAN_01.ted</Land_Tactical_Map>
+    <Land_Tactical_Map></Land_Tactical_Map>
     <Space_Tactical_Map>_SPACE_PLANET_GENERIC_OCEAN_01.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Slice_Difficulty_Rating>5</Planet_Slice_Difficulty_Rating>
@@ -3151,7 +3151,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Terrain>Temperate</Terrain>
     <Planet_Credit_Value>81</Planet_Credit_Value>
     <Planet_Destroyed_Credit_Value>0</Planet_Destroyed_Credit_Value>
-    <Galactic_Position>-89.219, 501.737</Galactic_Position>
+    <Galactic_Position>-110, 531.737</Galactic_Position>
     <Special_Structures_Land>6</Special_Structures_Land>
     <Special_Structures_Space>2</Special_Structures_Space>
     <Max_Space_Base>5</Max_Space_Base>
@@ -3403,7 +3403,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <!-- If you abandon this planet, you will not retain political control -->
     <Planet_Retains_Residual_Influence> Yes </Planet_Retains_Residual_Influence>
     <Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
-    <Land_Tactical_Map> _Space_Planet_VergessoAsteroids_01.ted </Land_Tactical_Map>
+    <Land_Tactical_Map></Land_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
@@ -4053,7 +4053,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <!-- If you abandon this planet, you will not retain political control -->
     <Planet_Retains_Residual_Influence> Yes </Planet_Retains_Residual_Influence>
     <Space_Tactical_Map>_Space_Planet_VergessoAsteroids_01.ted</Space_Tactical_Map>
-    <Land_Tactical_Map> _Space_Planet_VergessoAsteroids_01.ted </Land_Tactical_Map>
+    <Land_Tactical_Map></Land_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Capture_Bonus_Reward> 600 </Planet_Capture_Bonus_Reward>
     <Planet_Slice_Difficulty_Rating>4</Planet_Slice_Difficulty_Rating>
@@ -4663,8 +4663,8 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Max_Space_Base>4</Max_Space_Base>
     <The_Force>Neutral</The_Force>
     <Force_Strength>0.0</Force_Strength>
-    <Land_Tactical_Map> _Land_Planet_Onderon_02.ted </Land_Tactical_Map>
-    <Space_Tactical_Map>_SPACE_PLANET_ONDERON_01.ted</Space_Tactical_Map>
+    <Land_Tactical_Map> _Land_Planet_Atzerri_02.ted </Land_Tactical_Map>
+    <Space_Tactical_Map>_SPACE_PLANET_GENERIC_TEMPERATE_01.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 2300 </Planet_Capture_Bonus_Reward>

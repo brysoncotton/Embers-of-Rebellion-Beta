@@ -81,14 +81,14 @@
         <Shield_Armor_Type>Shield_Heavy_Crusier</Shield_Armor_Type>
 		<Damage>40</Damage>
 		<Autoresolve_Health>7000</Autoresolve_Health>
-		<Shield_Points>800</Shield_Points>
+		<Shield_Points>2000</Shield_Points>
 		<Tactical_Health>7000</Tactical_Health>  <!-- was 2600 -->
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>3000</Energy_Capacity>
 		<Energy_Refresh_Rate>500</Energy_Refresh_Rate>
 
 		<Affiliation>Empire</Affiliation>
-		<Tech_Level>3</Tech_Level>
+		<Tech_Level>2</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>3</Required_Star_Base_Level>

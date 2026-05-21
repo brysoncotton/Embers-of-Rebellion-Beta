@@ -94,10 +94,10 @@
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>4</Required_Star_Base_Level>
 		<Required_Special_Structures />
-		<Required_Planets>MonCalimari, Kuat, Fondor, Sullust, Hypori, Mandalore, Coruscant, Corellia</Required_Planets>
+		<Required_Planets></Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
-		<Shield_Points>2000</Shield_Points>
+		<Shield_Points>3000</Shield_Points>
 		<Tactical_Health>7500</Tactical_Health> <!-- was 6000 -->
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
