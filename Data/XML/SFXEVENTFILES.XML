@@ -23,6 +23,7 @@
 	<File> SFXEventsUnitsFrigates.xml </File>
 	<File> SFXEventsUnitsTransports.xml </File>
 	<File> SFXEventsUnitsGround.xml </File>
+	<File>SFXEVENTSUNITSMODHERO.XML</File>
 
 	<File> SFXEventsUnitsRebelHeroes.xml </File>
 	<File> SFXEventsUnitsEmpireHeroes.xml </File>

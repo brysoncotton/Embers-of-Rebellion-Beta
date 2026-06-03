@@ -233,7 +233,7 @@
 		<Build_Max_Instances_Per_Planet> 1 </Build_Max_Instances_Per_Planet>
 		<Size_Value>90</Size_Value>
 		<Base_Position>Orbital</Base_Position>
-		<Tech_Level>100</Tech_Level>
+		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>2</Required_Star_Base_Level>

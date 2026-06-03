@@ -10,7 +10,7 @@
     	<Is_Discardable> No </Is_Discardable>
     	<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
     	<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-		<Scale_Factor>10.0</Scale_Factor>
+		<Scale_Factor>20.0</Scale_Factor>
 		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
@@ -33,7 +33,7 @@
     	<Is_Discardable> No </Is_Discardable>
     	<Loop_Idle_Anim_00> Yes </Loop_Idle_Anim_00>
     	<Idle_Anim_00_Rate_Mod>1.0</Idle_Anim_00_Rate_Mod>
-		<Scale_Factor>10.0</Scale_Factor>
+		<Scale_Factor>20.0</Scale_Factor>
 		<Behavior> IDLE, DUMMY_SPECIAL_WEAPON_SOURCE, DUMMY_TACTICAL_SUPER_WEAPON_TARGET </Behavior>
 		<Sort_Order_Adjust>-1</Sort_Order_Adjust>
 		<In_Background> Yes </In_Background>
@@ -51,21 +51,21 @@
 	<SpaceProp Name="Coruscant_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_coruscant.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Alderaan_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_alderaan.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Tatooine_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_tatooine.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
@@ -79,14 +79,14 @@
 	<SpaceProp Name="Red_Gas_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_sphere_gas_red.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Temperate_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_temperate.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 	
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
@@ -94,70 +94,70 @@
 	<SpaceProp Name="Generic_Desert_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_desert.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Swamp_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_swamp.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Ocean_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_ocean.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Forest_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_forest.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Ice_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_ice.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Vulcanic_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_mustafar.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Gas_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_gas.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Gas_Silver_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_gas_silver.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Gas_Red_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_gas_red.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 
 	<SpaceProp Name="Generic_Gas_Green_Backdrop_Large">
 		<Variant_Of_Existing_Type> Saleucami_Backdrop_Large </Variant_Of_Existing_Type>
 		<Space_Model_Name>w_planet_gas_green.alo</Space_Model_Name>
-		<Scale_Factor>15.0</Scale_Factor>
+		<Scale_Factor>30.0</Scale_Factor>
 		<Layer_Z_Adjust>-5000</Layer_Z_Adjust>
 	</SpaceProp>
 

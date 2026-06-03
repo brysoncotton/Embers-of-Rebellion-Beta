@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HardPoints>
+
+
+    <HardPoint Name="HP_Death_Star_Superlaser">
+			<Type> HARD_POINT_WEAPON_SPECIAL </Type>
+		<Is_Targetable>No</Is_Targetable>
+		<Is_Destroyable>No</Is_Destroyable>
+			<Death_Explosion_Particles/>
+			<Death_Explosion_SFXEvent/>
+
+            <Model_To_Attach/>
+            <Attachment_Bone>MuzzleA_00</Attachment_Bone>
+	    <Collision_Mesh>MuzzleA_00</Collision_Mesh>
+            <Damage_Decal/>
+            <Damage_Particles/>
+
+            	<Fire_Bone_A>MuzzleA_00</Fire_Bone_A>
+            	<Fire_Bone_B>MuzzleA_00</Fire_Bone_B>
+
+		<Fire_Cone_Width>50</Fire_Cone_Width>
+		<Fire_Cone_Height>50</Fire_Cone_Height>
+
+            <Fire_Projectile_Type>Proj_Death_Star_SRI</Fire_Projectile_Type>
+            <Blast_Ability_Fire_Projectile_Type>Proj_Death_Star_SRI</Blast_Ability_Fire_Projectile_Type>
+            <Super_Laser_Ability_Fire_Projectile_Type>Proj_Death_Star_SRI</Super_Laser_Ability_Fire_Projectile_Type>
+
+            <Fire_Min_Recharge_Seconds>5</Fire_Min_Recharge_Seconds>
+            <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
+            <Fire_Pulse_Count>20</Fire_Pulse_Count>
+            <Fire_Pulse_Delay_Seconds>0.01</Fire_Pulse_Delay_Seconds>
+            <Fire_Range_Distance>2000000000.0</Fire_Range_Distance>
+			<Fire_SFXEvent></Fire_SFXEvent>
+				
+		<Allow_Opportunity_Fire_When_Targeting>False</Allow_Opportunity_Fire_When_Targeting>
+ 		<Allow_Opportunity_Fire_When_Idle>False</Allow_Opportunity_Fire_When_Idle>
+    </HardPoint>
+
+</HardPoints>

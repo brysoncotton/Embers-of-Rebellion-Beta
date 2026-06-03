@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+
+<SFXEvents>
+
+<!--==============================-->
+<!--======KYRSTA AGATE AUDIO======-->
+<!--==============================-->
+
+	<SFXEvent Name="Unit_Select_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Kyrsta_Agate_Here.wav
+			Data\Audio\Speech\English\Agate_Here_whats_the_plan.wav
+			Data\Audio\Speech\English\Standing_By_For_Coordinates_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Underway_Agate.wav
+			Data\Audio\Speech\English\Setting_Course_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Move_Fleet_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Jump_to_lightspeed_Agate.wav
+			Data\Audio\Speech\English\Setting_Course_Agate.wav
+			Data\Audio\Speech\English\Underway_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Attack_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\They_Wanted_A_Fight_Agate.wav
+			Data\Audio\Speech\English\All_Batteries_Open_Fire_Agate.wav
+			Data\Audio\Speech\English\Fire_At_Will_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Defend_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Escorting_Target_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Barrage_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\They_Wanted_A_Fight_Agate.wav
+			Data\Audio\Speech\English\All_Batteries_Open_Fire_Agate.wav
+			Data\Audio\Speech\English\Fire_At_Will_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Stop_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\All_stations_Full_Stop_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Asteroids_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\This_Is_Going_To_Be_Bumpy_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Nebula_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\I_Hope_You_Got_a_Plan_With_This_Move_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_LASER_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Target_Their_Laser_Batteries_Agate.wav
+			Data\Audio\Speech\English\Concentrate_Fire_On_Their_Primary_Turbolaser_Agate.wav
+			Data\Audio\Speech\English\All_Batteries_Open_Fire_Agate.wav
+			Data\Audio\Speech\English\Fire_At_Will_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_MISSILE_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Neutralize_Those_Missile_Tubes_Agate.wav
+			Data\Audio\Speech\English\Take_Out_Those_Launchers_Agate.wav
+			Data\Audio\Speech\English\All_Batteries_Open_Fire_Agate.wav
+			Data\Audio\Speech\English\Fire_At_Will_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_TORP_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Gunnery_Target_The_Torpedo_Launchers_Agate.wav
+			Data\Audio\Speech\English\Take_Out_Those_Launchers_Agate.wav
+			Data\Audio\Speech\English\Fire_At_Will_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_ION_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Target_Their_Ion_Cannons_Keep_Our_Systems_Alive_Agate.wav
+			Data\Audio\Speech\English\Concentrate_All_Fire_On_That_Ion_Cannon_Battery_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_SHIELDS_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Focus_Fire_On_The_Shield_Domes_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_HP_ENGINES_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Focus_On_The_Engines_Strip_Their_Mobility_Agate.wav
+			Data\Audio\Speech\English\Aim_For_The_Main_Engines_Cripple_Them_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lost_Laser_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Primary_Lasers_Are_Gone_Agate.wav
+			Data\Audio\Speech\English\Laser_Batteries_Disabled_Damage_Control_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lost_Ion_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\There_Go_Our_Ion_Cannons_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lost_Shields_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Our_Shield_Generator_Has_Been_Destroyed_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lost_Engines_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Down_To_Only_Maneuvering_Thrusters_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lost_Hangar_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Fighter_Bay_Venting_Atmosphere_Agate.wav
+			Data\Audio\Speech\English\Hanger_Deck_Down_Get_Medical_There_Agate.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	<SFXEvent Name="Unit_Lost_Tractor_Beam_Kyrsta_Agate">
+		<Use_Preset>Preset_UR</Use_Preset>
+		<Samples>
+			Data\Audio\Speech\English\Magnite_Tractor_Offline.wav
+		</Samples>
+		<Localize> Yes </Localize>
+		<Play_Sequentially> Yes </Play_Sequentially>
+		<Text_ID></Text_ID>			
+		<Overlap_Test> Unit_ </Overlap_Test>
+	</SFXEvent>
+
+	
+
+</SFXEvents>

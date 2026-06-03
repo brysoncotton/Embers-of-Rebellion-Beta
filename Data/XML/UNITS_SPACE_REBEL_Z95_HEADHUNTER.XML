@@ -14,7 +14,7 @@
 		<Icon_Name>i_button_z95.tga</Icon_Name>
 		<Space_Model_Name>Z95A_Headhunter_Base.ALO</Space_Model_Name>
 		<Mass>0.995</Mass>
-		<Scale_Factor>0.2</Scale_Factor>
+		<Scale_Factor>0.4</Scale_Factor>
 		<Fires_Forward>no</Fires_Forward>
 		<Turret_Rotate_Extent_Degrees>20</Turret_Rotate_Extent_Degrees>
 		<Turret_Elevate_Extent_Degrees>40</Turret_Elevate_Extent_Degrees>

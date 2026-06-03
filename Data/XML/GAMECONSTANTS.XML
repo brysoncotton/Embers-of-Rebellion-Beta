@@ -1277,30 +1277,30 @@
 	<Damage_To_Armor_Mod> Damage_Heavy_Turbolaser, Shield_Super, .2 </Damage_To_Armor_Mod>
 
 	<!--Ion Damage Type-->
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Default, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Default, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Default, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Transport, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Transport, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Transport, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Fighter, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Fighter, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Fighter, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Heavy_Fighter, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Heavy_Fighter, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Heavy_Fighter, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Light_Corvette, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Light_Corvette, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Light_Corvette, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Heavy_Corvette, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Heavy_Corvette, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Heavy_Corvette, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Light_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Light_Frigate, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Light_Frigate, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Heavy_Frigate, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Heavy_Frigate, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Heavy_Frigate, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Light_Crusier, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Light_Crusier, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Light_Crusier, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Heavy_Crusier, 1 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Heavy_Crusier, 0 </Damage_To_Armor_Mod>
 	<Damage_To_Armor_Mod> Damage_Ion, Shield_Heavy_Crusier, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Capital, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Shield_Capital, .7 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Armor_Super, 1 </Damage_To_Armor_Mod>
-	<Damage_To_Armor_Mod> Damage_Ion, Shield_Super, .7 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Capital, 0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Shield_Capital, .5 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Armor_Super, 0 </Damage_To_Armor_Mod>
+	<Damage_To_Armor_Mod> Damage_Ion, Shield_Super, .3 </Damage_To_Armor_Mod>
 
 	<!-- Fighter lasers -->
 	<Damage_To_Armor_Mod> Damage_Fighter, Armor_Default, 1 </Damage_To_Armor_Mod>

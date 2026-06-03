@@ -4823,7 +4823,7 @@ A tactical battle will be launched if the corruption choice has valid entries fo
     <Force_Strength>0.0</Force_Strength>
     <Planet_Surface_Accessible> Yes </Planet_Surface_Accessible>
     <Planet_Capture_Bonus_Reward> 1000 </Planet_Capture_Bonus_Reward>
-    <Land_Tactical_Map> _Land_Planet_Rhen_Var_02.ted </Land_Tactical_Map>
+    <Land_Tactical_Map> _Land_Planet_Hoth_02.ted </Land_Tactical_Map>
     <Space_Tactical_Map>_SPACE_PLANET_GENERIC_ICE_01.ted</Space_Tactical_Map>
     <Destroyed_Space_Tactical_Map />
     <Planet_Slice_Difficulty_Rating>1</Planet_Slice_Difficulty_Rating>

@@ -8,11 +8,11 @@
 		<Focus> .5 </Focus>
 		<Aggressiveness> .5 </Aggressiveness>
 	</Personality>
-	
-    <GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>
-    <SpaceFreeStoreScript>BusyTacticalFreeStore</SpaceFreeStoreScript>
-    <LandFreeStoreScript>BusyTacticalFreeStore</LandFreeStoreScript>
-	
+
+	<GalacticFreeStoreScript>GalacticFreeStore</GalacticFreeStoreScript>
+	<SpaceFreeStoreScript>BusyTacticalFreeStore</SpaceFreeStoreScript>
+	<LandFreeStoreScript>BusyTacticalFreeStore</LandFreeStoreScript>
+
 	<GoalProposalFunctionSets>
 		SystemFunctions
 		BasicOffensiveGalacticSet
@@ -25,16 +25,17 @@
 		AI_GoalSet_ExpansionGeneric_Land
 		AI_GoalSet_Rebel_Land
 	</GoalProposalFunctionSets>
-	
+
 	<Templates>
-        <Space>
+		<Space>
             Test_Space
-        </Space>
-        <Land>
+		</Space>
+		<Land>
             Test_Land
-        </Land>
+		</Land>
 		<Galactic>
 			Basic_Rebel_Default
+			Tech_Upgrade
 			Shutdown_Offense
 		</Galactic>
 	</Templates>
@@ -44,5 +45,5 @@
 		<Normal>Normal_Default</Normal>
 		<Hard>Hard_Default</Hard>
 	</Difficulty_Adjustments>
-	
+
 </AIPlayerType>

@@ -5,14 +5,13 @@
 		<Text_ID>TEXT_UNIT_STARHAWK</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>Rv_StarHawk.ALO</Space_Model_Name>
-		<Scale_Factor>0.6
-		</Scale_Factor>
+		<Scale_Factor>0.6</Scale_Factor>
 		<Build_Initially_Locked>No</Build_Initially_Locked>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
 
 		<Space_Override_Population_Value>10</Space_Override_Population_Value>
-        <Population_Value>15</Population_Value>
+		<Population_Value>15</Population_Value>
 
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
@@ -51,9 +50,9 @@
 		<Required_Planets></Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>10000</Autoresolve_Health>
-		<Shield_Points>4000</Shield_Points>
-		<Tactical_Health>7000</Tactical_Health> <!-- was 6000 -->
-		<Shield_Refresh_Rate>100</Shield_Refresh_Rate>
+		<Shield_Points>5000</Shield_Points>
+		<Tactical_Health>7000</Tactical_Health>		<!-- was 6000 -->
+		<Shield_Refresh_Rate>200</Shield_Refresh_Rate>
 		<Energy_Capacity>10000</Energy_Capacity>
 		<Energy_Refresh_Rate>1000</Energy_Refresh_Rate>
 		<Ship_Class>Capital</Ship_Class>
@@ -61,10 +60,10 @@
 		<!--<Political_Control>1</Political_Control>-->
 		<Political_Faction>Rebel</Political_Faction>
 		<Squadron_Capacity>40</Squadron_Capacity>
-		<Build_Cost_Credits>20000</Build_Cost_Credits>
+		<Build_Cost_Credits>25000</Build_Cost_Credits>
 		<Piracy_Value_Credits>250</Piracy_Value_Credits>
 		<AI_Combat_Power>8000</AI_Combat_Power>
-		<Build_Time_Seconds>300</Build_Time_Seconds>
+		<Build_Time_Seconds>700</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 
@@ -76,7 +75,7 @@
 		<Reserve_Spawned_Units_Tech_0>B-Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>A_Wing_Squadron, 2</Reserve_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		
+
 
 
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
@@ -124,46 +123,42 @@
 			HP_Starhawk_Hanger_02
 		</HardPoints>
 
-		<SFXEvent_Select>Unit_Select_Star_Destroyer</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Star_Destroyer</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Star_Destroyer</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Star_Destroyer</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Star_Destroyer</SFXEvent_Guard>
+		<SFXEvent_Select>Unit_Select_Starhawk</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Starhawk</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Move_Fleet_Starhawk</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Starhawk</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Defend_Starhawk</SFXEvent_Guard>
 		<SFXEvent_Move_Opposite>Unit_Move_Opposite_Star_Destroyer</SFXEvent_Move_Opposite>
 		<SFXEvent_Barrage>Unit_Barrage_Star_Destroyer</SFXEvent_Barrage>
-		<SFXEvent_Stop>Unit_Stop_Star_Destroyer</SFXEvent_Stop>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Star_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Stop>Unit_Stop_Starhawk</SFXEvent_Stop>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Starhawk </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Starhawk </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
 		<SFXEvent_Bombard_Select_Target> EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming </SFXEvent_Bombard_Incoming>
 
 
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Star_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Star_Destroyer</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Star_Destroyer </SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Star_Destroyer</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Star_Destroyer</SFXEvent_Attack_Hardpoint>
-		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Star_Destroyer </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Starhawk </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Starhawk</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Starhawk </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Starhawk</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Starhawk</SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Starhawk </SFXEvent_Attack_Hardpoint>
 
 		<SFXEvent_Ambient_Loop>Unit_Star_Destroyer_Idle_Engine_Loop</SFXEvent_Ambient_Loop>
 
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Star_Destroyer</SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Starhawk</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Starhawk</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Starhawk</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Starhawk</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Hangar_Starhawk</SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, Unit_Lost_Tractor_Beam_Starhawk</SFXEvent_Hardpoint_Destroyed>
 
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
+		<SFXEvent_Build_Complete>Unit_Select_Starhawk</SFXEvent_Build_Complete>
 
 		<!-- <SFXEvent_Engine_Idle_Loop> Unit_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
 		<SFXEvent_Engine_Moving_Loop> Unit_Star_Destroyer_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
@@ -187,9 +182,9 @@
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
-		<Radar_Icon_Name>i_radar_capital_ship_empire.tga</Radar_Icon_Name>
+		<Radar_Icon_Name>I_RADAR_STARHAWK.tga</Radar_Icon_Name>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
-		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
+		<Radar_Icon_Scale_Space>2.0</Radar_Icon_Scale_Space>
 
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
@@ -207,17 +202,7 @@
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
 				<Supports_Autofire>True</Supports_Autofire>
 			</Unit_Ability>
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER, 0.3</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER, 2.0</Mod_Multiplier>
-				<Mod_Multiplier>CAUSE_DAMAGE_MULTIPLIER , 2.0</Mod_Multiplier>
-				<Recharge_Seconds>50</Recharge_Seconds>
-				<Expiration_Seconds>7</Expiration_Seconds>
-				<Alternate_Name_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_NAME</Alternate_Name_Text>
-				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_ASSAULT_DESCRIPTION</Alternate_Description_Text>
-				<Alternate_Icon_Name>i_sa_assault.tga</Alternate_Icon_Name>
-			</Unit_Ability>
+			
 		</Unit_Abilities_Data>
 
 		<Abilities SubObjectList="Yes">
@@ -227,7 +212,7 @@
 				<Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
 				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
 				<Activation_Min_Range>10</Activation_Min_Range>
-				<Activation_Max_Range>1000</Activation_Max_Range>
+				<Activation_Max_Range>3000</Activation_Max_Range>
 
 
 				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
@@ -240,11 +225,11 @@
 		<Encyclopedia_Text> TEXT_TOOLTIP_STARHAWK TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
-		<Build_Limit_Current_Per_Player>3</Build_Limit_Current_Per_Player>
-		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>
+		<Build_Limit_Current_Per_Player></Build_Limit_Current_Per_Player>
+		<Build_Limit_Lifetime_Per_Player></Build_Limit_Lifetime_Per_Player>
 
-		<Build_Limit_Current_For_All_Allies>3</Build_Limit_Current_For_All_Allies>
-		<Build_Limit_Lifetime_Per_Player>-1</Build_Limit_Lifetime_Per_Player>		
+		<Build_Limit_Current_For_All_Allies></Build_Limit_Current_For_All_Allies>
+		<Build_Limit_Lifetime_Per_Player></Build_Limit_Lifetime_Per_Player>
 		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
 		<Tactical_Build_Cost_Multiplayer>7000</Tactical_Build_Cost_Multiplayer>
 		<Tactical_Build_Time_Seconds>35</Tactical_Build_Time_Seconds>

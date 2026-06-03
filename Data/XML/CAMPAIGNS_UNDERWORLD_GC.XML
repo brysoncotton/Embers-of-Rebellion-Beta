@@ -398,10 +398,6 @@
 		<Starting_Forces> Rebel, Anaxes, A_Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Anaxes, A_Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Anaxes, Y-Wing_Squadron </Starting_Forces>
-		<!-- Anaxes Land Forces -->
-		<Starting_Forces> Rebel, Anaxes, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Anaxes, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Anaxes, R_Ground_Barracks </Starting_Forces>
 
 		<!-- Crait Space Forces -->
 		<Starting_Forces> Rebel, Crait, Rebel_Star_Base_1 </Starting_Forces>
@@ -1528,10 +1524,6 @@
 		<Starting_Forces> Rebel, Anaxes, A_Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Anaxes, A_Wing_Squadron </Starting_Forces>
 		<Starting_Forces> Rebel, Anaxes, Y-Wing_Squadron </Starting_Forces>
-		<!-- Anaxes Land Forces -->
-		<Starting_Forces> Rebel, Anaxes, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Anaxes, Rebel_Infantry_Squad </Starting_Forces>
-		<Starting_Forces> Rebel, Anaxes, R_Ground_Barracks </Starting_Forces>
 
 		<!-- Crait Space Forces -->
 		<Starting_Forces> Rebel, Crait, Rebel_Star_Base_1 </Starting_Forces>
@@ -1765,7 +1757,7 @@
 
 		<!-- Scarif Space Forces -->
 		<Starting_Forces> Empire, Scarif, Empire_Star_Base_1 </Starting_Forces>
-		<Starting_Forces> Empire, Scarif, Acclamator_Assault_Ship </Starting_Forces>
+		<Starting_Forces> Empire, Scarif, Victory_I_Destroyer</Starting_Forces>
 		<!-- Scarif Land Forces -->
 		<Starting_Forces> Empire, Scarif, E_Ground_Light_Vehicle_Factory </Starting_Forces>
 		<Starting_Forces> Empire, Scarif, Imperial_Anti_Infantry_Brigade </Starting_Forces>

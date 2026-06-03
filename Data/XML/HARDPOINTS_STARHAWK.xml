@@ -8,7 +8,7 @@
 		<Attachment_Bone>SPAWN_04</Attachment_Bone>             
 		<Collision_Mesh>SPAWN_04</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Health>300.0</Health>
+		<Health>500.0</Health>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
@@ -20,7 +20,7 @@
 		<Attachment_Bone>SPAWN_08</Attachment_Bone>             
 		<Collision_Mesh>SPAWN_08</Collision_Mesh>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Health>400.0</Health>
+		<Health>500</Health>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>  <!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent> <!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
@@ -30,7 +30,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable> 
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>450.0</Health>
+        <Health>500.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -47,7 +47,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable> 
         <Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-        <Health>450.0</Health>
+        <Health>500.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
@@ -82,7 +82,7 @@
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
         <Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-        <Health>200.0</Health>
+        <Health>500.0</Health>
 
         <Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Engines_Death</Death_Explosion_SFXEvent>
@@ -137,8 +137,8 @@
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Octuple</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
@@ -178,8 +178,8 @@
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Octuple</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
@@ -219,8 +219,8 @@
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Octuple</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
@@ -260,8 +260,8 @@
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Octuple</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
@@ -301,8 +301,8 @@
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Octuple</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
@@ -342,8 +342,8 @@
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Octuple</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
@@ -383,8 +383,8 @@
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Octuple</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
@@ -424,8 +424,8 @@
         <Fire_Projectile_Type>Proj_Ship_Turbolaser_Cannon_Green_Octuple</Fire_Projectile_Type>
         <Fire_Min_Recharge_Seconds>4</Fire_Min_Recharge_Seconds>
         <Fire_Max_Recharge_Seconds>5</Fire_Max_Recharge_Seconds>
-        <Fire_Pulse_Count>2</Fire_Pulse_Count>
-        <Fire_Pulse_Delay_Seconds>1</Fire_Pulse_Delay_Seconds>
+        <Fire_Pulse_Count>4</Fire_Pulse_Count>
+        <Fire_Pulse_Delay_Seconds>.5</Fire_Pulse_Delay_Seconds>
         <Fire_Range_Distance>3000</Fire_Range_Distance>
         <Fire_SFXEvent>Unit_Turbo_Fire</Fire_SFXEvent>
 
@@ -445,7 +445,7 @@
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
@@ -486,7 +486,7 @@
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
@@ -527,7 +527,7 @@
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
@@ -568,7 +568,7 @@
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
@@ -609,7 +609,7 @@
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
@@ -650,7 +650,7 @@
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
@@ -691,7 +691,7 @@
         <Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles>Large_Explosion_Space</Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Turbo_Laser_Death</Death_Explosion_SFXEvent>
 
@@ -732,7 +732,7 @@
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400.0</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles></Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
@@ -773,7 +773,7 @@
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400.0</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles></Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
@@ -814,7 +814,7 @@
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400.0</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles></Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
@@ -855,7 +855,7 @@
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400.0</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles></Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
@@ -896,7 +896,7 @@
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400.0</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles></Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
@@ -937,7 +937,7 @@
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400.0</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles></Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
@@ -978,7 +978,7 @@
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400.0</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles></Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 
@@ -1019,7 +1019,7 @@
         <Tooltip_Text>TEXT_WEAPON_IONCANNON</Tooltip_Text>
         <Is_Targetable>Yes</Is_Targetable>
         <Is_Destroyable>Yes</Is_Destroyable>
-        <Health>400.0</Health>
+        <Health>500</Health>
         <Death_Explosion_Particles></Death_Explosion_Particles>
         <Death_Explosion_SFXEvent>Unit_Hardpoint_Ion_Death</Death_Explosion_SFXEvent>
 

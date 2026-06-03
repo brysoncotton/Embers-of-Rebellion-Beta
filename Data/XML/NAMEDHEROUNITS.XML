@@ -2194,7 +2194,7 @@
 
 		<Target_Stealth_Units>Yes</Target_Stealth_Units>
 
-		<Unique_Space_Unit>Executor_Super_Star_Destroyer</Unique_Space_Unit>
+		<Unique_Space_Unit>Executor_Star_Dreadnought</Unique_Space_Unit>
 
 		<!-- Non-Hero unit abilities description -->
 		<Unit_Abilities_Data SubObjectList="Yes">

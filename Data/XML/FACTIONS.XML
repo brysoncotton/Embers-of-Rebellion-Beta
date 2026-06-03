@@ -29,7 +29,7 @@
 		<Force_Alignment>Light</Force_Alignment>
 		<Minimum_Visible_Base_Level>0</Minimum_Visible_Base_Level>
 		<Basic_AI>BasicRebel</Basic_AI>
-		<Can_Win_By_Destroying_Super_Weapon>Yes</Can_Win_By_Destroying_Super_Weapon>
+		<Can_Win_By_Destroying_Super_Weapon>No</Can_Win_By_Destroying_Super_Weapon>
 		<Faction_Super_Weapon></Faction_Super_Weapon>
 		<Skirmish_Land_Bomber> Y-Wing_Bombing_Run </Skirmish_Land_Bomber>
 		<Space_Tactical_Unit_Cap>75</Space_Tactical_Unit_Cap>
@@ -547,8 +547,8 @@
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Outpost_Pad, RHD_Lost_Outpost_Pad </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirmish_Outpost_Pad, RHD_Capture_Outpost_Pad </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirrmish_Mineral_Processor_Pad, RHD_Lost_MinProc </SFXEvent_Tactical_Lose_Friendly_Control>
-		<SFXEvent_Tactical_Gain_Friendly_Control>Skirrmish_Mineral_Processor_Pad, RHD_Capture_MinProc </SFXEvent_Tactical_Gain_Friendly_Control>
--->
+		<SFXEvent_Tactical_Gain_Friendly_Control>Skirrmish_Mineral_Processor_Pad, RHD_Capture_MinProc </SFXEvent_Tactical_Gain_Friendly_Control>-->
+
 		<SFXEvent_Tactical_Lose_Friendly_Control>Reinforcement_Point_Plus1_Cap, RHD_Landing_Zone_Lost </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Reinforcement_Point_Plus1_Cap, RHD_Landing_Zone_Captured </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Reinforcement_Point_Plus2_Cap, RHD_Landing_Zone_Lost </SFXEvent_Tactical_Lose_Friendly_Control>
@@ -1301,8 +1301,7 @@
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirmish_Outpost_Pad, EHD_Lost_Outpost_Pad </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Skirmish_Outpost_Pad, EHD_Capture_Outpost_Pad </SFXEvent_Tactical_Gain_Friendly_Control>
 		<SFXEvent_Tactical_Lose_Friendly_Control>Skirrmish_Mineral_Processor_Pad, EHD_Lost_MinProc </SFXEvent_Tactical_Lose_Friendly_Control>
-		<SFXEvent_Tactical_Gain_Friendly_Control>Skirrmish_Mineral_Processor_Pad, EHD_Capture_MinProc </SFXEvent_Tactical_Gain_Friendly_Control>
--->
+		<SFXEvent_Tactical_Gain_Friendly_Control>Skirrmish_Mineral_Processor_Pad, EHD_Capture_MinProc </SFXEvent_Tactical_Gain_Friendly_Control>-->
 
 		<SFXEvent_Tactical_Lose_Friendly_Control>Reinforcement_Point_Plus1_Cap, EHD_Landing_Zone_Lost </SFXEvent_Tactical_Lose_Friendly_Control>
 		<SFXEvent_Tactical_Gain_Friendly_Control>Reinforcement_Point_Plus1_Cap, EHD_Landing_Zone_Captured </SFXEvent_Tactical_Gain_Friendly_Control>

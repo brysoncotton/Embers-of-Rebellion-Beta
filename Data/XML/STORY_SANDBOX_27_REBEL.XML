@@ -17,14 +17,6 @@
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 	</Event>
 
-	<Event Name="Set_New_Max_Tech_Level">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SET_MAX_TECH_LEVEL</Reward_Type>
-		<Reward_Param1>Rebel</Reward_Param1>
-		<Reward_Param2>5</Reward_Param2>
-		<Prereq>Opening_Crawl_End</Prereq>
-	</Event>
-
 	<Event Name="Universal_Story_Start">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
@@ -34,7 +26,7 @@
 	</Event>
 
 	<!--LOCK ALL ERA ADVANCERS-->
-	<Event Name="Lock_Era1_to Era2_Advance">
+	<Event Name="Lock_Era1_to_Era2_Advance">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -42,7 +34,7 @@
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
 
-	<Event Name="Lock_Era2_to Era3_Advance">
+	<Event Name="Lock_Era2_to_Era3_Advance">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -50,7 +42,7 @@
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
 
-	<Event Name="Lock_Era3_to Era4_Advance">
+	<Event Name="Lock_Era3_to_Era4_Advance">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -58,7 +50,7 @@
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
 
-	<Event Name="Lock_Era4_to Era5_Advance">
+	<Event Name="Lock_Era4_to_Era5_Advance">
 		<Event_Type>STORY_ELAPSED</Event_Type>
 		<Event_Param1>0</Event_Param1>
 		<Reward_Type>LOCK_UNIT</Reward_Type>
@@ -68,9 +60,14 @@
 
 	<!--ERA 1 EVENTS: Mon-Cal Retrofit (5 BBY – 2 BBY)-->
 
-	<Event Name="Wait_10_Rebel_Era_1">
+	<Event Name="Rebels_Enter_Era_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+	<Event Name="Wait_2400_Rebel_Era_1">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>10</Event_Param1>
+		<Event_Param1>2400</Event_Param1>
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
 
@@ -82,7 +79,7 @@
 		<Prereq>Wait_10_Rebel_Era_1</Prereq>
 	</Event>
 	
-	<Event Name="Permit_Advance_Era_2_Rebel">
+	<Event Name="Permit_Advance_Era_1_Rebel">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>Operation_Handoff</Reward_Param1>
@@ -125,10 +122,15 @@
 
 	<!--ERA 2 EVENTS: OPERATION HANDOFF COMPLETED (2 BBY - 0 BBY)-->
 
-	<Event Name="Wait_10_Rebel_Era_2">
+	<Event Name="Rebels_Enter_Era_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<Event Name="Wait_2400_Rebel_Era_2">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>10</Event_Param1>
-		<Prereq>Permit_Advance_Era_2_Rebel</Prereq>
+		<Event_Param1>2400</Event_Param1>
+		<Prereq>Rebels_Enter_Era_02</Prereq>
 	</Event>
 
 	<Event Name="Era_2_Text_Rebel">
@@ -139,7 +141,7 @@
 		<Prereq>Wait_10_Rebel_Era_2</Prereq>
 	</Event>
 
-	<Event Name="Permit_Advance_Era_3_Rebel">
+	<Event Name="Permit_Advance_Era_2_Rebel">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>Project_Shantipole</Reward_Param1>
@@ -151,7 +153,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
 		<Reward_Param2>Yavin</Reward_Param2>
-		<Prereq>Permit_Advance_Era_2_Rebel</Prereq>
+		<Prereq>Rebels_Enter_Era_02</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Droids">
@@ -159,15 +161,20 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Droids_Team</Reward_Param1>
 		<Reward_Param2>Yavin</Reward_Param2>
-		<Prereq>Permit_Advance_Era_2_Rebel</Prereq>
+		<Prereq>Rebels_Enter_Era_02</Prereq>
 	</Event>
 
 	<!--ERA 3 EVENTS: PROJECT SHANTIPOLE COMPLETED (0 ABY - 3 ABY)-->
 
-	<Event Name="Wait_10_Rebel_Era_3">
+	<Event Name="Rebels_Enter_Era_03">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	<Event Name="Wait_2400_Rebel_Era_3">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>10</Event_Param1>
-		<Prereq>Permit_Advance_Era_3_Rebel</Prereq>
+		<Event_Param1>2400</Event_Param1>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<Event Name="Era_3_Text_Rebel">
@@ -178,7 +185,7 @@
 		<Prereq>Wait_10_Rebel_Era_3</Prereq>
 	</Event>
 
-	<Event Name="Permit_Advance_Era_4_Rebel">
+	<Event Name="Permit_Advance_Era_3_Rebel">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>Project_Starhawk</Reward_Param1>
@@ -190,7 +197,7 @@
 		<Reward_Type>UNIQUE_UNIT</Reward_Type>
 		<Reward_Param1>Home_One</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Permit_Advance_Era_3_Rebel</Prereq>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Obi_Wan">
@@ -198,7 +205,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
 		<Reward_Param2>Yavin</Reward_Param2>
-		<Prereq>Permit_Advance_Era_3_Rebel</Prereq>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Han_Solo">
@@ -206,7 +213,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Han_Solo_Team</Reward_Param1>
 		<Reward_Param2>Yavin</Reward_Param2>
-		<Prereq>Permit_Advance_Era_3_Rebel</Prereq>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Luke_Jedi">
@@ -214,7 +221,7 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
 		<Reward_Param2>Yavin</Reward_Param2>
-		<Prereq>Permit_Advance_Era_3_Rebel</Prereq>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Rogue_Squadron">
@@ -222,39 +229,51 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Permit_Advance_Era_3_Rebel</Prereq>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<!--ERA 4 EVENTS: PROJECT STARHAWK COMPLETED (3 ABY - 6 ABY)-->
 
-	<Event Name="Wait_10_Rebel_Era_5">
+	<Event Name="Rebels_Enter_Era_04">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	<Event Name="Wait_2400_Rebel_Era_4">
 		<Event_Type>STORY_ELAPSED</Event_Type>
-		<Event_Param1>10</Event_Param1>
-		<Prereq>Permit_Advance_Era_4_Rebel
-		</Prereq>
+		<Event_Param1>2400</Event_Param1>
+		<Prereq>Rebels_Enter_Era_04</Prereq>
 	</Event>
 
-	<Event Name="Era_5_Text_Rebel">
+	<Event Name="Era_4_Text_Rebel">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SCREEN_TEXT</Reward_Type>
 		<Reward_Param1>REBEL_READY_TO_ADVANCE_ERA_5</Reward_Param1>
 		<Reward_Param2>10</Reward_Param2>
-		<Prereq>Wait_10_Rebel_Era_5</Prereq>
+		<Prereq>Wait_10_Rebel_Era_4</Prereq>
 	</Event>
 
-	<Event Name="Permit_Advance_Era_5_Rebel">
+	<Event Name="Permit_Advance_Era_4_Rebel">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
 		<Reward_Param1>Fleet_Modernization</Reward_Param1>
-		<Prereq>Era_5_Text_Rebel</Prereq>
+		<Prereq>Era_4_Text_Rebel</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Yoda">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Yoda_Team</Reward_Param1>
+		<Reward_Param1>Kyrsta_Agate</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Permit_Advance_Era_4_Rebel</Prereq>
+		<Prereq>Rebels_Enter_Era_04</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Kyrsta_Agate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kyrsta_Agate</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_04</Prereq>
 	</Event>
 
 
@@ -346,4 +365,10 @@
 		<Reward_Param1>Yoda_Team</Reward_Param1>
 	</Event>
 
+	<Event Name="Kyrsta_Agate_Death">
+		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
+		<Event_Param1>Kyrsta_Agate</Event_Param1>
+		<Reward_Type>REMOVE_UNIT</Reward_Type>
+		<Reward_Param1>Kyrsta_Agate</Reward_Param1>
+	</Event>
 </Story>

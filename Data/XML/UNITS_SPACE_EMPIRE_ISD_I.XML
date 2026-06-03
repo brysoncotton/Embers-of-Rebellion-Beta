@@ -57,8 +57,8 @@
 		<Space_Model_Name>Empire_Imperator_Star_Destroyer_MK_I.ALO</Space_Model_Name>
 
 		<Ranking_In_Category>5</Ranking_In_Category>
-	
-	    <GUI_Bracket_Height>500</GUI_Bracket_Height>
+
+		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
 		<Select_Box_Scale>800</Select_Box_Scale>
@@ -68,7 +68,7 @@
 		<Mass>0.999</Mass>
 		<Dense_FOW_Reveal_Range_Multiplier>0.24</Dense_FOW_Reveal_Range_Multiplier>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+
 		<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Armor_Type> Armor_Capital </Armor_Type>
 		<Shield_Armor_Type>Shield_Capital</Shield_Armor_Type>
@@ -82,7 +82,7 @@
 		<Bank_Turn_Angle>5</Bank_Turn_Angle>
 		<OverrideAcceleration> .02 </OverrideAcceleration>
 		<OverrideDeceleration> .02 </OverrideDeceleration>
-		
+
 		<Max_Thrust>0.1</Max_Thrust>
 		<Hyperspace>Yes</Hyperspace>
 		<Hyperspace_Speed>1</Hyperspace_Speed>
@@ -98,7 +98,7 @@
 		<Damage>70</Damage>
 		<Autoresolve_Health>7500</Autoresolve_Health>
 		<Shield_Points>3000</Shield_Points>
-		<Tactical_Health>7500</Tactical_Health> <!-- was 6000 -->
+		<Tactical_Health>7500</Tactical_Health>		<!-- was 6000 -->
 		<Shield_Refresh_Rate>50</Shield_Refresh_Rate>
 		<Energy_Capacity>8000</Energy_Capacity>
 		<Energy_Refresh_Rate>800</Energy_Refresh_Rate>
@@ -114,18 +114,18 @@
 		<Build_Time_Seconds>250</Build_Time_Seconds>
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
-		
+
 		<!-- Set to spawn all units once and then not continue - no reserves -->
 		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
 		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 1</Starting_Spawned_Units_Tech_0>
 		<Spawned_Squadron_Delay_Seconds>5</Spawned_Squadron_Delay_Seconds>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 8</Reserve_Spawned_Units_Tech_0> 
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 8</Reserve_Spawned_Units_Tech_0>
 		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 
-		
+
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, HIDE_WHEN_FOGGED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
-		
+
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Death_Explosions>Large_Explosion_Space_Empire</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Large_Damage_Space</Asteroid_Damage_Hit_Particles>
@@ -210,7 +210,7 @@
 		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
 
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
-         
+
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
@@ -228,7 +228,7 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Space_Full_Stop_Command> Yes </Space_Full_Stop_Command>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
-		 
+
 		<Guard_Chase_Range>1000.0</Guard_Chase_Range>
 		<Idle_Chase_Range>0.0</Idle_Chase_Range>
 		<Attack_Move_Response_Range>400.0</Attack_Move_Response_Range>
@@ -243,37 +243,37 @@
 		<Tactical_Bribe_Cost>4000</Tactical_Bribe_Cost>
 
 		<!-- Non-Hero unit abilities description -->
-	   <Unit_Abilities_Data SubObjectList="Yes">
-	      <!-- Primary ability -->
-	      <Unit_Ability>
-	            <Type>TRACTOR_BEAM</Type>
-	            <Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
-	            <GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name> <!-- GUI Command Bar support -->
-	            <Recharge_Seconds>25</Recharge_Seconds>
-	            <SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
+		<Unit_Abilities_Data SubObjectList="Yes">
+			<!-- Primary ability -->
+			<Unit_Ability>
+				<Type>TRACTOR_BEAM</Type>
+				<Mod_Multiplier>SPEED_MULTIPLIER, 0.8f</Mod_Multiplier>
+				<GUI_Activated_Ability_Name> SD_Tractor_Beam_Attack_Ability </GUI_Activated_Ability_Name>				<!-- GUI Command Bar support -->
+				<Recharge_Seconds>25</Recharge_Seconds>
+				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Tractor_Beam_Star_Destroyer</SFXEvent_GUI_Unit_Ability_Activated>
 				<SFXEvent_Special_Ability_Loop> Unit_Star_Destroyer_Tractor_Beam </SFXEvent_Special_Ability_Loop>
 				<Supports_Autofire>True</Supports_Autofire>
-	      </Unit_Ability>
-	   </Unit_Abilities_Data>
+			</Unit_Ability>
+		</Unit_Abilities_Data>
 
-	   <Abilities SubObjectList="Yes">
-	      <Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
-	            <Activation_Style> User_Input </Activation_Style>
-	            <Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
-	            <Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
+		<Abilities SubObjectList="Yes">
+			<Tractor_Beam_Attack_Ability Name="SD_Tractor_Beam_Attack_Ability">
+				<Activation_Style> User_Input </Activation_Style>
+				<Applicable_Unit_Categories>Transport | Corvette | Frigate</Applicable_Unit_Categories>
+				<Applicable_Unit_Types>Millennium_Falcon</Applicable_Unit_Types>
 				<Excluded_Unit_Types>Buzz_Droids</Excluded_Unit_Types>
-	            <Activation_Min_Range>10</Activation_Min_Range>
-	            <Activation_Max_Range>1000</Activation_Max_Range>
+				<Activation_Min_Range>10</Activation_Min_Range>
+				<Activation_Max_Range>1000</Activation_Max_Range>
 
 
-	            <!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
-	            <Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
-	            <Stacking_Category>0</Stacking_Category>            
-	      </Tractor_Beam_Attack_Ability>
+				<!-- Modifiers. If 0 - no modifier is applied, 1 - "100% increase or decrease" -->
+				<Target_Speed_Decrease_Percent>0.75</Target_Speed_Decrease_Percent>
+				<Stacking_Category>0</Stacking_Category>
+			</Tractor_Beam_Attack_Ability>
 
-	   </Abilities>
+		</Abilities>
 
-		<Encyclopedia_Text> TEXT_TOOLTIP_STAR_DESTROYER TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
+		<Encyclopedia_Text> TEXT_TOOLTIP_ISD_I TEXT_TOOLTIP_BOMBARDMENT</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_CAPITAL </Encyclopedia_Unit_Class>
 		<Score_Cost_Credits> 45000</Score_Cost_Credits>
 
@@ -283,7 +283,7 @@
 		<Tactical_Build_Prerequisites />
 		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
 		<!--<Build_Limit_Current_Per_Player>0</Build_Limit_Current_Per_Player>-->
-		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->  
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
 		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Remove_Upon_Death>true</Remove_Upon_Death>
 	</SpaceUnit>
