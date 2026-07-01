@@ -9,9 +9,10 @@ Embers of Rebellion Development Team:
 Alliance Assault Frigate
 	Model/Texture/Rig - Embers of Rebellion Development Team
 
+A thank you to Larrythree from Alliance at War, Rachel from Age of the Empire and GP1701 from Days of Carnage for their consultation throughout the process especially with helping with debugging and feature implementation.
 Others:
 
-A massiave thank you to the Battlefront Commander Development Team for allowing the use of the following models and their textures
+Another thank you to the Battlefront Commander Development Team for allowing the use of the following models and their textures
 Victory II,
 Victory I,
 Venator,
@@ -23,25 +24,18 @@ Nebulon-B,
 Acclamator
 TIE Striker
 
-Another thank you to Larrythree from Alliance at War, Rachel from Age of the Empire and GP1701 from Days of Carnage for their consultation throughout the process especially with helping with debugging and feature implementation.
-
 MC-75
 	Model - Warb Null
 	Textures - Warb Null
+	Rerig - Embers of Rebellion Dev Team
 
 U-Wing
-	Model - Spylakewalker/Embers of Rebellion Development Team
-	Textures - Spylakewalker/Embers of Rebellion Development Team
-
-Pelta Class
-	Model - Spylakewalker/Embers of Rebellion Development Team
-	Textures - Spylakewalker/Embers of Rebellion Development Team
-	Rig - Spylakewalker/Embers of Rebellion Development Team
-
+	Model - Spylakewalker
+	Textures - Spylakewalker
 
 MC30
-	Model - Spylakewalker/Embers of Rebellion Development Team
-	Textures - Spylakewalker/Embers of Rebellion Development Team
+	Model - Spylakewalker
+	Textures - Spylakewalker
 
 Death Star I
 	Model - Jeroenimo
@@ -62,6 +56,7 @@ Quaser Class Carrier
 	Model - Arvis Taljik
 	Texture - Arvis Taljik
 	Rigging - Sly442
+	Rerig - Embers of Rebellion Dev Team
 
 TIE Fighter and Variants
 	Model - Jeroenimo
@@ -94,6 +89,7 @@ Laser Projectile Particles
 ISD I/II
 	Model - Jeroenimo
 	Particles / Texture: Megabalta
+	Rerig - Embers of Rebellion Dev Team
 
 Vindicator/Interdictor
 	Model - Jeroenimo
@@ -108,7 +104,8 @@ Raider Class
 
 Imperial Dockyard
 	Model and Textures - SpyLakeWalker
-	Level 4 variant - Embers of Rebellion Development Team
+	Level 4 variant - Embers of Rebellion Dev Team
+	Rerig - Embers of Rebellion Dev Team
 
 CR90
 	Model - Yuuzhan Vong at War Team
@@ -131,7 +128,7 @@ Meshes: Jeroenimo
 Rebel Juggernaut
 	Model & Textures: kubli
 	Animations: kubli
-	Turret: Embers of Rebellion Development Team
+	Turret: Embers of Rebellion Dev Team
 
 
 
