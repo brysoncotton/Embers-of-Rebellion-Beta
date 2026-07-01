@@ -16,7 +16,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>1</Tech_Level>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
@@ -40,7 +40,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>2</Tech_Level>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>4000</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
@@ -64,7 +64,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>3</Tech_Level>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>6000</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
@@ -88,7 +88,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>4</Tech_Level>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>
@@ -114,7 +114,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>1</Tech_Level>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>2000</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>2</Build_Advances_Tech_Level>
@@ -140,7 +140,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>2</Tech_Level>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>4000</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>3</Build_Advances_Tech_Level>
@@ -166,7 +166,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>3</Tech_Level>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>6000</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>4</Build_Advances_Tech_Level>
@@ -192,7 +192,7 @@
 		<Required_Special_Structures></Required_Special_Structures>
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Tech_Level>4</Tech_Level>
-		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Cost_Credits>10000</Build_Cost_Credits>
 		<Build_Time_Seconds>1</Build_Time_Seconds>
 		<Build_Time_Reduced_By_Multiple_Factories> No </Build_Time_Reduced_By_Multiple_Factories>
 		<Build_Advances_Tech_Level>5</Build_Advances_Tech_Level>

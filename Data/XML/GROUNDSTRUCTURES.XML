@@ -3014,7 +3014,7 @@
 
 	<GroundStructure Name="Gallofree_Stationary">
 		<Text_ID />
-		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
+		<Land_Model_Name>RV_Transport.ALO</Land_Model_Name>
 		<Select_Box_Scale>100</Select_Box_Scale>
 		<Behavior />
 		<LandBehavior>IDLE, LAND_OBSTACLE</LandBehavior>

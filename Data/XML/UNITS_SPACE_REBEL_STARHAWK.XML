@@ -16,7 +16,7 @@
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Select_Box_Scale>850</Select_Box_Scale>
+		<Select_Box_Scale>3200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
 		<Mass>0.999</Mass>
@@ -46,7 +46,7 @@
 		<Tech_Level>5</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Planets></Required_Planets>
 		<Damage>70</Damage>
 		<Autoresolve_Health>10000</Autoresolve_Health>

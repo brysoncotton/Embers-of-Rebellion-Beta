@@ -1,0 +1,4 @@
+return {
+    ["KOMRK_GUNSHIP_GROUP_INFLUENCE"] = 0,
+    ["GEONOSIAN_CRUISER_INFLUENCE"] = 0
+}

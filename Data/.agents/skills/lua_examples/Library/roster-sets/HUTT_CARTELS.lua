@@ -1,0 +1,26 @@
+return {
+    ["HUTT_BOARDING_SHUTTLE"] = 0,
+    ["LIGHT_MINSTREL_YACHT"] = 0,
+    ["HEAVY_MINSTREL_YACHT"] = 0,
+    ["RAKA_FREIGHTER_TENDER"] = 0,
+    ["KALOTH_BATTLECRUISER"] = 0,
+    ["JUVARD_FRIGATE"] = 0,
+    ["HUTT_GALLEON"] = 0,
+    ["GALLEON"] = 0,
+    ["BARABBULA_FRIGATE"] = 0,
+    ["KOSSAK_FRIGATE"] = 0,
+    ["UBRIKKIAN_CRUISER_CW"] = 0,
+    ["TEMPEST_CRUISER"] = 0,
+    ["SZAJIN_CRUISER"] = 0,
+    ["KARAGGA_DESTROYER"] = 0,
+    ["VONTOR_DESTROYER"] = 0,
+    ["VORACIOUS_CARRIER"] = 0,
+    ["DORBULLA_WARSHIP"] = 0,
+    -- Pirate Base
+    ["GOZANTI_CRUISER_RAIDER_GROUP"] = 0,
+    ["CONSULAR_REFIT"] = 0,
+    ["IPV1_GUNBOAT"] = 0,
+    ["DHC_GUNBOAT"] = 0,
+    -- Historicals
+    ["SC_KOMRK_GUNSHIP_GROUP"] = 0,
+}

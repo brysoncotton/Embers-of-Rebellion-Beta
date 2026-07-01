@@ -1,0 +1,4 @@
+return {
+	Fighters = {},
+	Scripts = {"boarding"}
+}

@@ -101,7 +101,6 @@
 			Abregado-Rae_Fresia,
 			Abregado_Rae_Jakku,
 			AetenII_Ilum,
-			AlzocIII_DQar,
 			AlzocIII_Utapau,
 			Anaxes_Jabiim,
 			Anaxes_Onderon,
@@ -183,6 +182,7 @@
 			NalHutta_Kashyyyk,
 			NalHutta_Shola,
 			Pantora_AlzocIII,
+			Pantora_DQar
 			Pantora_OrtoPlutonia,
 			Pantora_Utapau,
 			RhenVar_Anaxes,
@@ -238,6 +238,7 @@
 		<Empire_Story_Name>Story_Plots_Empire_AI_Heroes_EXP.xml</Empire_Story_Name>
 		<Underworld_Story_Name>Story_Plots_Underworld_AI_Heroes.xml</Underworld_Story_Name>
 
+		<!--<AI_Player_Control> Rebel, SandboxHuman </AI_Player_Control>--> <!--UNCOMMENT TO ADD MISSIONS BACK IN-->
 		<AI_Player_Control> Empire, BasicEmpire </AI_Player_Control>
 		<AI_Player_Control> Pirates, None </AI_Player_Control>
 
@@ -654,6 +655,8 @@
 		<Starting_Forces> Empire, Coruscant, Victory_I_Destroyer</Starting_Forces>
 		<!-- Coruscant Land Forces -->
 		<Starting_Forces> Empire, Coruscant, E_Ground_Base_Shield </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>
@@ -1227,7 +1230,6 @@
 			Abregado-Rae_Fresia,
 			Abregado_Rae_Jakku,
 			AetenII_Ilum,
-			AlzocIII_DQar,
 			AlzocIII_Utapau,
 			Anaxes_Jabiim,
 			Anaxes_Onderon,
@@ -1240,7 +1242,7 @@
 			Abregado_Rae_Fondor,
 			Bestine_Hosnian-Prime,
 			Taris_Dantooine,
-			 Bestine_Sullust,
+			Bestine_Sullust,
 			Bonadan_MonCalimari,
 			Bothawui_Kamino,
 			Bothawui_Tatooine,
@@ -1309,6 +1311,7 @@
 			NalHutta_Kashyyyk,
 			NalHutta_Shola,
 			Pantora_AlzocIII,
+			Pantora_DQar
 			Pantora_OrtoPlutonia,
 			Pantora_Utapau,
 			RhenVar_Anaxes,
@@ -1365,7 +1368,7 @@
 
 
 		<AI_Player_Control> Rebel, BasicRebel </AI_Player_Control>
-
+		<!--<AI_Player_Control> Empire, SandboxHuman </AI_Player_Control>--> <!--UNCOMMENT TO ADD MISSIONS BACK IN-->
 		<AI_Player_Control> Pirates, None </AI_Player_Control>
 
 		<Markup_Filename>Empire, DefaultGalacticHints </Markup_Filename>
@@ -1780,6 +1783,8 @@
 		<Starting_Forces> Empire, Coruscant, Victory_I_Destroyer</Starting_Forces>
 		<!-- Coruscant Land Forces -->
 		<Starting_Forces> Empire, Coruscant, E_Ground_Base_Shield </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Light_Vehicle_Factory </Starting_Forces>
+		<Starting_Forces> Empire, Coruscant, E_Ground_Barracks </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Anti_Infantry_Brigade </Starting_Forces>
 		<Starting_Forces> Empire, Coruscant, Imperial_Heavy_Scout_Squad </Starting_Forces>

@@ -63,7 +63,7 @@
 	<!--======================-->
 
 	<Projectile Name="Proj_Ship_Fighter_Laser_Red_Ground" Description="Rebel_Fighter_Laser_Ground">
-		<Land_Model_Name>w_laser_r.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
 		<Projectile_Length>1</Projectile_Length>
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>.2</Scale_Factor>
@@ -148,6 +148,32 @@
 		<Max_Secs_For_AE_Delayed_Damage>0</Max_Secs_For_AE_Delayed_Damage>
 	</Projectile>
 
+	<Projectile Name="Proj_Ground_Laser_Cannon_Red">		<!-- used by AT-AT & pirate / rebel anti-vech turret -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_turbolaser_r.alo</Land_Model_Name>
+		<Projectile_Length>1</Projectile_Length>
+		<Scale_Factor>.4</Scale_Factor>
+		<Damage_Type> Damage_Laser_GRND </Damage_Type>
+		<Max_Speed>30.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>18.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Large_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Large_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<AI_Combat_Power>160</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
 	<Projectile Name="Proj_Ship_Heavy_Laser_Cannon_Red_Dual_Ground">
 		<Land_Model_Name>w_turbolaser_r2.alo</Land_Model_Name>
 		<Projectile_Length>1</Projectile_Length>
@@ -173,8 +199,8 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
-	<Projectile Name="Proj_Anti_Personel_Laser_Red" Description="Anti_Personel_Laser_Red">
-		<Land_Model_Name>w_laser_r.ALO</Land_Model_Name>
+	<Projectile Name="Proj_Anti_Personel_Laser_Red" Description="Anti_Personel_Laser_Red_Rebel_Juggernaut">
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
 		<Projectile_Length>1</Projectile_Length>
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Scale_Factor>.2</Scale_Factor>
@@ -182,7 +208,7 @@
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Turbolaser</Projectile_Category>
+		<Projectile_Category>Laser</Projectile_Category>
 		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
 		<Projectile_Damage>10</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
@@ -195,6 +221,160 @@
 		<AI_Combat_Power>200</AI_Combat_Power>
 		<Projectile_SFXEvent_Detonate> SFX_Ion_Detonation </Projectile_SFXEvent_Detonate>
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+	<Projectile Name="Proj_Hand_Blaster_Red">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
+		<Projectile_Length>1</Projectile_Length>
+		<Scale_Factor>.1</Scale_Factor>
+		<Damage_Type> Damage_Blaster_Hand </Damage_Type>
+		<Max_Speed>15.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Turbolaser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>2</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
+		<AI_Combat_Power>40</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Infantry_Blaster_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+	<Projectile Name="Proj_Hand_Blaster_Green">
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_laser_g.alo</Land_Model_Name>
+		<Projectile_Length>1</Projectile_Length>
+		<Scale_Factor>.1</Scale_Factor>
+		<Damage_Type> Damage_Blaster_Hand </Damage_Type>
+		<Max_Speed>15.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Turbolaser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>3</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Small_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
+		<AI_Combat_Power>40</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Infantry_Blaster_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+	<Projectile Name="Proj_Anti_Infantry_Laser_Red">		<!-- used by rebel & pirate anti-inf turret -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
+		<Projectile_Length>.2</Projectile_Length>
+		<Damage_Type> Damage_AI_Turret </Damage_Type>
+		<Projectile_Damage>14.0</Projectile_Damage>
+		<Scale_Factor>.1</Scale_Factor>
+		<Max_Speed>15.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>1.5</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Land</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+	<Projectile Name="Proj_Anti_Infantry_Laser_Green">		<!-- used by empire anti-inf turret -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_laser_g.alo</Land_Model_Name>
+		<Projectile_Length>.1</Projectile_Length>
+		<Damage_Type> Damage_AI_Turret </Damage_Type>
+		<Projectile_Damage>18.0</Projectile_Damage>
+		<Scale_Factor>.2</Scale_Factor>
+		<Max_Speed>15.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>1.5</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Land</Projectile_Lifetime_Detonation_Particle>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>120</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
+	</Projectile>
+
+	<Projectile Name="Proj_Ground_AV_Turret_Laser_Green">		<!-- used by empire AV turret -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_laser_g.alo</Land_Model_Name>
+		<Projectile_Length>1</Projectile_Length>
+		<Scale_Factor>.5</Scale_Factor>
+		<Damage_Type> Damage_AV_Turret </Damage_Type>
+		<Max_Speed>30.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Large_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Large_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<AI_Combat_Power>160</AI_Combat_Power>
+	</Projectile>
+
+	<Projectile Name="Proj_Ground_AV_Turret_Laser_Red">		<!-- used by Rebel AV turret -->
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
+		<Projectile_Length>1</Projectile_Length>
+		<Scale_Factor>.5</Scale_Factor>
+		<Damage_Type> Damage_AV_Turret </Damage_Type>
+		<Max_Speed>30.0</Max_Speed>
+		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
+		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
+		<Projectile_Category>Laser</Projectile_Category>
+		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>20.0</Projectile_Damage>
+		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
+		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
+		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
+		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
+		<Projectile_Object_Detonation_Particle>Large_Damage_Land</Projectile_Object_Detonation_Particle>
+		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle>Large_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Lifetime_Detonation_Particle />
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
+		<AI_Combat_Power>160</AI_Combat_Power>
 	</Projectile>
 
 	<!--=====================-->
@@ -225,11 +405,16 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
+	<Projectile Name="Proj_Proton_Torpedo_Mod_Ship">
+		<Variant_Of_Existing_Type>Proj_Proton_Torpedo_Mod</Variant_Of_Existing_Type>
+		<Projectile_Damage>30</Projectile_Damage>
+	</Projectile>
+
 	<Projectile Name="Proj_Ship_Fighter_Laser_Red" Description="Rebel_Fighter_Laser">
 		<Space_Model_Name>w_laser_r.alo</Space_Model_Name>
 		<Projectile_Length>1</Projectile_Length>
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Scale_Factor>.2</Scale_Factor>
+		<Scale_Factor>.1</Scale_Factor>
 		<Damage_Type> Damage_Fighter </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -254,7 +439,7 @@
 		<Space_Model_Name>w_laser_g.alo</Space_Model_Name>
 		<Projectile_Length>1</Projectile_Length>
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Scale_Factor>.2</Scale_Factor>
+		<Scale_Factor>.1</Scale_Factor>
 		<Damage_Type> Damage_Fighter </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -278,7 +463,7 @@
 		<Space_Model_Name>w_laser_g2.alo</Space_Model_Name>
 		<Projectile_Length>1</Projectile_Length>
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Scale_Factor>.2</Scale_Factor>
+		<Scale_Factor>.1</Scale_Factor>
 		<Damage_Type> Damage_Fighter </Damage_Type>
 		<Max_Speed>25.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -624,7 +809,7 @@
 
 	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Red" Description="Rebel small space-based laser bolt">
 		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>
-		<Space_Model_Name>W_LASER_SMALL.ALO</Space_Model_Name>
+		<Space_Model_Name>w_laser_r.alo</Space_Model_Name>
 		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
 		<Projectile_Damage>5.0</Projectile_Damage>
 		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
@@ -639,7 +824,7 @@
 
 	<Projectile Name="Proj_Ship_Small_Laser_Cannon_Green" Description="Empire small space-based laser bolt">
 		<Variant_Of_Existing_Type>Proj_Ship_Small_Laser_Cannon_Generic</Variant_Of_Existing_Type>
-		<Space_Model_Name>W_LASER_SMALLG.ALO</Space_Model_Name>
+		<Space_Model_Name>w_laser_g.alo</Space_Model_Name>
 		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
 		<Projectile_Damage>5.0</Projectile_Damage>
 		<Projectile_Energy_Per_Shot>5</Projectile_Energy_Per_Shot>
@@ -648,7 +833,7 @@
 
 	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Red">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_LASER_MEDIUM.ALO</Space_Model_Name>
+		<Space_Model_Name>W_LASER_MEDIUM.alo</Space_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>1.2</Projectile_Width>
 		<Projectile_Length>12.0</Projectile_Length>
@@ -719,7 +904,7 @@
 		<Projectile_Stun_Victims_Category_Mask> All </Projectile_Stun_Victims_Category_Mask>
 
 		<Damage_Type>Damage_Fighter</Damage_Type>
-		<Projectile_Damage>50.0</Projectile_Damage>
+		<Projectile_Damage>20.0</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>		<!-- knocks shields down -->
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>No</Projectile_Does_Hitpoint_Damage>		<!-- does not do physical damage -->
@@ -731,7 +916,7 @@
 
 	<Projectile Name="Proj_Ship_Medium_Laser_Cannon_Green">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_LASER_MEDIUMG.ALO</Space_Model_Name>
+		<Space_Model_Name>W_LASER_MEDIUMG.alo</Space_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>1.2</Projectile_Width>
 		<Projectile_Length>12.0</Projectile_Length>
@@ -759,7 +944,7 @@
 
 	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Red">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_LASER_LARGE.ALO</Space_Model_Name>
+		<Space_Model_Name>W_LASER_LARGE.alo</Space_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>1.6</Projectile_Width>
 		<Projectile_Length>20.0</Projectile_Length>
@@ -787,7 +972,7 @@
 
 	<Projectile Name="Proj_Ship_Large_Laser_Cannon_Green">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_LASER_LARGEG.ALO</Space_Model_Name>
+		<Space_Model_Name>W_LASER_LARGEG.alo</Space_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>1.6</Projectile_Width>
 		<Projectile_Length>20.0</Projectile_Length>
@@ -1098,7 +1283,7 @@
 	<!-- MAY BE OBSOLETE -->
 	<Projectile Name="Proj_DS_Superlaser">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_LASER_LARGEG.ALO</Space_Model_Name>
+		<Space_Model_Name>W_LASER_LARGEG.alo</Space_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>1.3</Projectile_Width>
 		<Projectile_Length>19.4</Projectile_Length>
@@ -1177,65 +1362,7 @@
 	</Projectile>
 
 	<!-- Infantry Projectiles USE THESE ONLY FOR INFANTRY UNITS!!! -->
-	<Projectile Name="Proj_Hand_Blaster_Red">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>0.3</Projectile_Width>
-		<Projectile_Length>3.0</Projectile_Length>
-		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Blaster_Hand </Damage_Type>
-		<Max_Speed>11.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>2.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Small_Damage_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
-		<AI_Combat_Power>40</AI_Combat_Power>
-		<Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	</Projectile>
-
-	<Projectile Name="Proj_Hand_Blaster_Green">
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALLG.ALO</Land_Model_Name>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>0.3</Projectile_Width>
-		<Projectile_Length>3.0</Projectile_Length>
-		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Blaster_Hand </Damage_Type>
-		<Max_Speed>11.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>2.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Small_Damage_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Tiny_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Projectile_Dirt_Collide</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Small</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE_INFANTRY</Projectile_Ground_Detonation_SurfaceFX>
-		<AI_Combat_Power>40</AI_Combat_Power>
-		<Projectile_SFXEvent_Detonate>SFX_Infantry_Blaster_Detonation</Projectile_SFXEvent_Detonate>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	</Projectile>
+	
 
 	<Projectile Name="Proj_Plex_Missile">
 		<Text_ID>TEXT_NONE</Text_ID>
@@ -1276,7 +1403,7 @@
 
 	<Projectile Name="Proj_Infiltrator_Blaster">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>3.0</Projectile_Length>
@@ -1307,7 +1434,7 @@
 	<!-- Darth Vader's invisible bullet projectile that is fired from swinging his lightsaber -->
 	<Projectile Name="Proj_Lightsaber">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Lightsaber </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>11.0</Max_Speed>
@@ -1344,7 +1471,7 @@
 
 	<Projectile Name="Lukes_Light_Saber">		<!--Saber Throw-->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>RI_saber_spin.ALO</Land_Model_Name>
+		<Land_Model_Name>RI_saber_spin.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Max_Speed>8.0</Max_Speed>
 		<Max_Rate_Of_Turn>3.0</Max_Rate_Of_Turn>
@@ -1369,7 +1496,7 @@
 	<!-- Invisible bullet projectile that is fired from swinging force pike for Imperial Guards -->
 	<Projectile Name="Proj_Force_Pike">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Force_Pike </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>15.0</Max_Speed>
@@ -1391,7 +1518,7 @@
 
 	<Projectile Name="Proj_Special_Han_Solo_Stun_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Default </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>0.0</Max_Speed>
@@ -1422,7 +1549,7 @@
 	<!-- Obiwans's special invisible heal blast projectile that is created by his area effect heal special power, instantly detonates to heal those nearby -->
 	<Projectile Name="Proj_Special_Obiwan_Instant_Heal_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Default </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>0.0</Max_Speed>
@@ -1454,7 +1581,7 @@
 	<!-- Obiwans's special invisible targeted invulnerability projectile that is created by his targeted invulnerability special power, instantly detonates to effectthose nearby -->
 	<Projectile Name="Proj_Special_Obiwan_Instant_Invulnerability_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Default </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>0.0</Max_Speed>
@@ -1490,7 +1617,7 @@
 	<!-- Emperor Palpatines's special Dark Side Force corruption/conversion blast projectile that is created by his area effect convert special power, instantly detonates to convert those nearby -->
 	<Projectile Name="Proj_Special_Emperor_Instant_Dark_Side_Corrupt_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Default </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>0.0</Max_Speed>
@@ -1527,7 +1654,7 @@
 	<!-- Special land projectile to instantly detonate and reveal the map via the "FOW Reveal Ping" unit ability -->
 	<Projectile Name="Proj_Special_Land_FOW_Reveal_Ping_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Default </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>0.0</Max_Speed>
@@ -1558,7 +1685,7 @@
 	<!-- Special space projectile to instantly detonate and reveal the map via the "FOW Reveal Ping" unit ability -->
 	<Projectile Name="Proj_Special_Space_FOW_Reveal_Ping_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.alo</Space_Model_Name>
 		<Damage_Type> Damage_Default </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>0.0</Max_Speed>
@@ -1588,7 +1715,7 @@
 
 	<Projectile Name="Proj_Wookiee_Bowcaster">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALLG.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_g.alo</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>3.0</Projectile_Length>
@@ -1646,7 +1773,7 @@
 
 	<Projectile Name="Proj_Ewok_Rock">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_EWOK_ROCK.ALO</Land_Model_Name>
+		<Land_Model_Name>W_EWOK_ROCK.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Blaster_Hand </Damage_Type>
 		<Max_Speed>7.0</Max_Speed>
@@ -1674,7 +1801,7 @@
 
 	<Projectile Name="Proj_Gungan_Energy_Grenade">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_GUNGAN_PROJECTILE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_GUNGAN_PROJECTILE.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_StickyBomb </Damage_Type>
 		<Max_Speed>7.0</Max_Speed>
@@ -1707,7 +1834,7 @@
 
 	<Projectile Name="Proj_Sand_Person_Rifle">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>3.0</Projectile_Length>
@@ -1813,7 +1940,7 @@
 
 	<Projectile Name="Proj_Blaster_Cannon_Green">		<!-- used by pirate skiff -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALLG.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_g.alo</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>13.0</Projectile_Length>
@@ -1842,29 +1969,26 @@
 
 	<Projectile Name="Proj_Generic_Small_Red">		<!-- Generic base for red blaster bolts -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>0.3</Projectile_Width>
-		<Projectile_Length>3.0</Projectile_Length>
-		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Blaster_Cannon </Damage_Type>
-		<Max_Speed>11.0</Max_Speed>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
+		<Projectile_Length>1</Projectile_Length>
+		<Text_ID>TEXT_NONE</Text_ID>
+		<Scale_Factor>.1</Scale_Factor>
+		<Damage_Type> Damage_Blaster </Damage_Type>
+		<Max_Speed>15.0</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
 		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
 		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
+		<Projectile_Max_Flight_Distance>2200.0</Projectile_Max_Flight_Distance>
+		<Projectile_Damage>1</Projectile_Damage>
 		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
 		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
 		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>0</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
+		<Projectile_Ground_Detonation_Particle />
 		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-		<AI_Combat_Power>80</AI_Combat_Power>
+		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
+		<AI_Combat_Power>200</AI_Combat_Power>
+		<Projectile_SFXEvent_Detonate> SFX_Ion_Detonation </Projectile_SFXEvent_Detonate>
+		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
 	<Projectile Name="Proj_Blaster_Cannon_Red">		<!-- used by AT-AT -->
@@ -1908,7 +2032,7 @@
 
 	<Projectile Name="Proj_Flak_Pod">		<!-- Used by AT-AA -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_FLACK_POD.ALO</Land_Model_Name>
+		<Land_Model_Name>W_FLACK_POD.alo</Land_Model_Name>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Damage_Type> Damage_Flak_Pod </Damage_Type>
@@ -1939,37 +2063,9 @@
 
 	</Projectile>
 
-	<Projectile Name="Proj_HRB_Cannon_Green">		<!-- used by empire anti-inf turret -->
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALLG.ALO</Land_Model_Name>
-		<Damage_Type> Damage_AI_Turret </Damage_Type>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>0.3</Projectile_Width>
-		<Projectile_Length>3.0</Projectile_Length>
-		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>11.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>4.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>1.5</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Land</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>120</AI_Combat_Power>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	</Projectile>
-
 	<Projectile Name="Proj_Mauler_Cannon_Green">		<!-- used by tie mauler -->
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALLG.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_g.alo</Land_Model_Name>
 		<Damage_Type> Damage_TIE_Mauler </Damage_Type>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
@@ -1998,7 +2094,7 @@
 	<Projectile Name="Proj_Swamp_Speeder_Cannon_Red">		<!-- used by swamp speeder -->
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Damage_Type> Damage_TIE_Mauler </Damage_Type>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>3.0</Projectile_Length>
@@ -2023,62 +2119,7 @@
 		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
 	</Projectile>
 
-	<Projectile Name="Proj_HRB_Cannon_Red">		<!-- used by rebel & pirate anti-inf turret -->
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>0.3</Projectile_Width>
-		<Projectile_Length>3.0</Projectile_Length>
-		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
-		<Damage_Type> Damage_AI_Turret </Damage_Type>
-		<Projectile_Damage>14.0</Projectile_Damage>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Max_Speed>11.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>400.0</Projectile_Max_Flight_Distance>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>1.5</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Medium_Damage_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Small_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Medium_Damage_Land</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle>Small_Damage_Land</Projectile_Lifetime_Detonation_Particle>
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Medium</Projectile_Absorbed_By_Shields_Particle>
-		<AI_Combat_Power>120</AI_Combat_Power>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> Unit_Projectile_Infantry_Ricochet </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	</Projectile>
-
-	<Projectile Name="Proj_Ground_Laser_Cannon_Red">		<!-- used by AT-AT & pirate / rebel anti-vech turret -->
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_MEDIUM.ALO</Land_Model_Name>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>1.0</Projectile_Width>
-		<Projectile_Length>10.4</Projectile_Length>
-		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_Laser_GRND </Damage_Type>
-		<Max_Speed>30.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>18.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Large_Damage_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Large_Damage_Land</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-		<AI_Combat_Power>160</AI_Combat_Power>
-		<Projectile_SFXEvent_Detonate_Reduced_By_Armor> SFX_Small_Damage_Detonation </Projectile_SFXEvent_Detonate_Reduced_By_Armor>
-	</Projectile>
+	
 
 	<Projectile Name="Proj_Ground_Laser_Cannon_Red_DT3">
 		<Variant_Of_Existing_Type>Proj_Ground_Laser_Cannon_Red</Variant_Of_Existing_Type>
@@ -2114,61 +2155,6 @@
 		<Variant_Of_Existing_Type>Proj_Ground_Laser_Cannon_Red</Variant_Of_Existing_Type>
 		<Damage_Type>Damage_ATAT</Damage_Type>
 		<Projectile_Damage>25.0</Projectile_Damage>
-	</Projectile>
-
-	<Projectile Name="Proj_Ground_AV_Turret_Laser_Green">		<!-- used by empire AV turret -->
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>1.0</Projectile_Width>
-		<Projectile_Length>10.4</Projectile_Length>
-		<Projectile_Texture_Slot>3,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_AV_Turret </Damage_Type>
-		<Max_Speed>30.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>20.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Large_Damage_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Large_Damage_Land</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-		<AI_Combat_Power>160</AI_Combat_Power>
-	</Projectile>
-
-	<Projectile Name="Proj_Ground_AV_Turret_Laser_Red">		<!-- used by Rebel AV turret -->
-		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_MEDIUM.ALO</Land_Model_Name>
-		<Projectile_Custom_Render>1</Projectile_Custom_Render>
-		<Projectile_Width>1.0</Projectile_Width>
-		<Projectile_Length>10.4</Projectile_Length>
-		<Projectile_Texture_Slot>0,0</Projectile_Texture_Slot>
-		<Scale_Factor>1.0</Scale_Factor>
-		<Damage_Type> Damage_AV_Turret </Damage_Type>
-		<Max_Speed>30.0</Max_Speed>
-		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
-		<Behavior>PROJECTILE, HIDE_WHEN_FOGGED</Behavior>
-		<Projectile_Category>Laser</Projectile_Category>
-		<Projectile_Max_Flight_Distance>1200.0</Projectile_Max_Flight_Distance>
-		<Projectile_Damage>20.0</Projectile_Damage>
-		<Projectile_Does_Shield_Damage>Yes</Projectile_Does_Shield_Damage>
-		<Projectile_Does_Energy_Damage>No</Projectile_Does_Energy_Damage>
-		<Projectile_Does_Hitpoint_Damage>Yes</Projectile_Does_Hitpoint_Damage>
-		<Projectile_Energy_Per_Shot>10</Projectile_Energy_Per_Shot>
-		<Projectile_Object_Detonation_Particle>Large_Damage_Land</Projectile_Object_Detonation_Particle>
-		<Projectile_Object_Armor_Reduced_Detonation_Particle>Medium_Dud</Projectile_Object_Armor_Reduced_Detonation_Particle>
-		<Projectile_Ground_Detonation_Particle>Large_Damage_Land</Projectile_Ground_Detonation_Particle>
-		<Projectile_Lifetime_Detonation_Particle />
-		<Projectile_Absorbed_By_Shields_Particle>Projectile_Shield_Absorb_Large</Projectile_Absorbed_By_Shields_Particle>
-		<Projectile_Ground_Detonation_SurfaceFX>PROJECTILE</Projectile_Ground_Detonation_SurfaceFX>
-		<AI_Combat_Power>160</AI_Combat_Power>
 	</Projectile>
 
 	<Projectile Name="Proj_M1_Laser_Cannon">
@@ -2249,7 +2235,7 @@
 
 	<Projectile Name="Proj_Ground_SPMAT_Grenade">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>p_spmat_shot.ALO</Land_Model_Name>		<!-- This should be blue -->
+		<Land_Model_Name>p_spmat_shot.alo</Land_Model_Name>		<!-- This should be blue -->
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_SPMAT_Grenade </Damage_Type>
 		<Max_Speed>30.0</Max_Speed>
@@ -2281,8 +2267,8 @@
 	<!-- Special Structure Projectiles USE THESE ONLY ON SPECIAL STRUCTURES!!! -->
 	<Projectile Name="Proj_Hypervelocity_Gun">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>p_hyper_gun_slug.ALO</Land_Model_Name>
-		<Space_Model_Name>p_hyper_gun_slug.ALO</Space_Model_Name>
+		<Land_Model_Name>p_hyper_gun_slug.alo</Land_Model_Name>
+		<Space_Model_Name>p_hyper_gun_slug.alo</Space_Model_Name>
 		<Damage_Type> Damage_Hyper_Gun </Damage_Type>
 		<Projectile_Damages_Random_Hard_Points>yes</Projectile_Damages_Random_Hard_Points>
 		<Scale_Factor>1.0</Scale_Factor>
@@ -2349,7 +2335,7 @@
 	<Projectile Name="Proj_Ground_Turbolaser_Green">
 		<Projectile_Texture_Slot>0,3</Projectile_Texture_Slot>
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>p_turbolaser_burst_med00_green.ALO</Land_Model_Name>
+		<Land_Model_Name>p_turbolaser_burst_med00_green.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Turbo_GRND </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
@@ -2373,7 +2359,7 @@
 
 	<Projectile Name="Proj_Ground_Turbolaser_Red">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>p_turbolaser_burst_med00.ALO</Land_Model_Name>
+		<Land_Model_Name>p_turbolaser_burst_med00.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Damage_Type> Damage_Turbo_GRND </Damage_Type>
 		<Max_Speed>40.0</Max_Speed>
@@ -2481,7 +2467,7 @@
 	<!-- Bombing Run Projectiles: Use these for bombing runs only! -->
 	<Projectile Name="Proj_TIE_Bomber_Run_Bomb">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_THERMAL_DETONATOR.ALO</Land_Model_Name>
+		<Land_Model_Name>W_THERMAL_DETONATOR.alo</Land_Model_Name>
 		<Scale_Factor>2.0</Scale_Factor>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Damage_Type> Damage_Bomb </Damage_Type>
@@ -2509,7 +2495,7 @@
 
 	<Projectile Name="TIE_Bomber_Bombing_Run_Bomb">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>w_thermal_detonator_empire.alo</Land_Model_Name>
+		<Land_Model_Name>P_Proton_Bomb.alo</Land_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Damage_Type> Damage_Bomb </Damage_Type>
@@ -2565,7 +2551,7 @@
 
 	<Projectile Name="Y_Wing_Bombing_Run_Bomb">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>w_thermal_detonator_rebel.alo</Land_Model_Name>
+		<Land_Model_Name>P_Proton_Bomb.alo</Land_Model_Name>
 		<Scale_Factor>5.0</Scale_Factor>
 		<Loop_Idle_Anim_00>Yes</Loop_Idle_Anim_00>
 		<Damage_Type> Damage_Bomb </Damage_Type>
@@ -2596,7 +2582,7 @@
 	<Projectile Name="Proj_Harmonic_Bomb_Slave_I">
 		<Text_ID>TEXT_NONE</Text_ID>
 		<Land_Model_Name>p_seismic_bomb00.alo</Land_Model_Name>
-		<Space_Model_Name>p_seismic_bomb00.ALO</Space_Model_Name>
+		<Space_Model_Name>p_seismic_bomb00.alo</Space_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Max_Speed>0.0</Max_Speed>
 		<Damage_Type> Damage_StickyBomb </Damage_Type>
@@ -2674,8 +2660,8 @@
 	<!-- speeder bike dropped bomb -->
 	<Projectile Name="Proj_Speeder_Bomb">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>w_smallbomb.ALO</Land_Model_Name>
-		<Space_Model_Name>w_smallbomb.ALO</Space_Model_Name>
+		<Land_Model_Name>w_smallbomb.alo</Land_Model_Name>
+		<Space_Model_Name>w_smallbomb.alo</Space_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Max_Speed>0.0</Max_Speed>
 		<Damage_Type> Damage_StickyBomb </Damage_Type>
@@ -2706,8 +2692,8 @@
 
 	<Projectile Name="Proj_Sticky_Bomb">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>w_smallbomb.ALO</Land_Model_Name>
-		<Space_Model_Name>w_smallbomb.ALO</Space_Model_Name>
+		<Land_Model_Name>w_smallbomb.alo</Land_Model_Name>
+		<Space_Model_Name>w_smallbomb.alo</Space_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<!-- AJA - Max_Speed and Projectile_Grenade_Gravity interact together to determine -->
 		<!-- the shape of the grenade's lobbing arc. A side-effect of adjusting these values -->
@@ -2829,8 +2815,8 @@
 	<!-- Used for the swamp bug swarms -->
 	<Projectile Name="Proj_Swamp_Bug_Bite">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Max_Speed>15.0</Max_Speed>
 		<Damage_Type>Damage_BugBite</Damage_Type>
@@ -3087,7 +3073,7 @@
 
 	<Projectile Name="Proj_Hand_Blaster_Merc">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>3.0</Projectile_Length>
@@ -3199,7 +3185,7 @@
 
 	<Projectile Name="Proj_Dark_Trooper_Blade">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type>Damage_DarkTrooper1_Sword</Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>25.0</Max_Speed>
@@ -3436,7 +3422,7 @@
 
 	<Projectile Name="Proj_Juggernaut_Turret_Gun">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALLG.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_g.alo</Land_Model_Name>
 		<Damage_Type> Damage_Juggernaut_Turret </Damage_Type>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
@@ -3622,7 +3608,7 @@
 	<!-- Used for Rebel Orbital Bombardment -->
 	<Projectile Name="Proj_Rebel_Bombardment">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>P_RED_TURBO_BOMBARDMENT.ALO</Land_Model_Name>
+		<Land_Model_Name>P_RED_TURBO_BOMBARDMENT.alo</Land_Model_Name>
 		<Scale_Factor>.6</Scale_Factor>
 
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -3663,7 +3649,7 @@
 	<!-- Used for Empire Orbital Bombardment -->
 	<Projectile Name="Proj_Empire_Bombardment_Turbolaser">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>P_GREEN_TURBO_BOMBARDMENT.ALO</Land_Model_Name>
+		<Land_Model_Name>P_GREEN_TURBO_BOMBARDMENT.alo</Land_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 
 		<Damage_Type> Damage_Turbolaser </Damage_Type>
@@ -3731,7 +3717,7 @@
 	<!-- Used by Rebel Rapid-fire Laser Mobile Turret -->
 	<Projectile Name="Proj_RF_Laser_Cannon_Red">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>3.0</Projectile_Length>
@@ -3762,7 +3748,7 @@
 	<!-- Used for spore spewing plant on Felucia -->
 	<Projectile Name="Proj_Felucia_Planet_Spores">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Max_Speed>1.3</Max_Speed>
 		<Damage_Type>Damage_BugBite</Damage_Type>
@@ -3801,7 +3787,7 @@
 	<!-- Used for spike throwing plant on Felucia -->
 	<Projectile Name="Proj_Felucia_Planet_Spikes">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Max_Speed>9.0</Max_Speed>
 		<Damage_Type>Damage_Plant_Spike</Damage_Type>
@@ -3930,7 +3916,7 @@
 
 	<Projectile Name="Proj_Silri_Lightsaber_Whip">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Lightsaber </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>11.0</Max_Speed>
@@ -3952,7 +3938,7 @@
 
 	<Projectile Name="Proj_Vengeance_Mass_Driver">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>p_proton_Vengance.ALO</Space_Model_Name>
+		<Space_Model_Name>p_proton_Vengance.alo</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 
 		<Damage_Type> Damage_Mass_Driver_Space </Damage_Type>
@@ -4010,7 +3996,7 @@
 
 	<Projectile Name="Proj_Kedalbe_Mass_Driver">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>p_proton_Vengance.ALO</Space_Model_Name>
+		<Space_Model_Name>p_proton_Vengance.alo</Space_Model_Name>
 		<Scale_Factor>3.0</Scale_Factor>
 
 		<Damage_Type> Damage_Mass_Driver_Space </Damage_Type>
@@ -4041,7 +4027,7 @@
 
 	<Projectile Name="Dekard_Concussion_Blast">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Space_Model_Name>W_LASER_INVISIBLE.ALO</Space_Model_Name>
+		<Space_Model_Name>W_LASER_INVISIBLE.alo</Space_Model_Name>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>0.01</Max_Speed>
 		<Max_Rate_Of_Turn>0.0</Max_Rate_Of_Turn>
@@ -4149,8 +4135,8 @@
 
 	<Projectile Name="Proj_Cluster_Bomb">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_THERMAL_DETONATOR.ALO</Land_Model_Name>
-		<Space_Model_Name>W_THERMAL_DETONATOR.ALO</Space_Model_Name>
+		<Land_Model_Name>W_THERMAL_DETONATOR.alo</Land_Model_Name>
+		<Space_Model_Name>W_THERMAL_DETONATOR.alo</Space_Model_Name>
 		<Scale_Factor>10.0</Scale_Factor>
 		<Loop_Idle_Anim_00>No</Loop_Idle_Anim_00>
 		<Max_Speed>12.0</Max_Speed>
@@ -4241,7 +4227,7 @@
 
 	<Projectile Name="Proj_Urai_Cortosis_Blades">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Lightsaber </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>12.0</Max_Speed>
@@ -4307,7 +4293,7 @@
 
 	<Projectile Name="Proj_Merc_Concussion_Grenade">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+		<Land_Model_Name>W_grenade.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Damage_Type> Damage_Con_Grenade </Damage_Type>
 		<Max_Speed>10.0</Max_Speed>
@@ -4498,7 +4484,7 @@
 
 	<Projectile Name="Proj_Indig_Nightsister_Lightning">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Force_Pike </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>25.0</Max_Speed>
@@ -4521,7 +4507,7 @@
 
 	<Projectile Name="Proj_Hand_Blaster_Bossk">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_SMALL.ALO</Land_Model_Name>
+		<Land_Model_Name>w_laser_r.alo</Land_Model_Name>
 		<Projectile_Custom_Render>1</Projectile_Custom_Render>
 		<Projectile_Width>0.3</Projectile_Width>
 		<Projectile_Length>3.0</Projectile_Length>
@@ -4593,7 +4579,7 @@
 
 	<Projectile Name="Proj_Vornskr_Bite">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Vornskr_Bite </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>11.0</Max_Speed>
@@ -4616,7 +4602,7 @@
 
 	<Projectile Name="Proj_Tyber_Zann_Blaster_Shotgun">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_LASER_INVISIBLE.ALO</Land_Model_Name>
+		<Land_Model_Name>W_LASER_INVISIBLE.alo</Land_Model_Name>
 		<Damage_Type> Damage_Tyber_Shotgun </Damage_Type>
 		<Scale_Factor>1.0</Scale_Factor>
 		<Max_Speed>20.0</Max_Speed>
@@ -4825,7 +4811,7 @@
 
 	<Projectile Name="Proj_Empire_MDU_Concussion_Grenade">
 		<Text_ID>TEXT_NONE</Text_ID>
-		<Land_Model_Name>W_grenade.ALO</Land_Model_Name>
+		<Land_Model_Name>W_grenade.alo</Land_Model_Name>
 		<Scale_Factor>1.2</Scale_Factor>
 		<Damage_Type> Damage_MDU_Grenade </Damage_Type>
 		<Max_Speed>11.5</Max_Speed>

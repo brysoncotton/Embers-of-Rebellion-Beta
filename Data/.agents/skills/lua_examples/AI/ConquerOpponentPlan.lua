@@ -1,0 +1,212 @@
+-- $Id: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/ConquerOpponentPlan.lua#1 $
+--/////////////////////////////////////////////////////////////////////////////////////////////////
+--
+-- (C) Petroglyph Games, Inc.
+--
+--
+--  *****           **                          *                   *
+--  *   **          *                           *                   *
+--  *    *          *                           *                   *
+--  *    *          *     *                 *   *          *        *
+--  *   *     *** ******  * **  ****      ***   * *      * *****    * ***
+--  *  **    *  *   *     **   *   **   **  *   *  *    * **   **   **   *
+--  ***     *****   *     *   *     *  *    *   *  *   **  *    *   *    *
+--  *       *       *     *   *     *  *    *   *   *  *   *    *   *    *
+--  *       *       *     *   *     *  *    *   *   * **   *   *    *    *
+--  *       **       *    *   **   *   **   *   *    **    *  *     *   *
+-- **        ****     **  *    ****     *****   *    **    ***      *   *
+--                                          *        *     *
+--                                          *        *     *
+--                                          *       *      *
+--                                      *  *        *      *
+--                                      ****       *       *
+--
+--/////////////////////////////////////////////////////////////////////////////////////////////////
+-- C O N F I D E N T I A L   S O U R C E   C O D E -- D O   N O T   D I S T R I B U T E
+--/////////////////////////////////////////////////////////////////////////////////////////////////
+--
+--              $File: //depot/Projects/StarWars_Expansion/Run/Data/Scripts/AI/ConquerOpponentPlan.lua $
+--
+--    Original Author: Brian Hayes
+--
+--            $Author: Andre_Arsenault $
+--
+--            $Change: 37816 $
+--
+--          $DateTime: 2006/02/15 15:33:33 $
+--
+--          $Revision: #1 $
+--
+--/////////////////////////////////////////////////////////////////////////////////////////////////
+
+require("pgevents")
+
+-- Tell the script pooling system to pre-cache this number of scripts.
+ScriptPoolCount = 16
+
+--
+-- Galactic Mode Contrast Script
+--
+
+function Definitions()
+    MinContrastScale = 1.25
+    MaxContrastScale = 1.5
+
+    Category = "Conquer_Opponent | CIS_Federation_Conquer_Opponent"
+    TaskForce = {
+        -- First Task Force
+        {
+            "SpaceForce",
+			"MinimumTotalSize = 5",
+            "Corvette | Frigate | Capital = 100%",
+			"SuperCapital = 0,1",
+			"Gunship = 0,4"
+        },
+        {
+            "GroundForce",
+            "MinimumTotalSize = 10",
+            "Vehicle | Infantry | AirGunship | AirSpeeder = 100%"
+        }
+    }
+    RequiredCategories = {"Infantry", "Vehicle", "AntiBomber", "Frigate | Capital"} --Must have at least one ground unit, also make sure space force is reasonable
+
+    PerFailureContrastAdjust = 0.5
+
+    SpaceSecured = true
+    LandSecured = false
+    MovingGroundForceToTarget = false
+    WasConflict = false
+
+end
+
+function SpaceForce_Thread()
+    -- Since we're using plan failure to adjust contrast, we're
+    -- only concerned with failures in battle. Default the
+    -- plan to successful and then
+    -- only on the event of our task force being killed is the
+    -- plan set to a failed state.
+    SpaceForce.Set_Plan_Result(true)
+
+    SpaceSecured = false
+
+    if SpaceForce.Are_All_Units_On_Free_Store() == true then
+        AssembleForce(SpaceForce)
+    else
+        BlockOnCommand(SpaceForce.Produce_Force())
+        return
+    end
+
+    if SpaceForce.Get_Force_Count() == 0 then
+        if EvaluatePerception("Is_Good_Ground_Grab_Target", PlayerObject, Target) == 0 then
+            ScriptExit()
+        else
+            SpaceSecured = true
+        end
+    else
+        GlobalValue.Set("CONQUER_OPPONENT", Target.Get_Type().Get_Name())
+        BlockOnCommand(SpaceForce.Move_To(Target))
+        WasConflict = true
+        if SpaceForce.Get_Force_Count() == 0 then
+            SpaceForce.Set_Plan_Result(false)
+            Exit_Plan_With_Possible_Sleep(GroundForce, SpaceForce)
+        end
+
+        SpaceSecured = true
+
+        while not LandSecured do
+            Sleep(5)
+        end
+    end
+	
+	Release_Excess_Spaceforce(SpaceForce, PlayerObject, Target)
+end
+
+function GroundForce_Thread()
+    --Needs to be done by both taskforces - sometimes we may only create a ground force, and if we
+    --declare it a failure we'll just end up with crazy contrast escalation.
+    GroundForce.Set_Plan_Result(true)
+
+    if GroundForce.Are_All_Units_On_Free_Store() == true then
+		AssembleForce(GroundForce)
+    else
+        BlockOnCommand(GroundForce.Produce_Force())
+        return
+    end
+
+    LandUnits(GroundForce)
+
+    while not SpaceSecured do
+        if WasConflict then
+            Exit_Plan_With_Possible_Sleep(GroundForce, SpaceForce)
+        end
+        Sleep(0.1)
+    end
+
+    if not LaunchUnits(GroundForce) then
+        Exit_Plan_With_Possible_Sleep(GroundForce, SpaceForce)
+    end
+
+    if EvaluatePerception("Is_Good_Ground_Grab_Target", PlayerObject, Target) == 0 then
+        Exit_Plan_With_Possible_Sleep(GroundForce, SpaceForce)
+    end
+
+    MovingGroundForceToTarget = true
+    BlockOnCommand(GroundForce.Move_To(Target))
+    MovingGroundForceToTarget = false
+    WasConflict = true
+    if Invade(GroundForce) == false then
+        GroundForce.Set_Plan_Result(false)
+        Exit_Plan_With_Possible_Sleep(GroundForce, SpaceForce)
+    end
+
+    -- This plan has all but succeeded; make sure AI systems don't remove it
+    GroundForce.Set_As_Goal_System_Removable(false)
+    GroundForce.Test_Target_Contrast(false)
+
+    LandSecured = true
+	
+    FundBases(PlayerObject, Target)
+    Exit_Plan_With_Possible_Sleep(GroundForce, SpaceForce)
+end
+
+function SpaceForce_Production_Failed(tf, failed_object_type)
+    ScriptExit()
+end
+
+function GroundForce_Production_Failed(tf, failed_object_type)
+    ScriptExit()
+end
+
+function SpaceForce_Original_Target_Owner_Changed(tf, old_owner, new_owner)
+    --Ignore changes to neutral - it might just be temporary on the way to
+    --passing into my control.
+    if new_owner ~= PlayerObject and new_owner.Is_Neutral() == false then
+        if (not LandSecured) or (PlayerObject.Get_Difficulty() == "Hard") then
+            ScriptExit()
+        end
+    end
+end
+
+function GroundForce_Original_Target_Owner_Changed(tf, old_owner, new_owner)
+    --Ignore changes to neutral - it might just be temporary on the way to
+    --passing into my control.
+    if new_owner ~= PlayerObject and new_owner.Is_Neutral() == false then
+        if (not LandSecured) or (PlayerObject.Get_Difficulty() == "Hard") then
+            ScriptExit()
+        end
+    end
+end
+
+function SpaceForce_No_Units_Remaining()
+    if not LandSecured then
+        SpaceForce.Set_Plan_Result(false)
+    --Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
+    end
+end
+
+function GroundForce_No_Units_Remaining()
+    if not LandSecured then
+        GroundForce.Set_Plan_Result(false)
+    --Don't exit since we need to sleep to enforce delays between AI attacks (can't be done inside an event handler)
+    end
+end

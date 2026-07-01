@@ -160,7 +160,7 @@
 		<Text_ID>TEXT_ORBITAL_STATION_POSITION</Text_ID>
 		<Is_Marker>Yes</Is_Marker>
 		<Galactic_Model_Name />
-		<Space_Model_Name>Empire_Star_Base_4.ALO</Space_Model_Name>
+		<Space_Model_Name>RB_STATION_05.ALO</Space_Model_Name>
 		<Land_Model_Name />
 		<Behavior>MARKER</Behavior>
 		<Is_Discardable>false</Is_Discardable>
@@ -1457,4 +1457,3 @@
 
 
 </Markers>
-

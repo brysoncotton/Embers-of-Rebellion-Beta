@@ -6,11 +6,52 @@ Embers of Rebellion Development Team:
 	Eric Upton-Rowley
 	Landon Flake
 
+Alliance Assault Frigate
+	Model/Texture/Rig - Embers of Rebellion Development Team
+
 Others:
+
+A massiave thank you to the Battlefront Commander Development Team for allowing the use of the following models and their textures
+Victory II,
+Victory I,
+Venator,
+X-Wing,
+Y-Wing,
+A-Wing,
+MC80 Independence,
+Nebulon-B,
+Acclamator
+TIE Striker
+
+Another thank you to Larrythree from Alliance at War, Rachel from Age of the Empire and GP1701 from Days of Carnage for their consultation throughout the process especially with helping with debugging and feature implementation.
 
 MC-75
 	Model - Warb Null
 	Textures - Warb Null
+
+U-Wing
+	Model - Spylakewalker/Embers of Rebellion Development Team
+	Textures - Spylakewalker/Embers of Rebellion Development Team
+
+Pelta Class
+	Model - Spylakewalker/Embers of Rebellion Development Team
+	Textures - Spylakewalker/Embers of Rebellion Development Team
+	Rig - Spylakewalker/Embers of Rebellion Development Team
+
+
+MC30
+	Model - Spylakewalker/Embers of Rebellion Development Team
+	Textures - Spylakewalker/Embers of Rebellion Development Team
+
+Death Star I
+	Model - Jeroenimo
+	Textures - Jeroenimo
+	Particle special effects - Jeroenimo
+
+Executor Class
+	Model - Jeroenimo
+	Textures - Jeroenimo
+	Particle special effects - Jeroenimo
 
 Secutor Class
 	Design - FractalSponge [ Website - https://fractalsponge.net/ ]
@@ -67,7 +108,7 @@ Raider Class
 
 Imperial Dockyard
 	Model and Textures - SpyLakeWalker
-	Level 4 variant - Embers of Rebellion Dev Team
+	Level 4 variant - Embers of Rebellion Development Team
 
 CR90
 	Model - Yuuzhan Vong at War Team
@@ -87,14 +128,10 @@ PBR Planet Shader: Gaukler
 Anisotropic filtered MeshAdditive Shader: Gaukler
 Meshes: Jeroenimo
 
-A massive thank you to the Battlefront Commander Development Team for allowing the use of the following models and their textures
-Victory II,
-Victory I,
-Venator,
-X-Wing,
-Y-Wing,
-A-Wing
-MC80 Independence,
-Nebulon-B,
-Acclamator
+Rebel Juggernaut
+	Model & Textures: kubli
+	Animations: kubli
+	Turret: Embers of Rebellion Development Team
+
+
 

@@ -70,7 +70,7 @@
 		<Ranged_Target_Z_Adjust>7.0</Ranged_Target_Z_Adjust>
 		<Mouse_Collide_Override_Sphere_Radius> 10.0 </Mouse_Collide_Override_Sphere_Radius>
 
-		<Projectile_Types>Proj_Blaster_Cannon_Green</Projectile_Types>
+		<Projectile_Types>Proj_Blaster_Cannon_Red</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>2.0</Projectile_Fire_Recharge_Seconds>
 		<Projectile_Fire_Pulse_Count>4</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
@@ -144,7 +144,6 @@
 
 		<Death_Fade_Time>0.25</Death_Fade_Time>
 		<Death_Persistence_Duration>0.0</Death_Persistence_Duration>
-		<Influences_Capture_Point> False </Influences_Capture_Point>
 
 		<Tactical_Bribe_Cost>50</Tactical_Bribe_Cost>
 

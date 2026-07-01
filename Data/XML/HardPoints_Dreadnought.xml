@@ -10,17 +10,17 @@
 		<Collision_Mesh>Hangar_01</Collision_Mesh>
 		<Damage_Particles>Hangar_damage_01</Damage_Particles>
 		<Tooltip_Text>TEXT_FIGHTER_BAY_HARDPOINT</Tooltip_Text>
-		<Health>1000.0</Health>
+		<Health>400.0</Health>
 		<Death_Explosion_Particles> Large_Explosion_Space_Empire </Death_Explosion_Particles>		<!-- STUBBED PLACEHOLDER -->
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Bay_Death</Death_Explosion_SFXEvent>		<!-- STUBBED PLACEHOLDER -->
 	</HardPoint>
 
 	<HardPoint Name="HP_Imperial_Support_Vessel_ENGINE_01">
 		<Type> HARD_POINT_ENGINE </Type>
-		<Is_Targetable>yes</Is_Targetable>
-		<Is_Destroyable>yes</Is_Destroyable>
+		<Is_Targetable>no</Is_Targetable>
+		<Is_Destroyable>no</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-		<Health>1500.0</Health>
+		<Health>400.0</Health>
 		<Death_Explosion_SFXEvent />
 
 		<Attachment_Bone>engine_01</Attachment_Bone>
@@ -34,7 +34,7 @@
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
 		<Tooltip_Text>TEXT_ENGINE_HARDPOINT</Tooltip_Text>
-		<Health>1500.0</Health>
+		<Health>400.0</Health>
 		<Death_Explosion_SFXEvent />
 
 		<Attachment_Bone>engine_02</Attachment_Bone>
@@ -49,8 +49,7 @@
 		<Is_Targetable>Yes</Is_Targetable>
 		<Is_Destroyable>Yes</Is_Destroyable>
 		<Tooltip_Text>TEXT_SHIELD_GENERATOR_HARDPOINT</Tooltip_Text>
-		<Health>2500.0</Health>		<!-- 550 -->
-		<!-- From 450 -->
+		<Health>400.0</Health>		
 		<Death_Explosion_Particles>Medium_Explosion_Space_Empire</Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Shields_Death</Death_Explosion_SFXEvent>
 		<Attachment_Bone>SHIELD_00</Attachment_Bone>
@@ -63,7 +62,7 @@
 		<Is_Targetable>NO</Is_Targetable>
 		<Is_Destroyable>NO</Is_Destroyable>
 		<Tooltip_Text>TEXT_WEAPON_TORPEDOES</Tooltip_Text>
-		<Health>4000.0</Health>
+		<Health>400.0</Health>
 
 		<Death_Explosion_Particles> Medium_Explosion_Space </Death_Explosion_Particles>
 		<Death_Explosion_SFXEvent>Unit_Hardpoint_Torpedo_Death</Death_Explosion_SFXEvent>
@@ -93,9 +92,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_DTL_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>YES</Is_Targetable>
 		<Is_Destroyable>YES</Is_Destroyable>
-		<Health>1500.0</Health>
+		<Health>400.0</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -134,9 +134,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_DTL_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>YES</Is_Targetable>
 		<Is_Destroyable>YES</Is_Destroyable>
-		<Health>1500.0</Health>
+		<Health>400</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -174,9 +175,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_DTL_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>YES</Is_Targetable>
 		<Is_Destroyable>YES</Is_Destroyable>
-		<Health>1500.0</Health>
+		<Health>400</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -213,9 +215,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_DTL_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>YES</Is_Targetable>
 		<Is_Destroyable>YES</Is_Destroyable>
-		<Health>1500.0</Health>
+		<Health>400</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -252,9 +255,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_DTL_05">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1500.0</Health>
+		<Health>400</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -291,9 +295,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_DTL_06">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1500.0</Health>
+		<Health>400</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -330,9 +335,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_DTL_07">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1500.0</Health>
+		<Health>400</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -369,9 +375,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_TL_01">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>YES</Is_Targetable>
 		<Is_Destroyable>YES</Is_Destroyable>
-		<Health>1000.0</Health>
+		<Health>400.0</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -408,9 +415,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_TL_02">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1000.0</Health>
+		<Health>400.0</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -447,9 +455,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_TL_03">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>No</Is_Targetable>
 		<Is_Destroyable>No</Is_Destroyable>
-		<Health>1000.0</Health>
+		<Health>400.0</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 
@@ -486,9 +495,10 @@
 
 	<HardPoint Name="H_Imperial_Support_Vessel_TL_04">
 		<Type> HARD_POINT_WEAPON_LASER </Type>
+		<Tooltip_Text>TEXT_WEAPON_TURBOLASER</Tooltip_Text>
 		<Is_Targetable>YES</Is_Targetable>
 		<Is_Destroyable>YES</Is_Destroyable>
-		<Health>1000.0</Health>
+		<Health>400.0</Health>
 
 		<Model_To_Attach></Model_To_Attach>
 

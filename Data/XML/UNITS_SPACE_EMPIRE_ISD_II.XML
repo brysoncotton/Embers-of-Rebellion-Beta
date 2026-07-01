@@ -64,7 +64,7 @@
 	   <GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Select_Box_Scale>800</Select_Box_Scale>
+		<Select_Box_Scale>2400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 
 		<Scale_Factor>1.0</Scale_Factor>

@@ -262,6 +262,7 @@
 
 
 	<!-- Hard Point Friendly and Ememy Reticle Textures by Hard Point Type -->
+	<!--HARDPOINT TEXTURES-->
 
 	<HardPoint_Target_Reticle_Enemy_Screen_Size> 0.03 </HardPoint_Target_Reticle_Enemy_Screen_Size>
 
@@ -270,209 +271,131 @@
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_ENGINE, I_Hard_Point_Reticle_Engines_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_SHIELD_GENERATOR, I_Hard_Point_Reticle_Shield_Gen_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_GRAVITY_WELL, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_FIGHTER_BAY, I_Hard_Point_Reticle_Docking_Bay_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_TRACTOR_BEAM, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_WEAPON_LASER, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_WEAPON_MISSILE, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_WEAPON_TORPEDO, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_WEAPON_ION_CANNON, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_WEAPON_MASS_DRIVER, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_WEAPON_SPECIAL, I_Hard_Point_Reticle_Weapons_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_ENABLE_SPECIAL_ABILITY, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
 
 	<HardPoint_Target_Reticle_Enemy_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Enemy_Texture>
-
 	<HardPoint_Target_Reticle_Enemy_Tracked_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Enemy_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Tracked_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Tracked_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Repairing_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic_Repair </HardPoint_Target_Reticle_Friendly_Repairing_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic </HardPoint_Target_Reticle_Friendly_Disabled_Texture>
-
 	<HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture> HARD_POINT_DUMMY_ART, I_Hard_Point_Reticle_Generic_Tracked </HardPoint_Target_Reticle_Friendly_Disabled_Tracked_Texture>
 
 	<!-- -->
@@ -488,7 +411,7 @@
 	<!-- UNUSED - unit cap is now per faction in Factions.xml
 	<Space_Tactical_Unit_Cap>40</Space_Tactical_Unit_Cap> -->
 	<!--<Allow_Reinforcement_Percentage_Normalized> 0.0 </Allow_Reinforcement_Percentage_Normalized>-->
-	<Default_Hero_Respawn_Time>360.0</Default_Hero_Respawn_Time>
+	<Default_Hero_Respawn_Time>-1</Default_Hero_Respawn_Time>
 	<LandFOWColor>130,130,130,0</LandFOWColor>
 	<SpaceFOWColor>255,255,255,255</SpaceFOWColor>
     <SpaceReinforceFOWColor>255,0,0,254</SpaceReinforceFOWColor>

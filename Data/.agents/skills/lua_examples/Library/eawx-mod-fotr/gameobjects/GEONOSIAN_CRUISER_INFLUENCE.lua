@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "GEONOSIAN_CRUISER"}
+}

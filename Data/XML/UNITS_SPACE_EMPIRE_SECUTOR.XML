@@ -47,7 +47,7 @@
 		<Tech_Level>99</Tech_Level>
 		<Required_Timeline>0</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
-		<Required_Star_Base_Level>1</Required_Star_Base_Level>
+		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Required_Special_Structures />
 		<Required_Planets />
 		<Ship_Class>super</Ship_Class>
@@ -84,36 +84,43 @@
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>
 
 
-		<SFXEvent_Select>Unit_Select_Bellator_Star_Destroyer</SFXEvent_Select>
-		<SFXEvent_Move>Unit_Move_Bellator_Star_Destroyer</SFXEvent_Move>
-		<SFXEvent_Fleet_Move>Unit_Move_Bellator_Star_Destroyer</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack>Unit_Attack_Bellator_Star_Destroyer</SFXEvent_Attack>
-		<SFXEvent_Guard>Unit_Guard_Bellator_Star_Destroyer</SFXEvent_Guard>
-		<SFXEvent_Barrage>Unit_Attack_Bellator_Star_Destroyer</SFXEvent_Barrage>
-		<SFXEvent_Move_Into_Asteroid_Field> Unit_Move_Bellator_Star_Destroyer </SFXEvent_Move_Into_Asteroid_Field>
-		<SFXEvent_Move_Into_Nebula> Unit_Move_Bellator_Star_Destroyer </SFXEvent_Move_Into_Nebula>
+		<SFXEvent_Select>Unit_Select_Jedi_Cruiser</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Jedi_Cruiser</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi_Cruiser</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Jedi_Cruiser</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Jedi_Cruiser</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Jedi_Cruiser</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Jedi_Cruiser</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Jedi_Cruiser </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Jedi_Cruiser </SFXEvent_Move_Into_Nebula>
 		<SFXEvent_Bombard_Select_Target>	EHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
 		<SFXEvent_Bombard_Incoming> EHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
 		<SFXEvent_Health_Low_Warning> </SFXEvent_Health_Low_Warning>
 		<SFXEvent_Health_Critical_Warning> </SFXEvent_Health_Critical_Warning>
         <Play_SFXEvent_On_Sighting>True</Play_SFXEvent_On_Sighting>
 		
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE,  </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-		<SFXEvent_Build_Complete>Unit_Complete_Bellator_Star_Destroyer</SFXEvent_Build_Complete>
-		<SFXEvent_Hero_Respawned>Unit_Complete_Bellator_Star_Destroyer</SFXEvent_Hero_Respawned>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO, </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON, Unit_Lost_Ion_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+		<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY, Unit_Lost_Bay_Victory_Destroyer </SFXEvent_Hardpoint_Destroyed>
+
+		<SFXEvent_Build_Complete>Unit_Complete_Star_Destroyer</SFXEvent_Build_Complete>
+		<SFXEvent_Hero_Respawned></SFXEvent_Hero_Respawned>
 		
 		<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
-		<SFXEvent_Ambient_Loop>Unit_Annihilator_Star_Destroyer_Idle_Engine_Loop </SFXEvent_Ambient_Loop>
-		<Death_SFXEvent_Start_Die>Bellator_Death</Death_SFXEvent_Start_Die>
+		<SFXEvent_Ambient_Loop>Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Ambient_Loop>
+		<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 		<SFXEvent_Build_Started>EHD_Build_Vehicle</SFXEvent_Build_Started>
 		<SFXEvent_Build_Cancelled>EHD_Unit_Canceled</SFXEvent_Build_Cancelled>
 
@@ -135,7 +142,7 @@
 		
 		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>2</Build_Limit_Lifetime_Per_Player>
-		<Population_Value>10</Population_Value>
+		<Population_Value>25</Population_Value>
 
 		<!-- Non-Hero unit abilities description -->
 		<Abilities SubObjectList="Yes">			
@@ -214,11 +221,14 @@
 		<Build_Limit_Current_Per_Player>5</Build_Limit_Current_Per_Player>
 					<!-- Carries 18 squadrons of fighters, Light Carrier -->
 
-			<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 2</Starting_Spawned_Units_Tech_0>
+			<Starting_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 4</Starting_Spawned_Units_Tech_0>
 			<Reserve_Spawned_Units_Tech_0>TIE_Fighter_Squadron, 10</Reserve_Spawned_Units_Tech_0>
 
-			<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 2</Starting_Spawned_Units_Tech_0>
+			<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 1</Starting_Spawned_Units_Tech_0>
 			<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 4</Reserve_Spawned_Units_Tech_0>
+
+			<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 2</Starting_Spawned_Units_Tech_0>
+			<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 4</Reserve_Spawned_Units_Tech_0>
 		
 		<Spawned_Squadron_Delay_Seconds>1</Spawned_Squadron_Delay_Seconds>
 	</SpaceUnit>

@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "UBRIKKIAN_CRUISER_CW"}
+}

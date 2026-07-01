@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "REFIT_VENATOR_STAR_DESTROYER"}
+}

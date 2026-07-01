@@ -277,11 +277,15 @@
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_JEDI_MASTER </Encyclopedia_Unit_Class>
 		<Icon_Name>i_button_RI_Yoda.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+
 		<Damage>100</Damage>
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>4</Tech_Level>
 		<Required_Timeline>5</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>

@@ -7,8 +7,8 @@
 	<SpaceUnit Name="Gallofree_Repair_Ship">
 		<Text_ID>TEXT_UNIT_REPAIR_GALLOFREE</Text_ID>
 		<GUI_Row> 1 </GUI_Row>
-		<Space_Model_Name>RV_TRANSPORT.aLO</Space_Model_Name>
-		<GUI_Model_Name>RV_TRANSPORT.ALO</GUI_Model_Name>
+		<Space_Model_Name>RV_Transport.aLO</Space_Model_Name>
+		<GUI_Model_Name>RV_Transport.ALO</GUI_Model_Name>
 		<Select_Box_Scale>250</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
@@ -82,6 +82,7 @@
 		<Death_Explosions>Large_Explosion_Space</Death_Explosions>
 
 		<HardPoints>
+			Gallofree_Turret_00,
 			Gallofree_Turret_01
 		</HardPoints>
 

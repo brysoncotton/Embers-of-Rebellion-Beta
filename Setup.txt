@@ -25,6 +25,13 @@ Target the Mod: In the Launch Options field at the bottom, paste the following:
 MODPATH=Mods\Embers-of-Rebellion-Beta
 
 Step 5: Add Icons and Banners
-We have provided a series of icons and banners for you to use in the steam home page so you don't have to have multiple games with the same icon or banner. (Google, "Add Steam banner", "Add Steam icon to non steam game, or "Add game cover to non steam game" for additional help)
+We have provided a series of icons and banners for you to use in the steam home page so you don't have to have multiple games with the same icon or banner. Find the Embers of Rebellion entry in your Steam Library, right-click it, and select "Customization". Use the following table to add the correct artwork for the mod:
+	Cover ---> Steam_Game_Cover.png
+	Background ---> Steam_Banner.png
+	Logo ---> Wordmark.png
+	Wide Cover ---> Steam_Wide_Cover.png
+To add a desktop shortcut, find the Embers of Rebellion entry in your Steam Library, right-click it, and select Manage --> Add desktop shortcut. Then find the shortcut created on your desktop, right click, then select "Show more options" and "Properties". Select "Change Icon" and browse to the mod folder and select the icon.ico image. Ensure you applay your changes.
+
+(Google, "Add Steam banner", "Add Steam icon to non steam game, or "Add game cover to non steam game" for additional help)
 
 Close the window. You can now launch this specific mod directly from your Library without affecting the base game.

@@ -192,13 +192,23 @@
 		<Victory_Relevant>yes</Victory_Relevant>
 		<Score_Cost_Credits> 55000 </Score_Cost_Credits>
 
-		<SFXEvent_Select> Unit_Select_Ackbar</SFXEvent_Select>
-		<SFXEvent_Move> Unit_Move_Ackbar</SFXEvent_Move>
-		<SFXEvent_Fleet_Move> Unit_Fleet_Move_Ackbar</SFXEvent_Fleet_Move>
-		<SFXEvent_Attack> Unit_Attack_Ackbar</SFXEvent_Attack>
-		<SFXEvent_Guard> Unit_Guard_Ackbar</SFXEvent_Guard>
-		<SFXEvent_Bombard_Select_Target> RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-		<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+		<SFXEvent_Select>Unit_Select_Jedi_Cruiser</SFXEvent_Select>
+		<SFXEvent_Move>Unit_Move_Jedi_Cruiser</SFXEvent_Move>
+		<SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi_Cruiser</SFXEvent_Fleet_Move>
+		<SFXEvent_Attack>Unit_Attack_Jedi_Cruiser</SFXEvent_Attack>
+		<SFXEvent_Guard>Unit_Guard_Jedi_Cruiser</SFXEvent_Guard>
+		<SFXEvent_Stop>Unit_Stop_Jedi_Cruiser</SFXEvent_Stop>
+		<SFXEvent_Barrage>Unit_Barrage_Jedi_Cruiser</SFXEvent_Barrage>
+		<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Jedi_Cruiser </SFXEvent_Move_Into_Asteroid_Field>
+		<SFXEvent_Move_Into_Nebula> Unit_Nebula_Jedi_Cruiser </SFXEvent_Move_Into_Nebula>
+
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+		<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
 		
 		<SFXEvent_Fire>Unit_Corvette_Fire</SFXEvent_Fire>
 		<SFXEvent_Engine_Idle_Loop> Unit_Calamari_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
@@ -280,15 +290,6 @@
 			<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 			<Stacking_Category>0</Stacking_Category>
 		</Combat_Bonus_Ability>
-            
-		<Reduce_Production_Price_Ability Name="Dodonna_Reduce_Production_Price">
-			<Unit_Strength_Category />
-			<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
-			<Applicable_Unit_Types />
-			<!-- Price reduced by 25% -->
-			<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
-			<Stacking_Category>0</Stacking_Category>
-		</Reduce_Production_Price_Ability>
 
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
@@ -297,7 +298,14 @@
 		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
         <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
-		
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>6000</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>20</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>
 		<Targeting_Priority_Set>Capital</Targeting_Priority_Set>
 		<Has_Space_Evaluator>True</Has_Space_Evaluator>

@@ -1,0 +1,1 @@
+return require("random-fighters/LIGHT_CORVETTE")

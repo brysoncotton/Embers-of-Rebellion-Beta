@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "PROVIDENCE_DREADNOUGHT"}
+}

@@ -659,7 +659,7 @@
 
 
 		<!-- ============================================== -->
-		<!-- REBEL DROID ADVISOR TEXT		                -->
+		<!-- REBEL DROID ADVISOR TEXT	(HINT MENU)         -->
 		<!-- ============================================== -->
 
 		<Galactic_Advisor_Hints>
@@ -676,14 +676,12 @@
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_11,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_12,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_13,
-				TEXT_DROID_ADVISOR_REBEL_GALACTIC_14,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_15,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_16,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_17,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_18,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_19,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_20,
-				TEXT_DROID_ADVISOR_REBEL_GALACTIC_21,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_22,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_23,
 				TEXT_DROID_ADVISOR_REBEL_GALACTIC_25
@@ -739,14 +737,17 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 
 		<Multiplayer_Campaign_Heroes>
+			Jan_Dodonna,
+			Home_One,
+			Admiral_Raddus,
+			General_Merrick_Squadron,
+			Sundered_Heart,
 			Mon_Mothma_Team,
 			Droids_Team,
-			Han_Solo_Team,
-			Sundered_Heart,
-			Home_One,
 			Obi_Wan_Team,
-			Rogue_Squadron_Space,
+			Han_Solo_Team,
 			Luke_Skywalker_Jedi_Team,
+			Rogue_Squadron_Space,
 			Yoda_Team
 		</Multiplayer_Campaign_Heroes>
 
@@ -1422,13 +1423,11 @@
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_11,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_12,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_13,
-				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_14,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_15,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_16,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_17,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_18,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_19,
-				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_20,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_21,
 				TEXT_DROID_ADVISOR_EMPIRE_GALACTIC_24
 		</Galactic_Advisor_Hints>
@@ -1481,11 +1480,14 @@
 		<SFXEvent_HUD_Advisor_Hint>GUI_Droid_Hint_SFX</SFXEvent_HUD_Advisor_Hint>
 
 		<Multiplayer_Campaign_Heroes>
-			Grand_Moff_Tarkin_Team,
+			Darth_Team,
+			Grand_Moff_Tarkin,
 			Emperor_Palpatine_Team,
-			Boba_Fett_Team,
+			Chimaera_Star_Destroyer,
+			Admiral_Ozzel,
 			General_Veers_Team,
-			Accuser_Star_Destroyer
+			Boba_Fett_Team,
+			Admiral_Rae_Sloane
 		</Multiplayer_Campaign_Heroes>
 
 		<Multiplayer_Map_Preview_Icon>I_MULTIPLAY_EMPIRE.TGA</Multiplayer_Map_Preview_Icon>

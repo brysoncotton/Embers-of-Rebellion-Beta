@@ -263,10 +263,14 @@
 		<Icon_Name>i_button_RI_skywalker.tga</Icon_Name>
 		<Is_Dummy>Yes</Is_Dummy>
 		<Damage>100</Damage>
+
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+
 		<Affiliation>Rebel</Affiliation>
 		<Build_Time_Seconds>0</Build_Time_Seconds>
 		<Combat_Power_Value>0</Combat_Power_Value>
-		<Tech_Level>1</Tech_Level>
+		<Tech_Level>3</Tech_Level>
 		<Required_Timeline>5</Required_Timeline>
 		<Required_Ground_Base_Level>0</Required_Ground_Base_Level>
 		<Required_Star_Base_Level>0</Required_Star_Base_Level>

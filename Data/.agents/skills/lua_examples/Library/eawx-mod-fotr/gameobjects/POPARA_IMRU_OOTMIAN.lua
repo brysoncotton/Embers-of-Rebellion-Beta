@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "LIGHT_MINSTREL_YACHT"}
+}

@@ -135,7 +135,8 @@
 			<!-- Primary ability -->
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
-
+				<Alternate_Icon_Name>I_SA_FULL_SALVO.TGA</Alternate_Icon_Name>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_B_WING_DESCRIPTION</Alternate_Description_Text>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
@@ -240,6 +241,8 @@
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
 				<Activation_Style>Space_Automatic</Activation_Style>
+				<Alternate_Icon_Name>I_SA_FULL_SALVO.TGA</Alternate_Icon_Name>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_B_WING_DESCRIPTION</Alternate_Description_Text>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
@@ -330,7 +333,8 @@
 
 			<Unit_Ability>
 				<Type>SPOILER_LOCK</Type>
-
+				<Alternate_Icon_Name>I_SA_FULL_SALVO.TGA</Alternate_Icon_Name>
+				<Alternate_Description_Text>TEXT_TOOLTIP_ABILITY_SPOILER_LOCK_B_WING_DESCRIPTION</Alternate_Description_Text>
 				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>
 				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	3.0f</Mod_Multiplier>

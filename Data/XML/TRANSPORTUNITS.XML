@@ -303,8 +303,8 @@
 
 	<TransportUnit Name="Gallofree_Transport">
 		<Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
-		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
-		<Space_Model_Name>RV_TRANSPORT.ALO</Space_Model_Name>
+		<Land_Model_Name>RV_Transport.ALO</Land_Model_Name>
+		<Space_Model_Name>RV_Transport.ALO</Space_Model_Name>
 		<Icon_Name>i_button_Gallofree_Transport.tga</Icon_Name>
 		<Select_Box_Scale>200</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-30</Select_Box_Z_Adjust>

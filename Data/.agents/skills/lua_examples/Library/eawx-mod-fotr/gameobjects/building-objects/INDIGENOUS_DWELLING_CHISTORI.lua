@@ -1,0 +1,15 @@
+return {
+	dwelling_type = "PARTISAN",
+	can_be_influenced = true,
+
+	group_name = "CHISTORI",
+	random_allegiance = false,
+	Allegiances = {"INDEPENDENT_FORCES"},
+
+	Spawn_Units = {
+		["PARTISAN_CHISTORI_SQUAD"] = {
+			DEFAULT = {Initial = 1, Reserve = 2},
+		}
+	},
+	Scripts = {"partisan-allegiance"},
+}

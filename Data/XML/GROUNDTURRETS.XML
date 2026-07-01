@@ -263,7 +263,7 @@
 
 		<Affiliation>Empire</Affiliation>
 
-		<Projectile_Types>Proj_HRB_Cannon_Green</Projectile_Types>
+		<Projectile_Types>Proj_Anti_Infantry_Laser_Green</Projectile_Types>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
@@ -295,7 +295,7 @@
 
 		<Affiliation>Rebel</Affiliation>
 
-		<Projectile_Types>Proj_HRB_Cannon_Red</Projectile_Types>
+		<Projectile_Types>Proj_Anti_Infantry_Laser_Red</Projectile_Types>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
@@ -331,7 +331,7 @@
 
 		<Affiliation>Pirates</Affiliation>
 
-		<Projectile_Types>Proj_HRB_Cannon_Red</Projectile_Types>
+		<Projectile_Types>Proj_Anti_Infantry_Laser_Red</Projectile_Types>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 20.0 </Targeting_Fire_Inaccuracy>
 		<Targeting_Fire_Inaccuracy> Vehicle, 30.0 </Targeting_Fire_Inaccuracy>
@@ -1549,7 +1549,7 @@
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Size>0.075  0.075</Radar_Icon_Size>
 
-		<Projectile_Types>Proj_HRB_Cannon_Green</Projectile_Types>
+		<Projectile_Types>Proj_Anti_Infantry_Laser_Green</Projectile_Types>
 		<Ranged_Target_Z_Adjust>6.0</Ranged_Target_Z_Adjust>
 
 		<Targeting_Fire_Inaccuracy> Infantry, 1.0 </Targeting_Fire_Inaccuracy>

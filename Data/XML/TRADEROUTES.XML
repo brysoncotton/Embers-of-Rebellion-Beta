@@ -85,6 +85,15 @@
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
         </TradeRoute>
 
+        <TradeRoute Name="Bestine_Atzerri">
+                <Point_A>Bestine</Point_A>
+                <Point_B>Atzerri</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
         <TradeRoute Name="Abregado_Rae_Fondor">
                 <Point_A>Fondor</Point_A>
                 <Point_B>Abregado_Rae</Point_B>
@@ -287,14 +296,6 @@
 
         <TradeRoute Name="Vergesso_DQar">
                 <Point_A>VergessoAsteroids</Point_A>
-                <Point_B>DQar</Point_B>
-                <HS_Speed_Factor>4</HS_Speed_Factor>
-                <Political_Control_Gain>0</Political_Control_Gain>
-                <Credit_Gain_Factor>0</Credit_Gain_Factor>
-        </TradeRoute>
-
-        <TradeRoute Name="AlzocIII_DQar">
-                <Point_A>AlzocIII</Point_A>
                 <Point_B>DQar</Point_B>
                 <HS_Speed_Factor>4</HS_Speed_Factor>
                 <Political_Control_Gain>0</Political_Control_Gain>
@@ -910,6 +911,15 @@
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
         </TradeRoute>
 
+        <TradeRoute Name="Pantora_DQar">
+                <Point_A>Pantora</Point_A>
+                <Point_B>DQar</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
         <TradeRoute Name="Pantora_OrtoPlutonia">
                 <Point_A>Pantora</Point_A>
                 <Point_B>Orto_Plutonia</Point_B>
@@ -982,4 +992,93 @@
                 <Credit_Gain_Factor>0</Credit_Gain_Factor>
         </TradeRoute>
 
+        <TradeRoute Name="Cato_Neimoidia_Endor">
+                <Point_A>Cato_Neimoidia</Point_A>
+                <Point_B>Endor</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Mandalore_Cato_Neimoidia">
+                <Point_A>Mandalore</Point_A>
+                <Point_B>Cato_Neimoidia</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Mandalore_Yavin">
+                <Point_A>Mandalore</Point_A>
+                <Point_B>Yavin</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Cato_Neimoidia_Honoghr">
+                <Point_A>Cato_Neimoidia</Point_A>
+                <Point_B>Honoghr</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Cato_Neimoidia_Kamino">
+                <Point_A>Cato_Neimoidia</Point_A>
+                <Point_B>Kamino</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Bespin_Sullust">
+                <Point_A>Bespin</Point_A>
+                <Point_B>Sullust</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Kamino_Honoghr">
+                <Point_A>Kamino</Point_A>
+                <Point_B>Honoghr</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Sullust_Cato_Neimoidia">
+                <Point_A>Sullust</Point_A>
+                <Point_B>Cato_Neimoidia</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Mandalore_Kessel">
+                <Point_A>Mandalore</Point_A>
+                <Point_B>Kessel</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
+
+        <TradeRoute Name="Naboo_Kamino">
+                <Point_A>Naboo</Point_A>
+                <Point_B>Kamino</Point_B>
+                <HS_Speed_Factor>5.0</HS_Speed_Factor>
+                <Political_Control_Gain>0</Political_Control_Gain>
+                <Credit_Gain_Factor>0.5</Credit_Gain_Factor>
+                <Visible_Line_Name>DEFAULT</Visible_Line_Name>
+        </TradeRoute>
 </TradeRoutes>

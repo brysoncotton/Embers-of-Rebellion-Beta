@@ -4328,7 +4328,7 @@
                         <Fire_Bone_B>MuzzleB_00</Fire_Bone_B>
                         <Fire_Cone_Width>10.0</Fire_Cone_Width>
                         <Fire_Cone_Height>10.0</Fire_Cone_Height>
-                        <Fire_Projectile_Type>Proj_HRB_Cannon_Red</Fire_Projectile_Type>
+                        <Fire_Projectile_Type>Proj_Anti_Infantry_Laser_Red</Fire_Projectile_Type>
                         <Fire_Min_Recharge_Seconds>3</Fire_Min_Recharge_Seconds>
                         <Fire_Max_Recharge_Seconds>3</Fire_Max_Recharge_Seconds>
                         <Fire_Pulse_Count>3</Fire_Pulse_Count>

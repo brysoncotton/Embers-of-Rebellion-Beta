@@ -57,7 +57,7 @@
 		<Text_ID>TEXT_UNIT_MC75</Text_ID>
 		<GUI_Row> 0 </GUI_Row>
 		<Space_Model_Name>Profundity.ALO</Space_Model_Name>
-		<Select_Box_Scale>600</Select_Box_Scale>
+		<Select_Box_Scale>2400</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
 		<Mass>0.995</Mass>
 		<Scale_Factor>0.4</Scale_Factor>

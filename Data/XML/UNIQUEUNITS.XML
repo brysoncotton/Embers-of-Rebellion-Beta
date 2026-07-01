@@ -411,6 +411,8 @@
 		<Scale_Factor>.13</Scale_Factor>
 		<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 
+		<Tech_Level>3</Tech_Level> <!--ADDED SO THAT CAN BE USED IN MULTIPLAYER GAMES, IS LOCKED AT GAME START IN STORY PLOT FILE-->
+
 		<Ranking_In_Category>3</Ranking_In_Category>
 		<Select_Box_Scale>860</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-50</Select_Box_Z_Adjust>
@@ -418,8 +420,9 @@
 		<GUI_Bracket_Height>500</GUI_Bracket_Height>
 		<GUI_Bracket_Size>2</GUI_Bracket_Size>
 
-		<Build_Cost_Credits>5000</Build_Cost_Credits>
-
+		<Build_Cost_Credits>1</Build_Cost_Credits>
+		<Build_Time_Seconds>1</Build_Time_Seconds>
+		
 		<MovementClass> Space </MovementClass>
 		<Space_Layer> Capital </Space_Layer>
 		<Max_Speed>1.5</Max_Speed>
@@ -643,7 +646,7 @@
 				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
 				<Applicable_Unit_Types />
 				<!-- Price reduced by 25% -->
-				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 			<!--<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
@@ -990,7 +993,7 @@
 		<Is_Named_Hero>Yes</Is_Named_Hero>
 
 		<Land_Model_Name>RV_MFalcon_Land.ALO</Land_Model_Name>
-		<Space_Model_Name>RV_MFalcon.ALO</Space_Model_Name>
+		<Space_Model_Name>Rv_YT1300.ALO</Space_Model_Name>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Select_Box_Scale>150</Select_Box_Scale>
 		<Select_Box_Z_Adjust>1.0f</Select_Box_Z_Adjust>
@@ -1046,13 +1049,13 @@
 
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage_Type>Damage_Fighter</Damage_Type>
-		<Death_Explosions>Medium_Explosion_Space</Death_Explosions>
+		<Death_Explosions>P_Ship_Fire_Very_Small_Explosion_Death</Death_Explosions>
 		<Asteroid_Damage_Hit_Particles>Small_Damage_Space</Asteroid_Damage_Hit_Particles>
 
 		<Projectile_Damage>16.0</Projectile_Damage>
-		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Red</Projectile_Types>
 		<Projectile_Fire_Recharge_Seconds>0.5</Projectile_Fire_Recharge_Seconds>
-		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
+		<Projectile_Fire_Pulse_Count>12</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.2</Projectile_Fire_Pulse_Delay_Seconds>
 
 		<Fire_Inaccuracy_Distance> Fighter, 1.0 </Fire_Inaccuracy_Distance>
@@ -1067,7 +1070,7 @@
 		<Turret_Elevate_Extent_Degrees>90</Turret_Elevate_Extent_Degrees>
 
 		<Land_FOW_Reveal_Range>200.0</Land_FOW_Reveal_Range>
-		<Space_FOW_reveal_Range>1000.0</Space_FOW_reveal_Range>
+		<Space_FOW_reveal_Range>160000.0</Space_FOW_reveal_Range>
 		<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 		<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 
@@ -1144,7 +1147,7 @@
 			</Unit_Ability>
 		</Unit_Abilities_Data>
 
-		<Death_Clone>Damage_Normal, Millennium_Falcon_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal</Death_Clone>
 		<Lua_Script>ObjectScript_MillenniumFalcon</Lua_Script>
 		<Space_Override_Population_Value>1</Space_Override_Population_Value>
 
@@ -1225,21 +1228,6 @@
 
 	</UniqueUnit>
 
-	<UniqueUnit Name="Millennium_Falcon_Death_Clone">
-		<Text_ID>TEXT_UNIT_MILLENNIUM_FALCON</Text_ID>
-		<Space_Model_Name>RV_MFalcon_D.alo</Space_Model_Name>
-		<Death_SFXEvent_Start_Die>Unit_Corvette_Death_SFX</Death_SFXEvent_Start_Die>
-		<Scale_Factor>0.5</Scale_Factor>
-		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>
-		<Max_Speed>0.25</Max_Speed>
-		<Max_Rate_Of_Turn>0.02</Max_Rate_Of_Turn>
-		<Max_Thrust>0.05</Max_Thrust>
-		<Max_Rate_Of_Roll>0.02</Max_Rate_Of_Roll>
-		<Bank_Turn_Angle>5</Bank_Turn_Angle>
-		<Remove_Upon_Death>true</Remove_Upon_Death>
-
-	</UniqueUnit>
-
 	<UniqueUnit Name="Millennium_Falcon_Backwards_Death_Clone">
 		<Text_ID>TEXT_UNIT_MILLENNIUM_FALCON</Text_ID>
 		<Space_Model_Name>RV_MFalcon_backwards_D.alo</Space_Model_Name>
@@ -1263,10 +1251,10 @@
 
 
 		<Land_Model_Name> EV_SLAVE1.ALO </Land_Model_Name>
-		<Space_Model_Name> EV_SLAVE1_SPACE.ALO </Space_Model_Name>
+		<Space_Model_Name> Ev_Firespray_BobaFett.ALO </Space_Model_Name>
 		<Icon_Name>i_button_slave1.tga</Icon_Name>
 		<Mass>0.995</Mass>
-		<Scale_Factor>1.2</Scale_Factor>
+		<Scale_Factor>.5</Scale_Factor>
 		<Select_Box_Scale>80</Select_Box_Scale>
 		<Select_Box_Z_Adjust>-1</Select_Box_Z_Adjust>
 
@@ -1304,7 +1292,7 @@
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
 		<Damage_Type>Damage_Fighter</Damage_Type>
 		<Projectile_Damage>12.0</Projectile_Damage>
-		<Projectile_Types>Proj_Ship_Medium_Laser_Cannon_Red</Projectile_Types>
+		<Projectile_Types>Proj_Ship_Fighter_Laser_Red</Projectile_Types>
 		<Projectile_Fire_Pulse_Count>8</Projectile_Fire_Pulse_Count>
 		<Projectile_Fire_Pulse_Delay_Seconds>0.15</Projectile_Fire_Pulse_Delay_Seconds>
 		<Projectile_Fire_Recharge_Seconds>0.0</Projectile_Fire_Recharge_Seconds>

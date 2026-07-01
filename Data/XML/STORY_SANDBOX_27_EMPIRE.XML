@@ -17,11 +17,18 @@
 		<Event_Type>STORY_MOVIE_DONE</Event_Type>
 	</Event>
 
-
 	<Event Name="Universal_Story_Start">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
-		<Story_Chapter>13</Story_Chapter>
+		<Story_Chapter>4</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
+
+	<Event Name="QR_CODE_Empire">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
 		<Story_Tag>Intro_Tag</Story_Tag>
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
@@ -264,68 +271,7 @@
 	<!--ON EVENT OF HERO DEATH REMOVE THEM FROM PLAY-->
 	<!--============================================-->
 
-	<Event Name="Tarkin_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Grand_Moff_Tarkin</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Grand_Moff_Tarkin</Reward_Param1>
-	</Event>
-
-	<Event Name="Palpatine_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Emperor_Palpatine_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Emperor_Palpatine_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Thrawn_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Chimaera_Star_Destroyer</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Chimaera_Star_Destroyer</Reward_Param1>
-	</Event>
-
-	<Event Name="Ozzel_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Admiral_Ozzel</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Admiral_Ozzel</Reward_Param1>
-	</Event>
-
-	<Event Name="Piett_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Accuser_Star_Destroyer</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Accuser_Star_Destroyer</Reward_Param1>
-	</Event>
-
-	<Event Name="Veers_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>General_Veers_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>General_Veers_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Boba_Fett_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Boba_Fett_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Boba_Fett_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Sloane_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Admiral_Rae_Sloane</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Admiral_Rae_Sloane</Reward_Param1>
-	</Event>
-
-	<Event Name="Vader_Die_TIE_ADVANCED_1">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Reward_Param1>Darth_Team</Reward_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Darth_Team</Reward_Param1>
-	</Event>
+	<!-- THIS IS NOW MANAGED BY <Default_Hero_Respawn_Time> in GAMECONSTANTS.XML-->
 
 
 

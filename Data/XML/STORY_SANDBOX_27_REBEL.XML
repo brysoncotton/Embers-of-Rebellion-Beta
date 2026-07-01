@@ -20,7 +20,15 @@
 	<Event Name="Universal_Story_Start">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
-		<Story_Chapter>8</Story_Chapter>
+		<Story_Chapter>3</Story_Chapter>
+		<Story_Tag>Intro_Tag</Story_Tag>
+		<Prereq>Opening_Crawl_End</Prereq>
+	</Event>
+
+	<Event Name="QR_CODE_REBEL">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Story_Dialog>Dialog_Expansion_GC_Solo</Story_Dialog>
+		<Story_Chapter>1</Story_Chapter>
 		<Story_Tag>Intro_Tag</Story_Tag>
 		<Prereq>Opening_Crawl_End</Prereq>
 	</Event>
@@ -263,7 +271,7 @@
 	<Event Name="Spawn_Yoda">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Kyrsta_Agate</Reward_Param1>
+		<Reward_Param1>Yoda_Team</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
 		<Prereq>Rebels_Enter_Era_04</Prereq>
 	</Event>
@@ -288,87 +296,5 @@
 	<!--ON EVENT OF HERO DEATH REMOVE THEM FROM PLAY-->
 	<!--============================================-->
 
-	<Event Name="Dodonna_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Jan_Dodonna</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Jan_Dodonna</Reward_Param1>
-	</Event>
-
-	<Event Name="Raddus_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Admiral_Raddus</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Admiral_Raddus</Reward_Param1>
-	</Event>
-
-	<Event Name="Antilles_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Sundered_Heart</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Sundered_Heart</Reward_Param1>
-	</Event>
-
-	<Event Name="Mon_Mothma_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Mon_Mothma_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Droids_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Droids_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Droids_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Ackbar_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Home_One</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Home_One</Reward_Param1>
-	</Event>
-
-	<Event Name="Obi_Wan_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Obi_Wan_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Han_Solo_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Han_Solo_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Han_Solo_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Luke_Jedi_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Luke_Skywalker_Jedi_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Rogue_Squadron_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Rogue_Squadron_Space</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
-	</Event>
-
-	<Event Name="Yoda_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Yoda_Team</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Yoda_Team</Reward_Param1>
-	</Event>
-
-	<Event Name="Kyrsta_Agate_Death">
-		<Event_Type>STORY_TACTICAL_DESTROY</Event_Type>
-		<Event_Param1>Kyrsta_Agate</Event_Param1>
-		<Reward_Type>REMOVE_UNIT</Reward_Type>
-		<Reward_Param1>Kyrsta_Agate</Reward_Param1>
-	</Event>
+	<!-- THIS IS NOW MANAGED BY <Default_Hero_Respawn_Time> in GAMECONSTANTS.XML-->
 </Story>

@@ -47,7 +47,7 @@
 				<Unit_Strength_Category />
 				<Applicable_Unit_Categories />
 				<Applicable_Unit_Types>E_Ground_Research_Facility</Applicable_Unit_Types>
-				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
+				<Price_Reduction_Percentage>0.05</Price_Reduction_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Reduce_Production_Price_Ability>
 

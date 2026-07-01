@@ -115,6 +115,9 @@
 		<Behavior> SELECTABLE </Behavior>
 		<LandBehavior>AFFECTED_BY_SHIELD, WALK_LOCOMOTOR, IDLE, TARGETING, WEAPON, TURRET, POWERED, REVEAL, HIDE_WHEN_FOGGED, SQUASH, SURFACE_FX, UNIT_AI, TELEKINESIS_TARGET,STUNNABLE,DAMAGE_TRACKING, ABILITY_COUNTDOWN</LandBehavior>
 
+		<Cache_Crusher_Boxes>No</Cache_Crusher_Boxes>
+		<Is_Supercrusher>Yes</Is_Supercrusher>
+		<Property_Flags>IsSupercrusher</Property_Flags>
 		<Property_Flags>GoodInfantryCrusher</Property_Flags>
 		<SurfaceFX_Name>Generic_Track</SurfaceFX_Name>
 		<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>

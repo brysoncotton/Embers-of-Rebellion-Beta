@@ -49,7 +49,7 @@
 		<!-- Hero abilities moved to ship; Ackbar "movable" unit removed -->
 		<Abilities SubObjectList="Yes">
 		
-			<Combat_Bonus_Ability Name="Akbar_Combat_Bonus">
+			<Combat_Bonus_Ability Name="Raddus_Combat_Bonus">
 				<Activation_Style>Space_Automatic</Activation_Style>
 				<Unit_Strength_Category>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Unit_Strength_Category>
 				<Applicable_Unit_Categories>Fighter | Bomber | Transport | Corvette | Frigate | Capital</Applicable_Unit_Categories>
@@ -62,24 +62,24 @@
 				<Movement_Speed_Bonus_Percentage>0.0</Movement_Speed_Bonus_Percentage>
 				<Stacking_Category>0</Stacking_Category>
 			</Combat_Bonus_Ability>
-			<Reduce_Production_Price_Ability Name="Akbar_Reduce_Production_Price">
-				<Unit_Strength_Category />
-				<Applicable_Unit_Categories>Capital</Applicable_Unit_Categories>
-				<Applicable_Unit_Types />
-				<!-- Price reduced by 25% -->
-				<Price_Reduction_Percentage>0.25</Price_Reduction_Percentage>
-				<Stacking_Category>0</Stacking_Category>
-			</Reduce_Production_Price_Ability>
 			<!--<Cancel_Special_Ability Name="Akbar_Cancel_Special_Ability">
 				<Activation_Style>Combat_Automatic</Activation_Style>
 			</Cancel_Special_Ability>-->
 		</Abilities>
 		<Is_Named_Hero>Yes</Is_Named_Hero>
+		<!--<MULTIPLAYER SKIRMISH VALUES BEGIN>-->
+		<Tactical_Build_Cost_Multiplayer>500</Tactical_Build_Cost_Multiplayer>
+		<Tactical_Build_Time_Seconds>15</Tactical_Build_Time_Seconds>
+		<Tactical_Build_Prerequisites />
+		<Tactical_Production_Queue>Tactical_Units</Tactical_Production_Queue>
+		<Build_Limit_Current_Per_Player>1</Build_Limit_Current_Per_Player>
+		<!--<Build_Limit_Lifetime_Per_Player>0</Build_Limit_Lifetime_Per_Player>-->
+		<!--<MULTIPLAYER SKIRMISH VALUES END>-->
 		<Is_Visible_On_Radar>Yes</Is_Visible_On_Radar>
 		<Radar_Icon_Scale_Land>1.0</Radar_Icon_Scale_Land>
 		<Radar_Icon_Scale_Space>1.0</Radar_Icon_Scale_Space>
 		<Radar_Icon_Name>i_radar_capital_ship.tga</Radar_Icon_Name>
-      <Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
+      	<Visible_On_Radar_When_Fogged>true</Visible_On_Radar_When_Fogged>
 		<Multisample_FOW_Check>Yes</Multisample_FOW_Check>
 		
 		<CategoryMask> Capital | SpaceHero | AntiFrigate </CategoryMask>

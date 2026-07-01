@@ -284,7 +284,7 @@
 		<Affiliation>Rebel</Affiliation>
 		<Build_Initially_Locked>Yes</Build_Initially_Locked>
 		<Tech_Level>99</Tech_Level>
-		<Behavior>TEAM,SELECTABLE,UNIT_AI,TEAM_LOCOMOTOR, TARGETING</Behavior>
+		<Behavior> TEAM, UNIT_AI,TEAM_LOCOMOTOR, TARGETING</Behavior>
 		<SpaceBehavior> REVEAL</SpaceBehavior>
 		<MovementClass>Space</MovementClass>
 		<Is_Visible_On_Radar>No</Is_Visible_On_Radar>
@@ -534,7 +534,7 @@
 		<Text_ID>TEXT_UNIT_X_WING</Text_ID>
 		<Encyclopedia_Text>TEXT_TOOLTIP_X_WING</Encyclopedia_Text>
 		<Encyclopedia_Unit_Class> TEXT_ENCYCLOPEDIA_CLASS_FIGHTER </Encyclopedia_Unit_Class>
-		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
+		<Land_Model_Name>RV_Transport.ALO</Land_Model_Name>
 		<Space_Model_Name>Rv_xwing.ALO</Space_Model_Name>
 		<Scale_Factor>0.7</Scale_Factor>
 		<Select_Box_Scale>70</Select_Box_Scale>

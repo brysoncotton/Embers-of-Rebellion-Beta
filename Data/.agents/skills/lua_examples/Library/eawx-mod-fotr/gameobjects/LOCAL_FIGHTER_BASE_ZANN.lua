@@ -1,0 +1,3 @@
+return {
+	Flags = {FULLINHERIT = "LOCAL_FIGHTER_BASE_GOLAN_ONE"}
+}

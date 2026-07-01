@@ -9,76 +9,203 @@
 		<Event_Param1>0</Event_Param1>
 	</Event>
 
-
-<!-- Force Rebels to get X-wing instead of Z-95 to start -->
-	<Event Name="Unlock_X_wings">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
-		<Reward_Param1>Rebel_X-Wing_Squadron</Reward_Param1>
-		<Reward_Param2>Z95_Headhunter_Rebel_Squadron</Reward_Param2>
+<!--LOCK ALL ERA ADVANCERS-->
+	<Event Name="Lock_Era1_to_Era2_Advance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Operation_Handoff</Reward_Param1>
 		<Prereq>Universal_Story_Start</Prereq>
 	</Event>
 
+	<Event Name="Lock_Era2_to_Era3_Advance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Project_Shantipole</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
 
-<!-- Rebel Hero Release -->
+	<Event Name="Lock_Era3_to_Era4_Advance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Project_Starhawk</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
 
+	<Event Name="Lock_Era4_to_Era5_Advance">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>0</Event_Param1>
+		<Reward_Type>LOCK_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Modernization</Reward_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<!--ERA 1 EVENTS: Mon-Cal Retrofit (5 BBY – 2 BBY)-->
+
+	<Event Name="Rebels_Enter_Era_01">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>1</Event_Param1>
+	</Event>
+	
+	<Event Name="Wait_2400_Rebel_Era_1">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2400</Event_Param1>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Era_1_Text_Rebel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>REBEL_READY_TO_ADVANCE_ERA_2</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Prereq>Wait_10_Rebel_Era_1</Prereq>
+	</Event>
+	
+	<Event Name="Permit_Advance_Era_1_Rebel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Operation_Handoff</Reward_Param1>
+		<Prereq>Era_1_Text_Rebel</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Jan_Dodonna">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Jan_Dodonna</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Raddus">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Admiral_Raddus</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Merrick">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>General_Merrick_Squadron</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Antilles">		<!--Raymus Antilles-->
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Sundered_Heart</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Universal_Story_Start</Prereq>
+	</Event>
 
 	<!-- Spawn Starting Heroes -->
+
+	<!--ERA 2 EVENTS: OPERATION HANDOFF COMPLETED (2 BBY - 0 BBY)-->
+
+	<Event Name="Rebels_Enter_Era_02">
+		<Event_Type>STORY_TECH_LEVEL</Event_Type>
+		<Event_Param1>2</Event_Param1>
+	</Event>
+	
+	<Event Name="Wait_2400_Rebel_Era_2">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2400</Event_Param1>
+		<Prereq>Rebels_Enter_Era_02</Prereq>
+	</Event>
+
+	<Event Name="Era_2_Text_Rebel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>REBEL_READY_TO_ADVANCE_ERA_3</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Prereq>Wait_10_Rebel_Era_2</Prereq>
+	</Event>
+
+	<Event Name="Permit_Advance_Era_2_Rebel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Project_Shantipole</Reward_Param1>
+		<Prereq>Era_2_Text_Rebel</Prereq>
+	</Event>
 
 	<Event Name="Spawn_Mon_Mothma">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Mon_Mothma_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_02</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Droids">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Droids_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Universal_Story_Start</Prereq>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_02</Prereq>
 	</Event>
 
+	<!--ERA 3 EVENTS: PROJECT SHANTIPOLE COMPLETED (0 ABY - 3 ABY)-->
 
-	<!-- Spawn Tech 1 Heroes -->
-
-	<Event Name="Rebels_Enter_Tech_01">
+	<Event Name="Rebels_Enter_Era_03">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>1</Event_Param1>
+		<Event_Param1>3</Event_Param1>
+	</Event>
+	
+	<Event Name="Wait_2400_Rebel_Era_3">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2400</Event_Param1>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
+	</Event>
+
+	<Event Name="Era_3_Text_Rebel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>REBEL_READY_TO_ADVANCE_ERA_4</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Prereq>Wait_10_Rebel_Era_3</Prereq>
+	</Event>
+
+	<Event Name="Permit_Advance_Era_3_Rebel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Project_Starhawk</Reward_Param1>
+		<Prereq>Era_3_Text_Rebel</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Ackbar">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>UNIQUE_UNIT</Reward_Type>
+		<Reward_Param1>Home_One</Reward_Param1>
+		<Reward_Param2>Hoth</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Obi_Wan">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Han_Solo">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Han_Solo_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
-	<Event Name="Spawn_Antilles">
+	<Event Name="Spawn_Luke_Jedi">
 		<Event_Type>STORY_TRIGGER</Event_Type>
 		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Sundered_Heart</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_01</Prereq>
-	</Event>
-
-
-	<!-- Spawn Tech 2 Heroes -->
-
-	<Event Name="Rebels_Enter_Tech_02">
-		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>2</Event_Param1>
-	</Event>
-
-	<Event Name="Rebel_AI_Heroes_10">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Obi_Wan_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Rogue_Squadron">
@@ -86,24 +213,35 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Rogue_Squadron_Space</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_02</Prereq>
+		<Prereq>Rebels_Enter_Era_03</Prereq>
 	</Event>
 
+	<!--ERA 4 EVENTS: PROJECT STARHAWK COMPLETED (3 ABY - 6 ABY)-->
 
-
-	<!-- Spawn Tech 3 Heroes -->
-
-	<Event Name="Rebels_Enter_Tech_03">
+	<Event Name="Rebels_Enter_Era_04">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>3</Event_Param1>
+		<Event_Param1>4</Event_Param1>
+	</Event>
+	
+	<Event Name="Wait_2400_Rebel_Era_4">
+		<Event_Type>STORY_ELAPSED</Event_Type>
+		<Event_Param1>2400</Event_Param1>
+		<Prereq>Rebels_Enter_Era_04</Prereq>
 	</Event>
 
-	<Event Name="Spawn_Ackbar">
+	<Event Name="Era_4_Text_Rebel">
 		<Event_Type>STORY_TRIGGER</Event_Type>
-        <Reward_Type>UNIQUE_UNIT</Reward_Type>
-        <Reward_Param1>Home_One</Reward_Param1>
-        <Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Reward_Type>SCREEN_TEXT</Reward_Type>
+		<Reward_Param1>REBEL_READY_TO_ADVANCE_ERA_5</Reward_Param1>
+		<Reward_Param2>10</Reward_Param2>
+		<Prereq>Wait_10_Rebel_Era_4</Prereq>
+	</Event>
+
+	<Event Name="Permit_Advance_Era_4_Rebel">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>BUILDABLE_UNIT</Reward_Type>
+		<Reward_Param1>Fleet_Modernization</Reward_Param1>
+		<Prereq>Era_4_Text_Rebel</Prereq>
 	</Event>
 
 	<Event Name="Spawn_Yoda">
@@ -111,33 +249,23 @@
 		<Reward_Type>SPAWN_HERO</Reward_Type>
 		<Reward_Param1>Yoda_Team</Reward_Param1>
 		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_03</Prereq>
+		<Prereq>Rebels_Enter_Era_04</Prereq>
+	</Event>
+
+	<Event Name="Spawn_Kyrsta_Agate">
+		<Event_Type>STORY_TRIGGER</Event_Type>
+		<Reward_Type>SPAWN_HERO</Reward_Type>
+		<Reward_Param1>Kyrsta_Agate</Reward_Param1>
+		<Reward_Param2>Yavin</Reward_Param2>
+		<Prereq>Rebels_Enter_Era_04</Prereq>
 	</Event>
 
 
+	<!--ERA 5 EVENTS: FLEET MODERNIZATION (REBEL) COMPLETED (6+ ABY)-->
 
-
-	<!-- Spawn Tech 4 Heroes -->
-
-	<Event Name="Rebels_Enter_Tech_04">
+	<Event Name="Rebels_Enter_Era_05">
 		<Event_Type>STORY_TECH_LEVEL</Event_Type>
-		<Event_Param1>4</Event_Param1>
-	</Event>
-
-	<Event Name="Spawn_BelIblis">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Garm_Bel_Iblis_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_04</Prereq>
-	</Event>
-
-	<Event Name="Spawn_Luke_Jedi">
-		<Event_Type>STORY_TRIGGER</Event_Type>
-		<Reward_Type>SPAWN_HERO</Reward_Type>
-		<Reward_Param1>Luke_Skywalker_Jedi_Team</Reward_Param1>
-		<Reward_Param2>Hoth</Reward_Param2>
-		<Prereq>Rebels_Enter_Tech_04</Prereq>
+		<Event_Param1>5</Event_Param1>
 	</Event>
 	
 	

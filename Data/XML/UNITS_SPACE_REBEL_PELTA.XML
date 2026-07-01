@@ -6,7 +6,7 @@
 			<Space_Model_Name>Reb_Pelta_Carrier.ALO</Space_Model_Name>
 			<No_Colorization_Color> 255, 255, 255, 255 </No_Colorization_Color>
 			<Mass>0.999</Mass>
-			<Scale_Factor>.2</Scale_Factor>
+			<Scale_Factor>.4</Scale_Factor>
 			<Dense_FOW_Reveal_Range_Multiplier>0.2</Dense_FOW_Reveal_Range_Multiplier>
 			<Damage>30</Damage>
 			<Autoresolve_Health>2000</Autoresolve_Health>
@@ -61,8 +61,10 @@
 			<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 			<Size_Value>8</Size_Value>
 			<Behavior> DUMMY_STARSHIP, SELECTABLE, POWERED, SHIELDED </Behavior>
-			<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
+			<SpaceBehavior>ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, TARGETING, SPAWN_SQUADRON, REVEAL, HIDE_WHEN_FOGGED, UNIT_AI, ASTEROID_FIELD_DAMAGE, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA</SpaceBehavior>
 
+			<Starting_Spawned_Units_Tech_0>A_Wing_Squadron, 2</Starting_Spawned_Units_Tech_0>
+			
 			<Space_FOW_reveal_Range>160000</Space_FOW_reveal_Range>
 			<Targeting_Max_Attack_Distance>1000.0</Targeting_Max_Attack_Distance>
 			<Collidable_By_Projectile_Living>Yes</Collidable_By_Projectile_Living>
@@ -82,6 +84,7 @@
 				HP_PELTA_TBL_D_05,
 				HP_PELTA_TBL_D_06,
 				HP_PELTA_TBL_D_07,
+				HP_PELTA_TBL_D_08,
 				HP_Pelta_Hanger
 			</HardPoints>
 
@@ -99,45 +102,31 @@
 
 			<SFXEvent_Build_Started>RHD_Build_Vehicle</SFXEvent_Build_Started>
 			<SFXEvent_Build_Cancelled>RHD_Unit_Canceled</SFXEvent_Build_Cancelled>
-			<SFXEvent_Build_Complete>Unit_Complete_Pelta</SFXEvent_Build_Complete>
+			<SFXEvent_Build_Complete>Unit_Select_Jedi_Cruiser</SFXEvent_Build_Complete>
 
-			<SFXEvent_Ambient_Loop>Unit_Nebulon_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
-			<SFXEvent_Select>Unit_Select_Pelta</SFXEvent_Select>
-			<SFXEvent_Move>Unit_Move_Pelta</SFXEvent_Move>
-			<SFXEvent_Fleet_Move>Unit_Fleet_Move_Pelta</SFXEvent_Fleet_Move>
-			<SFXEvent_Attack>Unit_Attack_Pelta</SFXEvent_Attack>
-			<SFXEvent_Guard>Unit_Guard_Pelta</SFXEvent_Guard>
-			<SFXEvent_Stop>Unit_Stop_Pelta</SFXEvent_Stop>
-			<SFXEvent_Barrage>Unit_Barrage_Pelta</SFXEvent_Barrage>
-			<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Pelta </SFXEvent_Move_Into_Asteroid_Field>
-			<SFXEvent_Move_Into_Nebula> Unit_Nebula_Pelta </SFXEvent_Move_Into_Nebula>
-			<SFXEvent_Damaged_By_Asteroid> SFX_Asteroid_Detonation </SFXEvent_Damaged_By_Asteroid>
-			<SFXEvent_Bombard_Select_Target>	RHD_Bombard_Select_Target </SFXEvent_Bombard_Select_Target>
-			<SFXEvent_Bombard_Incoming> RHD_Bombard_Incoming  </SFXEvent_Bombard_Incoming>
+			<SFXEvent_Ambient_Loop>Unit_Acclamator_Moving_Engine_Loop</SFXEvent_Ambient_Loop>
 
-			<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Nebulon </SFXEvent_Attack_Hardpoint>
-			<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Nebulon </SFXEvent_Attack_Hardpoint>
-			<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Nebulon </SFXEvent_Attack_Hardpoint>
-			<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Nebulon </SFXEvent_Attack_Hardpoint>
-			<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Nebulon </SFXEvent_Attack_Hardpoint>
-			<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Nebulon </SFXEvent_Attack_Hardpoint>
-			<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Nebulon </SFXEvent_Attack_Hardpoint>
+			<SFXEvent_Select>Unit_Select_Jedi_Cruiser</SFXEvent_Select>
+			<SFXEvent_Move>Unit_Move_Jedi_Cruiser</SFXEvent_Move>
+			<SFXEvent_Fleet_Move>Unit_Fleet_Move_Jedi_Cruiser</SFXEvent_Fleet_Move>
+			<SFXEvent_Attack>Unit_Attack_Jedi_Cruiser</SFXEvent_Attack>
+			<SFXEvent_Guard>Unit_Guard_Jedi_Cruiser</SFXEvent_Guard>
+			<SFXEvent_Stop>Unit_Stop_Jedi_Cruiser</SFXEvent_Stop>
+			<SFXEvent_Barrage>Unit_Barrage_Jedi_Cruiser</SFXEvent_Barrage>
+			<SFXEvent_Move_Into_Asteroid_Field> Unit_Asteroids_Jedi_Cruiser </SFXEvent_Move_Into_Asteroid_Field>
+			<SFXEvent_Move_Into_Nebula> Unit_Nebula_Jedi_Cruiser </SFXEvent_Move_Into_Nebula>
 
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_LASER, Unit_Lost_Laser_Nebulon </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_MISSILE,   </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_TORPEDO,   </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_WEAPON_ION_CANNON,  </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_SHIELD_GENERATOR, Unit_Lost_Shields_Nebulon </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENGINE, Unit_Lost_Engines_Nebulon </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_GRAVITY_WELL,  </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_FIGHTER_BAY,  </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_TRACTOR_BEAM, </SFXEvent_Hardpoint_Destroyed>
-			<SFXEvent_Hardpoint_Destroyed> HARD_POINT_ENABLE_SPECIAL_ABILITY, </SFXEvent_Hardpoint_Destroyed>
-
-			<SFXEvent_Engine_Idle_Loop> Unit_Nebulon_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
-			<SFXEvent_Engine_Moving_Loop> Unit_Nebulon_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
-			<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Nebulon_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
-
+			<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_LASER, Unit_HP_LASER_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+			<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_MISSILE, Unit_HP_MISSILE_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+			<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_TORPEDO, Unit_HP_TORP_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+			<SFXEvent_Attack_Hardpoint> HARD_POINT_WEAPON_ION_CANNON, Unit_HP_ION_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+			<SFXEvent_Attack_Hardpoint> HARD_POINT_SHIELD_GENERATOR, Unit_HP_SHIELDS_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+			<SFXEvent_Attack_Hardpoint> HARD_POINT_ENGINE, Unit_HP_ENGINES_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+			<SFXEvent_Attack_Hardpoint> HARD_POINT_GRAVITY_WELL, Unit_HP_GRAV_Jedi_Cruiser </SFXEvent_Attack_Hardpoint>
+			
+			<SFXEvent_Engine_Idle_Loop> Unit_Acclamator_Idle_Engine_Loop </SFXEvent_Engine_Idle_Loop>
+			<SFXEvent_Engine_Moving_Loop> Unit_Acclamator_Moving_Engine_Loop </SFXEvent_Engine_Moving_Loop>
+			<SFXEvent_Engine_Cinematic_Focus_Loop> Unit_Acclamator_Cinematic_Engine_Loop </SFXEvent_Engine_Cinematic_Focus_Loop>
 			
 			<Death_SFXEvent_Start_Die>Unit_Cruiser_Death_SFX</Death_SFXEvent_Start_Die>
 
@@ -173,16 +162,16 @@
 					<Activation_Style> User_Input </Activation_Style>
 					<Defense_Duration_In_Secs> 28.0 </Defense_Duration_In_Secs>
 					<Laser_Color>255, 225, 225, 50</Laser_Color>
-					<Bone_Names> HP21, HP22 </Bone_Names>
+					<Bone_Names> MUZZLEA_08, MUZZLEA_09 </Bone_Names>
 					<Projectile_Types_Targeted>MISSILE, ROCKET, MPTL_ROCKET</Projectile_Types_Targeted>
-					<Protection_Radius>450.0</Protection_Radius>
+					<Protection_Radius>800.0</Protection_Radius>
 					<Laser_Beam_Frames>2</Laser_Beam_Frames>
 					<Laser_Beam_Width>1</Laser_Beam_Width>
 					<Projectile_Dist_Travelled>40</Projectile_Dist_Travelled>
 					<Lightning_Effect_Name>Point_Defense_Laser</Lightning_Effect_Name>
 					<Zap_SFXEvent>Unit_Point_Laser_Fire</Zap_SFXEvent>
 					<Laser_Beam_Texture>tractor_beam00.tga</Laser_Beam_Texture>
-					<Recharge_Time_In_Secs>.25</Recharge_Time_In_Secs>
+					<Recharge_Time_In_Secs>.1</Recharge_Time_In_Secs>
 				</Laser_Defense_Ability>
 			</Abilities>
 

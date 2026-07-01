@@ -114,7 +114,7 @@
 		<Targeting_Stickiness_Time_Threshold>5.0</Targeting_Stickiness_Time_Threshold>
 		<Targeting_Priority_Set>Corvette</Targeting_Priority_Set>
 
-		<Death_Clone>Damage_Normal, Sundered_Heart_Death_Clone</Death_Clone>
+		<Death_Clone>Damage_Normal</Death_Clone>
 
 		<Neutralization_Cost>2500.0</Neutralization_Cost>
 		<Can_Be_Neutralized_By_Major_Heroes>Yes</Can_Be_Neutralized_By_Major_Heroes>
@@ -176,7 +176,7 @@
 
 	<UniqueUnit Name="Sundered_Heart_Death_Clone">
 		<Text_ID>TEXT_UNIT_SUNDERED_HEART</Text_ID>
-		<Space_Model_Name>RV_AntilliesVette_D.alo</Space_Model_Name>
+		<Space_Model_Name></Space_Model_Name>
 		<Death_SFXEvent_Start_Die>Unit_Star_Destroyer_Death_SFX</Death_SFXEvent_Start_Die>
 		<Scale_Factor>0.5</Scale_Factor>
 		<Layer_Z_Adjust>-330.0</Layer_Z_Adjust>

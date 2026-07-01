@@ -2,10 +2,28 @@
 trigger: always_on
 ---
 
-Reference this website whenever LUA documents are being written. It is a list of all hardcoded lua commands in Star Wars Empire at War: Forces of Corruption. I believe the list is complete but it is well possible that I missed one command or another.
+---
+name: EaW Lua Auto-Context
+triggers:
+  - files: "**/*.lua"
+  - language: lua
+  - intent: "modify, create, or debug lua code"
+  - prompt_regex: "(?i)(implement|system|mechanic|damage|script|persistent|hardpoint|shipyard|hyperspace)"
+uses_skills:
+  - eaw-lua-examples
+---
 
-Note that this list only contains hardcoded commands that are specific to the game and therefore does not and is not meant to include any functions that are part of the standard lua library or that are defined in the game’s lua files including the library.
+# Global Lua Rules
 
-Furthermore, this list is a reference only and comments have only been added where we had useful information beyond what is obvious from the name. Question marks are used to indicate that we may not be entirely certain of the accuracy of the given information.
+Whenever a Lua file is active, or the user asks to design, implement, or discuss a gameplay mechanic/system:
+1. Always prioritize code architecture patterns found within the `eaw-lua-examples` skill library.
+2. Cross-reference function definitions with the `Library` and `Evaluators` sub-folders of that skill to prevent syntax hallucinations.
 
-Here is the link, "https://sgmg.gitlab.io/documentation/luafunctions/https://sgmg.gitlab.io/documentation/luafunctions/"
+## Hardcoded Engine Reference
+You must reference the official Star Wars Empire at War: Forces of Corruption hardcoded Lua engine command list when writing, modifying, or validating scripts:
+* **Documentation URL:** https://sgmg.gitlab.io/documentation/luafunctions/
+
+### Engine & Documentation Constraints:
+* **Scope:** This documentation lists *only* game-specific, hardcoded engine commands. It does not include standard Lua library functions or wrappers defined in the game's native script libraries.
+* **Uncertainty Handling:** If a command on this website has a question mark (`?`) next to it, treat its parameters and behavioral descriptions with caution as the exact behavior may be uncertain.
+* **No Hallucinations:** If a function is not found in this documentation or your local `eaw-lua-examples` library, do not invent a function. Flag it directly to the user for clarification.

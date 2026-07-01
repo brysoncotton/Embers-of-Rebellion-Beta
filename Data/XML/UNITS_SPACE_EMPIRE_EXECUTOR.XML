@@ -11,7 +11,7 @@
 		<GUI_Bounds_Scale>0.01</GUI_Bounds_Scale>
 		<Text_ID>TEXT_UNIT_SSD_EXECUTOR</Text_ID>
 
-		<Build_Limit_Current_Per_Player>6</Build_Limit_Current_Per_Player>
+		<Build_Limit_Current_Per_Player>2</Build_Limit_Current_Per_Player>
 		<Build_Limit_Lifetime_Per_Player>6</Build_Limit_Lifetime_Per_Player>
 
 		<Encyclopedia_Text> TEXT_TOOLTIP_EXECUTOR </Encyclopedia_Text>
@@ -61,11 +61,11 @@
 		<Required_Star_Base_Level>5</Required_Star_Base_Level>
 		<Damage>70</Damage>
 		<Autoresolve_Health>18000</Autoresolve_Health>
-		<Shield_Points>100000</Shield_Points>
+		<Shield_Points>70000</Shield_Points>
 
 		<Tactical_Health>150000</Tactical_Health>
 
-		<Shield_Refresh_Rate>1000</Shield_Refresh_Rate>
+		<Shield_Refresh_Rate>500</Shield_Refresh_Rate>
 		<Energy_Capacity>99000</Energy_Capacity>
 		<Energy_Refresh_Rate>10000</Energy_Refresh_Rate>
 		<Ship_Class>super</Ship_Class>
@@ -79,15 +79,15 @@
 		<Build_Tab_Space_Units>Yes</Build_Tab_Space_Units>
 		<Size_Value>8</Size_Value>
 
-		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 20</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 180</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 7</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Interceptor_Squadron, 7</Reserve_Spawned_Units_Tech_0>
 
-		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 10</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 40</Reserve_Spawned_Units_Tech_0>
+		<Starting_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 5</Starting_Spawned_Units_Tech_0>
+		<Reserve_Spawned_Units_Tech_0>TIE_Bomber_Squadron, 10</Reserve_Spawned_Units_Tech_0>
 
 		<Starting_Spawned_Units_Tech_0>TIE_Defender_Squadron, 2</Starting_Spawned_Units_Tech_0>
-		<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 8</Reserve_Spawned_Units_Tech_0>
-		<Spawned_Squadron_Delay_Seconds>0.1</Spawned_Squadron_Delay_Seconds>
+		<Reserve_Spawned_Units_Tech_0>TIE_Defender_Squadron, 5</Reserve_Spawned_Units_Tech_0>
+		<Spawned_Squadron_Delay_Seconds>0.5</Spawned_Squadron_Delay_Seconds>
 
 		<Behavior> SELECTABLE, DUMMY_STARSHIP </Behavior>
 		<SpaceBehavior>TURRET, WEAPON, IDLE, ABILITY_COUNTDOWN, SIMPLE_SPACE_LOCOMOTOR, POWERED, SHIELDED, REVEAL, TARGETING, UNIT_AI, ASTEROID_FIELD_DAMAGE, SPAWN_SQUADRON, DAMAGE_TRACKING, ION_STUN_EFFECT, NEBULA </SpaceBehavior>
@@ -117,12 +117,12 @@
 			HP_EX_HML_11, HP_EX_HML_12, HP_EX_HML_13, HP_EX_HML_14, HP_EX_HML_15, HP_EX_HML_16, HP_EX_HML_17, HP_EX_HML_18, HP_EX_HML_19, HP_EX_HML_20,
 			HP_EX_HTL_01, HP_EX_HTL_02, HP_EX_HTL_03, HP_EX_HTL_04, HP_EX_HTL_05, HP_EX_HTL_06, HP_EX_HTL_07, HP_EX_HTL_08, HP_EX_HTL_09, HP_EX_HTL_10, HP_EX_HTL_11, HP_EX_HTL_12,
 			HP_EX_WT_01, HP_EX_WT_02, HP_EX_WT_03, HP_EX_WT_04, HP_EX_WT_05, HP_EX_WT_06, HP_EX_WT_07, HP_EX_WT_08, HP_EX_WT_09, HP_EX_WT_10,
-			HP_EX_WT_11, HP_EX_WT_12, HP_EX_WT_13, HP_EX_WT_14, HP_EX_WT_15, HP_EX_WT_16, HP_EX_WT_17, HP_EX_WT_18, HP_EX_WT_19, HP_EX_WT_20,
-			HP_EX_WT_21, HP_EX_WT_22, HP_EX_WT_23, HP_EX_WT_24, HP_EX_WT_25, HP_EX_WT_26, HP_EX_WT_27, HP_EX_WT_28, HP_EX_WT_29, HP_EX_WT_30,
+			HP_EX_WT_11, HP_EX_WT_12, HP_EX_WT_13, HP_EX_WT_14, HP_EX_WT_15, HP_EX_WT_16, HP_EX_WT_17, HP_EX_WT_18, HP_EX_WT_19,
+			HP_EX_WT_22, HP_EX_WT_23, HP_EX_WT_24, HP_EX_WT_25, HP_EX_WT_26, HP_EX_WT_27, HP_EX_WT_28, HP_EX_WT_29, HP_EX_WT_30,
 			HP_EX_WT_31, HP_EX_WT_32, HP_EX_WT_33, HP_EX_WT_34, HP_EX_WT_35, HP_EX_WT_36, HP_EX_WT_37, HP_EX_WT_38, HP_EX_WT_39, HP_EX_WT_40,
 			HP_EX_WT_41, HP_EX_WT_42, HP_EX_WT_43, HP_EX_WT_44, HP_EX_WT_45, HP_EX_WT_46, HP_EX_WT_47, HP_EX_WT_48, HP_EX_WT_49, HP_EX_WT_50,
 			HP_EX_WT_51, HP_EX_WT_52, HP_EX_WT_53, HP_EX_WT_54, HP_EX_WT_55, HP_EX_WT_56, HP_EX_WT_57, HP_EX_WT_58, HP_EX_WT_59, HP_EX_WT_60,
-			HP_EX_WT_61, HP_EX_WT_62, HP_EX_WT_63, HP_EX_WT_64, HP_EX_WT_65, HP_EX_WT_66, HP_EX_WT_67, HP_EX_WT_68, HP_EX_WT_69, HP_EX_WT_70,
+			HP_EX_WT_61, HP_EX_WT_62, HP_EX_WT_63, HP_EX_WT_64, HP_EX_WT_66, HP_EX_WT_67, HP_EX_WT_68, HP_EX_WT_70,
 			HP_EX_WT_71, HP_EX_WT_72, HP_EX_WT_73, HP_EX_WT_74, HP_EX_WT_75, HP_EX_WT_76, HP_EX_WT_77, HP_EX_WT_78, HP_EX_WT_79, HP_EX_WT_80,
 			HP_EX_WT_81, HP_EX_WT_82, HP_EX_WT_83, HP_EX_WT_84, HP_EX_WT_85, HP_EX_WT_86, HP_EX_WT_87, HP_EX_WT_88, HP_EX_WT_89, HP_EX_WT_90,
 			HP_EX_WT_91, HP_EX_WT_92, HP_EX_WT_93, HP_EX_WT_94, HP_EX_WT_95, HP_EX_WT_96, HP_EX_WT_97, HP_EX_WT_98, HP_EX_WT_99, HP_EX_WT_100,
@@ -183,19 +183,6 @@
 		<Radar_Icon_Size>0.8  0.8</Radar_Icon_Size>
 
 		<Unit_Abilities_Data SubObjectList="Yes">
-
-			<!-- Primary ability -->
-			<Unit_Ability>
-				<Type>POWER_TO_WEAPONS</Type>
-				<Expiration_Seconds>60</Expiration_Seconds>
-				<Mod_Multiplier>WEAPON_DELAY_MULTIPLIER,	0.65f</Mod_Multiplier>
-				<Mod_Multiplier>SHIELD_REGEN_MULTIPLIER,	-0.5f</Mod_Multiplier>
-				<Mod_Multiplier>ENERGY_REGEN_MULTIPLIER,	1.0f</Mod_Multiplier>
-				<Mod_Multiplier>SPEED_MULTIPLIER,		0.5f</Mod_Multiplier>
-				<Recharge_Seconds>150</Recharge_Seconds>
-
-				<SFXEvent_GUI_Unit_Ability_Activated>Unit_Energy_Blast_Piett</SFXEvent_GUI_Unit_Ability_Activated>
-			</Unit_Ability>
 
 		</Unit_Abilities_Data>
 

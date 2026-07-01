@@ -2329,7 +2329,7 @@
 		<Blob_Shadow_Scale>200.0, 100.0</Blob_Shadow_Scale>
 		<Blob_Shadow_Material_Name>Generic_Shadow</Blob_Shadow_Material_Name>
 		<Text_ID>TEXT_UNIT_GALLOFREE_TRANSPORT</Text_ID>
-		<Land_Model_Name>RV_TRANSPORT.ALO</Land_Model_Name>
+		<Land_Model_Name>RV_Transport.ALO</Land_Model_Name>
 		<Mass>0.985</Mass>
 		<Autoresolve_Health>40.0</Autoresolve_Health>
 		<Max_Speed>2.0</Max_Speed>
